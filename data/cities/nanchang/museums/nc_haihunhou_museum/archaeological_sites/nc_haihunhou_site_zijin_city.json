@@ -1,0 +1,18 @@
+{
+  "id": "nc_haihunhou_site_zijin_city",
+  "name": "紫金城城址",
+  "city": "南昌",
+  "node_type": "archaeological_site",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "site_type": "侯国都城遗址",
+    "period": "西汉",
+    "description": "紫金城城址是南昌汉代海昏侯国聚落遗址的重要组成部分，与墓园及相关墓葬群共同构成侯国遗址格局。",
+    "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/8621e793af2543cbbb817e2ca2b7c1ca.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified"
+  },
+  "experience": {"importance": 4, "recommended_duration_minutes": null, "viewing_notes": ["先通过博物馆沙盘和数字展示理解城址格局"]},
+  "tags": ["紫金城", "都城遗址", "西汉", "侯国聚落"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

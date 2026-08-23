@@ -1,0 +1,35 @@
+{
+  "id": "journey_2026_national_day_jiangxi",
+  "name": "2026 国庆江西会合旅行",
+  "node_type": "journey",
+  "travel_window": {"start": "2026-10-01", "end": "2026-10-05", "days": 5, "status": "planning"},
+  "structure": {
+    "origin_city_ids": ["city_zhuhai", "city_beijing", "city_shanghai"],
+    "rendezvous_city_id": "city_nanchang",
+    "main_city_sequence": ["city_nanchang", "city_jingdezhen", "city_shangrao"],
+    "transport_node_ids": [
+      "transport_beijing_nanchang",
+      "transport_shanghai_nanchang",
+      "transport_zhuhai_nanchang",
+      "transport_nanchang_jingdezhen",
+      "transport_jingdezhen_shangrao"
+    ]
+  },
+  "transport_policy": {
+    "rail_source": "中国铁路 12306",
+    "rail_reference_rule": "当前展示 2026-08 常态车次样本；国庆车次、票价和余票以开售后 12306 为准。",
+    "presale_status": "not_on_sale",
+    "presale_note": "12306 当前客票预售期为 15 天（含当天），2026 国庆车票尚未进入预售期。",
+    "amap_role": "保存 GCJ-02 空间锚点；未来通过高德 API 动态计算站点接驳、驾车和步行方案。"
+  },
+  "related_node_ids": [
+    "city_zhuhai", "city_beijing", "city_shanghai", "city_nanchang", "city_jingdezhen", "city_shangrao",
+    "transport_beijing_nanchang", "transport_shanghai_nanchang", "transport_zhuhai_nanchang",
+    "transport_nanchang_jingdezhen", "transport_jingdezhen_shangrao"
+  ],
+  "tags": ["国庆", "三地出发", "南昌会合", "景德镇", "上饶", "高铁"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {"name": "中国铁路 12306：客票预售期公告", "url": "https://www.12306.cn/mormhweb/zxdt/202205/t20220531_37508.html", "scope": ["15 天预售期"]}
+  ]
+}

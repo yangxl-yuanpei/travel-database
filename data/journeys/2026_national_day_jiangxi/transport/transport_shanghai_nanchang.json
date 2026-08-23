@@ -1,0 +1,27 @@
+{
+  "id": "transport_shanghai_nanchang",
+  "name": "上海 → 南昌",
+  "node_type": "transport",
+  "from_city_id": "city_shanghai",
+  "to_city_id": "city_nanchang",
+  "route_role": "origin_to_rendezvous",
+  "recommended_mode": "high_speed_rail",
+  "stations": {"from": "上海虹桥站", "to": "南昌西站"},
+  "rail_reference": {
+    "sample_date": "2026-08-22",
+    "direct": true,
+    "duration_minutes": {"minimum": 167, "maximum": 253},
+    "second_class_fare_cny": {"minimum": 334, "maximum": 403},
+    "sample_trains": ["G201", "G263", "G1377"],
+    "status": "normal_day_reference",
+    "national_day_sale_status": "not_on_sale"
+  },
+  "amap_integration": {"coordinate_system": "GCJ-02", "dynamic_fields": ["origin_to_station", "station_to_hotel", "driving_duration"], "api_status": "key_not_configured"},
+  "related_node_ids": ["city_shanghai", "city_nanchang"],
+  "tags": ["会合交通", "直达高铁", "班次较多"],
+  "metadata": {"schema_version": "1.0", "data_status": "needs_update", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {"name": "携程火车票：上海虹桥—南昌西常态车次样本", "url": "https://trains.ctrip.com/TrainBooking/shanghaihongqiao-nanchangxi/gaotie/", "scope": ["参考车次", "参考时长", "参考二等座价"]},
+    {"name": "中国铁路 12306", "url": "https://www.12306.cn/", "scope": ["最终车次", "最终票价", "余票"]}
+  ]
+}

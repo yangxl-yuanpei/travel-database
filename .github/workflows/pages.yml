@@ -33,6 +33,8 @@ jobs:
           cache-dependency-path: web/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build:github
+        env:
+          VITE_COMMUTE_API_BASE: ${{ vars.COMMUTE_API_BASE }}
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

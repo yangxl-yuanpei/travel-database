@@ -1,0 +1,24 @@
+{
+  "id": "nc_haihunhou_exh_meet_haihun",
+  "name": "遇见海昏——汉文化体验互动展",
+  "city": "南昌",
+  "node_type": "permanent_exhibition",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "exhibition_type": "互动展",
+    "theme": "汉文化数字互动与公众体验",
+    "description": "设置汉学书苑、衣冠礼乐等互动项目，通过数字技术增强汉文化体验。",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/5cc779f96a484e969d3f64b03df07e85.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_permanent"
+  },
+  "experience": {
+    "importance": 4,
+    "recommended_duration_minutes": 30,
+    "suitable_for": ["亲子游客", "互动体验偏好者"],
+    "highlights": ["汉文化互动", "数字体验", "衣冠礼乐"]
+  },
+  "related_artifact_ids": [],
+  "tags": ["互动展", "亲子", "遇见海昏", "数字体验"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

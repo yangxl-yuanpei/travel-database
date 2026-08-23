@@ -1,0 +1,19 @@
+{
+  "id": "city_zhuhai",
+  "name": "珠海",
+  "node_type": "city",
+  "province": "广东省",
+  "location": {
+    "latitude": 22.21513,
+    "longitude": 113.55253,
+    "coordinate_system": "GCJ-02",
+    "amap_adcode": "440400",
+    "map_anchor": "珠海站"
+  },
+  "journey_role": "华南出发地",
+  "detail_status": "framework",
+  "primary_station": {"name": "珠海站", "station_code": "ZHQ"},
+  "child_nodes": {"attractions": [], "museums": [], "memorials": [], "food": [], "accommodation_areas": [], "transport": ["transport_zhuhai_nanchang"]},
+  "tags": ["出发地", "高铁直达南昌", "华南团队"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
+}

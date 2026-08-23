@@ -1,0 +1,25 @@
+{
+  "id": "nc_haihunhou_artifact_horseshoe_gold",
+  "name": "马蹄金（褭蹏金）",
+  "city": "南昌",
+  "node_type": "artifact",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "category": "黄金器物",
+    "period": "西汉",
+    "excavation_site": "刘贺墓园",
+    "description": "海昏侯墓出土金器中的代表性器物类型，形制近似马蹄。",
+    "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/8621e793af2543cbbb817e2ca2b7c1ca.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_category"
+  },
+  "experience": {
+    "importance": 5,
+    "photo_value": 5,
+    "recognition_value": 5,
+    "viewing_notes": ["重点观察形制与花丝工艺", "结合海昏侯墓金器出土背景理解"]
+  },
+  "related_exhibition_ids": ["nc_haihunhou_exh_golden_haihun"],
+  "tags": ["马蹄金", "金器", "西汉", "刘贺墓", "代表文物"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

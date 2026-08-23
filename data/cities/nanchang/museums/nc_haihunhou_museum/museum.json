@@ -1,0 +1,164 @@
+{
+  "id": "nc_haihunhou_museum",
+  "name": "南昌汉代海昏侯国遗址博物馆",
+  "city": "南昌",
+  "node_type": "museum",
+  "category": ["考古遗址博物馆", "国家一级博物馆", "历史文化节点", "汉代文明节点"],
+  "location": {
+    "address": "江西省南昌市新建区大塘坪乡紫金大道1号南昌汉代海昏侯国国家考古遗址公园内",
+    "latitude": 29.030113,
+    "longitude": 115.939837,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFMAHLBA"
+  },
+  "official_info": {
+    "museum_level": {
+      "value": "国家一级博物馆",
+      "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/8621e793af2543cbbb817e2ca2b7c1ca.shtml",
+      "verified_at": "2026-08-24",
+      "status": "verified"
+    },
+    "museum_type": "遗址型博物馆",
+    "positioning": "集中展示南昌汉代海昏侯国遗址考古成果、西汉侯国历史和刘贺墓园出土文物的重要文化节点。",
+    "opening_hours": {
+      "regular_schedule": null,
+      "national_day_schedule": null,
+      "source_url": null,
+      "verified_at": null,
+      "status": "dynamic_check_official_announcement"
+    },
+    "ticket": {
+      "price": null,
+      "currency": "CNY",
+      "scope_note": "博物馆位于收费遗址公园内，票价及观光车组合以景区官方渠道为准。",
+      "source_url": null,
+      "verified_at": null,
+      "status": "dynamic_check_official_channel"
+    },
+    "contact_phone": "0791-83086000"
+  },
+  "reservation": {
+    "required": true,
+    "real_name_required": null,
+    "channels": ["海昏侯国遗址公园官方微信公众号或小程序"],
+    "advance_days": null,
+    "notes": "节假日可能达到预约上限；票务、实名及放票规则需以临行前官方公告为准。",
+    "source_url": "https://zjj.nc.gov.cn/nczfbzglj/fgxw/202405/3039a2c497ce4a77891b76c29e9ef9fa.shtml",
+    "verified_at": "2026-08-24",
+    "status": "dynamic_rule_verified_need"
+  },
+  "historical_context": {
+    "period": "西汉",
+    "subject": "海昏侯国、刘贺墓园及紫金城城址",
+    "importance": "遗址由侯国都城、列侯墓园及相关墓葬群构成，是研究汉代列侯国制度、社会生活和丧葬制度的重要考古材料。"
+  },
+  "child_nodes": {
+    "history_events": ["nc_haihunhou_history_han_fief"],
+    "archaeological_sites": ["nc_haihunhou_site_liuhe_mausoleum", "nc_haihunhou_site_zijin_city"],
+    "permanent_exhibitions": [
+      "nc_haihunhou_exh_golden_haihun",
+      "nc_haihunhou_exh_written_haihun",
+      "nc_haihunhou_exh_lacquer_haihun",
+      "nc_haihunhou_exh_meet_haihun"
+    ],
+    "temporary_exhibitions": [],
+    "artifacts": ["nc_haihunhou_artifact_horseshoe_gold"],
+    "collection_groups": [
+      "nc_haihunhou_group_gold",
+      "nc_haihunhou_group_bronzes",
+      "nc_haihunhou_group_jade",
+      "nc_haihunhou_group_lacquerware"
+    ]
+  },
+  "experience": {
+    "recommendation_score": 5,
+    "best_for": ["汉代历史爱好者", "考古爱好者", "亲子研学", "深度文化游客"],
+    "highlights": ["遗址与博物馆结合", "海量出土文物", "汉代侯国历史", "刘贺墓园"],
+    "crowd": {"normal": "中等", "holiday": "较高"},
+    "avoid": ["仅预留几十分钟", "未确认预约和返程交通直接前往"]
+  },
+  "experience_layer": {
+    "source": ["小红书攻略", "抖音游客反馈"],
+    "provenance": {
+      "content_type": "游客攻略高频反馈人工整理",
+      "source_urls": [],
+      "last_updated_at": "2026-08-24"
+    },
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "历史价值、交通成本和建议停留时间的反馈较一致"
+    },
+    "positive": [
+      {"content": "汉代考古价值高，适合深度历史游客", "type": "history"},
+      {"content": "出土文物数量与类型丰富，金器等重点展项具有较强视觉冲击", "type": "collection"},
+      {"content": "博物馆与墓园遗址结合，体验区别于普通综合博物馆", "type": "archaeology_site"}
+    ],
+    "avoid": [
+      {"content": "距离南昌主城区较远，需要单独规划往返交通", "risk": "transport_cost", "severity": "high"},
+      {"content": "馆区和遗址内容丰富，不适合只安排几十分钟", "risk": "time", "severity": "high"},
+      {"content": "历史兴趣较弱或不愿大量阅读展陈的游客体验可能下降", "risk": "interest_mismatch", "severity": "medium"},
+      {"content": "国庆等假期可能达到预约上限", "risk": "reservation", "severity": "high"}
+    ],
+    "visit_tips": [
+      "建议按半日节点规划",
+      "提前了解刘贺及海昏侯国基本背景",
+      "提前完成预约并确认往返交通",
+      "历史信息密度高，建议使用官方讲解或导览",
+      "若同时参观墓园遗址需额外考虑园区接驳时间"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "medium",
+      "peak_time": ["上午入园时段", "节假日"],
+      "capacity_risk": "节假日可能停止线下售票或达到预约上限"
+    },
+    "photo_info": {
+      "photo_value": 4,
+      "recommended_scene": ["博物馆建筑", "金器展陈", "遗址公园景观"]
+    },
+    "experience_type": ["深度历史体验", "考古遗址", "亲子研学", "半日节点"],
+    "recommended_duration": {
+      "minimum": "2小时",
+      "recommended": "3-4小时",
+      "minimum_minutes": 120,
+      "recommended_min_minutes": 180,
+      "recommended_max_minutes": 240
+    },
+    "ai_note": "历史与亲子权重很高，但主城区往返成本显著；短行程或拒绝长距离移动的用户应降低优先级。"
+  },
+  "ai_score": {
+    "history": 5,
+    "photo": 4,
+    "family": 5,
+    "rain_day": 4,
+    "crowd_risk": 4,
+    "first_visit": 5,
+    "transport_cost": 5
+  },
+  "duration": {"recommended_minutes": 210, "minimum_minutes": 120, "maximum_minutes": 300},
+  "tags": ["海昏侯", "刘贺", "汉代", "考古遗址博物馆", "半日游", "亲子研学"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {
+      "name": "南昌市人民政府：南昌汉代海昏侯国遗址公园",
+      "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/8621e793af2543cbbb817e2ca2b7c1ca.shtml",
+      "scope": ["遗址构成", "国家一级博物馆", "常设展览", "考古成果", "景区等级"]
+    },
+    {
+      "name": "南昌市文化广电旅游局：四大展览",
+      "url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/5cc779f96a484e969d3f64b03df07e85.shtml",
+      "scope": ["四个常设展", "展览定位", "互动内容"]
+    },
+    {
+      "name": "高德地图：南昌汉代海昏侯国遗址博物馆",
+      "url": "https://www.amap.com/place/B0FFMAHLBA",
+      "scope": ["坐标", "POI ID", "地址", "联系电话"]
+    },
+    {
+      "name": "海昏侯国遗址公园客流提示",
+      "url": "https://zjj.nc.gov.cn/nczfbzglj/fgxw/202405/3039a2c497ce4a77891b76c29e9ef9fa.shtml",
+      "scope": ["预约上限风险", "官方渠道提醒"]
+    }
+  ]
+}

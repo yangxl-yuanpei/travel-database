@@ -1,0 +1,24 @@
+{
+  "id": "nc_haihunhou_exh_written_haihun",
+  "name": "书香海昏——海昏简牍展",
+  "city": "南昌",
+  "node_type": "permanent_exhibition",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "exhibition_type": "专题展",
+    "theme": "海昏侯墓出土简牍及汉代典籍文化",
+    "description": "展示签牌、奏章、春秋公羊简、祠祝简、大戴礼记简、悼亡赋简等代表性简牍复制品。",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/5cc779f96a484e969d3f64b03df07e85.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_permanent"
+  },
+  "experience": {
+    "importance": 5,
+    "recommended_duration_minutes": 30,
+    "suitable_for": ["古文字爱好者", "历史爱好者", "深度文化游客"],
+    "highlights": ["海昏简牍", "儒家典籍", "汉代文字资料"]
+  },
+  "related_artifact_ids": [],
+  "tags": ["专题展", "简牍", "书香海昏", "典籍"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

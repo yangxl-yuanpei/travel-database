@@ -1,0 +1,25 @@
+{
+  "id": "nc_haihunhou_exh_lacquer_haihun",
+  "name": "丹漆海昏——海昏漆器展",
+  "city": "南昌",
+  "node_type": "permanent_exhibition",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "exhibition_type": "专题展",
+    "theme": "海昏侯墓出土漆器与汉代贵族生活",
+    "description": "通过漆器复制品展示汉代漆器工艺、纹饰及王侯贵族生活文化。",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/5cc779f96a484e969d3f64b03df07e85.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_permanent"
+  },
+  "experience": {
+    "importance": 4,
+    "recommended_duration_minutes": 25,
+    "suitable_for": ["工艺美术爱好者", "汉代生活文化游客"],
+    "highlights": ["漆器纹饰", "汉代工艺", "贵族生活器用"]
+  },
+  "related_artifact_ids": [],
+  "related_collection_group_ids": ["nc_haihunhou_group_lacquerware"],
+  "tags": ["专题展", "漆器", "丹漆海昏", "汉代工艺"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

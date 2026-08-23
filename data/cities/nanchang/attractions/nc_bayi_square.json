@@ -1,0 +1,88 @@
+{
+  "id": "nc_bayi_square",
+  "name": "八一广场",
+  "city": "南昌",
+  "node_type": "attraction",
+  "category": ["城市广场", "红色文化空间", "城市地标"],
+  "location": {
+    "address": "江西省南昌市东湖区八一大道317号",
+    "latitude": 28.673856,
+    "longitude": 115.904477,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031704RAC"
+  },
+  "official_info": {
+    "place_type": "城市公共空间",
+    "historical_significance": "1977年为纪念南昌起义50周年改名为八一广场，是南昌红色文化与英雄城形象的重要城市空间。",
+    "core_landmark": "八一南昌起义纪念塔",
+    "ticket": {
+      "general_admission": {"amount": 0, "currency": "CNY"},
+      "source_url": null,
+      "verified_at": null,
+      "status": "public_space"
+    }
+  },
+  "reservation": {"required": false, "notes": "开放式城市广场，无一般入场预约。", "status": "public_space"},
+  "experience": {
+    "recommendation_score": 3,
+    "best_time": ["清晨", "傍晚", "与周边红色文化节点串联时"],
+    "highlights": ["八一南昌起义纪念塔", "南昌城市中心空间", "红色文化符号"],
+    "avoid": ["将其单独安排为长时间核心景点"]
+  },
+  "experience_layer": {
+    "source": ["游客攻略整理"],
+    "provenance": {
+      "content_type": "游客攻略高频反馈人工整理",
+      "source_urls": [],
+      "last_updated_at": "2026-08-24"
+    },
+    "confidence": {"overall": "medium"},
+    "positive": [
+      {"content": "是南昌具有辨识度的城市标志性空间", "type": "city_landmark"},
+      {"content": "适合结合八一起义纪念馆理解南昌红色文化", "type": "history_route"}
+    ],
+    "avoid": [
+      {"content": "单独安排较长游览时间的体验增益有限", "risk": "time_value", "severity": "high"},
+      {"content": "广场以纪念性空间为主，互动内容较少", "risk": "expectation_mismatch", "severity": "medium"}
+    ],
+    "visit_tips": ["可与南昌八一起义纪念馆组合规划", "重点观看纪念塔和广场整体空间", "作为城市路线连接节点控制停留时间"],
+    "crowd_model": {
+      "national_holiday": "medium-high",
+      "weekend": "medium",
+      "weekday": "medium",
+      "peak_time": ["节庆活动时段", "傍晚"]
+    },
+    "recommended_duration": {
+      "minimum": "15分钟",
+      "recommended": "20-40分钟",
+      "minimum_minutes": 15,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 40
+    },
+    "ai_note": "更适合作为红色文化路线连接节点而非半日核心目的地。"
+  },
+  "ai_score": {
+    "history": 4,
+    "photo": 3,
+    "family": 3,
+    "rain_day": 2,
+    "crowd_risk": 3,
+    "first_visit": 3
+  },
+  "duration": {"recommended_minutes": 30, "minimum_minutes": 15, "maximum_minutes": 45},
+  "related_node_ids": ["nc_bayi_memorial"],
+  "tags": ["八一文化", "城市广场", "红色文化", "路线连接节点"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {
+      "name": "高德地图：八一广场",
+      "url": "https://ditu.amap.com/place/B031704RAC",
+      "scope": ["坐标", "POI ID", "地址"]
+    },
+    {
+      "name": "南昌历史文化名城保护规划公示资料",
+      "url": "https://www.nc.gov.cn/attachment/upload/file/20250806/1754472189182067198.pdf",
+      "scope": ["广场命名历史", "纪念性空间定位"]
+    }
+  ]
+}

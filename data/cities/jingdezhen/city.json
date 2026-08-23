@@ -1,0 +1,19 @@
+{
+  "id": "city_jingdezhen",
+  "name": "景德镇",
+  "node_type": "city",
+  "province": "江西省",
+  "location": {
+    "latitude": 29.34486,
+    "longitude": 117.21461,
+    "coordinate_system": "GCJ-02",
+    "amap_adcode": "360200",
+    "map_anchor": "景德镇北站"
+  },
+  "journey_role": "江西第二站",
+  "detail_status": "framework",
+  "primary_station": {"name": "景德镇北站", "station_code": "JDG"},
+  "child_nodes": {"attractions": [], "museums": [], "memorials": [], "food": [], "accommodation_areas": [], "transport": ["transport_nanchang_jingdezhen", "transport_jingdezhen_shangrao"]},
+  "tags": ["瓷都", "江西主线", "待完善城市"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
+}

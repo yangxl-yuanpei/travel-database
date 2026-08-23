@@ -1,0 +1,20 @@
+{
+  "id": "nc_haihunhou_group_lacquerware",
+  "name": "海昏侯墓出土漆木器",
+  "city": "南昌",
+  "node_type": "collection_group",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "theme": "汉代漆器工艺与贵族日常生活",
+    "period": "西汉",
+    "description": "包括生活器用、乐器及相关漆木器类型，是理解汉代工艺和生活方式的重要材料。",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/5cc779f96a484e969d3f64b03df07e85.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_group"
+  },
+  "experience": {"importance": 4, "viewing_notes": ["结合丹漆海昏专题展观看", "注意复制品与原件说明"]},
+  "artifact_ids": [],
+  "related_exhibition_ids": ["nc_haihunhou_exh_lacquer_haihun"],
+  "tags": ["漆木器", "西汉", "汉代工艺", "贵族生活"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

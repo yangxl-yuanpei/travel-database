@@ -4,16 +4,24 @@
   "node_type": "city",
   "province": "江西省",
   "location": {
-    "latitude": null,
-    "longitude": null,
-    "amap_adcode": null
+    "latitude": 28.68202,
+    "longitude": 115.85794,
+    "coordinate_system": "GCJ-02",
+    "amap_adcode": "360100",
+    "map_anchor": "南昌市中心"
   },
+  "journey_role": "三地会合城市",
+  "detail_status": "active",
   "child_nodes": {
     "attractions": [
-      "nc_tengwangge"
+      "nc_tengwangge",
+      "nc_qiushui_square",
+      "nc_wanshougong_block",
+      "nc_bayi_square"
     ],
     "museums": [
-      "nc_jx_museum"
+      "nc_jx_museum",
+      "nc_haihunhou_museum"
     ],
     "memorials": [
       "nc_bayi_memorial"
@@ -24,7 +32,10 @@
   },
   "tags": [
     "江西省会",
-    "历史文化"
+    "历史文化",
+    "红色文化",
+    "赣江夜景",
+    "汉代考古"
   ],
   "metadata": {
     "schema_version": "1.0",

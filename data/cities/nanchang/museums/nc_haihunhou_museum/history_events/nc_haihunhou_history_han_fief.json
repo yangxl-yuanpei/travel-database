@@ -1,0 +1,18 @@
+{
+  "id": "nc_haihunhou_history_han_fief",
+  "name": "西汉海昏侯国与刘贺墓园",
+  "city": "南昌",
+  "node_type": "history_event",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "period": "西汉",
+    "importance": "为理解海昏侯国都城、列侯墓园和刘贺生平的核心历史背景。",
+    "description": "遗址由紫金城城址、刘贺墓园及城址西部和南部墓葬群等共同构成，展示了较完整的汉代列侯国聚落格局。",
+    "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/8621e793af2543cbbb817e2ca2b7c1ca.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified"
+  },
+  "experience": {"importance": 5, "reading_priority": 5},
+  "tags": ["西汉", "海昏侯国", "刘贺", "考古背景"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

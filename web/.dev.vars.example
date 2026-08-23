@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local development. Never commit the real key.
+AMAP_WEB_SERVICE_KEY=replace_with_amap_web_service_key
+
+# Comma-separated exact origins allowed to call the commute API.
+COMMUTE_ALLOWED_ORIGINS=http://127.0.0.1:3000,http://localhost:3000,https://yangxl-yuanpei.github.io

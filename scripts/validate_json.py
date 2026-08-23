@@ -18,6 +18,7 @@ CHILD_TYPES = {
     "collection_group",
     "history_event",
     "historic_site",
+    "archaeological_site",
 }
 
 
@@ -28,7 +29,13 @@ def iter_reference_ids(node: dict) -> list[str]:
         for values in child_nodes.values():
             if isinstance(values, list):
                 references.extend(value for value in values if isinstance(value, str))
-    for key in ("related_artifact_ids", "related_exhibition_ids", "artifact_ids"):
+    for key in (
+        "related_node_ids",
+        "related_artifact_ids",
+        "related_exhibition_ids",
+        "related_collection_group_ids",
+        "artifact_ids",
+    ):
         values = node.get(key, [])
         if isinstance(values, list):
             references.extend(value for value in values if isinstance(value, str))

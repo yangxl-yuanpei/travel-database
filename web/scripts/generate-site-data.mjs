@@ -1,12 +1,11 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
-import { dirname, join, relative, resolve } from "node:path";
+import { join, relative, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const webRoot = resolve(scriptDir, "..");
 const databaseRoot = resolve(webRoot, "..", "data");
-const outputPath = join(webRoot, "app", "generated", "places.json");
-const featuredIds = ["nc_jx_museum", "nc_tengwangge", "nc_bayi_memorial"];
+const outputDir = join(webRoot, "app", "generated");
 
 async function collectJsonFiles(directory) {
   const files = [];
@@ -26,7 +25,7 @@ for (const path of await collectJsonFiles(databaseRoot)) {
 
 function referencedChildren(node) {
   const result = [];
-  for (const ids of Object.values(node.child_nodes ?? {})) {
+  for (const ids of Object.values(node?.child_nodes ?? {})) {
     if (!Array.isArray(ids)) continue;
     for (const id of ids) {
       const child = nodes.get(id);
@@ -36,12 +35,29 @@ function referencedChildren(node) {
   return result;
 }
 
-const places = featuredIds.map((id, index) => {
-  const node = nodes.get(id);
-  if (!node) throw new Error(`Missing featured node: ${id}`);
-  return { ...node, map_index: String(index + 1).padStart(2, "0"), children: referencedChildren(node) };
+const journey = nodes.get("journey_2026_national_day_jiangxi");
+if (!journey) throw new Error("Missing journey_2026_national_day_jiangxi");
+
+const cityIds = [...journey.structure.origin_city_ids, ...journey.structure.main_city_sequence];
+const cities = cityIds.map((id) => {
+  const city = nodes.get(id);
+  if (!city) throw new Error(`Missing city node: ${id}`);
+  return city;
+});
+const transports = journey.structure.transport_node_ids.map((id) => {
+  const transport = nodes.get(id);
+  if (!transport) throw new Error(`Missing transport node: ${id}`);
+  return transport;
 });
 
-await mkdir(dirname(outputPath), { recursive: true });
-await writeFile(outputPath, `${JSON.stringify(places, null, 2)}\n`, "utf8");
-console.log(`Generated ${relative(webRoot, outputPath)} from ${places.length} featured places.`);
+const places = referencedChildren(nodes.get("city_nanchang")).map((place, index) => ({
+  ...place,
+  map_index: String(index + 1).padStart(2, "0"),
+  children: referencedChildren(place),
+}));
+
+const atlas = { journey, cities, transports, city_places: { city_nanchang: places } };
+await mkdir(outputDir, { recursive: true });
+await writeFile(join(outputDir, "atlas.json"), `${JSON.stringify(atlas, null, 2)}\n`, "utf8");
+await writeFile(join(outputDir, "places.json"), `${JSON.stringify(places, null, 2)}\n`, "utf8");
+console.log(`Generated ${relative(webRoot, join(outputDir, "atlas.json"))}: ${cities.length} cities, ${transports.length} links, ${places.length} Nanchang places.`);

@@ -19,6 +19,7 @@
     "node_type": {
       "enum": [
         "city",
+        "journey",
         "attraction",
         "museum",
         "memorial",
@@ -28,6 +29,7 @@
         "collection_group",
         "history_event",
         "historic_site",
+        "archaeological_site",
         "food",
         "accommodation_area",
         "transport"
@@ -42,6 +44,11 @@
       "uniqueItems": true
     },
     "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "related_node_ids": {
       "type": "array",
       "items": {"type": "string"},
       "uniqueItems": true

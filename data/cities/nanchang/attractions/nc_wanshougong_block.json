@@ -1,0 +1,123 @@
+{
+  "id": "nc_wanshougong_block",
+  "name": "万寿宫历史文化街区",
+  "city": "南昌",
+  "node_type": "attraction",
+  "category": ["历史文化街区", "国家4A级旅游景区", "商业体验节点", "美食节点", "夜游节点"],
+  "location": {
+    "address": "江西省南昌市西湖区中山路与船山路片区",
+    "latitude": 28.674121,
+    "longitude": 115.887019,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFH2KZQN"
+  },
+  "official_info": {
+    "level": "国家4A级旅游景区",
+    "place_type": "开放式历史文化街区",
+    "description": "以江右商帮文化、道教文化和南昌传统市井文化为主题，融合赣派建筑、非遗、餐饮、文创与夜间消费。",
+    "spatial_scope": "北临中山路、东至翠花街、南面和西面临船山路",
+    "opening_hours": {
+      "value": null,
+      "source_name": "街区官方公告",
+      "source_url": null,
+      "verified_at": null,
+      "status": "dynamic_merchant_hours"
+    },
+    "ticket": {
+      "general_admission": {"amount": 0, "currency": "CNY"},
+      "paid_activity_exception": "街区内个别展馆、演出或消费项目可能单独收费",
+      "source_url": null,
+      "verified_at": null,
+      "status": "public_open_block_pending_official_confirmation"
+    }
+  },
+  "reservation": {
+    "required": false,
+    "notes": "进入开放街区通常无需预约；单独活动以主办方规则为准。",
+    "status": "public_space"
+  },
+  "experience": {
+    "recommendation_score": 4,
+    "best_time": ["傍晚", "夜间"],
+    "highlights": ["赣派建筑氛围", "南昌小吃", "夜间街区", "文创与非遗"],
+    "avoid": ["将其期待为原真古建筑群", "节假日晚间临时寻找热门餐厅"]
+  },
+  "experience_layer": {
+    "source": ["小红书攻略", "抖音游客反馈"],
+    "provenance": {
+      "content_type": "游客攻略高频反馈人工整理",
+      "source_urls": [],
+      "last_updated_at": "2026-08-24"
+    },
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "夜游、美食和商业化反馈较一致"
+    },
+    "positive": [
+      {"content": "适合夜间逛街并体验南昌城市生活", "type": "night_life"},
+      {"content": "街区及周边餐饮选择丰富", "type": "food"},
+      {"content": "赣派风格街景、灯光和市井氛围适合休闲拍摄", "type": "photo"}
+    ],
+    "avoid": [
+      {"content": "商业化程度较高，不宜按纯古迹期待", "risk": "expectation_mismatch", "severity": "high"},
+      {"content": "节假日晚间客流密集", "risk": "crowd", "severity": "high"},
+      {"content": "网红餐饮可能排队且品质差异较大", "risk": "food_queue", "severity": "medium"}
+    ],
+    "visit_tips": [
+      "建议傍晚后安排",
+      "将历史街区氛围、美食和休闲作为主要期待",
+      "热门餐饮提前查看排队情况",
+      "不必为普通连锁或同质化店铺预留过多时间"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "high",
+      "weekday": "medium",
+      "peak_time": ["晚餐时段", "夜间"]
+    },
+    "photo_info": {
+      "photo_value": 4,
+      "recommended_scene": ["赣派街巷", "夜间灯光", "街区牌坊与入口"]
+    },
+    "experience_type": ["城市休闲", "美食体验", "夜游", "轻度文化体验"],
+    "recommended_duration": {
+      "minimum": "45分钟",
+      "recommended": "1-2小时",
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "适合承担晚餐和夜游功能；历史权重应低于博物馆与古迹，节假日需施加较高人流惩罚。"
+  },
+  "ai_score": {
+    "history": 3,
+    "photo": 4,
+    "family": 4,
+    "rain_day": 2,
+    "crowd_risk": 5,
+    "first_visit": 4,
+    "food": 5,
+    "night": 5
+  },
+  "duration": {"recommended_minutes": 90, "minimum_minutes": 45, "maximum_minutes": 150},
+  "related_node_ids": ["nc_bayi_memorial"],
+  "tags": ["历史街区", "南昌美食", "夜游", "赣派建筑", "商业街区"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {
+      "name": "西湖区人民政府：A级旅游景区基本情况",
+      "url": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+      "scope": ["4A级景区", "空间范围", "街区定位", "历史建筑"]
+    },
+    {
+      "name": "南昌市住房和城乡建设局：延续历史文脉",
+      "url": "https://zjj.nc.gov.cn/nczfbzglj/fgxw/202404/62df70844f864f22875eb4a795a9845c.shtml",
+      "scope": ["文化主题", "街区业态", "赣派风貌"]
+    },
+    {
+      "name": "高德地图：万寿宫历史文化街区",
+      "url": "https://ditu.amap.com/place/B0FFH2KZQN",
+      "scope": ["坐标", "POI ID", "地址", "联系电话"]
+    }
+  ]
+}

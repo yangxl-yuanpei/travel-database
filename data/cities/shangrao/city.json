@@ -1,0 +1,19 @@
+{
+  "id": "city_shangrao",
+  "name": "上饶",
+  "node_type": "city",
+  "province": "江西省",
+  "location": {
+    "latitude": 28.45431,
+    "longitude": 117.96922,
+    "coordinate_system": "GCJ-02",
+    "amap_adcode": "361100",
+    "map_anchor": "上饶站"
+  },
+  "journey_role": "江西第三站",
+  "detail_status": "framework",
+  "primary_station": {"name": "上饶站", "station_code": "SRG"},
+  "child_nodes": {"attractions": [], "museums": [], "memorials": [], "food": [], "accommodation_areas": [], "transport": ["transport_jingdezhen_shangrao"]},
+  "tags": ["三清山门户", "江西主线", "待完善城市"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
+}

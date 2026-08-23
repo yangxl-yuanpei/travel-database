@@ -1,0 +1,24 @@
+{
+  "id": "nc_haihunhou_exh_golden_haihun",
+  "name": "金色海昏——汉代海昏侯国历史文化展",
+  "city": "南昌",
+  "node_type": "permanent_exhibition",
+  "parent_id": "nc_haihunhou_museum",
+  "official_info": {
+    "exhibition_type": "基本陈列",
+    "theme": "海昏侯国历史、刘贺墓园考古成果及汉代王侯生活",
+    "description": "通过出土文物、墓室结构展示、车马仪仗和数字化手段呈现海昏侯国历史文化。",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202009/5cc779f96a484e969d3f64b03df07e85.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_permanent"
+  },
+  "experience": {
+    "importance": 5,
+    "recommended_duration_minutes": 90,
+    "suitable_for": ["第一次到访", "汉代历史爱好者", "考古爱好者"],
+    "highlights": ["刘贺墓出土文物", "车马仪仗", "墓室结构", "海昏侯国历史主线"]
+  },
+  "related_artifact_ids": ["nc_haihunhou_artifact_horseshoe_gold"],
+  "tags": ["基本陈列", "金色海昏", "刘贺", "汉代"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}
