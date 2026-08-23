@@ -1,0 +1,10 @@
+# Local and generated files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.pnpm-store/
+build/
+dist/

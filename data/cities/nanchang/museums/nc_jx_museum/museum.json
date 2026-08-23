@@ -1,0 +1,201 @@
+{
+  "id": "nc_jx_museum",
+  "name": "江西省博物馆",
+  "city": "南昌",
+  "node_type": "museum",
+  "category": [
+    "综合博物馆",
+    "国家一级博物馆",
+    "历史文化节点"
+  ],
+  "location": {
+    "address": "江西省南昌市红谷滩区赣江北大道698号",
+    "latitude": 28.7059,
+    "longitude": 115.881823,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFGY018L"
+  },
+  "official_info": {
+    "museum_level": {
+      "value": "国家一级博物馆",
+      "source_url": null,
+      "verified_at": null,
+      "status": "pending_verification"
+    },
+    "opening_hours": {
+      "regular_schedule": "周二至周日 09:00-17:00，16:00停止入馆；周一闭馆，法定节假日除外",
+      "national_day_schedule": null,
+      "source_url": "https://tour.jxcn.cn/system/2026/05/12/031129391.shtml",
+      "verified_at": "2026-08-23",
+      "status": "verified_regular_schedule"
+    },
+    "ticket": {
+      "general_admission": {
+        "amount": 0,
+        "currency": "CNY"
+      },
+      "special_exhibition_exception": null,
+      "source_url": null,
+      "verified_at": null,
+      "status": "pending_verification"
+    }
+  },
+  "reservation": {
+    "required": true,
+    "real_name_required": true,
+    "channels": ["江西省博物馆微信公众号"],
+    "advance_days": 7,
+    "document_requirements": ["有效身份证件"],
+    "notes": "具体预约规则以博物馆官方公告为准",
+    "source_url": "https://m.thepaper.cn/newsDetail_forward_33349146",
+    "verified_at": "2026-08-23",
+    "status": "verified"
+  },
+  "child_nodes": {
+    "permanent_exhibitions": [
+      "nc_jx_museum_exh_ancient_history",
+      "nc_jx_museum_exh_ceramics",
+      "nc_jx_museum_exh_revolution"
+    ],
+    "temporary_exhibitions": [],
+    "artifacts": [
+      "nc_jx_museum_artifact_bird_double_tail_tiger",
+      "nc_jx_museum_artifact_yuan_granary"
+    ],
+    "collection_groups": [
+      "nc_jx_museum_group_dayangzhou_bronzes"
+    ]
+  },
+  "experience": {
+    "recommendation_score": 5,
+    "best_for": [
+      "历史爱好者",
+      "亲子游客",
+      "雨天旅行"
+    ],
+    "crowd": {
+      "normal": null,
+      "holiday": null
+    },
+    "highlights": [
+      "江西古代历史",
+      "江西陶瓷文化",
+      "江西革命历史",
+      "馆藏精品文物"
+    ],
+    "avoid": []
+  },
+  "experience_layer": {
+    "source": [
+      "小红书攻略",
+      "抖音游客反馈"
+    ],
+    "provenance": {
+      "content_type": "游客攻略高频反馈人工整理",
+      "source_urls": [],
+      "last_updated_at": "2026-08-24"
+    },
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "适合系统了解江西历史文化",
+        "type": "culture"
+      },
+      {
+        "content": "青铜器、陶瓷相关展陈受到游客较多关注",
+        "type": "exhibition"
+      },
+      {
+        "content": "室内参观，适合作为雨天或高温天气方案",
+        "type": "weather_adaptation"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "需要提前预约，临时前往可能无法进入",
+        "risk": "reservation",
+        "severity": "high"
+      },
+      {
+        "content": "展览内容较丰富，不适合只安排几十分钟快速浏览",
+        "risk": "time",
+        "severity": "medium"
+      },
+      {
+        "content": "临时展览具有时间限制，需要提前确认",
+        "risk": "temporary_exhibition",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "提前完成预约",
+      "建议预留2-3小时",
+      "根据个人兴趣重点观看青铜器和陶瓷相关展厅",
+      "关注官方临展信息"
+    ],
+    "crowd_model": {
+      "national_holiday": "medium",
+      "weekend": "medium",
+      "weekday": "low-medium",
+      "peak_time": [
+        "上午入馆时间"
+      ]
+    },
+    "experience_type": [
+      "深度文化体验",
+      "亲子教育",
+      "雨天备选"
+    ],
+    "recommended_duration": {
+      "minimum": "1.5小时",
+      "recommended": "2-3小时",
+      "minimum_minutes": 90,
+      "recommended_min_minutes": 120,
+      "recommended_max_minutes": 180
+    },
+    "ai_note": "对于不喜欢排队、喜欢历史文化的游客，国庆期间推荐权重较高。"
+  },
+  "ai_score": {
+    "history": 5,
+    "photo": 3,
+    "family": 5,
+    "rain_day": 5,
+    "crowd_risk": null,
+    "first_visit": 5
+  },
+  "duration": {
+    "recommended_minutes": 150,
+    "minimum_minutes": 120,
+    "maximum_minutes": 180
+  },
+  "tags": [
+    "江西历史入口",
+    "博物馆",
+    "雨天方案",
+    "文化游客"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "verified",
+    "last_verified_at": "2026-08-23"
+  },
+  "sources": [
+    {
+      "name": "高德地图：江西省博物馆",
+      "url": "https://ditu.amap.com/place/B0FFGY018L",
+      "scope": ["坐标", "POI ID", "地址", "联系电话"]
+    },
+    {
+      "name": "江西省博物馆开放安排",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33349146",
+      "scope": ["预约", "开放安排"]
+    },
+    {
+      "name": "南昌市文化广电旅游局：江西十大镇馆之宝",
+      "url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+      "scope": ["代表文物"]
+    }
+  ]
+}

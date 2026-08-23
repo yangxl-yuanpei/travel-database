@@ -1,0 +1,11 @@
+{
+  "id": "nc_bayi_site_zhude_officer_corps",
+  "name": "朱德军官教育团旧址",
+  "city": "南昌",
+  "node_type": "historic_site",
+  "parent_id": "nc_bayi_memorial",
+  "official_info": {"site_type": "革命旧址", "description": null, "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml", "verified_at": "2026-08-23", "status": "verified"},
+  "experience": {"importance": 4},
+  "tags": ["革命旧址", "全国重点文物保护单位"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-23"}
+}

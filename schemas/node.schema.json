@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/schemas/node.schema.json",
+  "title": "Jiangxi Travel Knowledge Node",
+  "type": "object",
+  "required": ["id", "name", "node_type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "city": {
+      "type": "string"
+    },
+    "node_type": {
+      "enum": [
+        "city",
+        "attraction",
+        "museum",
+        "memorial",
+        "permanent_exhibition",
+        "temporary_exhibition",
+        "artifact",
+        "collection_group",
+        "history_event",
+        "historic_site",
+        "food",
+        "accommodation_area",
+        "transport"
+      ]
+    },
+    "parent_id": {
+      "type": ["string", "null"]
+    },
+    "category": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "ai_score": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["integer", "null"],
+        "minimum": 1,
+        "maximum": 5
+      }
+    },
+    "experience_layer": {
+      "type": "object",
+      "required": [
+        "source",
+        "confidence",
+        "positive",
+        "avoid",
+        "visit_tips",
+        "crowd_model",
+        "recommended_duration",
+        "ai_note"
+      ],
+      "properties": {
+        "source": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "confidence": {
+          "type": "object",
+          "required": ["overall"],
+          "properties": {
+            "overall": {
+              "enum": ["low", "low-medium", "medium", "medium-high", "high"]
+            },
+            "reason": {"type": "string"}
+          },
+          "additionalProperties": true
+        },
+        "positive": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["content", "type"]
+          }
+        },
+        "avoid": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["content", "risk", "severity"]
+          }
+        },
+        "visit_tips": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "crowd_model": {"type": "object"},
+        "recommended_duration": {
+          "type": "object",
+          "required": ["minimum_minutes", "recommended_min_minutes", "recommended_max_minutes"]
+        },
+        "ai_note": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "schema_version": {"type": "string"},
+        "data_status": {
+          "enum": ["draft", "verified", "needs_update", "archived"]
+        },
+        "last_verified_at": {
+          "type": ["string", "null"],
+          "format": "date"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

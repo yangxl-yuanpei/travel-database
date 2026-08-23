@@ -1,0 +1,34 @@
+{
+  "id": "city_nanchang",
+  "name": "南昌",
+  "node_type": "city",
+  "province": "江西省",
+  "location": {
+    "latitude": null,
+    "longitude": null,
+    "amap_adcode": null
+  },
+  "child_nodes": {
+    "attractions": [
+      "nc_tengwangge"
+    ],
+    "museums": [
+      "nc_jx_museum"
+    ],
+    "memorials": [
+      "nc_bayi_memorial"
+    ],
+    "food": [],
+    "accommodation_areas": [],
+    "transport": []
+  },
+  "tags": [
+    "江西省会",
+    "历史文化"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null
+  }
+}

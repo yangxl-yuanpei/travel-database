@@ -1,0 +1,1099 @@
+[
+  {
+    "id": "nc_jx_museum",
+    "name": "江西省博物馆",
+    "city": "南昌",
+    "node_type": "museum",
+    "category": [
+      "综合博物馆",
+      "国家一级博物馆",
+      "历史文化节点"
+    ],
+    "location": {
+      "address": "江西省南昌市红谷滩区赣江北大道698号",
+      "latitude": 28.7059,
+      "longitude": 115.881823,
+      "coordinate_system": "GCJ-02",
+      "amap_poi_id": "B0FFGY018L"
+    },
+    "official_info": {
+      "museum_level": {
+        "value": "国家一级博物馆",
+        "source_url": null,
+        "verified_at": null,
+        "status": "pending_verification"
+      },
+      "opening_hours": {
+        "regular_schedule": "周二至周日 09:00-17:00，16:00停止入馆；周一闭馆，法定节假日除外",
+        "national_day_schedule": null,
+        "source_url": "https://tour.jxcn.cn/system/2026/05/12/031129391.shtml",
+        "verified_at": "2026-08-23",
+        "status": "verified_regular_schedule"
+      },
+      "ticket": {
+        "general_admission": {
+          "amount": 0,
+          "currency": "CNY"
+        },
+        "special_exhibition_exception": null,
+        "source_url": null,
+        "verified_at": null,
+        "status": "pending_verification"
+      }
+    },
+    "reservation": {
+      "required": true,
+      "real_name_required": true,
+      "channels": [
+        "江西省博物馆微信公众号"
+      ],
+      "advance_days": 7,
+      "document_requirements": [
+        "有效身份证件"
+      ],
+      "notes": "具体预约规则以博物馆官方公告为准",
+      "source_url": "https://m.thepaper.cn/newsDetail_forward_33349146",
+      "verified_at": "2026-08-23",
+      "status": "verified"
+    },
+    "child_nodes": {
+      "permanent_exhibitions": [
+        "nc_jx_museum_exh_ancient_history",
+        "nc_jx_museum_exh_ceramics",
+        "nc_jx_museum_exh_revolution"
+      ],
+      "temporary_exhibitions": [],
+      "artifacts": [
+        "nc_jx_museum_artifact_bird_double_tail_tiger",
+        "nc_jx_museum_artifact_yuan_granary"
+      ],
+      "collection_groups": [
+        "nc_jx_museum_group_dayangzhou_bronzes"
+      ]
+    },
+    "experience": {
+      "recommendation_score": 5,
+      "best_for": [
+        "历史爱好者",
+        "亲子游客",
+        "雨天旅行"
+      ],
+      "crowd": {
+        "normal": null,
+        "holiday": null
+      },
+      "highlights": [
+        "江西古代历史",
+        "江西陶瓷文化",
+        "江西革命历史",
+        "馆藏精品文物"
+      ],
+      "avoid": []
+    },
+    "experience_layer": {
+      "source": [
+        "小红书攻略",
+        "抖音游客反馈"
+      ],
+      "provenance": {
+        "content_type": "游客攻略高频反馈人工整理",
+        "source_urls": [],
+        "last_updated_at": "2026-08-24"
+      },
+      "confidence": {
+        "overall": "medium-high"
+      },
+      "positive": [
+        {
+          "content": "适合系统了解江西历史文化",
+          "type": "culture"
+        },
+        {
+          "content": "青铜器、陶瓷相关展陈受到游客较多关注",
+          "type": "exhibition"
+        },
+        {
+          "content": "室内参观，适合作为雨天或高温天气方案",
+          "type": "weather_adaptation"
+        }
+      ],
+      "avoid": [
+        {
+          "content": "需要提前预约，临时前往可能无法进入",
+          "risk": "reservation",
+          "severity": "high"
+        },
+        {
+          "content": "展览内容较丰富，不适合只安排几十分钟快速浏览",
+          "risk": "time",
+          "severity": "medium"
+        },
+        {
+          "content": "临时展览具有时间限制，需要提前确认",
+          "risk": "temporary_exhibition",
+          "severity": "medium"
+        }
+      ],
+      "visit_tips": [
+        "提前完成预约",
+        "建议预留2-3小时",
+        "根据个人兴趣重点观看青铜器和陶瓷相关展厅",
+        "关注官方临展信息"
+      ],
+      "crowd_model": {
+        "national_holiday": "medium",
+        "weekend": "medium",
+        "weekday": "low-medium",
+        "peak_time": [
+          "上午入馆时间"
+        ]
+      },
+      "experience_type": [
+        "深度文化体验",
+        "亲子教育",
+        "雨天备选"
+      ],
+      "recommended_duration": {
+        "minimum": "1.5小时",
+        "recommended": "2-3小时",
+        "minimum_minutes": 90,
+        "recommended_min_minutes": 120,
+        "recommended_max_minutes": 180
+      },
+      "ai_note": "对于不喜欢排队、喜欢历史文化的游客，国庆期间推荐权重较高。"
+    },
+    "ai_score": {
+      "history": 5,
+      "photo": 3,
+      "family": 5,
+      "rain_day": 5,
+      "crowd_risk": null,
+      "first_visit": 5
+    },
+    "duration": {
+      "recommended_minutes": 150,
+      "minimum_minutes": 120,
+      "maximum_minutes": 180
+    },
+    "tags": [
+      "江西历史入口",
+      "博物馆",
+      "雨天方案",
+      "文化游客"
+    ],
+    "metadata": {
+      "schema_version": "1.0",
+      "data_status": "verified",
+      "last_verified_at": "2026-08-23"
+    },
+    "sources": [
+      {
+        "name": "高德地图：江西省博物馆",
+        "url": "https://ditu.amap.com/place/B0FFGY018L",
+        "scope": [
+          "坐标",
+          "POI ID",
+          "地址",
+          "联系电话"
+        ]
+      },
+      {
+        "name": "江西省博物馆开放安排",
+        "url": "https://m.thepaper.cn/newsDetail_forward_33349146",
+        "scope": [
+          "预约",
+          "开放安排"
+        ]
+      },
+      {
+        "name": "南昌市文化广电旅游局：江西十大镇馆之宝",
+        "url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+        "scope": [
+          "代表文物"
+        ]
+      }
+    ],
+    "map_index": "01",
+    "children": [
+      {
+        "id": "nc_jx_museum_exh_ancient_history",
+        "name": "物华天宝 人杰地灵——江西古代历史文化展",
+        "city": "南昌",
+        "node_type": "permanent_exhibition",
+        "parent_id": "nc_jx_museum",
+        "official_info": {
+          "exhibition_type": "常设展",
+          "floor": null,
+          "hall": null,
+          "description": null,
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "recommended_duration_minutes": null,
+          "suitable_for": [
+            "历史爱好者",
+            "第一次到访"
+          ],
+          "highlights": []
+        },
+        "related_artifact_ids": [],
+        "tags": [
+          "江西古代史",
+          "常设展"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_jx_museum_exh_ceramics",
+        "name": "万年窑火 千年瓷都——江西古代陶瓷文化展",
+        "city": "南昌",
+        "node_type": "permanent_exhibition",
+        "parent_id": "nc_jx_museum",
+        "official_info": {
+          "exhibition_type": "常设展",
+          "floor": null,
+          "hall": null,
+          "description": null,
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "recommended_duration_minutes": null,
+          "suitable_for": [
+            "陶瓷文化爱好者",
+            "第一次到访"
+          ],
+          "highlights": []
+        },
+        "related_artifact_ids": [
+          "nc_jx_museum_artifact_yuan_granary"
+        ],
+        "tags": [
+          "江西陶瓷",
+          "常设展"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_jx_museum_exh_revolution",
+        "name": "红色摇篮——江西革命史陈列",
+        "city": "南昌",
+        "node_type": "permanent_exhibition",
+        "parent_id": "nc_jx_museum",
+        "official_info": {
+          "exhibition_type": "常设展",
+          "floor": null,
+          "hall": null,
+          "description": null,
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 4,
+          "recommended_duration_minutes": null,
+          "suitable_for": [
+            "近现代史爱好者"
+          ],
+          "highlights": []
+        },
+        "related_artifact_ids": [],
+        "tags": [
+          "江西革命史",
+          "常设展"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_jx_museum_artifact_bird_double_tail_tiger",
+        "name": "伏鸟双尾青铜虎",
+        "city": "南昌",
+        "node_type": "artifact",
+        "parent_id": "nc_jx_museum",
+        "official_info": {
+          "category": "青铜器",
+          "period": "商代",
+          "excavation_site": null,
+          "collection_status": null,
+          "description": null,
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "photo_value": null,
+          "recognition_value": 5,
+          "viewing_notes": []
+        },
+        "related_exhibition_ids": [],
+        "tags": [
+          "青铜器",
+          "商代",
+          "精品文物"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_jx_museum_artifact_yuan_granary",
+        "name": "元代青花釉里红楼阁式瓷谷仓",
+        "city": "南昌",
+        "node_type": "artifact",
+        "parent_id": "nc_jx_museum",
+        "official_info": {
+          "category": "陶瓷器",
+          "period": "元代",
+          "excavation_site": null,
+          "collection_status": null,
+          "description": null,
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "photo_value": null,
+          "recognition_value": 5,
+          "viewing_notes": []
+        },
+        "related_exhibition_ids": [
+          "nc_jx_museum_exh_ceramics"
+        ],
+        "tags": [
+          "陶瓷器",
+          "元代",
+          "精品文物"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_jx_museum_group_dayangzhou_bronzes",
+        "name": "新干大洋洲商代青铜器",
+        "city": "南昌",
+        "node_type": "collection_group",
+        "parent_id": "nc_jx_museum",
+        "official_info": {
+          "theme": "江西早期文明",
+          "period": "商代",
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "viewing_notes": []
+        },
+        "artifact_ids": [],
+        "tags": [
+          "青铜器",
+          "新干大洋洲",
+          "江西早期文明"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "nc_tengwangge",
+    "name": "滕王阁",
+    "city": "南昌",
+    "node_type": "attraction",
+    "category": [
+      "历史建筑",
+      "城市地标",
+      "国家5A级旅游景区"
+    ],
+    "location": {
+      "address": "江西省南昌市东湖区仿古街58号",
+      "latitude": 28.681332,
+      "longitude": 115.881197,
+      "coordinate_system": "GCJ-02",
+      "amap_poi_id": "B031701YGL"
+    },
+    "official_info": {
+      "level": "国家5A级旅游景区",
+      "description": "始建于唐永徽四年，因王勃《滕王阁序》闻名，与黄鹤楼、岳阳楼并称江南三大名楼。现主阁为1989年重建。",
+      "contact_phone": "0791-86702036",
+      "opening_hours": {
+        "value": null,
+        "source_name": "景区官方公告",
+        "source_url": null,
+        "verified_at": null,
+        "status": "pending_verification"
+      },
+      "ticket": {
+        "price": null,
+        "currency": "CNY",
+        "source_name": "景区官方信息",
+        "source_url": null,
+        "verified_at": null,
+        "status": "pending_verification"
+      }
+    },
+    "experience": {
+      "recommendation_score": 5,
+      "best_time": [
+        "傍晚",
+        "夜景时段"
+      ],
+      "photo_score": 5,
+      "highlights": [
+        "赣江景观",
+        "古建筑摄影",
+        "城市文化地标"
+      ],
+      "crowd": {
+        "normal": "中等",
+        "holiday": "较高"
+      },
+      "avoid": [
+        "正午时段户外暴晒",
+        "节假日临时购票可能等待"
+      ]
+    },
+    "experience_layer": {
+      "source": [
+        "小红书攻略",
+        "抖音游客反馈"
+      ],
+      "provenance": {
+        "content_type": "游客攻略高频反馈人工整理",
+        "source_urls": [],
+        "last_updated_at": "2026-08-24"
+      },
+      "confidence": {
+        "overall": "medium-high",
+        "reason": "多个游客攻略存在较一致体验反馈"
+      },
+      "positive": [
+        {
+          "content": "南昌城市标志性景点，第一次到南昌具有较高打卡价值",
+          "type": "city_landmark"
+        },
+        {
+          "content": "建筑外观、赣江景观和夜景具有较高摄影价值",
+          "type": "photo"
+        },
+        {
+          "content": "适合作为南昌城市文化体验入口",
+          "type": "culture"
+        }
+      ],
+      "avoid": [
+        {
+          "content": "国庆等节假日期间游客量明显增加，高峰时段体验下降",
+          "risk": "crowd",
+          "severity": "high"
+        },
+        {
+          "content": "热门拍摄区域可能出现人员拥挤，需要等待拍摄位置",
+          "risk": "photo_crowd",
+          "severity": "medium"
+        },
+        {
+          "content": "不建议只安排非常短时间快速打卡，否则体验不足",
+          "risk": "time_management",
+          "severity": "medium"
+        }
+      ],
+      "visit_tips": [
+        "提前规划入场时间",
+        "摄影需求较高时预留等待时间",
+        "傍晚和夜景时间段体验更佳",
+        "节假日建议避开最高峰时段"
+      ],
+      "crowd_model": {
+        "national_holiday": "high",
+        "weekend": "medium-high",
+        "weekday": "medium",
+        "peak_time": [
+          "下午",
+          "夜景时段"
+        ]
+      },
+      "photo_info": {
+        "photo_value": 5,
+        "recommended_scene": [
+          "建筑全景",
+          "赣江景观",
+          "夜景灯光"
+        ]
+      },
+      "recommended_duration": {
+        "minimum": "1小时",
+        "recommended": "1.5-2小时",
+        "minimum_minutes": 60,
+        "recommended_min_minutes": 90,
+        "recommended_max_minutes": 120
+      },
+      "ai_note": "适合作为第一次南昌旅行核心节点，但国庆需要考虑人流惩罚。"
+    },
+    "ai_score": {
+      "history": 5,
+      "photo": 5,
+      "family": 4,
+      "rain_day": 2,
+      "crowd_risk": 4,
+      "first_visit": 5
+    },
+    "duration": {
+      "recommended_minutes": 105,
+      "minimum_minutes": 90,
+      "maximum_minutes": 120
+    },
+    "reservation": {
+      "required": true,
+      "recommended": true,
+      "real_name_required": true,
+      "channels": [
+        "景区官方购票渠道"
+      ],
+      "advance_days": null,
+      "notes": "节假日建议提前查询官方预约及购票要求",
+      "status": "verified"
+    },
+    "tags": [
+      "第一次南昌旅行",
+      "摄影",
+      "历史文化",
+      "夜景"
+    ],
+    "metadata": {
+      "schema_version": "1.0",
+      "data_status": "verified",
+      "last_verified_at": "2026-08-23"
+    },
+    "sources": [
+      {
+        "name": "滕王阁官方网站",
+        "url": "https://www.cntwg.com/",
+        "scope": [
+          "地址",
+          "联系电话",
+          "官方公告"
+        ]
+      },
+      {
+        "name": "南昌市人民政府：滕王阁",
+        "url": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
+        "scope": [
+          "历史介绍",
+          "地标定位"
+        ]
+      },
+      {
+        "name": "高德地图：滕王阁",
+        "url": "https://ditu.amap.com/place/B031701YGL",
+        "scope": [
+          "坐标",
+          "POI ID",
+          "地址"
+        ]
+      }
+    ],
+    "map_index": "02",
+    "children": []
+  },
+  {
+    "id": "nc_bayi_memorial",
+    "name": "南昌八一起义纪念馆",
+    "short_name": "八一起义纪念馆",
+    "city": "南昌",
+    "node_type": "memorial",
+    "category": [
+      "纪念馆",
+      "红色文化节点",
+      "历史文化节点"
+    ],
+    "location": {
+      "address": "江西省南昌市西湖区中山路380号",
+      "latitude": 28.67467,
+      "longitude": 115.889435,
+      "coordinate_system": "GCJ-02",
+      "amap_poi_id": "B031704VYJ"
+    },
+    "official_info": {
+      "organization_type": "文物系统国有博物馆",
+      "positioning": "为纪念南昌起义而设立的专题纪念馆",
+      "museum_level": "国家一级博物馆",
+      "contact_phone": "0791-86613806",
+      "opening_hours": {
+        "regular_schedule": "周二至周日 09:00-17:00，16:30停止入馆；周一闭馆，法定节假日除外",
+        "national_day_schedule": null,
+        "source_url": "https://nc.bendibao.com/youhui/detail21450.htm",
+        "verified_at": "2026-08-23",
+        "status": "verified_regular_schedule"
+      },
+      "ticket": {
+        "general_admission": {
+          "amount": 0,
+          "currency": "CNY"
+        },
+        "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+        "verified_at": "2026-08-23",
+        "status": "verified"
+      }
+    },
+    "reservation": {
+      "required": true,
+      "real_name_required": true,
+      "channels": [
+        "南昌八一起义纪念馆微信小程序",
+        "南昌八一起义纪念馆支付宝小程序"
+      ],
+      "advance_days": 7,
+      "release_time": "21:00",
+      "document_requirements": [
+        "预约时使用的有效身份证件"
+      ],
+      "notes": "仅使用官方渠道预约；国庆开放时间和增补票额需等待节前公告。",
+      "source_url": "https://www.sohu.com/a/1036340442_121107011",
+      "verified_at": "2026-08-23",
+      "status": "verified"
+    },
+    "child_nodes": {
+      "history_events": [
+        "nc_bayi_event_nanchang_uprising"
+      ],
+      "historic_sites": [
+        "nc_bayi_site_headquarters",
+        "nc_bayi_site_helong_headquarters",
+        "nc_bayi_site_yeting_headquarters",
+        "nc_bayi_site_zhude_officer_corps",
+        "nc_bayi_site_zhude_residence"
+      ],
+      "permanent_exhibitions": [
+        "nc_bayi_exh_nanchang_uprising",
+        "nc_bayi_exh_pla_history",
+        "nc_bayi_exh_restored_site"
+      ],
+      "temporary_exhibitions": [],
+      "artifacts": []
+    },
+    "experience": {
+      "recommendation_score": 5,
+      "best_for": [
+        "历史爱好者",
+        "红色文化游客",
+        "亲子教育"
+      ],
+      "weather": "适合雨天参观",
+      "highlights": [
+        "历史旧址",
+        "革命展陈",
+        "历史现场感"
+      ],
+      "crowd": {
+        "normal": "中等",
+        "holiday": "较高"
+      },
+      "avoid": [
+        "国庆期间未预约直接到馆",
+        "只看陈列大楼而忽略旧址建筑"
+      ]
+    },
+    "experience_layer": {
+      "source": [
+        "小红书攻略",
+        "抖音游客反馈"
+      ],
+      "provenance": {
+        "content_type": "游客攻略高频反馈人工整理",
+        "source_urls": [],
+        "last_updated_at": "2026-08-24"
+      },
+      "confidence": {
+        "overall": "medium"
+      },
+      "positive": [
+        {
+          "content": "具有较强历史教育价值，是了解南昌起义的重要节点",
+          "type": "history"
+        },
+        {
+          "content": "室内展陈为主，适合雨天参观",
+          "type": "weather_adaptation"
+        },
+        {
+          "content": "适合结合八一广场等城市历史节点游览",
+          "type": "city_route"
+        }
+      ],
+      "avoid": [
+        {
+          "content": "不属于纯摄影型景点，拍照需求游客可能兴趣较低",
+          "risk": "expectation_mismatch",
+          "severity": "medium"
+        },
+        {
+          "content": "如果不了解南昌起义背景，参观体验可能降低",
+          "risk": "knowledge_gap",
+          "severity": "medium"
+        },
+        {
+          "content": "快速浏览展板会降低历史理解程度",
+          "risk": "visit_depth",
+          "severity": "medium"
+        }
+      ],
+      "visit_tips": [
+        "提前了解南昌起义基本背景",
+        "建议留出时间阅读展陈文字",
+        "适合作为南昌历史文化线路节点"
+      ],
+      "crowd_model": {
+        "national_holiday": "medium",
+        "weekend": "medium",
+        "weekday": "low-medium",
+        "peak_time": [
+          "上午"
+        ]
+      },
+      "experience_type": [
+        "历史学习",
+        "红色文化",
+        "亲子教育"
+      ],
+      "recommended_duration": {
+        "minimum": "45分钟",
+        "recommended": "1-1.5小时",
+        "minimum_minutes": 45,
+        "recommended_min_minutes": 60,
+        "recommended_max_minutes": 90
+      },
+      "ai_note": "对于历史兴趣游客推荐权重高，对于摄影游客权重降低。"
+    },
+    "ai_score": {
+      "history": 5,
+      "rain_day": 5,
+      "family": 4,
+      "photo": 3,
+      "crowd_risk": 4,
+      "first_visit": 4
+    },
+    "duration": {
+      "recommended_minutes": 90,
+      "minimum_minutes": 60,
+      "maximum_minutes": 120
+    },
+    "tags": [
+      "南昌城市文化",
+      "红色历史",
+      "纪念馆",
+      "室内参观"
+    ],
+    "metadata": {
+      "schema_version": "1.0",
+      "data_status": "verified",
+      "last_verified_at": "2026-08-23"
+    },
+    "sources": [
+      {
+        "name": "南昌市人民政府：南昌八一起义纪念馆",
+        "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+        "scope": [
+          "定位",
+          "五处旧址",
+          "免费开放"
+        ]
+      },
+      {
+        "name": "高德地图：南昌八一起义纪念馆",
+        "url": "https://ditu.amap.com/place/B031704VYJ",
+        "scope": [
+          "坐标",
+          "POI ID",
+          "地址",
+          "电话"
+        ]
+      },
+      {
+        "name": "2026年端午假期预约公告",
+        "url": "https://www.sohu.com/a/1036340442_121107011",
+        "scope": [
+          "预约渠道",
+          "提前天数",
+          "放票时间"
+        ]
+      }
+    ],
+    "map_index": "03",
+    "children": [
+      {
+        "id": "nc_bayi_event_nanchang_uprising",
+        "name": "南昌起义",
+        "city": "南昌",
+        "node_type": "history_event",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "date": "1927-08-01",
+          "importance": "中国共产党独立领导武装斗争和创建人民军队的重要开端",
+          "description": "1927年8月1日，南昌起义打响武装反抗国民党反动派的第一枪。",
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-23",
+          "status": "verified"
+        },
+        "experience": {
+          "importance": 5,
+          "reading_priority": 5
+        },
+        "tags": [
+          "革命历史",
+          "人民军队创建",
+          "南昌起义"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-23"
+        }
+      },
+      {
+        "id": "nc_bayi_site_headquarters",
+        "name": "南昌起义总指挥部旧址",
+        "city": "南昌",
+        "node_type": "historic_site",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "site_type": "革命旧址",
+          "description": "原江西大旅社，是南昌起义总指挥部旧址。",
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-23",
+          "status": "verified"
+        },
+        "experience": {
+          "importance": 5
+        },
+        "tags": [
+          "革命旧址",
+          "全国重点文物保护单位"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-23"
+        }
+      },
+      {
+        "id": "nc_bayi_site_helong_headquarters",
+        "name": "贺龙指挥部旧址",
+        "city": "南昌",
+        "node_type": "historic_site",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "site_type": "革命旧址",
+          "description": null,
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-23",
+          "status": "verified"
+        },
+        "experience": {
+          "importance": 4
+        },
+        "tags": [
+          "革命旧址",
+          "全国重点文物保护单位"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-23"
+        }
+      },
+      {
+        "id": "nc_bayi_site_yeting_headquarters",
+        "name": "叶挺指挥部旧址",
+        "city": "南昌",
+        "node_type": "historic_site",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "site_type": "革命旧址",
+          "description": null,
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-23",
+          "status": "verified"
+        },
+        "experience": {
+          "importance": 4
+        },
+        "tags": [
+          "革命旧址",
+          "全国重点文物保护单位"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-23"
+        }
+      },
+      {
+        "id": "nc_bayi_site_zhude_officer_corps",
+        "name": "朱德军官教育团旧址",
+        "city": "南昌",
+        "node_type": "historic_site",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "site_type": "革命旧址",
+          "description": null,
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-23",
+          "status": "verified"
+        },
+        "experience": {
+          "importance": 4
+        },
+        "tags": [
+          "革命旧址",
+          "全国重点文物保护单位"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-23"
+        }
+      },
+      {
+        "id": "nc_bayi_site_zhude_residence",
+        "name": "朱德旧居",
+        "city": "南昌",
+        "node_type": "historic_site",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "site_type": "革命旧址",
+          "description": null,
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-23",
+          "status": "verified"
+        },
+        "experience": {
+          "importance": 4
+        },
+        "tags": [
+          "革命旧址",
+          "全国重点文物保护单位"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-23"
+        }
+      },
+      {
+        "id": "nc_bayi_exh_nanchang_uprising",
+        "name": "南昌起义",
+        "city": "南昌",
+        "node_type": "permanent_exhibition",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "exhibition_type": "常设展",
+          "theme": "全面展示南昌起义历史过程",
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "recommended_duration_minutes": null,
+          "highlights": []
+        },
+        "related_artifact_ids": [],
+        "tags": [
+          "南昌起义",
+          "常设展"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_bayi_exh_pla_history",
+        "name": "人民军队光辉历程",
+        "city": "南昌",
+        "node_type": "permanent_exhibition",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "exhibition_type": "常设展",
+          "theme": "展示人民军队发展历史",
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "recommended_duration_minutes": null,
+          "highlights": []
+        },
+        "related_artifact_ids": [],
+        "tags": [
+          "人民军队",
+          "常设展"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      },
+      {
+        "id": "nc_bayi_exh_restored_site",
+        "name": "旧址复原陈列",
+        "city": "南昌",
+        "node_type": "permanent_exhibition",
+        "parent_id": "nc_bayi_memorial",
+        "official_info": {
+          "exhibition_type": "常设展",
+          "theme": "展示历史现场",
+          "source_url": null,
+          "verified_at": null,
+          "status": "pending_verification"
+        },
+        "experience": {
+          "importance": 5,
+          "recommended_duration_minutes": null,
+          "highlights": []
+        },
+        "related_artifact_ids": [],
+        "tags": [
+          "旧址复原",
+          "常设展"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": null
+        }
+      }
+    ]
+  }
+]

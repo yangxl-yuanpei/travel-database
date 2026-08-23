@@ -1,0 +1,12 @@
+{
+  "id": "nc_bayi_exh_nanchang_uprising",
+  "name": "南昌起义",
+  "city": "南昌",
+  "node_type": "permanent_exhibition",
+  "parent_id": "nc_bayi_memorial",
+  "official_info": {"exhibition_type": "常设展", "theme": "全面展示南昌起义历史过程", "source_url": null, "verified_at": null, "status": "pending_verification"},
+  "experience": {"importance": 5, "recommended_duration_minutes": null, "highlights": []},
+  "related_artifact_ids": [],
+  "tags": ["南昌起义", "常设展"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": null}
+}

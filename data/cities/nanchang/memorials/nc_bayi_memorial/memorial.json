@@ -1,0 +1,178 @@
+{
+  "id": "nc_bayi_memorial",
+  "name": "南昌八一起义纪念馆",
+  "short_name": "八一起义纪念馆",
+  "city": "南昌",
+  "node_type": "memorial",
+  "category": ["纪念馆", "红色文化节点", "历史文化节点"],
+  "location": {
+    "address": "江西省南昌市西湖区中山路380号",
+    "latitude": 28.67467,
+    "longitude": 115.889435,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031704VYJ"
+  },
+  "official_info": {
+    "organization_type": "文物系统国有博物馆",
+    "positioning": "为纪念南昌起义而设立的专题纪念馆",
+    "museum_level": "国家一级博物馆",
+    "contact_phone": "0791-86613806",
+    "opening_hours": {
+      "regular_schedule": "周二至周日 09:00-17:00，16:30停止入馆；周一闭馆，法定节假日除外",
+      "national_day_schedule": null,
+      "source_url": "https://nc.bendibao.com/youhui/detail21450.htm",
+      "verified_at": "2026-08-23",
+      "status": "verified_regular_schedule"
+    },
+    "ticket": {
+      "general_admission": {"amount": 0, "currency": "CNY"},
+      "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+      "verified_at": "2026-08-23",
+      "status": "verified"
+    }
+  },
+  "reservation": {
+    "required": true,
+    "real_name_required": true,
+    "channels": ["南昌八一起义纪念馆微信小程序", "南昌八一起义纪念馆支付宝小程序"],
+    "advance_days": 7,
+    "release_time": "21:00",
+    "document_requirements": ["预约时使用的有效身份证件"],
+    "notes": "仅使用官方渠道预约；国庆开放时间和增补票额需等待节前公告。",
+    "source_url": "https://www.sohu.com/a/1036340442_121107011",
+    "verified_at": "2026-08-23",
+    "status": "verified"
+  },
+  "child_nodes": {
+    "history_events": ["nc_bayi_event_nanchang_uprising"],
+    "historic_sites": [
+      "nc_bayi_site_headquarters",
+      "nc_bayi_site_helong_headquarters",
+      "nc_bayi_site_yeting_headquarters",
+      "nc_bayi_site_zhude_officer_corps",
+      "nc_bayi_site_zhude_residence"
+    ],
+    "permanent_exhibitions": [
+      "nc_bayi_exh_nanchang_uprising",
+      "nc_bayi_exh_pla_history",
+      "nc_bayi_exh_restored_site"
+    ],
+    "temporary_exhibitions": [],
+    "artifacts": []
+  },
+  "experience": {
+    "recommendation_score": 5,
+    "best_for": ["历史爱好者", "红色文化游客", "亲子教育"],
+    "weather": "适合雨天参观",
+    "highlights": ["历史旧址", "革命展陈", "历史现场感"],
+    "crowd": {"normal": "中等", "holiday": "较高"},
+    "avoid": ["国庆期间未预约直接到馆", "只看陈列大楼而忽略旧址建筑"]
+  },
+  "experience_layer": {
+    "source": [
+      "小红书攻略",
+      "抖音游客反馈"
+    ],
+    "provenance": {
+      "content_type": "游客攻略高频反馈人工整理",
+      "source_urls": [],
+      "last_updated_at": "2026-08-24"
+    },
+    "confidence": {
+      "overall": "medium"
+    },
+    "positive": [
+      {
+        "content": "具有较强历史教育价值，是了解南昌起义的重要节点",
+        "type": "history"
+      },
+      {
+        "content": "室内展陈为主，适合雨天参观",
+        "type": "weather_adaptation"
+      },
+      {
+        "content": "适合结合八一广场等城市历史节点游览",
+        "type": "city_route"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "不属于纯摄影型景点，拍照需求游客可能兴趣较低",
+        "risk": "expectation_mismatch",
+        "severity": "medium"
+      },
+      {
+        "content": "如果不了解南昌起义背景，参观体验可能降低",
+        "risk": "knowledge_gap",
+        "severity": "medium"
+      },
+      {
+        "content": "快速浏览展板会降低历史理解程度",
+        "risk": "visit_depth",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "提前了解南昌起义基本背景",
+      "建议留出时间阅读展陈文字",
+      "适合作为南昌历史文化线路节点"
+    ],
+    "crowd_model": {
+      "national_holiday": "medium",
+      "weekend": "medium",
+      "weekday": "low-medium",
+      "peak_time": [
+        "上午"
+      ]
+    },
+    "experience_type": [
+      "历史学习",
+      "红色文化",
+      "亲子教育"
+    ],
+    "recommended_duration": {
+      "minimum": "45分钟",
+      "recommended": "1-1.5小时",
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 90
+    },
+    "ai_note": "对于历史兴趣游客推荐权重高，对于摄影游客权重降低。"
+  },
+  "ai_score": {
+    "history": 5,
+    "rain_day": 5,
+    "family": 4,
+    "photo": 3,
+    "crowd_risk": 4,
+    "first_visit": 4
+  },
+  "duration": {
+    "recommended_minutes": 90,
+    "minimum_minutes": 60,
+    "maximum_minutes": 120
+  },
+  "tags": ["南昌城市文化", "红色历史", "纪念馆", "室内参观"],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "verified",
+    "last_verified_at": "2026-08-23"
+  },
+  "sources": [
+    {
+      "name": "南昌市人民政府：南昌八一起义纪念馆",
+      "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+      "scope": ["定位", "五处旧址", "免费开放"]
+    },
+    {
+      "name": "高德地图：南昌八一起义纪念馆",
+      "url": "https://ditu.amap.com/place/B031704VYJ",
+      "scope": ["坐标", "POI ID", "地址", "电话"]
+    },
+    {
+      "name": "2026年端午假期预约公告",
+      "url": "https://www.sohu.com/a/1036340442_121107011",
+      "scope": ["预约渠道", "提前天数", "放票时间"]
+    }
+  ]
+}

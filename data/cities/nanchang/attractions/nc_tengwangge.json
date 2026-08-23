@@ -1,0 +1,186 @@
+{
+  "id": "nc_tengwangge",
+  "name": "滕王阁",
+  "city": "南昌",
+  "node_type": "attraction",
+  "category": [
+    "历史建筑",
+    "城市地标",
+    "国家5A级旅游景区"
+  ],
+  "location": {
+    "address": "江西省南昌市东湖区仿古街58号",
+    "latitude": 28.681332,
+    "longitude": 115.881197,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031701YGL"
+  },
+  "official_info": {
+    "level": "国家5A级旅游景区",
+    "description": "始建于唐永徽四年，因王勃《滕王阁序》闻名，与黄鹤楼、岳阳楼并称江南三大名楼。现主阁为1989年重建。",
+    "contact_phone": "0791-86702036",
+    "opening_hours": {
+      "value": null,
+      "source_name": "景区官方公告",
+      "source_url": null,
+      "verified_at": null,
+      "status": "pending_verification"
+    },
+    "ticket": {
+      "price": null,
+      "currency": "CNY",
+      "source_name": "景区官方信息",
+      "source_url": null,
+      "verified_at": null,
+      "status": "pending_verification"
+    }
+  },
+  "experience": {
+    "recommendation_score": 5,
+    "best_time": [
+      "傍晚",
+      "夜景时段"
+    ],
+    "photo_score": 5,
+    "highlights": [
+      "赣江景观",
+      "古建筑摄影",
+      "城市文化地标"
+    ],
+    "crowd": {
+      "normal": "中等",
+      "holiday": "较高"
+    },
+    "avoid": [
+      "正午时段户外暴晒",
+      "节假日临时购票可能等待"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "小红书攻略",
+      "抖音游客反馈"
+    ],
+    "provenance": {
+      "content_type": "游客攻略高频反馈人工整理",
+      "source_urls": [],
+      "last_updated_at": "2026-08-24"
+    },
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "多个游客攻略存在较一致体验反馈"
+    },
+    "positive": [
+      {
+        "content": "南昌城市标志性景点，第一次到南昌具有较高打卡价值",
+        "type": "city_landmark"
+      },
+      {
+        "content": "建筑外观、赣江景观和夜景具有较高摄影价值",
+        "type": "photo"
+      },
+      {
+        "content": "适合作为南昌城市文化体验入口",
+        "type": "culture"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "国庆等节假日期间游客量明显增加，高峰时段体验下降",
+        "risk": "crowd",
+        "severity": "high"
+      },
+      {
+        "content": "热门拍摄区域可能出现人员拥挤，需要等待拍摄位置",
+        "risk": "photo_crowd",
+        "severity": "medium"
+      },
+      {
+        "content": "不建议只安排非常短时间快速打卡，否则体验不足",
+        "risk": "time_management",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "提前规划入场时间",
+      "摄影需求较高时预留等待时间",
+      "傍晚和夜景时间段体验更佳",
+      "节假日建议避开最高峰时段"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "medium",
+      "peak_time": [
+        "下午",
+        "夜景时段"
+      ]
+    },
+    "photo_info": {
+      "photo_value": 5,
+      "recommended_scene": [
+        "建筑全景",
+        "赣江景观",
+        "夜景灯光"
+      ]
+    },
+    "recommended_duration": {
+      "minimum": "1小时",
+      "recommended": "1.5-2小时",
+      "minimum_minutes": 60,
+      "recommended_min_minutes": 90,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "适合作为第一次南昌旅行核心节点，但国庆需要考虑人流惩罚。"
+  },
+  "ai_score": {
+    "history": 5,
+    "photo": 5,
+    "family": 4,
+    "rain_day": 2,
+    "crowd_risk": 4,
+    "first_visit": 5
+  },
+  "duration": {
+    "recommended_minutes": 105,
+    "minimum_minutes": 90,
+    "maximum_minutes": 120
+  },
+  "reservation": {
+    "required": true,
+    "recommended": true,
+    "real_name_required": true,
+    "channels": ["景区官方购票渠道"],
+    "advance_days": null,
+    "notes": "节假日建议提前查询官方预约及购票要求",
+    "status": "verified"
+  },
+  "tags": [
+    "第一次南昌旅行",
+    "摄影",
+    "历史文化",
+    "夜景"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "verified",
+    "last_verified_at": "2026-08-23"
+  },
+  "sources": [
+    {
+      "name": "滕王阁官方网站",
+      "url": "https://www.cntwg.com/",
+      "scope": ["地址", "联系电话", "官方公告"]
+    },
+    {
+      "name": "南昌市人民政府：滕王阁",
+      "url": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
+      "scope": ["历史介绍", "地标定位"]
+    },
+    {
+      "name": "高德地图：滕王阁",
+      "url": "https://ditu.amap.com/place/B031701YGL",
+      "scope": ["坐标", "POI ID", "地址"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "nc_jx_museum_exh_revolution",
+  "name": "红色摇篮——江西革命史陈列",
+  "city": "南昌",
+  "node_type": "permanent_exhibition",
+  "parent_id": "nc_jx_museum",
+  "official_info": {
+    "exhibition_type": "常设展",
+    "floor": null,
+    "hall": null,
+    "description": null,
+    "source_url": null,
+    "verified_at": null,
+    "status": "pending_verification"
+  },
+  "experience": {
+    "importance": 4,
+    "recommended_duration_minutes": null,
+    "suitable_for": ["近现代史爱好者"],
+    "highlights": []
+  },
+  "related_artifact_ids": [],
+  "tags": ["江西革命史", "常设展"],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null
+  }
+}
+
