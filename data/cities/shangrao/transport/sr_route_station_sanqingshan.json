@@ -1,1 +1,93 @@
-{"id":"sr_route_station_sanqingshan","name":"上饶站—三清山交通链","city":"上饶","node_type":"transport","category":["景区直达车","索道入口分流"],"route_profile":{"origin_id":"sr_transport_hub_shangrao_station","destination_id":"sr_sanqingshan","preferred_modes":["官方景区直达班线","玉山南站换乘","自驾"],"status":"dynamic_schedule","fixed_fare_stored":false,"must_check":["金沙或外双溪入口","去程首班","下山索道末班","返程班车","国庆停车转运"]},"experience_layer":{"source":["上饶攻略截图153、159、160、170、173、176、181、188、202-204"],"confidence":{"overall":"high"},"positive":[{"content":"上饶站和玉山南站均可作为外部交通锚点","type":"multi_hub"}],"avoid":[{"content":"买到某一入口车票却按另一入口设计路线会导致严重错配","risk":"wrong_gate","severity":"high"}],"visit_tips":["先选入口再买班车和索道","下山时给索道排队和返程换乘留出余量"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":90,"recommended_min_minutes":120,"recommended_max_minutes":180},"ai_note":"不保存固定耗时，需按入口、天气和班次实时计算。"},"related_node_ids":["sr_transport_hub_shangrao_station","sr_sanqingshan","sr_sqs_jinsha_ropeway","sr_sqs_waishuangxi_ropeway"],"metadata":{"schema_version":"1.0","data_status":"time_sensitive","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_route_station_sanqingshan",
+  "name": "上饶站—三清山交通链",
+  "city": "上饶",
+  "node_type": "transport",
+  "category": ["景区直达车", "定制客运", "索道入口分流"],
+  "route_profile": {
+    "origin_id": "sr_transport_hub_shangrao_station",
+    "destination_id": "sr_sanqingshan",
+    "preferred_modes": ["兴荣出行定制专线", "酒店接送或正规包车", "玉山南站换乘"],
+    "status": "dynamic_schedule",
+    "fixed_fare_stored": false,
+    "must_check": ["金沙或外双溪入口", "兴荣出行当日班次", "下山索道末班", "返程车辆", "国庆紫湖停车换乘"]
+  },
+  "direction_options": {
+    "outbound_to_jinsha": [
+      {
+        "mode": "兴荣出行定制专线",
+        "route": "上饶高铁站落客区—三清山东部金沙索道口",
+        "booking_channel": "兴荣出行微信公众号",
+        "fare_reference_cny": 48,
+        "fare_reference_period": "2025清明公开样本",
+        "schedule_status": "dynamic"
+      },
+      {
+        "mode": "酒店接站或正规包车",
+        "route": "上饶站—金沙住宿点",
+        "booking_channel": "住宿方或正规平台提前预约",
+        "schedule_status": "advance_booking_required"
+      },
+      {
+        "mode": "玉山南站旅游专车",
+        "route": "玉山南站旅游集散中心—金沙索道口",
+        "fare_reference_cny": 30,
+        "fare_reference_period": "2025清明公开样本",
+        "conditions": ["满5人发车", "铁路终点本身适合玉山南", "到站时间在现场接待时段内"],
+        "schedule_status": "reference_only"
+      }
+    ],
+    "return_from_jinsha": [
+      {
+        "mode": "兴荣出行定制专线",
+        "route": "三清山东部金沙索道口—上饶高铁站落客区",
+        "booking_channel": "兴荣出行微信公众号",
+        "fare_reference_cny": 48,
+        "fare_reference_period": "2025清明公开样本",
+        "schedule_status": "dynamic"
+      },
+      {
+        "mode": "酒店送站或正规包车",
+        "route": "金沙索道口或酒店—上饶站",
+        "booking_channel": "前一晚确认弹性接送窗口、总价与超时等待规则",
+        "schedule_status": "advance_booking_required"
+      },
+      {
+        "mode": "经玉山汽车站转玉山南站",
+        "route": "金沙入口—玉山汽车站—6路公交—玉山南站",
+        "fare_reference_cny": 19,
+        "fare_reference_period": "2025清明公开样本合计",
+        "conditions": ["较早下山", "当天班车与公交均核验可用", "不用于17:00左右才下山的完整环线"],
+        "schedule_status": "early_descent_only"
+      }
+    ]
+  },
+  "experience_layer": {
+    "source": ["上饶攻略截图153、159、160、170、173、176、181、188、202-204", "三清山风景名胜区社会发展局公开回复", "2025清明交通公开样本"],
+    "confidence": {"overall": "high", "2026_national_day_schedule": "pending"},
+    "positive": [{"content": "兴荣出行定制专线同时服务金沙与外双溪，可直接匹配索道入口", "type": "direct_service"}],
+    "avoid": [
+      {"content": "买到外双溪车票却按金沙入口设计路线会导致严重错配", "risk": "wrong_gate", "severity": "high"},
+      {"content": "晚到上饶或晚下山时不能默认仍有当日班次", "risk": "last_service", "severity": "high"},
+      {"content": "到站后临时跟随非正规揽客车存在价格与安全风险", "risk": "unlicensed_transport", "severity": "high"}
+    ],
+    "visit_tips": ["先选入口再买班车和索道", "在兴荣出行内同时核对去程和返程", "晚到优先提前约酒店接站", "下山时给索道排队、道路管控和铁路进站留足余量"],
+    "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"},
+    "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180},
+    "ai_note": "不保存固定班次。优先按金沙/外双溪入口筛选运营渠道，再用高德估算道路时间；2025票价与时刻只能作为2026国庆前的参考样本。"
+  },
+  "related_node_ids": ["sr_transport_hub_shangrao_station", "sr_sanqingshan", "sr_sqs_jinsha_ropeway", "sr_sqs_waishuangxi_ropeway"],
+  "metadata": {"schema_version": "1.1", "data_status": "time_sensitive", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {
+      "name": "三清山风景名胜区社会发展局：上饶市区往返三清山班线回复",
+      "url": "https://wenz.jxnews.com.cn/ms/viewpage/202405/view_393047.html",
+      "scope": ["兴荣出行运营主体", "金沙和外双溪定制快车", "班次动态调整"]
+    },
+    {
+      "name": "三清山2025清明交通攻略（参考样本）",
+      "url": "https://www.sohu.com/a/880043879_121119246",
+      "scope": ["上饶站往返金沙参考票价", "玉山南专车与转乘参考", "高峰换乘点"]
+    }
+  ]
+}

@@ -29,7 +29,9 @@ type ItineraryScheduleItem = { time: string; title: string; kind: string; node_i
 type ItineraryLodging = { recommended_area_id?: string; recommended_area: string; reason: string; alternative_area_id?: string; alternative_area?: string; difference?: string };
 type ItineraryDay = { day: number; city_id: string; city_name: string; theme: string; summary: string; schedule: ItineraryScheduleItem[]; lodging: ItineraryLodging };
 type BookingItem = { item: string; timing: string; status: string; note: string };
-type Itinerary = TravelNode & { duration_days: number; target_period: string; summary: string; route_city_ids: string[]; days: ItineraryDay[]; booking_checklist: BookingItem[]; dynamic_rules: Record<string, string> };
+type MountainTransferOption = { priority: string; name: string; route: string; booking: string; reference: string; best_for: string; tradeoff: string; status: string };
+type MountainTransfer = { direction: "outbound" | "return"; title: string; planned_time: string; summary: string; options: MountainTransferOption[] };
+type Itinerary = TravelNode & { duration_days: number; target_period: string; summary: string; route_city_ids: string[]; days: ItineraryDay[]; mountain_transfers?: MountainTransfer[]; booking_checklist: BookingItem[]; dynamic_rules: Record<string, string> };
 type Atlas = { journey: Journey; cities: City[]; transports: Transport[]; itineraries: Itinerary[]; city_places: Record<string, TravelNode[]> };
 type MapPoint = { city: City; x: number; y: number };
 
@@ -209,6 +211,21 @@ function ItineraryPage({ itinerary }: { itinerary: Itinerary }) {
         <div><span>或</span><b>{day.lodging.alternative_area}</b><p>{day.lodging.difference}</p>{day.lodging.alternative_area_id && <button type="button" onClick={() => go(day.lodging.alternative_area_id!)}>查看备选区域 →</button>}</div>
       </div>}
     </section>
+
+    {itinerary.mountain_transfers && <section className="itinerary-transfer-section">
+      <div className="section-heading"><div><p className="section-kicker">MOUNTAIN TRANSFER OPTIONS</p><h2>三清山去程与返程怎么选？</h2></div><p>2025公开数据只作参考；实际班次需在出发前通过运营渠道重新核验。</p></div>
+      <div className="itinerary-transfer-groups">
+        {itinerary.mountain_transfers.map((group) => <article className="itinerary-transfer-group" key={group.direction}>
+          <header><span>{group.direction === "outbound" ? "去程" : "返程"}</span><div><h3>{group.title}</h3><b>{group.planned_time}</b><p>{group.summary}</p></div></header>
+          <div className="itinerary-transfer-options">
+            {group.options.map((option, index) => <div className={index === 0 ? "is-primary" : ""} key={option.name}>
+              <span>{option.priority}</span><h4>{option.name}</h4><strong>{option.route}</strong>
+              <dl><div><dt>怎么订</dt><dd>{option.booking}</dd></div><div><dt>参考</dt><dd>{option.reference}</dd></div><div><dt>适合</dt><dd>{option.best_for}</dd></div><div><dt>取舍</dt><dd>{option.tradeoff}</dd></div></dl>
+            </div>)}
+          </div>
+        </article>)}
+      </div>
+    </section>}
 
     <section className="itinerary-checklist">
       <div className="section-heading"><div><p className="section-kicker">BOOKING CHECKLIST</p><h2>需要提前锁定什么？</h2></div><p>当前方案保存规则和核验节点，不把国庆动态时刻写死。</p></div>

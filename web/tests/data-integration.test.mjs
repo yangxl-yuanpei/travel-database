@@ -47,6 +47,9 @@ test("publishes the fixed four-day itinerary as structured data", async () => {
   assert.ok(itinerary.days[0].schedule.some((item) => item.node_id === "nc_tengwangge"));
   assert.equal(itinerary.days[2].lodging.recommended_area_id, "sr_stay_area_sanqingshan_foothill");
   assert.ok(itinerary.days[3].schedule.some((item) => item.alternative));
+  assert.equal(itinerary.mountain_transfers.length, 2);
+  assert.ok(itinerary.mountain_transfers.every((group) => group.options.length >= 3));
+  assert.ok(itinerary.mountain_transfers.some((group) => group.direction === "return" && group.options.some((option) => option.name.includes("兴荣出行"))));
   assert.ok(itinerary.booking_checklist.length >= 5);
 });
 
