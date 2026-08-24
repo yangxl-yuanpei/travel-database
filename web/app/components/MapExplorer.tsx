@@ -24,7 +24,13 @@ type Transport = TravelNode & {
   rail_reference: { sample_date: string; direct: boolean; duration_minutes: { minimum: number; maximum: number }; second_class_fare_cny: { minimum: number; maximum: number }; sample_trains?: string[]; fallback?: string; status: string; national_day_sale_status: string };
 };
 type Journey = TravelNode & { travel_window: { start: string; end: string; days: number }; transport_policy: { rail_reference_rule: string; presale_note: string; amap_role: string } };
-type Atlas = { journey: Journey; cities: City[]; transports: Transport[]; city_places: Record<string, TravelNode[]> };
+type ItineraryAlternative = { label: string; title: string; node_id?: string; description: string; difference: string };
+type ItineraryScheduleItem = { time: string; title: string; kind: string; node_id?: string; transport_id?: string; duration_minutes?: number; description: string; transit_from_previous?: string; alternative?: ItineraryAlternative };
+type ItineraryLodging = { recommended_area_id?: string; recommended_area: string; reason: string; alternative_area_id?: string; alternative_area?: string; difference?: string };
+type ItineraryDay = { day: number; city_id: string; city_name: string; theme: string; summary: string; schedule: ItineraryScheduleItem[]; lodging: ItineraryLodging };
+type BookingItem = { item: string; timing: string; status: string; note: string };
+type Itinerary = TravelNode & { duration_days: number; target_period: string; summary: string; route_city_ids: string[]; days: ItineraryDay[]; booking_checklist: BookingItem[]; dynamic_rules: Record<string, string> };
+type Atlas = { journey: Journey; cities: City[]; transports: Transport[]; itineraries: Itinerary[]; city_places: Record<string, TravelNode[]> };
 type MapPoint = { city: City; x: number; y: number };
 
 const atlas = atlasData as unknown as Atlas;
@@ -78,7 +84,9 @@ export function MapExplorer() {
   }, []);
   const place = Object.values(atlas.city_places).flat().find((item) => item.id === viewId);
   const city = atlas.cities.find((item) => item.id === viewId);
+  const itinerary = atlas.itineraries.find((item) => item.id === viewId);
   const placeCity = place ? atlas.cities.find((item) => item.name === place.city) : undefined;
+  if (itinerary) return <ItineraryPage itinerary={itinerary} />;
   if (place) return <PlaceDetail place={place} cityName={placeCity?.name ?? place.city ?? "城市"} onBack={() => go(placeCity?.id ?? "overview")} />;
   if (city && (city.detail_status === "active" || (atlas.city_places[city.id]?.length ?? 0) > 0)) return <DetailedCityPage city={city} />;
   if (city) return <CityFramework city={city} />;
@@ -119,12 +127,101 @@ function JourneyOverview() {
       </div>
     </section>
 
+    {atlas.itineraries[0] && <ItinerarySpotlight itinerary={atlas.itineraries[0]} />}
+
     <section className="transport-section">
       <div className="section-heading"><div><p className="section-kicker">RAIL BASELINE · 2026-08</p><h2>先看大交通，再进入城市</h2></div><p>票价与时长为常态样本，不是国庆承诺价。</p></div>
       <div className="transport-grid">{atlas.transports.map((transport) => <TransportCard key={transport.id} transport={transport} />)}</div>
     </section>
     <section className="data-notice"><div><span>12306</span><h3>国庆车票尚未开售</h3><p>{atlas.journey.transport_policy.presale_note}</p></div><div><span>高德 API</span><h3>空间层已就位</h3><p>{atlas.journey.transport_policy.amap_role}</p></div></section>
     <footer className="site-footer">数据分层：铁路票价 / 时刻以 12306 为准 · 地图与接驳由高德 API 动态计算 · 最后核对 2026-08-24</footer>
+  </main>;
+}
+
+function ItinerarySpotlight({ itinerary }: { itinerary: Itinerary }) {
+  return <section className="itinerary-spotlight">
+    <div className="itinerary-spotlight-copy">
+      <p className="section-kicker">CURATED ITINERARY · CURRENT PLAN</p>
+      <h2>{itinerary.duration_days}日经典路线</h2>
+      <p>{itinerary.summary}</p>
+      <button type="button" onClick={() => go(itinerary.id)}>查看每日详细计划 <span>→</span></button>
+    </div>
+    <div className="itinerary-mini-days">
+      {itinerary.days.map((day) => <article key={day.day}>
+        <span>D{day.day}</span><div><b>{day.city_name}</b><small>{day.theme}</small></div>
+      </article>)}
+    </div>
+  </section>;
+}
+
+function ItineraryPage({ itinerary }: { itinerary: Itinerary }) {
+  const [activeDay, setActiveDay] = useState(0);
+  const day = itinerary.days[activeDay] ?? itinerary.days[0];
+  const transportById = new Map(atlas.transports.map((item) => [item.id, item]));
+  const cityNameById = new Map(atlas.cities.map((item) => [item.id, item.name]));
+
+  return <main className="itinerary-page">
+    <SiteHeader compact />
+    <section className="itinerary-hero">
+      <div>
+        <p className="eyebrow">{itinerary.target_period} · FIXED REFERENCE</p>
+        <h1>{itinerary.name}</h1>
+        <p>{itinerary.summary}</p>
+      </div>
+      <div className="itinerary-route-line">
+        {itinerary.route_city_ids.map((id, index) => <span key={id}><i>{String(index + 1).padStart(2, "0")}</i><b>{cityNameById.get(id) ?? id}</b></span>)}
+      </div>
+    </section>
+
+    <nav className="itinerary-day-tabs" aria-label="选择每日行程">
+      {itinerary.days.map((item, index) => <button type="button" key={item.day} className={activeDay === index ? "is-active" : ""} aria-pressed={activeDay === index} onClick={() => setActiveDay(index)}>
+        <span>D{item.day}</span><b>{item.city_name}</b><small>{item.theme}</small>
+      </button>)}
+    </nav>
+
+    <section className="itinerary-day-panel">
+      <header>
+        <div><p className="section-kicker">DAY {day.day} · {day.city_name}</p><h2>{day.theme}</h2><p>{day.summary}</p></div>
+        <div className="itinerary-stay"><span>当晚住宿</span><b>{day.lodging.recommended_area}</b><p>{day.lodging.reason}</p></div>
+      </header>
+
+      <ol className="itinerary-timeline">
+        {day.schedule.map((item, index) => {
+          const transport = item.transport_id ? transportById.get(item.transport_id) : undefined;
+          return <li key={`${item.time}-${item.title}-${index}`}>
+            <time>{item.time}</time><i aria-hidden="true" />
+            <div className="itinerary-event">
+              <div className="itinerary-event-title"><b>{item.title}</b>{item.duration_minutes && <span>{formatMinutes(item.duration_minutes)}</span>}</div>
+              <p>{item.description}</p>
+              {transport && <small>{transport.stations.from} → {transport.stations.to} · {range(transport.rail_reference.duration_minutes.minimum, transport.rail_reference.duration_minutes.maximum, formatMinutes)} · 常态参考</small>}
+              {item.transit_from_previous && <small>通勤：{item.transit_from_previous}</small>}
+              {item.node_id && <button type="button" onClick={() => go(item.node_id!)}>查看节点详细攻略 →</button>}
+              {item.alternative && <div className="itinerary-alternative">
+                <span>{item.alternative.label}</span><div><b>{item.alternative.title}</b><p>{item.alternative.description}</p><small>区别：{item.alternative.difference}</small>{item.alternative.node_id && <button type="button" onClick={() => go(item.alternative!.node_id!)}>查看备选节点 →</button>}</div>
+              </div>}
+            </div>
+          </li>;
+        })}
+      </ol>
+
+      {day.lodging.alternative_area && <div className="itinerary-lodging-choice">
+        <div><span>推荐住宿</span><b>{day.lodging.recommended_area}</b><p>{day.lodging.reason}</p>{day.lodging.recommended_area_id && <button type="button" onClick={() => go(day.lodging.recommended_area_id!)}>查看住宿区域 →</button>}</div>
+        <div><span>或</span><b>{day.lodging.alternative_area}</b><p>{day.lodging.difference}</p>{day.lodging.alternative_area_id && <button type="button" onClick={() => go(day.lodging.alternative_area_id!)}>查看备选区域 →</button>}</div>
+      </div>}
+    </section>
+
+    <section className="itinerary-checklist">
+      <div className="section-heading"><div><p className="section-kicker">BOOKING CHECKLIST</p><h2>需要提前锁定什么？</h2></div><p>当前方案保存规则和核验节点，不把国庆动态时刻写死。</p></div>
+      <div>{itinerary.booking_checklist.map((item, index) => <article key={item.item}><span>{String(index + 1).padStart(2, "0")}</span><div><b>{item.item}</b><small>{item.timing}</small><p>{item.note}</p></div></article>)}</div>
+    </section>
+
+    <section className="itinerary-future">
+      <span>NEXT · PERSONALIZED GENERATOR</span><h2>下一步：从固定方案升级为条件生成</h2><p>{itinerary.dynamic_rules.future_generator}</p>
+      <div><i>天数</i><i>必去节点</i><i>历史 / 摄影偏好</i><i>排队容忍度</i><i>预算</i><i>体力</i></div>
+    </section>
+
+    <section className="itinerary-sources"><p className="section-kicker">SOURCES</p><h2>动态规则来源</h2>{itinerary.sources?.map((source) => <a href={source.url} target="_blank" rel="noreferrer" key={source.url}><b>{source.name}</b><span>{source.scope?.join(" · ")}</span><i>↗</i></a>)}</section>
+    <footer className="site-footer">固定行程版本 · 最后核验 {string(object(itinerary.metadata).last_verified_at) ?? "待核验"} · 车次、天气与国庆专项公告须在出发前更新</footer>
   </main>;
 }
 

@@ -37,6 +37,19 @@ test("rail baselines are explicit reference data", async () => {
   }
 });
 
+test("publishes the fixed four-day itinerary as structured data", async () => {
+  const data = await atlas();
+  assert.equal(data.itineraries.length, 1);
+  const itinerary = data.itineraries[0];
+  assert.equal(itinerary.id, "itinerary_4d_nanchang_jingdezhen_sanqingshan");
+  assert.equal(itinerary.days.length, 4);
+  assert.deepEqual(itinerary.route_city_ids, ["city_nanchang", "city_jingdezhen", "city_shangrao"]);
+  assert.ok(itinerary.days[0].schedule.some((item) => item.node_id === "nc_tengwangge"));
+  assert.equal(itinerary.days[2].lodging.recommended_area_id, "sr_stay_area_sanqingshan_foothill");
+  assert.ok(itinerary.days[3].schedule.some((item) => item.alternative));
+  assert.ok(itinerary.booking_checklist.length >= 5);
+});
+
 test("Nanchang keeps city nodes and deep nodes", async () => {
   const data = await atlas();
   const places = data.city_places.city_nanchang;

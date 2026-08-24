@@ -27,6 +27,9 @@
         "transport_zhuhai_nanchang",
         "transport_nanchang_jingdezhen",
         "transport_jingdezhen_shangrao"
+      ],
+      "itinerary_node_ids": [
+        "itinerary_4d_nanchang_jingdezhen_sanqingshan"
       ]
     },
     "transport_policy": {
@@ -47,7 +50,8 @@
       "transport_shanghai_nanchang",
       "transport_zhuhai_nanchang",
       "transport_nanchang_jingdezhen",
-      "transport_jingdezhen_shangrao"
+      "transport_jingdezhen_shangrao",
+      "itinerary_4d_nanchang_jingdezhen_sanqingshan"
     ],
     "tags": [
       "国庆",
@@ -846,6 +850,398 @@
             "最终车次",
             "最终票价",
             "余票"
+          ]
+        }
+      ]
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "itinerary_4d_nanchang_jingdezhen_sanqingshan",
+      "name": "南昌—景德镇—三清山四日经典线",
+      "short_name": "四日经典线",
+      "node_type": "itinerary",
+      "status": "current_fixed_reference",
+      "duration_days": 4,
+      "target_period": "2026国庆",
+      "route_city_ids": [
+        "city_nanchang",
+        "city_jingdezhen",
+        "city_shangrao"
+      ],
+      "user_constraints": {
+        "must_visit": [
+          "nc_tengwangge"
+        ],
+        "city_nights": [
+          "南昌",
+          "景德镇",
+          "三清山山脚"
+        ],
+        "pace": "中等",
+        "planning_priority": [
+          "路线可执行",
+          "减少跨区折返",
+          "第四天完整爬三清山"
+        ]
+      },
+      "summary": "第一天把滕王阁放在傍晚；第二、三天分别承担陶瓷通史与御窑老城；第三晚提前住进三清山金沙服务区；第四天独立完成南清园核心环线。",
+      "days": [
+        {
+          "day": 1,
+          "city_id": "city_nanchang",
+          "city_name": "南昌",
+          "theme": "江西历史与赣江日落",
+          "summary": "滕王阁是唯一硬约束，其余节点按到达时间和预约情况二选一。",
+          "schedule": [
+            {
+              "time": "08:30",
+              "title": "南昌早餐",
+              "kind": "food",
+              "description": "在八一广场或中山路附近选择拌粉、瓦罐汤，不为网红店跨区。"
+            },
+            {
+              "time": "09:30",
+              "title": "江西省博物馆",
+              "kind": "visit",
+              "node_id": "nc_jx_museum",
+              "duration_minutes": 135,
+              "description": "以江西古代史、商代青铜器和陶瓷文化建立全省历史框架。",
+              "alternative": {
+                "label": "或",
+                "title": "八一起义纪念馆＋八一广场",
+                "node_id": "nc_bayi_memorial",
+                "description": "红色历史更集中、老城通勤更短。",
+                "difference": "江西省博物馆更系统且适合雨天；八一线更紧凑，但国庆预约和客流压力更高。"
+              }
+            },
+            {
+              "time": "12:40",
+              "title": "万寿宫午餐与老城慢逛",
+              "kind": "visit",
+              "node_id": "nc_wanshougong",
+              "duration_minutes": 150,
+              "description": "午餐、街巷和休息合并安排，不再增加远距离景点。",
+              "transit_from_previous": "从江西省博物馆建议打车约25至35分钟；选择八一线时可地铁或步行串联。"
+            },
+            {
+              "time": "16:00",
+              "title": "滕王阁日落与夜景",
+              "kind": "must_visit",
+              "node_id": "nc_tengwangge",
+              "duration_minutes": 180,
+              "description": "先拍建筑与赣江全景，再登阁，亮灯后离开。",
+              "transit_from_previous": "万寿宫至滕王阁优先地铁1号线短途移动或步行；炎热、下雨时打车。"
+            },
+            {
+              "time": "19:15",
+              "title": "晚餐后回酒店",
+              "kind": "meal",
+              "description": "在中山路或八一广场解决，不再跨江前往秋水广场。"
+            }
+          ],
+          "lodging": {
+            "recommended_area_id": "nc_stay_area_bayi_zhongshan",
+            "recommended_area": "八一广场—中山路住宿区",
+            "reason": "老城游览方便，次日可利用地铁2号线前往南昌西站。",
+            "alternative_area_id": "nc_stay_area_tengwang_wanshougong",
+            "alternative_area": "滕王阁—万寿宫住宿区",
+            "difference": "夜游更方便，但次日前往南昌西站通常需要换乘。"
+          }
+        },
+        {
+          "day": 2,
+          "city_id": "city_jingdezhen",
+          "city_name": "景德镇",
+          "theme": "陶瓷通史与陶溪川夜游",
+          "summary": "上午完成换城，下午用博物馆建立陶瓷时间线，晚上体验当代陶瓷街区。",
+          "schedule": [
+            {
+              "time": "07:45",
+              "title": "前往南昌西站",
+              "kind": "transport",
+              "description": "从八一广场片区优先乘地铁2号线，至少提前45分钟到站。"
+            },
+            {
+              "time": "09:00",
+              "title": "南昌西 → 景德镇北",
+              "kind": "rail",
+              "transport_id": "transport_nanchang_jingdezhen",
+              "description": "选择08:30至09:30发车窗口；常态样本约1小时19分至2小时9分，国庆以12306为准。"
+            },
+            {
+              "time": "10:40",
+              "title": "陶溪川片区寄存行李并午餐",
+              "kind": "transfer",
+              "description": "景德镇北站至陶溪川按25至35分钟预留，市内跨区优先网约车。"
+            },
+            {
+              "time": "13:00",
+              "title": "景德镇中国陶瓷博物馆",
+              "kind": "visit",
+              "node_id": "jdz_china_ceramics_museum",
+              "duration_minutes": 180,
+              "description": "先看陶瓷通史，再按兴趣寻找元青花、青白瓷、近现代名家与沉思罗汉。",
+              "alternative": {
+                "label": "或",
+                "title": "雕塑瓷厂",
+                "node_id": "jdz_sculpture_porcelain_factory",
+                "description": "预约失败时改为工作室、陶瓷选购和摄影。",
+                "difference": "陶博馆历史系统性更强且适合雨天；雕塑瓷厂更适合购物和拍照。"
+              }
+            },
+            {
+              "time": "16:30",
+              "title": "回酒店休息",
+              "kind": "rest",
+              "description": "办理入住并放下购买的瓷器，为夜游保留体力。"
+            },
+            {
+              "time": "18:00",
+              "title": "陶溪川文创街区夜游",
+              "kind": "visit",
+              "node_id": "jdz_taoxichuan",
+              "duration_minutes": 180,
+              "description": "工业遗产、当代陶瓷和夜景为主；市集与临时活动只作为动态加分项。"
+            }
+          ],
+          "lodging": {
+            "recommended_area_id": "jdz_stay_area_taoxichuan",
+            "recommended_area": "陶溪川—新厂住宿区",
+            "reason": "夜游结束后可步行回酒店，餐饮和打车条件较好。",
+            "alternative_area_id": "jdz_stay_area_taoyangli_people_square",
+            "alternative_area": "陶阳里—人民广场住宿区",
+            "difference": "老城氛围更强，但陶溪川夜游后需要打车返回。"
+          }
+        },
+        {
+          "day": 3,
+          "city_id": "city_jingdezhen",
+          "city_name": "景德镇 → 三清山",
+          "theme": "御窑老城与进山转场",
+          "summary": "白天围绕陶阳里，傍晚乘高铁到上饶，并在当晚住进金沙服务区。",
+          "schedule": [
+            {
+              "time": "08:30",
+              "title": "陶阳里＋御窑博物馆",
+              "kind": "visit",
+              "node_id": "jdz_taoyangli",
+              "duration_minutes": 270,
+              "description": "御窑遗址、博物馆和老城街巷合并游览，避免重复计算停留时间。"
+            },
+            {
+              "time": "13:00",
+              "title": "陶阳里附近午餐",
+              "kind": "meal",
+              "description": "午后保留赶车余量，不增加瑶里、浮梁等远郊节点。"
+            },
+            {
+              "time": "14:00",
+              "title": "雕塑瓷厂",
+              "kind": "visit",
+              "node_id": "jdz_sculpture_porcelain_factory",
+              "duration_minutes": 105,
+              "description": "适合选购陶瓷、观察工作室和补充当代陶瓷体验。",
+              "alternative": {
+                "label": "或",
+                "title": "三宝村慢游",
+                "node_id": "jdz_sanbao_ceramic_village",
+                "description": "改为08:00至11:30先游三宝，13:00至15:30压缩陶阳里。",
+                "difference": "三宝村更适合摄影与陶艺体验，但跨区交通更多、陶阳里游览明显变赶。"
+              }
+            },
+            {
+              "time": "16:00",
+              "title": "取行李并前往景德镇北站",
+              "kind": "transfer",
+              "description": "至少在发车前40至45分钟到站；选择三宝方案时最晚15:30离开。"
+            },
+            {
+              "time": "17:30",
+              "title": "景德镇北 → 上饶",
+              "kind": "rail",
+              "transport_id": "transport_jingdezhen_shangrao",
+              "description": "选择17:30至18:00发车窗口；常态直达约53至64分钟，二等座约63.5至65.5元。"
+            },
+            {
+              "time": "18:45",
+              "title": "上饶站 → 三清山金沙服务区",
+              "kind": "transfer",
+              "description": "提前预约接驳或酒店接站，必须确认目的地为金沙而不是外双溪；按1.5至2小时预留。"
+            },
+            {
+              "time": "20:30",
+              "title": "入住并准备登山包",
+              "kind": "rest",
+              "description": "确认早餐、门票、索道票、次日入口管控，准备实体身份证、饮水、轻食、雨衣和登山杖。"
+            }
+          ],
+          "lodging": {
+            "recommended_area_id": "sr_stay_area_sanqingshan_foothill",
+            "recommended_area": "三清山金沙服务区",
+            "reason": "减少第四天早晨约1.5至2小时外部接驳，并将入口与返程统一为金沙。",
+            "alternative_area_id": "sr_stay_area_shangrao_station",
+            "alternative_area": "上饶站附近",
+            "difference": "房源与铁路更灵活，但第四天会更晚进入景区，国庆索道排队风险明显上升。"
+          }
+        },
+        {
+          "day": 4,
+          "city_id": "city_shangrao",
+          "city_name": "三清山",
+          "theme": "金沙上、金沙下的南清园环线",
+          "summary": "一整天只安排三清山，入口、索道和返程全部围绕金沙统一。",
+          "schedule": [
+            {
+              "time": "开园前",
+              "title": "提前30至45分钟到金沙索道",
+              "kind": "queue",
+              "description": "2026国庆专项开放时间尚未发布，按预约时段和当日公告执行。"
+            },
+            {
+              "time": "07:00",
+              "title": "金沙索道上山",
+              "kind": "ropeway",
+              "node_id": "sr_sqs_jinsha_ropeway",
+              "description": "排队时间不能固定；成人常规门票120元，金沙成人往返索道125元。"
+            },
+            {
+              "time": "08:00",
+              "title": "巨蟒出山 → 东方女神",
+              "kind": "hike",
+              "node_id": "sr_sqs_giant_python",
+              "description": "先完成辨识度最高的核心景观和早段拍摄。"
+            },
+            {
+              "time": "09:30",
+              "title": "杜鹃谷 → 玉台",
+              "kind": "hike",
+              "node_id": "sr_sqs_nanqingyuan",
+              "description": "持续爬升，雨雾时注意石阶湿滑，不在狭窄栈道长时间停留。"
+            },
+            {
+              "time": "11:30",
+              "title": "山上简餐",
+              "kind": "meal",
+              "description": "自带轻食和饮水，不把餐饮点当作固定时间锚点。"
+            },
+            {
+              "time": "12:00",
+              "title": "一线天 → 日上平台 → 禹皇顶",
+              "kind": "hike",
+              "description": "完成南清园体力段，随后回到巨蟒一侧。",
+              "alternative": {
+                "label": "或",
+                "title": "东方女神后原路折返金沙",
+                "description": "约4.5至6小时的轻量路线。",
+                "difference": "轻量线台阶和返程风险更低，但会放弃玉台、一线天与完整环线。"
+              }
+            },
+            {
+              "time": "15:30",
+              "title": "进入下行索道排队",
+              "kind": "queue",
+              "description": "为天气停运、客流管控和下行排队留余量，不踩末班时间。"
+            },
+            {
+              "time": "17:00",
+              "title": "金沙 → 上饶站",
+              "kind": "transfer",
+              "description": "使用提前预约的返程车；若继续乘高铁，建议预订20:30以后车次。"
+            }
+          ],
+          "lodging": {
+            "recommended_area_id": "sr_stay_area_shangrao_station",
+            "recommended_area": "上饶站附近（如需过夜）",
+            "reason": "下山时间受索道和交通影响，留宿能降低误车风险。",
+            "alternative_area": "20:30以后从上饶站离开",
+            "difference": "只有在返程车辆和高铁均已锁定时采用。"
+          }
+        }
+      ],
+      "booking_checklist": [
+        {
+          "item": "三清山门票与金沙索道票",
+          "timing": "官方通道开放后尽早",
+          "status": "dynamic_check_required",
+          "note": "入口必须选择金沙；2026国庆运营公告发布后重新核对。"
+        },
+        {
+          "item": "景德镇中国陶瓷博物馆",
+          "timing": "最长提前5天",
+          "status": "official_rule_verified",
+          "note": "通过“畅游景德镇”实名预约，携带实体身份证。"
+        },
+        {
+          "item": "滕王阁",
+          "timing": "国庆专项规则发布后尽早",
+          "status": "dynamic_check_required",
+          "note": "优先预约傍晚时段，不依赖现场余票。"
+        },
+        {
+          "item": "两段跨城高铁",
+          "timing": "开车前15天进入常规预售",
+          "status": "not_on_sale",
+          "note": "南昌西—景德镇北、景德镇北—上饶均以12306最终车次为准。"
+        },
+        {
+          "item": "上饶站—金沙往返接驳",
+          "timing": "确定高铁后立即联系",
+          "status": "dynamic_check_required",
+          "note": "明确金沙入口、接站地点、返程时间和国庆交通管控。"
+        }
+      ],
+      "dynamic_rules": {
+        "rail": "页面保存规划窗口与常态样本，不把具体国庆车次视为固定事实。",
+        "urban_commute": "市内通勤时长通过高德API按出发时刻动态计算。",
+        "mountain_weather": "大风、雷雨、浓雾时按三清山现场管控缩线或取消。",
+        "future_generator": "当前为固定参考方案；后续可由输入天数、必去节点、偏好、排队容忍度、预算和体力自动生成。"
+      },
+      "metadata": {
+        "schema_version": "1.0",
+        "data_status": "planning_reference",
+        "last_verified_at": "2026-08-24"
+      },
+      "sources": [
+        {
+          "name": "中国铁路12306：客票预售期公告",
+          "url": "https://www.12306.cn/mormhweb/zxdt/202205/t20220531_37508.html",
+          "scope": [
+            "15天预售期"
+          ]
+        },
+        {
+          "name": "景德镇中国陶瓷博物馆参观预约须知",
+          "url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml",
+          "scope": [
+            "开放时间",
+            "最长提前5天预约",
+            "实体身份证"
+          ]
+        },
+        {
+          "name": "滕王阁景区公告",
+          "url": "https://www.cntwg.com/list56_1.html",
+          "scope": [
+            "预约余量",
+            "动态运营公告"
+          ]
+        },
+        {
+          "name": "三清山2026年度常规优免政策",
+          "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+          "scope": [
+            "门票",
+            "金沙索道票"
+          ]
+        },
+        {
+          "name": "三清山2026年预约与游览提示",
+          "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
+          "scope": [
+            "实名预约",
+            "动态限流",
+            "停车换乘"
           ]
         }
       ]

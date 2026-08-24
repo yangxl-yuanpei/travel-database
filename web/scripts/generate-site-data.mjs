@@ -49,6 +49,11 @@ const transports = journey.structure.transport_node_ids.map((id) => {
   if (!transport) throw new Error(`Missing transport node: ${id}`);
   return transport;
 });
+const itineraries = (journey.structure.itinerary_node_ids ?? []).map((id) => {
+  const itinerary = nodes.get(id);
+  if (!itinerary) throw new Error(`Missing itinerary node: ${id}`);
+  return itinerary;
+});
 
 const cityPlaces = Object.fromEntries(cities.map((city) => [
   city.id,
@@ -59,9 +64,9 @@ const cityPlaces = Object.fromEntries(cities.map((city) => [
   })),
 ]));
 const places = cityPlaces.city_nanchang ?? [];
-const atlas = { journey, cities, transports, city_places: cityPlaces };
+const atlas = { journey, cities, transports, itineraries, city_places: cityPlaces };
 await mkdir(outputDir, { recursive: true });
 await writeFile(join(outputDir, "atlas.json"), `${JSON.stringify(atlas, null, 2)}\n`, "utf8");
 await writeFile(join(outputDir, "places.json"), `${JSON.stringify(places, null, 2)}\n`, "utf8");
 const publishedCities = Object.entries(cityPlaces).filter(([, cityNodes]) => cityNodes.length > 0).map(([id, cityNodes]) => `${id}:${cityNodes.length}`).join(", ");
-console.log(`Generated ${relative(webRoot, join(outputDir, "atlas.json"))}: ${cities.length} cities, ${transports.length} links, detailed nodes ${publishedCities}.`);
+console.log(`Generated ${relative(webRoot, join(outputDir, "atlas.json"))}: ${cities.length} cities, ${transports.length} links, ${itineraries.length} itineraries, detailed nodes ${publishedCities}.`);
