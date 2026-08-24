@@ -6,7 +6,7 @@
   "node_type": "food",
   "food_scope": "restaurant",
   "parent_id": "nc_food_area_yangzixiang",
-  "branch": null,
+  "branch": "羊子巷店",
   "category": [
     "赣菜",
     "正餐"
@@ -16,18 +16,16 @@
     "full_meal"
   ],
   "official_info": {
-    "status": "not_officially_verified",
-    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-    "directory_name": null,
-    "directory_district": null
+    "status": "third_party_poi_snapshot",
+    "description": "店名、分店、地址与坐标已由高德地点搜索复核；营业承诺、菜单和价格仍不属于官方事实。"
   },
   "location": {
-    "address": null,
-    "latitude": null,
-    "longitude": null,
+    "address": "羊子街200号",
+    "latitude": 28.674685,
+    "longitude": 115.896361,
     "coordinate_system": "GCJ-02",
-    "amap_poi_id": null,
-    "status": "not_found"
+    "amap_poi_id": "B0JKGA3FOS",
+    "status": "verified_exact_poi"
   },
   "meal_periods": [
     "lunch",
@@ -54,11 +52,12 @@
   },
   "experience_layer": {
     "source": [
-      "游客截图:image_015"
+      "游客截图:image_015",
+      "高德地点搜索:2026-08-24"
     ],
     "confidence": {
-      "overall": "low",
-      "reason": "缺少可靠 POI 或仅为菜品名，目前只保留为待核验候选。"
+      "overall": "medium-high",
+      "reason": "游客经验来源与高德同名分店 POI 已匹配；营业时间和菜单仍属动态信息。"
     },
     "positive": [],
     "avoid": [],
@@ -115,8 +114,28 @@
   ],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null,
+    "data_status": "third_party_verified",
+    "last_verified_at": "2026-08-24",
     "import_source": "nanchang_food_candidates_raw.json"
-  }
+  },
+  "business_status": {
+    "value": "searchable_on_amap",
+    "checked_at": "2026-08-24",
+    "status": "third_party_snapshot_dynamic_recheck_required",
+    "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+  },
+  "sources": [
+    {
+      "name": "高德地图：张六叔·南昌菜馆(羊子巷店)",
+      "url": "https://www.amap.com/place/B0JKGA3FOS",
+      "scope": [
+        "店名",
+        "分店",
+        "地址",
+        "坐标",
+        "POI ID",
+        "2026-08-24可检索状态"
+      ]
+    }
+  ]
 }

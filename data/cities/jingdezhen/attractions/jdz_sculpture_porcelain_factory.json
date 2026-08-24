@@ -2,8 +2,8 @@
   "id": "jdz_sculpture_porcelain_factory", "name": "景德镇市雕塑瓷厂", "short_name": "雕塑瓷厂", "city": "景德镇", "node_type": "attraction",
   "category": ["陶瓷创意园区", "工作室聚集区", "市集候选", "工业文化"],
   "location": {"address": "江西省景德镇市珠山区新厂东路139号", "latitude": 29.299847, "longitude": 117.25403, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFGEIH74"},
-  "official_info": {"description": "由雕塑瓷生产传统延伸出的陶瓷工作室、商店与创作空间聚集区。店铺与市集信息动态维护。", "opening_hours": {"status": "dynamic_by_venue"}, "ticket": {"status": "pending_verification"}},
-  "reservation": {"required": null, "notes": "陶艺体验和工作室参观需逐店确认", "status": "dynamic_by_venue"},
+  "official_info": {"description": "创建于1956年的雕塑瓷生产与工业旅游园区，现形成工作室、商店、明清园及创作交流空间。", "opening_hours": {"scope": "厂区公共空间", "status": "open_factory_merchant_hours_dynamic"}, "ticket": {"price": null, "currency": "CNY", "scope": "厂区公共空间", "verified_at": "2026-08-24", "status": "no_official_unified_ticket_found"}},
+  "reservation": {"required": false, "scope": "厂区公共空间", "exceptions": [{"type": "studio_or_activity", "rule": "陶艺体验、工作室参观和市集活动需逐店确认"}], "notes": "未发现厂区公共空间的统一预约制度；具体体验项目另行预约。", "status": "open_area_no_unified_reservation_found"},
   "experience": {"recommendation_score": 5, "best_time": ["白天", "市集时段"], "highlights": ["陶瓷工作室", "原创陶瓷", "陶艺体验", "街巷摄影"]},
   "experience_layer": {
     "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium-high"},
@@ -17,6 +17,6 @@
   "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 3, "crowd_risk": 5, "first_visit": 5},
   "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
   "tags": ["雕塑瓷", "原创陶瓷", "手作", "市集"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：景德镇市雕塑瓷厂", "url": "https://www.amap.com/place/B0FFGEIH74", "scope": ["坐标", "POI ID", "地址"]}]
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "景德镇市人民政府外事办公室：景德镇市雕塑瓷厂", "url": "https://wb.jdz.gov.cn/zwzx/dwcgd/t39230.shtml", "scope": ["2026年官方介绍", "创建时间", "明清园", "周日创意市集"]}, {"name": "高德地图：景德镇市雕塑瓷厂", "url": "https://www.amap.com/place/B0FFGEIH74", "scope": ["坐标", "POI ID", "地址"]}]
 }

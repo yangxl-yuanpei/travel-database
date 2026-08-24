@@ -8,23 +8,22 @@
     "exhibition_type": "常设展",
     "floor": null,
     "hall": null,
-    "description": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "pending_verification"
+    "description": "以文物和史料呈现江西文明发展轨迹；2026年5月政府报道确认该展厅仍在开放。",
+    "source_url": "https://www.nc.gov.cn/ncszf/ttxw/202605/e464b3964ea5407aaffe79af53e10644.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_current_exhibition"
   },
   "experience": {
     "importance": 5,
-    "recommended_duration_minutes": null,
+    "recommended_duration_minutes": 60,
     "suitable_for": ["历史爱好者", "第一次到访"],
-    "highlights": []
+    "highlights": ["江西文明发展主线", "新干大洋洲商代青铜器"]
   },
-  "related_artifact_ids": [],
+  "related_artifact_ids": ["nc_jx_museum_artifact_bird_double_tail_tiger"],
   "tags": ["江西古代史", "常设展"],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null
+    "data_status": "verified",
+    "last_verified_at": "2026-08-24"
   }
 }
-

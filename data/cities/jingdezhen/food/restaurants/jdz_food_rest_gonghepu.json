@@ -1,0 +1,99 @@
+{
+  "id": "jdz_food_rest_gonghepu",
+  "name": "公和圃·瓷都好礼",
+  "city": "景德镇",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "jdz_food_area_fuzhounong",
+  "category": [
+    "特色小吃",
+    "伴手礼"
+  ],
+  "official_info": {
+    "status": "third_party_poi_snapshot",
+    "description": "店名、分店、地址与坐标已由高德地点搜索复核；营业承诺、菜单和价格仍不属于官方事实。"
+  },
+  "menu_profile": {
+    "recommended_items": [
+      "景德小饼",
+      "地方特产"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图114、127",
+      "高德地点搜索:2026-08-24"
+    ],
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "游客经验来源与高德同名分店 POI 已匹配；营业时间和菜单仍属动态信息。"
+    },
+    "positive": [
+      {
+        "content": "适合途中补给和购买便携伴手礼",
+        "type": "convenience"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "商品与试吃随门店调整",
+        "risk": "dynamic_menu",
+        "severity": "low"
+      }
+    ],
+    "visit_tips": [
+      "到店当天通过高德复核营业状态和排队情况。"
+    ],
+    "crowd_model": {
+      "weekday": "unknown",
+      "weekend": "medium",
+      "national_holiday": "high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 15,
+      "recommended_min_minutes": 30,
+      "recommended_max_minutes": 60
+    },
+    "ai_note": "仅作为小吃和伴手礼候选，不替代正餐。"
+  },
+  "tags": [
+    "抚州弄",
+    "伴手礼",
+    "候选店铺"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "third_party_verified",
+    "last_verified_at": "2026-08-24"
+  },
+  "branch": "抚州弄店",
+  "location": {
+    "address": "抚州弄9号店面",
+    "district": "江西省景德镇市珠山区",
+    "latitude": 29.292169,
+    "longitude": 117.210316,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0LA6H7D5M",
+    "status": "verified_exact_poi"
+  },
+  "business_status": {
+    "value": "searchable_on_amap",
+    "checked_at": "2026-08-24",
+    "status": "third_party_snapshot_dynamic_recheck_required",
+    "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+  },
+  "sources": [
+    {
+      "name": "高德地图：公和圃·瓷都好礼(公和圃抚州弄店)",
+      "url": "https://www.amap.com/place/B0LA6H7D5M",
+      "scope": [
+        "店名",
+        "分店",
+        "地址",
+        "坐标",
+        "POI ID",
+        "2026-08-24可检索状态"
+      ]
+    }
+  ]
+}

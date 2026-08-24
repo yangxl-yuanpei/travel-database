@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ikm_site_ming_north_slope", "name": "明代御窑厂北麓遗址", "city": "景德镇", "node_type": "archaeological_site", "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {"site_type": "御窑厂考古遗址", "period": "明代", "description": "景德镇市政府列入御窑厂国家考古遗址公园内部遗迹节点。", "source_url": "https://www.jdz.gov.cn/zjcd/mljdz/tscd/t995407.shtml", "verified_at": "2026-08-24", "status": "verified_access_dynamic"},
+  "experience": {"importance": 4, "recommended_duration_minutes": 15, "viewing_notes": ["与南麓遗址对照理解御窑厂范围", "现场开放范围以遗址公园管理为准"]},
+  "tags": ["明代", "御窑厂", "考古遗址", "北麓遗址"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

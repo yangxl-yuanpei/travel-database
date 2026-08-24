@@ -4,29 +4,50 @@
   "short_name": "中国陶瓷博物馆",
   "city": "景德镇",
   "node_type": "museum",
-  "category": ["陶瓷专题博物馆", "历史文化节点", "室内节点"],
+  "category": ["陶瓷专题博物馆", "国家一级博物馆", "历史文化节点", "室内节点"],
   "location": {"address": "江西省景德镇市昌江区紫晶北路1号", "latitude": 29.29324, "longitude": 117.17553, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HX27"},
   "official_info": {
-    "description": "以中国陶瓷历史与景德镇陶瓷文化为核心的专题博物馆。常设展陈名称、楼层、开放时间和预约规则等待官方逐项核验。",
-    "opening_hours": {"status": "pending_verification"},
-    "ticket": {"status": "pending_verification"}
+    "museum_level": {"value": "国家一级博物馆", "source_url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t933002.shtml", "verified_at": "2026-08-24", "status": "verified"},
+    "museum_type": "陶瓷专题博物馆",
+    "positioning": "以中国陶瓷发展史和景德镇陶瓷文化为核心的专业博物馆；官方资料记载馆藏5万余件，其中珍贵文物1600余件。",
+    "opening_hours": {"regular_schedule": "周二至周日09:00-17:00，16:30停止入馆；周一闭馆（法定节假日除外）", "national_day_schedule": null, "source_url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml", "verified_at": "2026-08-24", "status": "verified_regular_schedule_dynamic_holiday_check"},
+    "ticket": {"general_admission": {"amount": 0, "currency": "CNY"}, "special_exhibition_exception": null, "source_url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t933002.shtml", "verified_at": "2026-08-24", "status": "verified_general_admission"}
   },
-  "reservation": {"required": null, "channels": [], "notes": "以博物馆官方预约渠道和国庆公告为准", "status": "pending_verification"},
-  "child_nodes": {"permanent_exhibitions": [], "temporary_exhibitions": [], "artifacts": [], "collection_groups": []},
-  "experience": {"recommendation_score": 5, "best_for": ["陶瓷历史", "首次到访", "雨天旅行"], "highlights": ["中国陶瓷通史", "景德镇陶瓷文化", "室内深度参观"]},
+  "reservation": {
+    "required": true,
+    "real_name_required": true,
+    "channels": ["“畅游景德镇”微信小程序"],
+    "advance_days": 5,
+    "document_requirements": ["预约所用实体身份证件"],
+    "notes": "个人预约最多提前5天；官方公告明确电子身份证和户口簿暂不支持核验。国庆放票、限流和团队规则以临行前公告为准。",
+    "source_url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_regular_rule_dynamic_holiday_check"
+  },
+  "child_nodes": {
+    "permanent_exhibitions": ["jdz_ccm_exh_ceramic_history"],
+    "temporary_exhibitions": ["jdz_ccm_exh_sculpture_century", "jdz_ccm_exh_jingci_zhonghua"],
+    "artifacts": ["jdz_ccm_artifact_meditating_arhat", "jdz_ccm_artifact_yuan_blue_white_meiping", "jdz_ccm_artifact_song_qingbai_phoenix_bowl", "jdz_ccm_artifact_qianlong_bailu_vase"],
+    "collection_groups": ["jdz_ccm_group_modern_masters"]
+  },
+  "experience": {"recommendation_score": 5, "best_for": ["陶瓷历史", "首次到访", "雨天旅行", "亲子研学"], "highlights": ["中国陶瓷通史", "景德镇陶瓷文化", "代表性陶瓷文物", "近现代陶瓷名家"]},
   "experience_layer": {
     "source": ["景德镇攻略截图 113-150"],
-    "confidence": {"overall": "medium", "reason": "多张游客攻略重复推荐，官方展陈细节尚待核验"},
-    "positive": [{"content": "适合作为理解景德镇陶瓷历史的第一站", "type": "culture"}, {"content": "室内参观，适合雨天与高温时段", "type": "weather_adaptation"}],
-    "avoid": [{"content": "热门展品区域节假日可能集中排队", "risk": "crowd", "severity": "high"}, {"content": "不要把截图中的楼层顺序当作官方固定路线", "risk": "stale_information", "severity": "medium"}],
-    "visit_tips": ["优先完成官方预约", "希望系统参观时预留至少两小时", "代表展品和楼层信息临行前再次核验"],
+    "confidence": {"overall": "medium-high", "reason": "游客体验与官方展览、开放和预约资料已分层核验"},
+    "positive": [{"content": "适合作为理解景德镇陶瓷历史的第一站", "type": "culture"}, {"content": "室内参观，适合雨天与高温时段", "type": "weather_adaptation"}, {"content": "从历代陶瓷到近现代名家作品，时间跨度完整", "type": "collection"}],
+    "avoid": [{"content": "热门展品区域节假日可能集中排队", "risk": "crowd", "severity": "high"}, {"content": "临展与展品楼层会调整，不应按旧攻略固定楼层寻找", "risk": "stale_information", "severity": "medium"}, {"content": "未携带预约所用实体身份证件可能无法完成核验", "risk": "document", "severity": "high"}],
+    "visit_tips": ["先看陶瓷通史常设展建立时间线", "再按兴趣选择瓷塑或民族交流专题展", "重点关注元青花梅瓶、宋代青白瓷和沉思罗汉", "希望系统参观时预留2-3小时"],
     "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium", "peak_time": ["上午入馆时段", "热门展品区域"]},
     "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180},
-    "ai_note": "历史与陶瓷兴趣权重极高；国庆需要叠加预约和拥挤惩罚。"
+    "ai_note": "历史、陶瓷和雨天权重极高；国庆需叠加实名预约与拥挤惩罚，临展必须按核验日期过滤。"
   },
   "ai_score": {"history": 5, "photo": 3, "family": 5, "rain_day": 5, "crowd_risk": 4, "first_visit": 5},
   "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
-  "tags": ["陶瓷通史", "博物馆", "雨天方案", "首次到访"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：景德镇中国陶瓷博物馆", "url": "https://www.amap.com/place/B031E0HX27", "scope": ["坐标", "POI ID", "地址"]}]
+  "tags": ["陶瓷通史", "国家一级博物馆", "雨天方案", "首次到访", "实名预约"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {"name": "景德镇市人民政府：景德镇中国陶瓷博物馆", "url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t933002.shtml", "scope": ["博物馆等级", "馆藏规模", "免费开放", "馆藏特色"]},
+    {"name": "景德镇中国陶瓷博物馆预约参观公告", "url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml", "scope": ["开放时间", "实名预约", "预约渠道", "证件要求"]},
+    {"name": "高德地图：景德镇中国陶瓷博物馆", "url": "https://www.amap.com/place/B031E0HX27", "scope": ["坐标", "POI ID", "地址"]}
+  ]
 }

@@ -7,9 +7,9 @@
   "official_info": {
     "theme": "江西早期文明",
     "period": "商代",
-    "source_url": null,
-    "verified_at": null,
-    "status": "pending_verification"
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_government_cultural_source"
   },
   "experience": {
     "importance": 5,
@@ -19,7 +19,7 @@
   "tags": ["青铜器", "新干大洋洲", "江西早期文明"],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null
+    "data_status": "verified",
+    "last_verified_at": "2026-08-24"
   }
 }

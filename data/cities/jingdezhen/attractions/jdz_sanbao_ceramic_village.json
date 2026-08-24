@@ -2,8 +2,19 @@
   "id": "jdz_sanbao_ceramic_village", "name": "景德镇陶源谷·三宝旅游度假区·三宝国际陶艺村", "short_name": "三宝国际陶艺村", "city": "景德镇", "node_type": "attraction",
   "category": ["陶艺村", "艺术聚落", "陶艺体验", "线性游览区"],
   "location": {"address": "江西省景德镇市珠山区三宝村四家里", "latitude": 29.247141, "longitude": 117.26534, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HWOS"},
-  "official_info": {"description": "以陶艺工作室、艺术空间与乡村环境构成的线性陶瓷文化体验区；具体店铺和体验项目动态变化。", "opening_hours": {"status": "dynamic_by_venue"}, "ticket": {"status": "dynamic_by_venue"}},
-  "reservation": {"required": null, "notes": "工作室与陶艺体验需逐店确认", "status": "dynamic_by_venue"},
+  "official_info": {"description": "1995年筹建的国际陶瓷艺术交流空间，由创作、生活与展览空间构成；具体店铺和体验项目动态变化。", "contact_phone": "0798-8496513", "opening_hours": {"scope": "三宝村公共村域", "status": "open_area_venue_hours_dynamic"}, "ticket": {"amount": 0, "currency": "CNY", "scope": "三宝国际瓷谷及公共村域", "verified_at": "2026-08-24", "status": "verified_open_area_free"}},
+  "reservation": {
+    "required": false,
+    "scope": "三宝村公共村域",
+    "exceptions": [
+      {
+        "type": "studio_or_activity",
+        "rule": "陶艺体验、工作室参观及个别场馆可能需要单独预约"
+      }
+    ],
+    "notes": "进入三宝村公共村域无需统一预约；具体工作室、陶艺体验和个别场馆需逐项确认。",
+    "status": "open_area_no_unified_reservation"
+  },
   "experience": {"recommendation_score": 5, "best_time": ["上午", "工作室营业时段"], "highlights": ["陶艺工作室", "乡村环境", "艺术空间", "骑行与慢游"]},
   "experience_layer": {
     "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium-high"},
@@ -17,6 +28,6 @@
   "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 2, "crowd_risk": 4, "first_visit": 4},
   "duration": {"recommended_minutes": 240, "minimum_minutes": 120, "maximum_minutes": 300},
   "tags": ["陶艺体验", "艺术村", "慢游", "摄影"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：三宝国际陶艺村", "url": "https://www.amap.com/place/B031E0HWOS", "scope": ["坐标", "POI ID", "地址"]}]
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "三宝国际陶艺村官网", "url": "https://www.sanbaoceramicartvillage.com/lxwm", "scope": ["官方地址", "联系电话"]}, {"name": "景德镇市人民政府：三宝国际陶艺村", "url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t933015.shtml", "scope": ["创建历史", "空间构成", "设施"]}, {"name": "高德地图：三宝国际陶艺村", "url": "https://www.amap.com/place/B031E0HWOS", "scope": ["坐标", "POI ID", "地址"]}]
 }

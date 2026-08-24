@@ -20,7 +20,7 @@
     "ai_note": "江景、情侣和品质偏好权重高；老城历史节点密集型行程需加入跨江通勤惩罚。"
   },
   "ai_score": {"first_visit": 4, "transit": 4, "walkability": 3, "quiet": 4, "river_view": 5, "value": 3, "holiday_price_risk": 5},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
   "tags": ["红谷滩", "江景", "夜景", "品质住宿"],
   "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
   "sources": [{"name": "高德地图：秋水广场音乐喷泉", "url": "https://ditu.amap.com/place/B0FFFGV6PM", "scope": ["锚点坐标", "POI ID"]}]

@@ -2,8 +2,8 @@
   "id": "jdz_taoyangli", "name": "景德镇陶阳里历史文化旅游区", "short_name": "陶阳里", "city": "景德镇", "node_type": "attraction",
   "category": ["历史文化街区", "御窑遗址", "国家级旅游休闲街区"],
   "location": {"address": "江西省景德镇市珠山区陶阳里东门游客服务中心", "latitude": 29.296459, "longitude": 117.204535, "coordinate_system": "GCJ-02", "amap_poi_id": "B0LBACTXK3"},
-  "official_info": {"description": "围绕御窑厂遗址、传统街巷与陶瓷文化形成的复合型历史文化旅游区。景区边界、票务和活动以官方公告为准。", "opening_hours": {"status": "pending_verification"}, "ticket": {"status": "pending_verification"}},
-  "reservation": {"required": null, "notes": "国庆入园、御窑博物馆入馆及活动规则需分别核验", "status": "pending_verification"},
+  "official_info": {"description": "围绕御窑厂遗址、传统街巷与陶瓷文化形成的国家4A级历史文化旅游区。", "level": "国家4A级旅游景区", "contact_phone": "0798-8226233", "opening_hours": {"regular_schedule": "官网按日发布；2026-08-24为08:30-22:00", "national_day_schedule": null, "source_url": "https://www.taoyangli.cn/", "verified_at": "2026-08-24", "status": "verified_daily_dynamic"}, "ticket": {"price": null, "currency": "CNY", "source_url": "https://www.taoyangli.cn/", "verified_at": "2026-08-24", "status": "paid_dynamic_official_channel"}},
+  "reservation": {"required": false, "recommended": true, "channels": ["陶阳里官方网站及官方购票渠道"], "notes": "公共预约并非统一入园前置条件；购买景区票、御窑博物馆入馆及活动规则需分别核验。2026国庆专项规则尚未发布。", "status": "ticket_required_advance_reservation_not_confirmed"},
   "child_nodes": {"museums": ["jdz_imperial_kiln_museum"], "archaeological_sites": [], "historic_sites": [], "temporary_exhibitions": []},
   "experience": {"recommendation_score": 5, "best_time": ["下午至夜间"], "highlights": ["御窑遗址", "老城街巷", "夜间氛围", "陶瓷文化"]},
   "experience_layer": {
@@ -18,6 +18,6 @@
   "ai_score": {"history": 5, "photo": 5, "family": 4, "rain_day": 3, "crowd_risk": 5, "first_visit": 5, "night": 5},
   "duration": {"recommended_minutes": 240, "minimum_minutes": 120, "maximum_minutes": 300},
   "related_node_ids": ["jdz_imperial_kiln_museum"], "tags": ["御窑", "陶阳里", "老城", "夜景", "历史街区"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：景德镇陶阳里历史文化旅游区", "url": "https://www.amap.com/place/B0LBACTXK3", "scope": ["坐标", "POI ID", "地址"]}]
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "陶阳里历史文化旅游区官网", "url": "https://www.taoyangli.cn/", "scope": ["当日开放时间", "官方购票入口", "联系电话", "地址"]}, {"name": "景德镇市文化广电旅游局：2026年A级景区名单", "url": "https://wgxl.jdz.gov.cn/zwgk/fdzdgknr/zdly/ly/t1098113.shtml", "scope": ["国家4A级旅游景区"]}, {"name": "高德地图：景德镇陶阳里历史文化旅游区", "url": "https://www.amap.com/place/B0LBACTXK3", "scope": ["坐标", "POI ID", "地址"]}]
 }

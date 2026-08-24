@@ -2,8 +2,8 @@
   "id": "jdz_ancient_kiln_folk_expo", "name": "景德镇古窑民俗博览区", "short_name": "古窑民俗博览区", "city": "景德镇", "node_type": "attraction",
   "category": ["陶瓷文化景区", "传统窑炉", "非遗展示", "国家5A级旅游景区"],
   "location": {"address": "江西省景德镇市昌江区瓷都大道古窑路1号", "latitude": 29.28343, "longitude": 117.184813, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0035B"},
-  "official_info": {"description": "以传统制瓷作坊、窑炉与陶瓷民俗展示为核心的景区节点。景区等级、演示项目、票价与开放安排需官方复核。", "opening_hours": {"status": "pending_verification"}, "ticket": {"status": "pending_verification"}},
-  "reservation": {"required": null, "notes": "国庆票务和演示安排以景区公告为准", "status": "pending_verification"},
+  "official_info": {"description": "集中展示传统制瓷作坊、宋元明清代表性窑炉、陶瓷民俗与非遗技艺的国家5A级旅游景区。", "level": "国家5A级旅游景区", "contact_phone": "0798-8534444", "opening_hours": {"regular_schedule": null, "national_day_schedule": null, "source_url": "https://www.chinaguyao.com/", "verified_at": "2026-08-24", "status": "dynamic_check_official_channel"}, "ticket": {"price": null, "currency": "CNY", "source_url": "https://www.chinaguyao.com/", "verified_at": "2026-08-24", "status": "paid_dynamic_official_channel"}},
+  "reservation": {"required": false, "recommended": true, "channels": ["景德镇古窑民俗博览区官方渠道"], "notes": "购买入园票不等同于必须提前预约；国庆票务、客流和复烧演示安排以景区公告为准。", "status": "ticket_required_advance_reservation_not_confirmed"},
   "experience": {"recommendation_score": 4, "best_for": ["传统制瓷", "亲子", "非遗兴趣"], "highlights": ["传统窑炉", "制瓷工艺", "民俗展示"]},
   "experience_layer": {
     "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium"},
@@ -17,6 +17,6 @@
   "ai_score": {"history": 4, "photo": 4, "family": 5, "rain_day": 3, "crowd_risk": 4, "first_visit": 4},
   "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
   "tags": ["传统窑炉", "非遗", "制瓷工艺", "亲子"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：景德镇古窑民俗博览区", "url": "https://www.amap.com/place/B031E0035B", "scope": ["坐标", "POI ID", "地址"]}]
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "景德镇古窑民俗博览区官网", "url": "https://www.chinaguyao.com/view/guide/", "scope": ["景区构成", "咨询电话", "地址"]}, {"name": "景德镇市文化广电旅游局：2026年A级景区名单", "url": "https://wgxl.jdz.gov.cn/zwgk/fdzdgknr/zdly/ly/t1098113.shtml", "scope": ["国家5A级旅游景区"]}, {"name": "景德镇市人民政府：古窑民俗博览区", "url": "https://jdz.gov.cn/zjcd/mljdz/sj/t932863.shtml", "scope": ["官方介绍", "历代窑炉", "非遗展示"]}, {"name": "高德地图：景德镇古窑民俗博览区", "url": "https://www.amap.com/place/B031E0035B", "scope": ["坐标", "POI ID", "地址"]}]
 }

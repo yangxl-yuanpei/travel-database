@@ -20,7 +20,7 @@
     "ai_note": "省博、亲子、连住偏好权重高；老城历史景点占比高时降低推荐。"
   },
   "ai_score": {"first_visit": 3, "transit": 4, "walkability": 3, "quiet": 4, "river_view": 3, "value": 4, "holiday_price_risk": 4},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
   "tags": ["江西省博物馆", "亲子", "公寓式酒店", "红谷滩"],
   "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
   "sources": [{"name": "高德地图：江西省博物馆", "url": "https://ditu.amap.com/place/B0FFGY018L", "scope": ["锚点坐标", "POI ID"]}]

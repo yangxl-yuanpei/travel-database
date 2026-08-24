@@ -1,0 +1,99 @@
+{
+  "id": "jdz_food_rest_chengxin_youtiao",
+  "name": "诚信油条店",
+  "city": "景德镇",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "jdz_food_area_fuzhounong",
+  "category": [
+    "早餐",
+    "油条包麻糍"
+  ],
+  "official_info": {
+    "status": "third_party_poi_snapshot",
+    "description": "店名、分店、地址与坐标已由高德地点搜索复核；营业承诺、菜单和价格仍不属于官方事实。"
+  },
+  "menu_profile": {
+    "recommended_items": [
+      "油条包麻糍"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图136",
+      "高德2025景德镇美食榜单",
+      "高德地点搜索:2026-08-24"
+    ],
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "游客经验来源与高德同名分店 POI 已匹配；营业时间和菜单仍属动态信息。"
+    },
+    "positive": [
+      {
+        "content": "现炸油条与麻糍形成酥糯对比",
+        "type": "signature_snack"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "售完或营业时段可能变化",
+        "risk": "availability",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "趁热食用",
+      "优先早晨前往"
+    ],
+    "crowd_model": {
+      "weekday": "medium",
+      "weekend": "high",
+      "national_holiday": "high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 10,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "早餐和特色小吃权重高。"
+  },
+  "tags": [
+    "早餐",
+    "油条包麻糍",
+    "候选店铺"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "third_party_verified",
+    "last_verified_at": "2026-08-24"
+  },
+  "branch": "中华南路店",
+  "location": {
+    "address": "昌江街道中华南路189号",
+    "latitude": 29.289243,
+    "longitude": 117.210809,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0JG7SWOOF",
+    "status": "verified_exact_poi"
+  },
+  "business_status": {
+    "value": "searchable_on_amap",
+    "checked_at": "2026-08-24",
+    "status": "third_party_snapshot_dynamic_recheck_required",
+    "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+  },
+  "sources": [
+    {
+      "name": "高德地图：诚信油条店(中华南路店)",
+      "url": "https://www.amap.com/place/B0JG7SWOOF",
+      "scope": [
+        "店名",
+        "分店",
+        "地址",
+        "坐标",
+        "POI ID",
+        "2026-08-24可检索状态"
+      ]
+    }
+  ]
+}

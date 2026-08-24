@@ -20,8 +20,8 @@
     "opening_hours": {
       "regular_schedule": "周二至周日 09:00-17:00，16:30停止入馆；周一闭馆，法定节假日除外",
       "national_day_schedule": null,
-      "source_url": "https://nc.bendibao.com/youhui/detail21450.htm",
-      "verified_at": "2026-08-23",
+      "source_url": "https://www.nc.gov.cn/ncszf/whtya/202204/c10e54cf79f44cd694469c865d13d7c5.shtml",
+      "verified_at": "2026-08-24",
       "status": "verified_regular_schedule"
     },
     "ticket": {
@@ -39,9 +39,9 @@
     "release_time": "21:00",
     "document_requirements": ["预约时使用的有效身份证件"],
     "notes": "仅使用官方渠道预约；国庆开放时间和增补票额需等待节前公告。",
-    "source_url": "https://www.sohu.com/a/1036340442_121107011",
-    "verified_at": "2026-08-23",
-    "status": "verified"
+    "source_url": "https://www.81-china.com/",
+    "verified_at": "2026-08-24",
+    "status": "official_channel_verified_dynamic_quota"
   },
   "child_nodes": {
     "history_events": ["nc_bayi_event_nanchang_uprising"],
@@ -162,7 +162,7 @@
     {
       "name": "南昌市人民政府：南昌八一起义纪念馆",
       "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
-      "scope": ["定位", "五处旧址", "免费开放"]
+      "scope": ["2026年场馆介绍", "定位", "五处旧址", "免费开放", "三类基本陈展"]
     },
     {
       "name": "高德地图：南昌八一起义纪念馆",
@@ -170,9 +170,9 @@
       "scope": ["坐标", "POI ID", "地址", "电话"]
     },
     {
-      "name": "2026年端午假期预约公告",
-      "url": "https://www.sohu.com/a/1036340442_121107011",
-      "scope": ["预约渠道", "提前天数", "放票时间"]
+      "name": "南昌市人民政府：公共文化设施目录",
+      "url": "https://www.nc.gov.cn/ncszf/whtya/202204/c10e54cf79f44cd694469c865d13d7c5.shtml",
+      "scope": ["常规开放时间", "停止验证时间", "联系电话"]
     }
   ]
 }

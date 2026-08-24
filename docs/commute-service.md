@@ -43,6 +43,8 @@ COMMUTE_API_BASE=https://你的通勤代理域名
 
 Pages 工作流会将它写入 `VITE_COMMUTE_API_BASE`。该地址不是密钥，可以公开。
 
+当前生产代理为 `https://ganxingzhi-travel-map.1900017821.workers.dev`。2026-08-24 已完成地点搜索与步行路线端到端核验；数据节点统一使用 `api_status: proxy_verified`。高德 Key 仍只保存在 Cloudflare Secret 中。
+
 ## 接口
 
 ### 地点提示

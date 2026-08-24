@@ -94,9 +94,13 @@ function EndpointPicker({ label, value, nodes, cityName, onChange, onLocate }: {
   const [searchMessage, setSearchMessage] = useState("");
   const requestId = useRef(0);
 
-  useEffect(() => { if (value) setQuery(value.name); }, [value]);
   useEffect(() => {
-    if (query.trim().length < 2 || query === value?.name) { setSuggestions([]); return; }
+    if (!value) return;
+    const timer = window.setTimeout(() => setQuery(value.name), 0);
+    return () => window.clearTimeout(timer);
+  }, [value]);
+  useEffect(() => {
+    if (query.trim().length < 2 || query === value?.name) return;
     const current = ++requestId.current;
     const timer = window.setTimeout(async () => {
       try {
@@ -110,7 +114,7 @@ function EndpointPicker({ label, value, nodes, cityName, onChange, onLocate }: {
     return () => window.clearTimeout(timer);
   }, [query, value?.name, cityName]);
 
-  return <div className="endpoint-picker"><label>{label}</label><div className="endpoint-row"><select value={value?.source === "node" ? value.nodeId : ""} onChange={(event) => { const node = nodes.find((item) => item.id === event.target.value); onChange(endpointFromNode(node)); }}><option value="">数据库节点</option>{nodes.map((node) => <option key={node.id} value={node.id}>{node.name}</option>)}</select><button type="button" onClick={onLocate}>当前位置</button></div><div className="place-input-wrap"><input value={query} onChange={(event) => { setQuery(event.target.value); if (event.target.value !== value?.name) onChange(null); }} placeholder={`输入${cityName}地点`} aria-label={`${label}自由地点搜索`} />{suggestions.length > 0 && <div className="place-suggestions">{suggestions.map((suggestion) => <button type="button" key={`${suggestion.id}-${suggestion.longitude}`} onClick={() => { onChange({ source: "search", name: suggestion.name, longitude: suggestion.longitude, latitude: suggestion.latitude, poi_id: suggestion.id }); setQuery(suggestion.name); setSuggestions([]); }}><b>{suggestion.name}</b><span>{suggestion.address || suggestion.district}</span></button>)}</div>}</div>{searchMessage && <small>{searchMessage}</small>}</div>;
+  return <div className="endpoint-picker"><label>{label}</label><div className="endpoint-row"><select value={value?.source === "node" ? value.nodeId : ""} onChange={(event) => { const node = nodes.find((item) => item.id === event.target.value); const endpoint = endpointFromNode(node); onChange(endpoint); setQuery(endpoint?.name ?? ""); setSuggestions([]); setSearchMessage(""); }}><option value="">数据库节点</option>{nodes.map((node) => <option key={node.id} value={node.id}>{node.name}</option>)}</select><button type="button" onClick={onLocate}>当前位置</button></div><div className="place-input-wrap"><input value={query} onChange={(event) => { setQuery(event.target.value); setSuggestions([]); setSearchMessage(""); if (event.target.value !== value?.name) onChange(null); }} placeholder={`输入${cityName}地点`} aria-label={`${label}自由地点搜索`} />{query.trim().length >= 2 && query !== value?.name && suggestions.length > 0 && <div className="place-suggestions">{suggestions.map((suggestion) => <button type="button" key={`${suggestion.id}-${suggestion.longitude}`} onClick={() => { onChange({ source: "search", name: suggestion.name, longitude: suggestion.longitude, latitude: suggestion.latitude, poi_id: suggestion.id }); setQuery(suggestion.name); setSuggestions([]); }}><b>{suggestion.name}</b><span>{suggestion.address || suggestion.district}</span></button>)}</div>}</div>{searchMessage && <small>{searchMessage}</small>}</div>;
 }
 
 function CommuteResults({ result }: { result: CommuteResult }) {

@@ -2,8 +2,8 @@
   "id": "jdz_taoxichuan", "name": "陶溪川文创街区", "city": "景德镇", "node_type": "attraction",
   "category": ["文创街区", "工业遗产更新", "夜间节点", "市集候选"],
   "location": {"address": "江西省景德镇市珠山区新厂西路351号", "latitude": 29.296921, "longitude": 117.236957, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFFHARV3"},
-  "official_info": {"description": "由老工业遗存更新形成的陶瓷文化与文创街区；市集、展览和活动安排动态变化。", "opening_hours": {"status": "dynamic_pending_verification"}, "ticket": {"status": "pending_verification"}},
-  "reservation": {"required": null, "notes": "开放空间、展馆与活动可能适用不同规则", "status": "pending_verification"},
+  "official_info": {"description": "以原宇宙瓷厂工业遗产为核心形成的国家4A级陶瓷文化与文创街区。", "level": "国家4A级旅游景区", "opening_hours": {"scope": "街区公共空间", "status": "open_district_venue_hours_dynamic"}, "ticket": {"amount": 0, "currency": "CNY", "scope": "街区公共空间", "source_url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t932854.shtml", "verified_at": "2026-08-24", "status": "verified_free_public_district"}},
+  "reservation": {"required": false, "scope": "街区公共空间", "exceptions": [{"type": "museum_exhibition_activity", "rule": "场馆、展览、市集和体验项目适用各自主办方规则"}], "notes": "公共街区无需统一预约；具体场馆和活动逐项确认。", "status": "open_area_no_unified_reservation"},
   "experience": {"recommendation_score": 5, "best_time": ["傍晚", "夜间", "周末市集时段"], "highlights": ["工业建筑", "陶瓷文创", "夜间氛围", "青年市集"]},
   "experience_layer": {
     "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium-high"},
@@ -17,6 +17,6 @@
   "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 3, "crowd_risk": 5, "first_visit": 5, "night": 5},
   "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
   "tags": ["文创", "工业遗产", "夜景", "陶瓷市集"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：陶溪川文创街区", "url": "https://www.amap.com/place/B0FFFHARV3", "scope": ["坐标", "POI ID", "地址"]}]
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "景德镇市人民政府：陶溪川文创街区", "url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t932854.shtml", "scope": ["景区定位", "工业遗产", "公共街区免门票"]}, {"name": "景德镇市文化广电旅游局：2026年A级景区名单", "url": "https://wgxl.jdz.gov.cn/zwgk/fdzdgknr/zdly/ly/t1098113.shtml", "scope": ["国家4A级旅游景区"]}, {"name": "高德地图：陶溪川文创街区", "url": "https://www.amap.com/place/B0FFFHARV3", "scope": ["坐标", "POI ID", "地址"]}]
 }

@@ -66,13 +66,12 @@
       "nc_food_rest_b0ffjiuofo",
       "nc_food_rest_b0l2uzemgc",
       "nc_food_rest_b0m6auzpc6",
-      "nc_food_rest_b0iafxck88",
       "nc_food_rest_b031705dga",
       "nc_food_rest_b0h2udqub9",
       "nc_food_rest_b0l2y1wws1",
       "nc_food_rest_b0irc56j63",
-      "nc_food_candidate_095",
-      "nc_food_rest_b0juz7784c"
+      "nc_food_rest_b0juz7784c",
+      "nc_food_rest_b0mu459syc"
     ]
   },
   "related_node_ids": [
@@ -91,7 +90,7 @@
     },
     "positive": [
       {
-        "content": "收录22个候选子节点，其中21个带可用坐标。",
+        "content": "收录21个候选子节点，其中21个带可用坐标。",
         "type": "data_coverage"
       },
       {

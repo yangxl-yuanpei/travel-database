@@ -44,8 +44,7 @@
     "dishes": [],
     "restaurants": [
       "nc_food_rest_b0iavaf2mg",
-      "nc_food_rest_b0ffhfxah0",
-      "nc_food_rest_b0ffjigwks"
+      "nc_food_rest_b0ffhfxah0"
     ]
   },
   "related_node_ids": [],
@@ -61,7 +60,7 @@
     },
     "positive": [
       {
-        "content": "收录3个候选子节点，其中3个带可用坐标。",
+        "content": "收录2个候选子节点，其中2个带可用坐标。",
         "type": "data_coverage"
       },
       {

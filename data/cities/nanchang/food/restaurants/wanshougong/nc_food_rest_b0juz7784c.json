@@ -6,7 +6,7 @@
   "node_type": "food",
   "food_scope": "restaurant",
   "parent_id": "nc_food_area_wanshougong",
-  "branch": null,
+  "branch": "万寿宫店",
   "category": [
     "茶馆"
   ],
@@ -16,16 +16,16 @@
   "official_info": {
     "status": "not_officially_verified",
     "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-    "directory_name": "老熹门茶馆",
+    "directory_name": "醋巷茶馆(万寿宫店)",
     "directory_district": "西湖区"
   },
   "location": {
-    "address": "广润门街道醋巷1号万寿宫历史文化街区",
-    "latitude": 28.674269,
-    "longitude": 115.88728,
+    "address": "广润门街道合同巷16号",
+    "latitude": 28.674279,
+    "longitude": 115.887205,
     "coordinate_system": "GCJ-02",
-    "amap_poi_id": "B0JUZ7784C",
-    "status": "found_partial"
+    "amap_poi_id": "B0M1NZSW04",
+    "status": "verified_exact_poi"
   },
   "meal_periods": [
     "afternoon",
@@ -53,8 +53,8 @@
       "游客截图:image_031"
     ],
     "confidence": {
-      "overall": "low-medium",
-      "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
+      "overall": "medium-high",
+      "reason": "游客候选名称与高德万寿宫店精确匹配；营业时间和节目安排仍需动态确认。"
     },
     "positive": [
       {
@@ -112,8 +112,8 @@
       "image_031"
     ],
     "raw_verification_status": "unverified",
-    "raw_location_status": "found_partial",
-    "location_note": "高德名称\"老熹门茶馆\"，醋巷1号万寿宫，位置吻合",
+    "raw_location_status": "verified_exact_poi",
+    "location_note": "2026-08-24高德地点搜索已匹配醋巷茶馆(万寿宫店)",
     "name_status": null,
     "note": null
   },
@@ -133,8 +133,25 @@
   ],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null,
+    "data_status": "third_party_verified",
+    "last_verified_at": "2026-08-24",
     "import_source": "nanchang_food_candidates_raw.json"
-  }
+  },
+  "business_status": {
+    "value": "searchable_on_amap",
+    "checked_at": "2026-08-24",
+    "status": "third_party_snapshot_dynamic_recheck_required",
+    "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+  },
+  "sources": [
+    {
+      "name": "高德地图POI快照",
+      "url": "https://www.amap.com/place/B0M1NZSW04",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址快照"
+      ]
+    }
+  ]
 }

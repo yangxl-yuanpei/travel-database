@@ -74,6 +74,23 @@
 
 可按节点特性增加 `food`、`night`、`transport_cost` 等维度，仍使用 1–5。`transport_cost` 数值越高表示从城市核心区域前往的综合时间与交通成本越高，路线生成时应作为惩罚项使用。
 
+## 数据状态
+
+`metadata.data_status` 使用统一枚举，表示“哪一层证据已完成”，不能把不同证据层混为一个笼统的已核验：
+
+| 状态 | 含义 |
+|---|---|
+| `draft` | 结构已建立，仍有核心字段待核验 |
+| `candidate` | 仅作为候选，地址、分店或身份尚未确认 |
+| `experience_verified` | 游客经验层已完成整理，不能据此推定官方事实已核验 |
+| `third_party_verified` | 已由高德等第三方确认 POI、坐标或经营快照 |
+| `time_sensitive` | 信息已核验但有明确时效，检索时必须检查日期 |
+| `verified` | 当前核心官方事实已由权威来源核验 |
+| `needs_update` | 已知信息过期或尚未到可确认窗口 |
+| `archived` | 历史节点，默认不参与推荐 |
+
+经验置信度仅使用 `low`、`low-medium`、`medium`、`medium-high`、`high`。住宿区域不要求游览时长；其余带 `experience_layer` 的节点必须提供分钟制 `recommended_duration`。
+
 ## 空间数据
 
 节点只保存地址、经纬度、行政区和地图 POI ID。不得保存人工计算的节点间距离、驾车时间或公交方案。

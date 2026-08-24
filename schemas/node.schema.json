@@ -70,7 +70,6 @@
         "avoid",
         "visit_tips",
         "crowd_model",
-        "recommended_duration",
         "ai_note"
       ],
       "properties": {
@@ -123,7 +122,16 @@
       "properties": {
         "schema_version": {"type": "string"},
         "data_status": {
-          "enum": ["draft", "verified", "needs_update", "archived"]
+          "enum": [
+            "draft",
+            "candidate",
+            "experience_verified",
+            "third_party_verified",
+            "time_sensitive",
+            "verified",
+            "needs_update",
+            "archived"
+          ]
         },
         "last_verified_at": {
           "type": ["string", "null"],
@@ -133,5 +141,20 @@
       "additionalProperties": true
     }
   },
-  "additionalProperties": true
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "required": ["experience_layer"],
+        "properties": {
+          "node_type": {"not": {"const": "accommodation_area"}}
+        }
+      },
+      "then": {
+        "properties": {
+          "experience_layer": {"required": ["recommended_duration"]}
+        }
+      }
+    }
+  ]
 }

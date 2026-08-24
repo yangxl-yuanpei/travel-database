@@ -31,9 +31,10 @@
       "price": null,
       "currency": "CNY",
       "scope_note": "博物馆位于收费遗址公园内，票价及观光车组合以景区官方渠道为准。",
-      "source_url": null,
-      "verified_at": null,
-      "status": "dynamic_check_official_channel"
+      "source_url": "https://www.nc.gov.cn/ncszf/tzgg/202506/dc874026b1d84f0c877a6ae8261c533e.shtml",
+      "verified_at": "2026-08-24",
+      "status": "dynamic_check_official_channel_final_price_not_confirmed",
+      "notes": "已核对2025年政府定价听证资料，但未找到最终价格批复；不得沿用2020年60元旧价。"
     },
     "contact_phone": "0791-83086000"
   },
@@ -144,6 +145,11 @@
       "name": "南昌市人民政府：南昌汉代海昏侯国遗址公园",
       "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/8621e793af2543cbbb817e2ca2b7c1ca.shtml",
       "scope": ["遗址构成", "国家一级博物馆", "常设展览", "考古成果", "景区等级"]
+    },
+    {
+      "name": "南昌市发展改革委：遗址公园门票及交通价格听证公告",
+      "url": "https://www.nc.gov.cn/ncszf/tzgg/202506/dc874026b1d84f0c877a6ae8261c533e.shtml",
+      "scope": ["价格进入政府定价程序", "提醒不得使用旧票价作为2026事实"]
     },
     {
       "name": "南昌市文化广电旅游局：四大展览",

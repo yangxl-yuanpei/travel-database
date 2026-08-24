@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ikm_artifact_xuande_doucai_duck_plate", "name": "明宣德斗彩鸳鸯莲池纹盘", "city": "景德镇", "node_type": "artifact", "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {"category": "斗彩瓷", "period": "明宣德", "description": "景德镇市人民政府公布的御窑博物院六件代表性院藏文物之一。", "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml", "verified_at": "2026-08-24", "status": "verified_identity_display_dynamic"},
+  "experience": {"importance": 5, "photo_value": 5, "recognition_value": 5, "viewing_notes": ["观察鸳鸯莲池纹及釉下、釉上彩的配合", "关注宣德斗彩的工艺价值"]},
+  "related_exhibition_ids": ["jdz_ikm_exh_imperial_kiln_history"], "tags": ["明宣德", "斗彩", "鸳鸯莲池纹", "代表文物"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

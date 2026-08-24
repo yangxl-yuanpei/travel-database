@@ -20,6 +20,17 @@ CHILD_TYPES = {
     "historic_site",
     "archaeological_site",
 }
+NODE_TYPES = {
+    "city", "journey", "attraction", "museum", "memorial",
+    "permanent_exhibition", "temporary_exhibition", "artifact",
+    "collection_group", "history_event", "historic_site",
+    "archaeological_site", "food", "accommodation_area", "transport",
+}
+DATA_STATUSES = {
+    "draft", "candidate", "experience_verified", "third_party_verified",
+    "time_sensitive", "verified", "needs_update", "archived",
+}
+CONFIDENCE_LEVELS = {"low", "low-medium", "medium", "medium-high", "high"}
 
 
 def iter_reference_ids(node: dict) -> list[str]:
@@ -76,6 +87,19 @@ def main() -> int:
             continue
         nodes[node_id] = (path, node)
 
+        if node.get("node_type") not in NODE_TYPES:
+            errors.append(
+                f"{path.relative_to(ROOT)}: unknown node_type {node.get('node_type')!r}"
+            )
+
+        metadata = node.get("metadata")
+        if isinstance(metadata, dict):
+            data_status = metadata.get("data_status")
+            if data_status not in DATA_STATUSES:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: invalid metadata.data_status {data_status!r}"
+                )
+
         if node.get("node_type") in CHILD_TYPES and not node.get("parent_id"):
             errors.append(f"{path.relative_to(ROOT)}: child node requires parent_id")
 
@@ -115,6 +139,13 @@ def main() -> int:
                 if not isinstance(sources, list) or not sources:
                     errors.append(
                         f"{path.relative_to(ROOT)}: experience_layer.source must be a non-empty list"
+                    )
+                confidence = experience_layer.get("confidence")
+                confidence_overall = confidence.get("overall") if isinstance(confidence, dict) else None
+                if confidence_overall not in CONFIDENCE_LEVELS:
+                    errors.append(
+                        f"{path.relative_to(ROOT)}: invalid experience_layer.confidence.overall "
+                        f"{confidence_overall!r}"
                     )
                 duration = experience_layer.get("recommended_duration")
                 minute_keys = (

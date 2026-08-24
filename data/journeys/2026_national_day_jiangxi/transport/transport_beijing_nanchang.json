@@ -16,7 +16,7 @@
     "status": "normal_day_reference",
     "national_day_sale_status": "not_on_sale"
   },
-  "amap_integration": {"coordinate_system": "GCJ-02", "dynamic_fields": ["origin_to_station", "station_to_hotel", "driving_duration"], "api_status": "key_not_configured"},
+  "amap_integration": {"coordinate_system": "GCJ-02", "dynamic_fields": ["origin_to_station", "station_to_hotel", "driving_duration"], "api_status": "proxy_verified"},
   "related_node_ids": ["city_beijing", "city_nanchang"],
   "tags": ["会合交通", "直达高铁", "长距离"],
   "metadata": {"schema_version": "1.0", "data_status": "needs_update", "last_verified_at": "2026-08-24"},

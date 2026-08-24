@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ikm_artifact_xuande_cricket_jar", "name": "明宣德青花行龙纹蟋蟀罐", "city": "景德镇", "node_type": "artifact", "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {"category": "青花瓷", "period": "明宣德", "description": "景德镇市人民政府公布的御窑博物院六件代表性院藏文物之一。", "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml", "verified_at": "2026-08-24", "status": "verified_identity_display_dynamic"},
+  "experience": {"importance": 5, "photo_value": 5, "recognition_value": 5, "viewing_notes": ["观察行龙纹和蟋蟀罐器形", "与元代龙纹器对比观看"]},
+  "related_exhibition_ids": ["jdz_ikm_exh_imperial_kiln_history"], "tags": ["明宣德", "青花", "蟋蟀罐", "龙纹", "代表文物"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

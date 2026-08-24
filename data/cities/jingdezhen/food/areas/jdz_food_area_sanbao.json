@@ -1,0 +1,110 @@
+{
+  "id": "jdz_food_area_sanbao",
+  "name": "三宝村咖啡与慢餐区",
+  "short_name": "三宝村",
+  "city": "景德镇",
+  "node_type": "food",
+  "food_scope": "area",
+  "category": [
+    "美食区域",
+    "咖啡",
+    "慢餐",
+    "陶艺村配套"
+  ],
+  "official_info": {
+    "status": "ai_aggregated_area",
+    "description": "沿三宝村陶艺工作室和咖啡馆分布形成的慢游餐饮区域。",
+    "boundary_rule": "沿村落道路的旅行决策范围，不是官方商圈边界"
+  },
+  "location": {
+    "address": "景德镇市珠山区三宝村四家里周边",
+    "latitude": 29.247141,
+    "longitude": 117.26534,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031E0HWOS",
+    "map_anchor": "三宝国际陶艺村"
+  },
+  "meal_periods": [
+    "lunch",
+    "afternoon",
+    "dinner"
+  ],
+  "duration": {
+    "minimum_minutes": 45,
+    "recommended_minutes": 90,
+    "maximum_minutes": 180
+  },
+  "child_nodes": {
+    "dishes": [],
+    "restaurants": [
+      "jdz_food_rest_youshu_coffee"
+    ]
+  },
+  "related_node_ids": [
+    "jdz_sanbao_ceramic_village"
+  ],
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图115、120、136"
+    ],
+    "confidence": {
+      "overall": "medium"
+    },
+    "positive": [
+      {
+        "content": "咖啡和休息节点能与陶艺村慢游自然结合。",
+        "type": "slow_travel"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "村内点位分散，节假日入口拥堵且返程叫车存在不确定性。",
+        "risk": "transport",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "先确定返程方式再延长晚餐时间",
+      "店铺营业状态通过高德实时查询"
+    ],
+    "crowd_model": {
+      "weekday": "medium",
+      "weekend": "high",
+      "national_holiday": "high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 90,
+      "recommended_max_minutes": 180
+    },
+    "ai_note": "环境与体验优先，不适合作为追求高密度本地小吃的首选。"
+  },
+  "ai_score": {
+    "local_character": 4,
+    "value": 3,
+    "queue_risk": 3,
+    "family": 4,
+    "late_night": 2
+  },
+  "tags": [
+    "三宝村",
+    "咖啡",
+    "慢游",
+    "陶艺体验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "experience_verified",
+    "last_verified_at": "2026-08-24"
+  },
+  "sources": [
+    {
+      "name": "高德地图：三宝国际陶艺村",
+      "url": "https://www.amap.com/place/B031E0HWOS",
+      "scope": [
+        "锚点坐标",
+        "POI ID"
+      ]
+    }
+  ]
+}

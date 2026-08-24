@@ -22,18 +22,20 @@
       "contact_phone": "0791-86702036",
       "opening_hours": {
         "value": null,
-        "source_name": "景区官方公告",
-        "source_url": null,
-        "verified_at": null,
-        "status": "pending_verification"
+        "source_name": "滕王阁官方网站景区公告",
+        "source_url": "https://www.cntwg.com/list56_1.html",
+        "verified_at": "2026-08-24",
+        "status": "dynamic_schedule_check_before_visit",
+        "national_day_2026": "pending_official_announcement"
       },
       "ticket": {
         "price": null,
         "currency": "CNY",
-        "source_name": "景区官方信息",
-        "source_url": null,
-        "verified_at": null,
-        "status": "pending_verification"
+        "source_name": "滕王阁官方小程序 TengWangGe",
+        "source_url": "https://www.cntwg.com/htm/News/Show-202307151125420.html",
+        "verified_at": "2026-08-24",
+        "status": "dynamic_price_check_official_channel",
+        "notes": "官方购票说明确认实名分时购票；价格和场次以购买日官方页面为准。"
       }
     },
     "experience": {
@@ -156,7 +158,9 @@
       ],
       "advance_days": null,
       "notes": "节假日建议提前查询官方预约及购票要求",
-      "status": "verified"
+      "source_url": "https://www.cntwg.com/htm/News/Show-202307151125420.html",
+      "verified_at": "2026-08-24",
+      "status": "verified_official_channel_dynamic_quota"
     },
     "tags": [
       "第一次南昌旅行",
@@ -786,6 +790,7 @@
       "opening_hours": {
         "regular_schedule": "周二至周日 09:00-17:00，16:00停止入馆；周一闭馆，法定节假日除外",
         "national_day_schedule": null,
+        "national_day_schedule_status": "pending_2026_official_announcement",
         "source_url": "https://tour.jxcn.cn/system/2026/05/12/031129391.shtml",
         "verified_at": "2026-08-23",
         "status": "verified_regular_schedule"
@@ -796,9 +801,9 @@
           "currency": "CNY"
         },
         "special_exhibition_exception": null,
-        "source_url": null,
-        "verified_at": null,
-        "status": "pending_verification"
+        "source_url": "https://jx.ifeng.com/c/8toqouFK0sN",
+        "verified_at": "2026-08-24",
+        "status": "verified_free_general_admission"
       }
     },
     "reservation": {
@@ -812,8 +817,8 @@
         "有效身份证件"
       ],
       "notes": "具体预约规则以博物馆官方公告为准",
-      "source_url": "https://m.thepaper.cn/newsDetail_forward_33349146",
-      "verified_at": "2026-08-23",
+      "source_url": "https://jx.ifeng.com/c/8toqouFK0sN",
+      "verified_at": "2026-08-24",
       "status": "verified"
     },
     "child_nodes": {
@@ -959,10 +964,20 @@
       },
       {
         "name": "江西省博物馆开放安排",
-        "url": "https://m.thepaper.cn/newsDetail_forward_33349146",
+        "url": "https://jx.ifeng.com/c/8toqouFK0sN",
         "scope": [
-          "预约",
-          "开放安排"
+          "江西省博物馆2026年6月9日公告原文",
+          "7月1日起实名免费预约",
+          "提前七天",
+          "暑期延时开放"
+        ]
+      },
+      {
+        "name": "南昌市人民政府：文脉里的江西采风活动",
+        "url": "https://www.nc.gov.cn/ncszf/ttxw/202605/e464b3964ea5407aaffe79af53e10644.shtml",
+        "scope": [
+          "2026年仍在展的江西古代历史文化展",
+          "展览主题"
         ]
       },
       {
@@ -985,29 +1000,34 @@
           "exhibition_type": "常设展",
           "floor": null,
           "hall": null,
-          "description": null,
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "description": "以文物和史料呈现江西文明发展轨迹；2026年5月政府报道确认该展厅仍在开放。",
+          "source_url": "https://www.nc.gov.cn/ncszf/ttxw/202605/e464b3964ea5407aaffe79af53e10644.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_current_exhibition"
         },
         "experience": {
           "importance": 5,
-          "recommended_duration_minutes": null,
+          "recommended_duration_minutes": 60,
           "suitable_for": [
             "历史爱好者",
             "第一次到访"
           ],
-          "highlights": []
+          "highlights": [
+            "江西文明发展主线",
+            "新干大洋洲商代青铜器"
+          ]
         },
-        "related_artifact_ids": [],
+        "related_artifact_ids": [
+          "nc_jx_museum_artifact_bird_double_tail_tiger"
+        ],
         "tags": [
           "江西古代史",
           "常设展"
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -1020,19 +1040,22 @@
           "exhibition_type": "常设展",
           "floor": null,
           "hall": null,
-          "description": null,
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "description": "江西省博物馆常设展，展示江西古代陶瓷文化与千年窑业发展。",
+          "source_url": "https://www.jxmuseum.cn/",
+          "verified_at": "2026-08-24",
+          "status": "official_name_verified_hall_details_dynamic"
         },
         "experience": {
           "importance": 5,
-          "recommended_duration_minutes": null,
+          "recommended_duration_minutes": 45,
           "suitable_for": [
             "陶瓷文化爱好者",
             "第一次到访"
           ],
-          "highlights": []
+          "highlights": [
+            "江西窑业发展",
+            "元代青花釉里红楼阁式瓷谷仓"
+          ]
         },
         "related_artifact_ids": [
           "nc_jx_museum_artifact_yuan_granary"
@@ -1043,8 +1066,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -1057,18 +1080,22 @@
           "exhibition_type": "常设展",
           "floor": null,
           "hall": null,
-          "description": null,
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "description": "讲述1919年至1949年中国共产党领导江西人民开展革命斗争的历史。",
+          "source_url": "https://www.jxmuseum.cn/",
+          "verified_at": "2026-08-24",
+          "status": "official_name_verified_hall_details_dynamic"
         },
         "experience": {
           "importance": 4,
-          "recommended_duration_minutes": null,
+          "recommended_duration_minutes": 45,
           "suitable_for": [
             "近现代史爱好者"
           ],
-          "highlights": []
+          "highlights": [
+            "南昌起义",
+            "井冈山斗争",
+            "中央苏区与长征"
+          ]
         },
         "related_artifact_ids": [],
         "tags": [
@@ -1077,8 +1104,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -1090,12 +1117,12 @@
         "official_info": {
           "category": "青铜器",
           "period": "商代",
-          "excavation_site": null,
-          "collection_status": null,
-          "description": null,
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "excavation_site": "江西新干大洋洲商代大墓",
+          "collection_status": "江西省博物馆馆藏；列入大洋洲商代墓文物精品",
+          "description": "存世最大的先秦时期青铜虎，俗称“虎王”，是长江中游商代文化的代表性器物。",
+          "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_government_cultural_source"
         },
         "experience": {
           "importance": 5,
@@ -1103,7 +1130,9 @@
           "recognition_value": 5,
           "viewing_notes": []
         },
-        "related_exhibition_ids": [],
+        "related_exhibition_ids": [
+          "nc_jx_museum_exh_ancient_history"
+        ],
         "tags": [
           "青铜器",
           "商代",
@@ -1111,8 +1140,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -1125,11 +1154,11 @@
           "category": "陶瓷器",
           "period": "元代",
           "excavation_site": null,
-          "collection_status": null,
-          "description": null,
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "collection_status": "江西省博物馆馆藏；首批禁止出国（境）展览文物",
+          "description": "带有公元1338年明确纪年，集红釉、青花、釉里红等高温釉彩于一器的重檐庑殿顶楼阁式谷仓。",
+          "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_government_cultural_source"
         },
         "experience": {
           "importance": 5,
@@ -1147,8 +1176,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -1160,9 +1189,9 @@
         "official_info": {
           "theme": "江西早期文明",
           "period": "商代",
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_government_cultural_source"
         },
         "experience": {
           "importance": 5,
@@ -1176,8 +1205,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       }
     ]
@@ -1220,9 +1249,10 @@
         "price": null,
         "currency": "CNY",
         "scope_note": "博物馆位于收费遗址公园内，票价及观光车组合以景区官方渠道为准。",
-        "source_url": null,
-        "verified_at": null,
-        "status": "dynamic_check_official_channel"
+        "source_url": "https://www.nc.gov.cn/ncszf/tzgg/202506/dc874026b1d84f0c877a6ae8261c533e.shtml",
+        "verified_at": "2026-08-24",
+        "status": "dynamic_check_official_channel_final_price_not_confirmed",
+        "notes": "已核对2025年政府定价听证资料，但未找到最终价格批复；不得沿用2020年60元旧价。"
       },
       "contact_phone": "0791-83086000"
     },
@@ -1418,6 +1448,14 @@
           "常设展览",
           "考古成果",
           "景区等级"
+        ]
+      },
+      {
+        "name": "南昌市发展改革委：遗址公园门票及交通价格听证公告",
+        "url": "https://www.nc.gov.cn/ncszf/tzgg/202506/dc874026b1d84f0c877a6ae8261c533e.shtml",
+        "scope": [
+          "价格进入政府定价程序",
+          "提醒不得使用旧票价作为2026事实"
         ]
       },
       {
@@ -1922,8 +1960,8 @@
       "opening_hours": {
         "regular_schedule": "周二至周日 09:00-17:00，16:30停止入馆；周一闭馆，法定节假日除外",
         "national_day_schedule": null,
-        "source_url": "https://nc.bendibao.com/youhui/detail21450.htm",
-        "verified_at": "2026-08-23",
+        "source_url": "https://www.nc.gov.cn/ncszf/whtya/202204/c10e54cf79f44cd694469c865d13d7c5.shtml",
+        "verified_at": "2026-08-24",
         "status": "verified_regular_schedule"
       },
       "ticket": {
@@ -1949,9 +1987,9 @@
         "预约时使用的有效身份证件"
       ],
       "notes": "仅使用官方渠道预约；国庆开放时间和增补票额需等待节前公告。",
-      "source_url": "https://www.sohu.com/a/1036340442_121107011",
-      "verified_at": "2026-08-23",
-      "status": "verified"
+      "source_url": "https://www.81-china.com/",
+      "verified_at": "2026-08-24",
+      "status": "official_channel_verified_dynamic_quota"
     },
     "child_nodes": {
       "history_events": [
@@ -2094,9 +2132,11 @@
         "name": "南昌市人民政府：南昌八一起义纪念馆",
         "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
         "scope": [
+          "2026年场馆介绍",
           "定位",
           "五处旧址",
-          "免费开放"
+          "免费开放",
+          "三类基本陈展"
         ]
       },
       {
@@ -2110,12 +2150,12 @@
         ]
       },
       {
-        "name": "2026年端午假期预约公告",
-        "url": "https://www.sohu.com/a/1036340442_121107011",
+        "name": "南昌市人民政府：公共文化设施目录",
+        "url": "https://www.nc.gov.cn/ncszf/whtya/202204/c10e54cf79f44cd694469c865d13d7c5.shtml",
         "scope": [
-          "预约渠道",
-          "提前天数",
-          "放票时间"
+          "常规开放时间",
+          "停止验证时间",
+          "联系电话"
         ]
       }
     ],
@@ -2282,21 +2322,26 @@
       },
       {
         "id": "nc_bayi_exh_nanchang_uprising",
-        "name": "南昌起义",
+        "name": "南昌起义 伟大开端",
         "city": "南昌",
         "node_type": "permanent_exhibition",
         "parent_id": "nc_bayi_memorial",
         "official_info": {
-          "exhibition_type": "常设展",
-          "theme": "全面展示南昌起义历史过程",
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "exhibition_type": "基本陈列",
+          "theme": "全面展示南昌起义的酝酿、决策、战斗、南征与转战历程",
+          "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202010/af598d038d0f49409df4e723a9143f23.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_government_cultural_source"
         },
         "experience": {
           "importance": 5,
-          "recommended_duration_minutes": null,
-          "highlights": []
+          "recommended_duration_minutes": 50,
+          "highlights": [
+            "危难中奋起",
+            "伟大的决策",
+            "打响第一枪",
+            "南征与转战"
+          ]
         },
         "related_artifact_ids": [],
         "tags": [
@@ -2305,8 +2350,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -2317,15 +2362,18 @@
         "parent_id": "nc_bayi_memorial",
         "official_info": {
           "exhibition_type": "常设展",
-          "theme": "展示人民军队发展历史",
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "theme": "展示人民军队光辉历程",
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_official_2026_introduction"
         },
         "experience": {
           "importance": 5,
-          "recommended_duration_minutes": null,
-          "highlights": []
+          "recommended_duration_minutes": 25,
+          "highlights": [
+            "人民军队发展历史",
+            "强军之梦单元"
+          ]
         },
         "related_artifact_ids": [],
         "tags": [
@@ -2334,8 +2382,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       },
       {
@@ -2345,16 +2393,19 @@
         "node_type": "permanent_exhibition",
         "parent_id": "nc_bayi_memorial",
         "official_info": {
-          "exhibition_type": "常设展",
-          "theme": "展示历史现场",
-          "source_url": null,
-          "verified_at": null,
-          "status": "pending_verification"
+          "exhibition_type": "旧址复原陈列",
+          "theme": "在南昌起义总指挥部旧址等历史建筑中展示历史现场",
+          "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "verified_at": "2026-08-24",
+          "status": "verified_official_2026_introduction"
         },
         "experience": {
           "importance": 5,
-          "recommended_duration_minutes": null,
-          "highlights": []
+          "recommended_duration_minutes": 25,
+          "highlights": [
+            "江西大旅社旧址",
+            "历史现场复原"
+          ]
         },
         "related_artifact_ids": [],
         "tags": [
@@ -2363,8 +2414,8 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
         }
       }
     ]
@@ -2426,7 +2477,6 @@
         "nc_food_rest_b031703ut3",
         "nc_food_rest_b0fffmi84l",
         "nc_food_rest_b0kkr4r4kw",
-        "nc_food_candidate_019",
         "nc_food_rest_b0ffm4e0xt",
         "nc_food_rest_b0ffi8nppa",
         "nc_food_rest_b0ffhtx20s",
@@ -2442,7 +2492,8 @@
         "nc_food_rest_b0l37al3y9",
         "nc_food_rest_b0k3frn497",
         "nc_food_rest_b0jr3zcgv5",
-        "nc_food_rest_b0317040iu"
+        "nc_food_rest_b0317040iu",
+        "nc_food_rest_b0ffjigwks"
       ]
     },
     "related_node_ids": [
@@ -2460,7 +2511,7 @@
       },
       "positive": [
         {
-          "content": "收录21个候选子节点，其中19个带可用坐标。",
+          "content": "收录21个候选子节点，其中20个带可用坐标。",
           "type": "data_coverage"
         },
         {
@@ -2753,10 +2804,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B031703UT3",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0fffmi84l",
@@ -2888,10 +2956,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFFMI84L",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0kkr4r4kw",
@@ -3005,127 +3090,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
-      },
-      {
-        "id": "nc_food_candidate_019",
-        "name": "古早豆浆",
-        "short_name": "古早豆浆",
-        "city": "南昌",
-        "node_type": "food",
-        "food_scope": "restaurant",
-        "parent_id": "nc_food_area_dashiyuan",
-        "branch": null,
-        "category": [
-          "早餐",
-          "饮品"
-        ],
-        "category_codes": [
-          "breakfast",
-          "drinks"
-        ],
-        "official_info": {
-          "status": "not_officially_verified",
-          "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": null,
-          "directory_district": null
         },
-        "location": {
-          "address": null,
-          "latitude": null,
-          "longitude": null,
-          "coordinate_system": "GCJ-02",
-          "amap_poi_id": null,
-          "status": "not_found"
-        },
-        "meal_periods": [
-          "breakfast",
-          "afternoon",
-          "evening"
-        ],
-        "menu_profile": {
-          "recommended_dishes": [],
-          "source_type": "visitor_experience"
-        },
-        "price_range_cny": {
-          "average_reference": null,
-          "raw_reference": null,
-          "status": "unknown"
-        },
-        "duration": {
-          "minimum_minutes": 10,
-          "recommended_minutes": 20,
-          "maximum_minutes": 45
-        },
-        "experience_layer": {
-          "source": [
-            "游客截图:image_001"
-          ],
-          "confidence": {
-            "overall": "low",
-            "reason": "缺少可靠 POI 或仅为菜品名，目前只保留为待核验候选。"
-          },
-          "positive": [],
-          "avoid": [],
-          "visit_tips": [
-            "出发前通过高德或电话渠道复核营业状态与具体分店。"
-          ],
-          "crowd_model": {
-            "weekday": "待核验",
-            "weekend": "热门店铺可能增加",
-            "national_holiday": "预计高于平日，需动态查询"
-          },
-          "recommended_duration": {
-            "minimum_minutes": 10,
-            "recommended_min_minutes": 20,
-            "recommended_max_minutes": 45
-          },
-          "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
-        },
-        "third_party_review_snapshot": {
-          "score": null,
-          "average_price": null,
-          "review_count": null,
-          "rank": null,
-          "sentiment": "无评语数据",
-          "score_source": "无数据",
-          "review_excerpts_stored": false
-        },
-        "source_trace": {
-          "platform": "小红书",
-          "image_ids": [
-            "image_001"
-          ],
-          "raw_verification_status": "unverified",
-          "raw_location_status": "not_found",
-          "location_note": null,
-          "name_status": null,
-          "note": null
-        },
-        "ai_score": {
-          "local_character": 4,
+        "business_status": {
           "value": null,
-          "queue_risk": null,
-          "family": null,
-          "late_night": null,
-          "photo": null
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
         },
-        "tags": [
-          "早餐",
-          "饮品",
-          "大士院",
-          "南昌美食候选",
-          "待人工核验"
-        ],
-        "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
-          "import_source": "nanchang_food_candidates_raw.json"
-        }
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0KKR4R4KW",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffm4e0xt",
@@ -3242,10 +3227,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFM4E0XT",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffi8nppa",
@@ -3379,10 +3381,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFI8NPPA",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffhtx20s",
@@ -3495,10 +3514,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFHTX20S",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0kksnulwt",
@@ -3616,10 +3652,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0KKSNULWT",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0m67awv1t",
@@ -3738,10 +3791,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0M67AWV1T",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffksl9mb",
@@ -3859,10 +3929,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFKSL9MB",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0j3drm4ba",
@@ -3981,10 +4068,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0J3DRM4BA",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffff5cpn",
@@ -4105,10 +4209,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFFF5CPN",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffk77qwl",
@@ -4225,10 +4346,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFK77QWL",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0jg1lksuu",
@@ -4345,10 +4483,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0JG1LKSUU",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0jr94etw5",
@@ -4466,10 +4621,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0JR94ETW5",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffm9tnoe",
@@ -4587,10 +4759,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFM9TNOE",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0l37al3y9",
@@ -4745,10 +4934,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0L37AL3Y9",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0k3frn497",
@@ -4912,10 +5118,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0K3FRN497",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0jr3zcgv5",
@@ -5053,10 +5276,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0JR3ZCGV5",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0317040iu",
@@ -5204,10 +5444,168 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0317040IU",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nc_food_rest_b0ffjigwks",
+        "name": "胡氏老面馆",
+        "short_name": "胡氏老面馆",
+        "city": "南昌",
+        "node_type": "food",
+        "food_scope": "restaurant",
+        "parent_id": "nc_food_area_dashiyuan",
+        "branch": null,
+        "category": [
+          "小吃",
+          "拌粉"
+        ],
+        "category_codes": [
+          "snacks",
+          "mixed_rice_noodles"
+        ],
+        "official_info": {
+          "status": "not_officially_verified",
+          "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+          "directory_name": "胡氏特色粉面馆",
+          "directory_district": "东湖区"
+        },
+        "location": {
+          "address": "大士院住宅四区",
+          "latitude": 28.684493,
+          "longitude": 115.885872,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0K1GUYLIM",
+          "status": "verified_exact_poi"
+        },
+        "meal_periods": [
+          "anytime",
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "menu_profile": {
+          "recommended_dishes": [],
+          "source_type": "visitor_experience"
+        },
+        "price_range_cny": {
+          "average_reference": null,
+          "raw_reference": null,
+          "status": "unknown"
+        },
+        "duration": {
+          "minimum_minutes": 10,
+          "recommended_minutes": 20,
+          "maximum_minutes": 45
+        },
+        "experience_layer": {
+          "source": [
+            "游客截图:image_031"
+          ],
+          "confidence": {
+            "overall": "medium",
+            "reason": "高德已匹配胡氏特色粉面馆，但原游客资料将其归入紫荆夜市，区域归属仍需后续复核。"
+          },
+          "positive": [
+            {
+              "content": "还不错",
+              "type": "visitor_keyword"
+            }
+          ],
+          "avoid": [],
+          "visit_tips": [
+            "出发前通过高德或电话渠道复核营业状态与具体分店。",
+            "该店名称或位置为近似匹配，到店前需再次确认。"
+          ],
+          "crowd_model": {
+            "weekday": "待核验",
+            "weekend": "热门店铺可能增加",
+            "national_holiday": "预计高于平日，需动态查询"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 10,
+            "recommended_min_minutes": 20,
+            "recommended_max_minutes": 45
+          },
+          "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+        },
+        "third_party_review_snapshot": {
+          "score": null,
+          "average_price": null,
+          "review_count": null,
+          "rank": null,
+          "sentiment": "无评语数据",
+          "score_source": "无数据",
+          "review_excerpts_stored": false
+        },
+        "source_trace": {
+          "platform": "小红书",
+          "image_ids": [
+            "image_031"
+          ],
+          "raw_verification_status": "unverified",
+          "raw_location_status": "verified_exact_poi",
+          "location_note": "2026-08-24高德地点搜索匹配胡氏特色粉面馆；位置为大士院片区",
+          "name_status": null,
+          "note": null
+        },
+        "ai_score": {
+          "local_character": 5,
+          "value": null,
+          "queue_risk": null,
+          "family": null,
+          "late_night": null,
+          "photo": null
+        },
+        "tags": [
+          "小吃",
+          "拌粉",
+          "大士院",
+          "南昌美食候选",
+          "待人工核验"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24",
+          "import_source": "nanchang_food_candidates_raw.json"
+        },
+        "business_status": {
+          "value": "searchable_on_amap",
+          "checked_at": "2026-08-24",
+          "status": "third_party_snapshot_dynamic_recheck_required",
+          "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0K1GUYLIM",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5279,13 +5677,12 @@
         "nc_food_rest_b0ffjiuofo",
         "nc_food_rest_b0l2uzemgc",
         "nc_food_rest_b0m6auzpc6",
-        "nc_food_rest_b0iafxck88",
         "nc_food_rest_b031705dga",
         "nc_food_rest_b0h2udqub9",
         "nc_food_rest_b0l2y1wws1",
         "nc_food_rest_b0irc56j63",
-        "nc_food_candidate_095",
-        "nc_food_rest_b0juz7784c"
+        "nc_food_rest_b0juz7784c",
+        "nc_food_rest_b0mu459syc"
       ]
     },
     "related_node_ids": [
@@ -5304,7 +5701,7 @@
       },
       "positive": [
         {
-          "content": "收录22个候选子节点，其中21个带可用坐标。",
+          "content": "收录21个候选子节点，其中21个带可用坐标。",
           "type": "data_coverage"
         },
         {
@@ -5503,10 +5900,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFHOK299",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0k6l5geaf",
@@ -5643,10 +6057,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0K6L5GEAF",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffj1u1sh",
@@ -5789,10 +6220,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFJ1U1SH",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ibo5i4sk",
@@ -5936,10 +6384,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0IBO5I4SK",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0k06ca04y",
@@ -6056,10 +6521,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0K06CA04Y",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0la99vnps",
@@ -6069,7 +6551,7 @@
         "node_type": "food",
         "food_scope": "restaurant",
         "parent_id": "nc_food_area_wanshougong",
-        "branch": null,
+        "branch": "马家园住宅小区店",
         "category": [
           "小吃",
           "拌粉"
@@ -6081,16 +6563,16 @@
         "official_info": {
           "status": "not_officially_verified",
           "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": "珠宝街老左杂酱面·万寿宫店(暂停营业)",
+          "directory_name": "珠宝街老左杂酱面馆(马家园住宅小区店)",
           "directory_district": "西湖区"
         },
         "location": {
-          "address": "广润门住宅小区三区西南门东北330米",
-          "latitude": 28.672685,
-          "longitude": 115.886627,
+          "address": "马家园住宅小区",
+          "latitude": 28.671872,
+          "longitude": 115.890118,
           "coordinate_system": "GCJ-02",
-          "amap_poi_id": "B0LA99VNPS",
-          "status": "found_partial"
+          "amap_poi_id": "B0FFHBJWZI",
+          "status": "verified_exact_poi"
         },
         "meal_periods": [
           "anytime",
@@ -6120,8 +6602,8 @@
             "游客截图:image_008"
           ],
           "confidence": {
-            "overall": "low-medium",
-            "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
+            "overall": "medium-high",
+            "reason": "原万寿宫店已标暂停营业，现改为高德可检索的马家园住宅小区店；菜单和营业仍需动态确认。"
           },
           "positive": [
             {
@@ -6171,8 +6653,8 @@
             "image_008"
           ],
           "raw_verification_status": "unverified",
-          "raw_location_status": "found_partial",
-          "location_note": "高德名称\"珠宝街老左杂酱面·万寿宫店\"，标注\"暂停营业\"",
+          "raw_location_status": "verified_exact_poi",
+          "location_note": "2026-08-24已排除暂停营业的万寿宫旧分店，改匹配马家园住宅小区店",
           "name_status": null,
           "note": null
         },
@@ -6193,10 +6675,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24",
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": "searchable_on_amap",
+          "checked_at": "2026-08-24",
+          "status": "third_party_snapshot_dynamic_recheck_required",
+          "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFHBJWZI",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0iu7sirmt",
@@ -6313,10 +6812,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0IU7SIRMT",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0h09zm2rw",
@@ -6433,10 +6949,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0H09ZM2RW",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0k29cu9px",
@@ -6554,10 +7087,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0K29CU9PX",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffkjyxsg",
@@ -6677,10 +7227,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFKJYXSG",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffggc9g8",
@@ -6816,10 +7383,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFGGC9G8",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0kgu4u1le",
@@ -6955,10 +7539,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0KGU4U1LE",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffjiuofo",
@@ -7110,10 +7711,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFJIUOFO",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0l2uzemgc",
@@ -7242,10 +7860,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0L2UZEMGC",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0m6auzpc6",
@@ -7358,126 +7993,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
-      },
-      {
-        "id": "nc_food_rest_b0iafxck88",
-        "name": "切糕子",
-        "short_name": "切糕子",
-        "city": "南昌",
-        "node_type": "food",
-        "food_scope": "restaurant",
-        "parent_id": "nc_food_area_wanshougong",
-        "branch": null,
-        "category": [
-          "糕点",
-          "小吃"
-        ],
-        "category_codes": [
-          "pastry",
-          "snacks"
-        ],
-        "official_info": {
-          "status": "not_officially_verified",
-          "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": "胖子切糕店",
-          "directory_district": "西湖区"
         },
-        "location": {
-          "address": "马家园住宅小区东门北110米",
-          "latitude": 28.672974,
-          "longitude": 115.890293,
-          "coordinate_system": "GCJ-02",
-          "amap_poi_id": "B0IAFXCK88",
-          "status": "found_partial"
-        },
-        "meal_periods": [
-          "anytime"
-        ],
-        "menu_profile": {
-          "recommended_dishes": [],
-          "source_type": "visitor_experience"
-        },
-        "price_range_cny": {
-          "average_reference": null,
-          "raw_reference": null,
-          "status": "unknown"
-        },
-        "duration": {
-          "minimum_minutes": 10,
-          "recommended_minutes": 20,
-          "maximum_minutes": 45
-        },
-        "experience_layer": {
-          "source": [
-            "游客截图:image_001"
-          ],
-          "confidence": {
-            "overall": "low-medium",
-            "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
-          },
-          "positive": [],
-          "avoid": [],
-          "visit_tips": [
-            "出发前通过高德或电话渠道复核营业状态与具体分店。",
-            "该店名称或位置为近似匹配，到店前需再次确认。"
-          ],
-          "crowd_model": {
-            "weekday": "待核验",
-            "weekend": "热门店铺可能增加",
-            "national_holiday": "预计高于平日，需动态查询"
-          },
-          "recommended_duration": {
-            "minimum_minutes": 10,
-            "recommended_min_minutes": 20,
-            "recommended_max_minutes": 45
-          },
-          "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
-        },
-        "third_party_review_snapshot": {
-          "score": 3.5,
-          "average_price": null,
-          "review_count": null,
-          "rank": null,
-          "sentiment": "好评为主",
-          "score_source": "dianping官方评分",
-          "review_excerpts_stored": false
-        },
-        "source_trace": {
-          "platform": "小红书",
-          "image_ids": [
-            "image_001"
-          ],
-          "raw_verification_status": "unverified",
-          "raw_location_status": "found_partial",
-          "location_note": "高德名称\"胖子切糕店\"，可能为单品名，待核实",
-          "name_status": "uncertain",
-          "note": "OCR 识别'切糕子'，可能为单品或店名，待人工确认"
-        },
-        "ai_score": {
-          "local_character": 5,
+        "business_status": {
           "value": null,
-          "queue_risk": null,
-          "family": null,
-          "late_night": null,
-          "photo": null
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
         },
-        "tags": [
-          "糕点",
-          "小吃",
-          "万寿宫",
-          "南昌美食候选",
-          "待人工核验"
-        ],
-        "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
-          "import_source": "nanchang_food_candidates_raw.json"
-        }
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0M6AUZPC6",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b031705dga",
@@ -7590,10 +8126,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B031705DGA",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0h2udqub9",
@@ -7717,10 +8270,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0H2UDQUB9",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0l2y1wws1",
@@ -7850,10 +8420,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0L2Y1WWS1",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0irc56j63",
@@ -8006,132 +8593,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
-      },
-      {
-        "id": "nc_food_candidate_095",
-        "name": "茉莉花豆浆",
-        "short_name": "茉莉花豆浆",
-        "city": "南昌",
-        "node_type": "food",
-        "food_scope": "restaurant",
-        "parent_id": "nc_food_area_wanshougong",
-        "branch": null,
-        "category": [
-          "饮品"
-        ],
-        "category_codes": [
-          "drinks"
-        ],
-        "official_info": {
-          "status": "not_officially_verified",
-          "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": null,
-          "directory_district": null
         },
-        "location": {
-          "address": "珠宝街51号",
-          "latitude": null,
-          "longitude": null,
-          "coordinate_system": "GCJ-02",
-          "amap_poi_id": null,
-          "status": "not_found"
-        },
-        "meal_periods": [
-          "afternoon",
-          "evening"
-        ],
-        "menu_profile": {
-          "recommended_dishes": [
-            "茉莉花豆浆",
-            "豆花冰沙双皮奶"
-          ],
-          "source_type": "visitor_experience"
-        },
-        "price_range_cny": {
-          "average_reference": null,
-          "raw_reference": null,
-          "status": "unknown"
-        },
-        "duration": {
-          "minimum_minutes": 10,
-          "recommended_minutes": 20,
-          "maximum_minutes": 45
-        },
-        "experience_layer": {
-          "source": [
-            "游客截图:image_002"
-          ],
-          "confidence": {
-            "overall": "low",
-            "reason": "缺少可靠 POI 或仅为菜品名，目前只保留为待核验候选。"
-          },
-          "positive": [
-            {
-              "content": "纳入非遗的网红打卡美食",
-              "type": "visitor_keyword"
-            }
-          ],
-          "avoid": [],
-          "visit_tips": [
-            "优先从候选推荐菜中选择：茉莉花豆浆、豆花冰沙双皮奶",
-            "出发前通过高德或电话渠道复核营业状态与具体分店。"
-          ],
-          "crowd_model": {
-            "weekday": "待核验",
-            "weekend": "热门店铺可能增加",
-            "national_holiday": "预计高于平日，需动态查询"
-          },
-          "recommended_duration": {
-            "minimum_minutes": 10,
-            "recommended_min_minutes": 20,
-            "recommended_max_minutes": 45
-          },
-          "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
-        },
-        "third_party_review_snapshot": {
-          "score": null,
-          "average_price": null,
-          "review_count": null,
-          "rank": null,
-          "sentiment": "好评为主",
-          "score_source": "评语情感推断",
-          "review_excerpts_stored": false
-        },
-        "source_trace": {
-          "platform": "小红书",
-          "image_ids": [
-            "image_002"
-          ],
-          "raw_verification_status": "unverified",
-          "raw_location_status": "not_found",
-          "location_note": null,
-          "name_status": "uncertain",
-          "note": "截图无明确店名，以招牌'茉莉花豆浆'暂记，地址珠宝街51号，待人工确认"
-        },
-        "ai_score": {
-          "local_character": 2,
+        "business_status": {
           "value": null,
-          "queue_risk": null,
-          "family": null,
-          "late_night": null,
-          "photo": null
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
         },
-        "tags": [
-          "饮品",
-          "万寿宫",
-          "南昌美食候选",
-          "待人工核验"
-        ],
-        "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
-          "import_source": "nanchang_food_candidates_raw.json"
-        }
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0IRC56J63",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0juz7784c",
@@ -8141,7 +8623,7 @@
         "node_type": "food",
         "food_scope": "restaurant",
         "parent_id": "nc_food_area_wanshougong",
-        "branch": null,
+        "branch": "万寿宫店",
         "category": [
           "茶馆"
         ],
@@ -8151,16 +8633,16 @@
         "official_info": {
           "status": "not_officially_verified",
           "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": "老熹门茶馆",
+          "directory_name": "醋巷茶馆(万寿宫店)",
           "directory_district": "西湖区"
         },
         "location": {
-          "address": "广润门街道醋巷1号万寿宫历史文化街区",
-          "latitude": 28.674269,
-          "longitude": 115.88728,
+          "address": "广润门街道合同巷16号",
+          "latitude": 28.674279,
+          "longitude": 115.887205,
           "coordinate_system": "GCJ-02",
-          "amap_poi_id": "B0JUZ7784C",
-          "status": "found_partial"
+          "amap_poi_id": "B0M1NZSW04",
+          "status": "verified_exact_poi"
         },
         "meal_periods": [
           "afternoon",
@@ -8188,8 +8670,8 @@
             "游客截图:image_031"
           ],
           "confidence": {
-            "overall": "low-medium",
-            "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
+            "overall": "medium-high",
+            "reason": "游客候选名称与高德万寿宫店精确匹配；营业时间和节目安排仍需动态确认。"
           },
           "positive": [
             {
@@ -8247,8 +8729,8 @@
             "image_031"
           ],
           "raw_verification_status": "unverified",
-          "raw_location_status": "found_partial",
-          "location_note": "高德名称\"老熹门茶馆\"，醋巷1号万寿宫，位置吻合",
+          "raw_location_status": "verified_exact_poi",
+          "location_note": "2026-08-24高德地点搜索已匹配醋巷茶馆(万寿宫店)",
           "name_status": null,
           "note": null
         },
@@ -8268,10 +8750,143 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24",
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": "searchable_on_amap",
+          "checked_at": "2026-08-24",
+          "status": "third_party_snapshot_dynamic_recheck_required",
+          "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0M1NZSW04",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nc_food_rest_b0mu459syc",
+        "name": "珠宝街左姐正宗南昌炒粉",
+        "short_name": "左姐炒粉",
+        "city": "南昌",
+        "node_type": "food",
+        "food_scope": "restaurant",
+        "parent_id": "nc_food_area_wanshougong",
+        "branch": "珠宝街店",
+        "category": [
+          "南昌炒粉",
+          "地方小吃",
+          "快餐"
+        ],
+        "official_info": {
+          "status": "third_party_poi_snapshot",
+          "description": "店名、分店、地址与坐标已由高德地点搜索复核；营业承诺、菜单和价格仍不属于官方事实。"
+        },
+        "location": {
+          "address": "珠宝街98号（八一馆地铁站8号口步行约350米）",
+          "district": "江西省南昌市西湖区",
+          "latitude": 28.673205,
+          "longitude": 115.890057,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0MU459SYC",
+          "status": "verified_exact_poi"
+        },
+        "business_status": {
+          "value": "searchable_on_amap",
+          "checked_at": "2026-08-24",
+          "status": "third_party_snapshot_dynamic_recheck_required",
+          "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+        },
+        "meal_periods": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "menu_profile": {
+          "recommended_dishes": [
+            "南昌炒粉"
+          ],
+          "source_type": "visitor_experience"
+        },
+        "experience_layer": {
+          "source": [
+            "南昌美食游客资料",
+            "高德地点搜索:2026-08-24"
+          ],
+          "confidence": {
+            "overall": "medium-high",
+            "reason": "游客候选名称与珠宝街同名高德 POI 精确匹配；营业时间和菜单仍属动态信息。"
+          },
+          "positive": [
+            {
+              "content": "位于万寿宫—珠宝街美食区，可作为南昌炒粉候选。",
+              "type": "route_efficiency"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "国庆营业状态和排队情况尚不可固化。",
+              "risk": "dynamic_business",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "到店当天通过高德复核营业状态和排队情况。",
+            "作为小吃少量点单，避免影响后续正餐。"
+          ],
+          "crowd_model": {
+            "weekday": "dynamic",
+            "weekend": "dynamic",
+            "national_holiday": "high_risk_dynamic_check"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 15,
+            "recommended_min_minutes": 25,
+            "recommended_max_minutes": 45
+          },
+          "ai_note": "已完成 POI 核验，但只作为珠宝街小吃候选，不把第三方可检索状态解释为官方营业承诺。"
+        },
+        "ai_score": {
+          "local_character": 5,
+          "value": 4,
+          "queue_risk": null,
+          "family": 3,
+          "late_night": 3,
+          "photo": 2
+        },
+        "tags": [
+          "南昌炒粉",
+          "珠宝街",
+          "万寿宫",
+          "高德POI已核验"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：珠宝街左姐正宗南昌炒粉",
+            "url": "https://www.amap.com/place/B0MU459SYC",
+            "scope": [
+              "店名",
+              "分店",
+              "地址",
+              "坐标",
+              "POI ID",
+              "2026-08-24可检索状态"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8361,7 +8976,7 @@
       },
       "positive": [
         {
-          "content": "收录15个候选子节点，其中14个带可用坐标。",
+          "content": "收录15个候选子节点，其中15个带可用坐标。",
           "type": "data_coverage"
         },
         {
@@ -8529,10 +9144,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0317062JP",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffhsl1et",
@@ -8645,10 +9277,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFHSL1ET",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_candidate_009",
@@ -8658,7 +9307,7 @@
         "node_type": "food",
         "food_scope": "restaurant",
         "parent_id": "nc_food_area_yangzixiang",
-        "branch": null,
+        "branch": "羊子巷店",
         "category": [
           "赣菜",
           "正餐"
@@ -8668,18 +9317,16 @@
           "full_meal"
         ],
         "official_info": {
-          "status": "not_officially_verified",
-          "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": null,
-          "directory_district": null
+          "status": "third_party_poi_snapshot",
+          "description": "店名、分店、地址与坐标已由高德地点搜索复核；营业承诺、菜单和价格仍不属于官方事实。"
         },
         "location": {
-          "address": null,
-          "latitude": null,
-          "longitude": null,
+          "address": "羊子街200号",
+          "latitude": 28.674685,
+          "longitude": 115.896361,
           "coordinate_system": "GCJ-02",
-          "amap_poi_id": null,
-          "status": "not_found"
+          "amap_poi_id": "B0JKGA3FOS",
+          "status": "verified_exact_poi"
         },
         "meal_periods": [
           "lunch",
@@ -8706,11 +9353,12 @@
         },
         "experience_layer": {
           "source": [
-            "游客截图:image_015"
+            "游客截图:image_015",
+            "高德地点搜索:2026-08-24"
           ],
           "confidence": {
-            "overall": "low",
-            "reason": "缺少可靠 POI 或仅为菜品名，目前只保留为待核验候选。"
+            "overall": "medium-high",
+            "reason": "游客经验来源与高德同名分店 POI 已匹配；营业时间和菜单仍属动态信息。"
           },
           "positive": [],
           "avoid": [],
@@ -8767,10 +9415,30 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24",
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": "searchable_on_amap",
+          "checked_at": "2026-08-24",
+          "status": "third_party_snapshot_dynamic_recheck_required",
+          "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+        },
+        "sources": [
+          {
+            "name": "高德地图：张六叔·南昌菜馆(羊子巷店)",
+            "url": "https://www.amap.com/place/B0JKGA3FOS",
+            "scope": [
+              "店名",
+              "分店",
+              "地址",
+              "坐标",
+              "POI ID",
+              "2026-08-24可检索状态"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffioy34g",
@@ -8922,10 +9590,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFIOY34G",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0maxhl35m",
@@ -9072,10 +9757,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0MAXHL35M",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffhu9w1w",
@@ -9234,10 +9936,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFHU9W1W",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0fflj25yd",
@@ -9352,10 +10071,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFLJ25YD",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b031703jgd",
@@ -9511,10 +10247,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B031703JGD",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffl7a3ug",
@@ -9635,10 +10388,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFL7A3UG",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0jry7cdfy",
@@ -9773,10 +10543,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0JRY7CDFY",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0kr4k0fhw",
@@ -9888,10 +10675,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0KR4K0FHW",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0jk7uoqoq",
@@ -10006,10 +10810,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0JK7UOQOQ",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0g0cnqi86",
@@ -10122,10 +10943,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0G0CNQI86",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffff8g67",
@@ -10243,10 +11081,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFFF8G67",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0lk2aqmfd",
@@ -10360,10 +11215,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0LK2AQMFD",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10626,10 +11498,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0LUUCI4WW",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10870,10 +11759,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFL7BRDV",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0gum19vjc",
@@ -11011,10 +11917,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0GUM19VJC",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0j1d5uefe",
@@ -11151,10 +12074,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0J1D5UEFE",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ma56ngbu",
@@ -11287,10 +12227,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0MA56NGBU",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0l35cf1if",
@@ -11414,10 +12371,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0L35CF1IF",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0lryavq9r",
@@ -11547,10 +12521,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0LRYAVQ9R",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11800,10 +12791,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFFY0HSP",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0fffa0f3x",
@@ -11914,10 +12922,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFFA0F3X",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffig9t51",
@@ -12029,10 +13054,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFIG9T51",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffksaq8x",
@@ -12144,10 +13186,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFKSAQ8X",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -12197,8 +13256,7 @@
       "dishes": [],
       "restaurants": [
         "nc_food_rest_b0iavaf2mg",
-        "nc_food_rest_b0ffhfxah0",
-        "nc_food_rest_b0ffjigwks"
+        "nc_food_rest_b0ffhfxah0"
       ]
     },
     "related_node_ids": [],
@@ -12214,7 +13272,7 @@
       },
       "positive": [
         {
-          "content": "收录3个候选子节点，其中3个带可用坐标。",
+          "content": "收录2个候选子节点，其中2个带可用坐标。",
           "type": "data_coverage"
         },
         {
@@ -12386,10 +13444,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "business_status": {
+          "value": null,
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+        },
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0IAVAF2MG",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       },
       {
         "id": "nc_food_rest_b0ffhfxah0",
@@ -12502,134 +13577,27 @@
         ],
         "metadata": {
           "schema_version": "1.0",
-          "data_status": "draft",
+          "data_status": "third_party_verified",
           "last_verified_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
-      },
-      {
-        "id": "nc_food_rest_b0ffjigwks",
-        "name": "胡氏老面馆",
-        "short_name": "胡氏老面馆",
-        "city": "南昌",
-        "node_type": "food",
-        "food_scope": "restaurant",
-        "parent_id": "nc_food_area_zijing",
-        "branch": null,
-        "category": [
-          "小吃",
-          "拌粉"
-        ],
-        "category_codes": [
-          "snacks",
-          "mixed_rice_noodles"
-        ],
-        "official_info": {
-          "status": "not_officially_verified",
-          "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
-          "directory_name": "老面馆(紫荆路店)",
-          "directory_district": "新建区"
         },
-        "location": {
-          "address": "金铺颐园西门旁",
-          "latitude": 28.736139,
-          "longitude": 115.833374,
-          "coordinate_system": "GCJ-02",
-          "amap_poi_id": "B0FFJIGWKS",
-          "status": "found_partial"
-        },
-        "meal_periods": [
-          "anytime",
-          "breakfast",
-          "lunch",
-          "dinner"
-        ],
-        "menu_profile": {
-          "recommended_dishes": [],
-          "source_type": "visitor_experience"
-        },
-        "price_range_cny": {
-          "average_reference": null,
-          "raw_reference": null,
-          "status": "unknown"
-        },
-        "duration": {
-          "minimum_minutes": 10,
-          "recommended_minutes": 20,
-          "maximum_minutes": 45
-        },
-        "experience_layer": {
-          "source": [
-            "游客截图:image_031"
-          ],
-          "confidence": {
-            "overall": "low-medium",
-            "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
-          },
-          "positive": [
-            {
-              "content": "还不错",
-              "type": "visitor_keyword"
-            }
-          ],
-          "avoid": [],
-          "visit_tips": [
-            "出发前通过高德或电话渠道复核营业状态与具体分店。",
-            "该店名称或位置为近似匹配，到店前需再次确认。"
-          ],
-          "crowd_model": {
-            "weekday": "待核验",
-            "weekend": "热门店铺可能增加",
-            "national_holiday": "预计高于平日，需动态查询"
-          },
-          "recommended_duration": {
-            "minimum_minutes": 10,
-            "recommended_min_minutes": 20,
-            "recommended_max_minutes": 45
-          },
-          "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
-        },
-        "third_party_review_snapshot": {
-          "score": null,
-          "average_price": null,
-          "review_count": null,
-          "rank": null,
-          "sentiment": "无评语数据",
-          "score_source": "无数据",
-          "review_excerpts_stored": false
-        },
-        "source_trace": {
-          "platform": "小红书",
-          "image_ids": [
-            "image_031"
-          ],
-          "raw_verification_status": "unverified",
-          "raw_location_status": "found_partial",
-          "location_note": "高德名称\"老面馆(紫荆路店)\"，待核实",
-          "name_status": null,
-          "note": null
-        },
-        "ai_score": {
-          "local_character": 5,
+        "business_status": {
           "value": null,
-          "queue_risk": null,
-          "family": null,
-          "late_night": null,
-          "photo": null
+          "checked_at": null,
+          "status": "dynamic_check_required",
+          "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
         },
-        "tags": [
-          "小吃",
-          "拌粉",
-          "紫荆夜市",
-          "南昌美食候选",
-          "待人工核验"
-        ],
-        "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": null,
-          "import_source": "nanchang_food_candidates_raw.json"
-        }
+        "sources": [
+          {
+            "name": "高德地图POI快照",
+            "url": "https://www.amap.com/place/B0FFHFXAH0",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址快照"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -12761,7 +13729,7 @@
         "station_transfer",
         "hotel_poi_search"
       ],
-      "api_status": "proxy_configured"
+      "api_status": "proxy_verified"
     },
     "tags": [
       "老城",
@@ -12915,7 +13883,7 @@
         "station_transfer",
         "hotel_poi_search"
       ],
-      "api_status": "proxy_configured"
+      "api_status": "proxy_verified"
     },
     "tags": [
       "滕王阁",
@@ -13067,7 +14035,7 @@
         "station_transfer",
         "hotel_poi_search"
       ],
-      "api_status": "proxy_configured"
+      "api_status": "proxy_verified"
     },
     "tags": [
       "红谷滩",
@@ -13219,7 +14187,7 @@
         "station_transfer",
         "hotel_poi_search"
       ],
-      "api_status": "proxy_configured"
+      "api_status": "proxy_verified"
     },
     "tags": [
       "江西省博物馆",
@@ -13366,7 +14334,7 @@
         "station_transfer",
         "hotel_poi_search"
       ],
-      "api_status": "proxy_configured"
+      "api_status": "proxy_verified"
     },
     "tags": [
       "南昌西站",
@@ -13467,7 +14435,7 @@
         "游客攻略截图108"
       ],
       "confidence": {
-        "overall": "medium-low",
+        "overall": "low-medium",
         "reason": "目前主要来自单份游客攻略，需后续增加真实住宿样本"
       },
       "positive": [
@@ -13523,7 +14491,7 @@
         "station_transfer",
         "hotel_poi_search"
       ],
-      "api_status": "proxy_configured"
+      "api_status": "proxy_verified"
     },
     "tags": [
       "绳金塔",

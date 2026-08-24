@@ -83,7 +83,7 @@ python scripts/import_nanchang_food.py <nanchang_food_candidates_raw.json>
   },
   "amap_integration": {
     "dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"],
-    "api_status": "proxy_configured"
+    "api_status": "proxy_verified"
   }
 }
 ```

@@ -8,11 +8,11 @@
     "category": "陶瓷器",
     "period": "元代",
     "excavation_site": null,
-    "collection_status": null,
-    "description": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "pending_verification"
+    "collection_status": "江西省博物馆馆藏；首批禁止出国（境）展览文物",
+    "description": "带有公元1338年明确纪年，集红釉、青花、釉里红等高温釉彩于一器的重檐庑殿顶楼阁式谷仓。",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_government_cultural_source"
   },
   "experience": {
     "importance": 5,
@@ -24,8 +24,7 @@
   "tags": ["陶瓷器", "元代", "精品文物"],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null
+    "data_status": "verified",
+    "last_verified_at": "2026-08-24"
   }
 }
-

@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ikm_exh_pearl_of_porcelain", "name": "瓷国明珠", "city": "景德镇", "node_type": "permanent_exhibition", "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {"exhibition_type": "常设展", "floor": null, "hall": null, "description": "御窑博物馆基本陈列之一，以景德镇陶瓷在中国陶瓷史、产业发展和文明交流中的地位为主线。", "source_url": "https://www.jdzyybwy.com/", "verified_at": "2026-08-24", "status": "verified_title_hall_dynamic"},
+  "experience": {"importance": 5, "recommended_duration_minutes": 35, "suitable_for": ["第一次到访", "陶瓷史", "城市文化"], "highlights": ["景德镇陶瓷发展", "陶瓷文明交流"]},
+  "related_artifact_ids": [], "tags": ["瓷国明珠", "常设展", "陶瓷史"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

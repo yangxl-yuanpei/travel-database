@@ -1,0 +1,116 @@
+{
+  "id": "nc_food_rest_b0mu459syc",
+  "name": "珠宝街左姐正宗南昌炒粉",
+  "short_name": "左姐炒粉",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "nc_food_area_wanshougong",
+  "branch": "珠宝街店",
+  "category": [
+    "南昌炒粉",
+    "地方小吃",
+    "快餐"
+  ],
+  "official_info": {
+    "status": "third_party_poi_snapshot",
+    "description": "店名、分店、地址与坐标已由高德地点搜索复核；营业承诺、菜单和价格仍不属于官方事实。"
+  },
+  "location": {
+    "address": "珠宝街98号（八一馆地铁站8号口步行约350米）",
+    "district": "江西省南昌市西湖区",
+    "latitude": 28.673205,
+    "longitude": 115.890057,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0MU459SYC",
+    "status": "verified_exact_poi"
+  },
+  "business_status": {
+    "value": "searchable_on_amap",
+    "checked_at": "2026-08-24",
+    "status": "third_party_snapshot_dynamic_recheck_required",
+    "note": "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。"
+  },
+  "meal_periods": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [
+      "南昌炒粉"
+    ],
+    "source_type": "visitor_experience"
+  },
+  "experience_layer": {
+    "source": [
+      "南昌美食游客资料",
+      "高德地点搜索:2026-08-24"
+    ],
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "游客候选名称与珠宝街同名高德 POI 精确匹配；营业时间和菜单仍属动态信息。"
+    },
+    "positive": [
+      {
+        "content": "位于万寿宫—珠宝街美食区，可作为南昌炒粉候选。",
+        "type": "route_efficiency"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "国庆营业状态和排队情况尚不可固化。",
+        "risk": "dynamic_business",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "到店当天通过高德复核营业状态和排队情况。",
+      "作为小吃少量点单，避免影响后续正餐。"
+    ],
+    "crowd_model": {
+      "weekday": "dynamic",
+      "weekend": "dynamic",
+      "national_holiday": "high_risk_dynamic_check"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 15,
+      "recommended_min_minutes": 25,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "已完成 POI 核验，但只作为珠宝街小吃候选，不把第三方可检索状态解释为官方营业承诺。"
+  },
+  "ai_score": {
+    "local_character": 5,
+    "value": 4,
+    "queue_risk": null,
+    "family": 3,
+    "late_night": 3,
+    "photo": 2
+  },
+  "tags": [
+    "南昌炒粉",
+    "珠宝街",
+    "万寿宫",
+    "高德POI已核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "third_party_verified",
+    "last_verified_at": "2026-08-24"
+  },
+  "sources": [
+    {
+      "name": "高德地图：珠宝街左姐正宗南昌炒粉",
+      "url": "https://www.amap.com/place/B0MU459SYC",
+      "scope": [
+        "店名",
+        "分店",
+        "地址",
+        "坐标",
+        "POI ID",
+        "2026-08-24可检索状态"
+      ]
+    }
+  ]
+}

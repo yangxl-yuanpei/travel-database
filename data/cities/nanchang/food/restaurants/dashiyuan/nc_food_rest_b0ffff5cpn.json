@@ -117,8 +117,25 @@
   ],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
+    "data_status": "third_party_verified",
     "last_verified_at": null,
     "import_source": "nanchang_food_candidates_raw.json"
-  }
+  },
+  "business_status": {
+    "value": null,
+    "checked_at": null,
+    "status": "dynamic_check_required",
+    "note": "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。"
+  },
+  "sources": [
+    {
+      "name": "高德地图POI快照",
+      "url": "https://www.amap.com/place/B0FFFF5CPN",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址快照"
+      ]
+    }
+  ]
 }

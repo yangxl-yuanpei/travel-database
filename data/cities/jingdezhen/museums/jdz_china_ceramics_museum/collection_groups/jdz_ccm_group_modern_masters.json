@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ccm_group_modern_masters", "name": "近现代景德镇陶瓷名家作品", "city": "景德镇", "node_type": "collection_group", "parent_id": "jdz_china_ceramics_museum",
+  "official_info": {"theme": "近现代景德镇陶瓷艺术", "period": "近现代", "description": "馆藏特色包括王步、“珠山八友”等近现代陶瓷名家作品。", "source_url": "https://www.jdz.gov.cn/zjcd/mljdz/sj/t933002.shtml", "verified_at": "2026-08-24", "status": "verified_group_individual_display_dynamic"},
+  "experience": {"importance": 5, "viewing_notes": ["适合在历代陶瓷通史之后观看", "关注传统工艺向近现代个人艺术表达的转变"]},
+  "artifact_ids": [], "tags": ["王步", "珠山八友", "近现代陶瓷", "名家作品"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

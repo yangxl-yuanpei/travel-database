@@ -1,0 +1,13 @@
+{
+  "id": "jdz_stay_area_ceramics_museum_fuliang", "name": "中国陶瓷博物馆—浮梁住宿区", "short_name": "陶瓷博物馆—浮梁", "city": "景德镇", "node_type": "accommodation_area",
+  "category": ["博物馆优先住宿区", "性价比候选区", "安静住宿区"],
+  "location": {"address": "景德镇市昌江区紫晶北路1号周边", "latitude": 29.29324, "longitude": 117.17553, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HX27", "map_anchor": "景德镇中国陶瓷博物馆", "anchor_rule": "坐标仅作为住宿检索与通勤计算锚点，不代表区域边界"},
+  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["jdz_china_ceramics_museum"], "hotel_search_radius_m": 2500, "hotel_search_keywords": ["酒店", "公寓", "民宿"]},
+  "suitable_for": ["中国陶瓷博物馆优先", "亲子研学", "希望相对安静", "价格敏感"],
+  "transit_profile": {"rail_station_access": "北站与机场通勤需按实际酒店动态计算", "public_transport": "前往老城和陶溪川主要依赖公交或网约车", "walkability": "仅对博物馆周边行程较友好", "dynamic_note": "必须同时测算到陶阳里、陶溪川和北站的通勤成本"},
+  "experience": {"summary": "适合把中国陶瓷博物馆作为核心、希望避开老城夜间拥挤的游客。", "best_for": ["博物馆爱好者", "亲子", "安静", "价格敏感"], "highlights": ["靠近中国陶瓷博物馆", "相对避开夜游核心客流"], "avoid": ["老城夜游后返程成本增加", "步行可达景点较少"], "holiday_price_risk": "medium-high", "night_noise_risk": "low-medium"},
+  "experience_layer": {"source": ["景德镇攻略截图115、120"], "confidence": {"overall": "medium"}, "positive": [{"content": "博物馆参观和亲子行程更从容", "type": "museum_access"}], "avoid": [{"content": "离陶阳里和陶溪川等核心夜游区较远", "risk": "commute", "severity": "medium"}], "visit_tips": ["不要只比较房价，要把每天往返费用加入决策", "通过高德查询晚间从陶溪川返回的路线"], "crowd_model": {"national_holiday": "medium-high", "weekend": "medium", "weekday": "low-medium"}, "ai_note": "博物馆与安静偏好高；夜游和步行串联偏好需降低权重。"},
+  "ai_score": {"first_visit": 3, "transit": 3, "walkability": 2, "quiet": 4, "value": 5, "holiday_price_risk": 4},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"}, "tags": ["中国陶瓷博物馆", "浮梁方向", "亲子", "安静"],
+  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"}, "sources": [{"name": "高德地图：景德镇中国陶瓷博物馆", "url": "https://www.amap.com/place/B031E0HX27", "scope": ["锚点坐标", "POI ID"]}]
+}

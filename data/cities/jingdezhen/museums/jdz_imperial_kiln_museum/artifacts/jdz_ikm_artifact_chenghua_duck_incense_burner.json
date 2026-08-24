@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ikm_artifact_chenghua_duck_incense_burner", "name": "明成化三彩鸭形香薰", "city": "景德镇", "node_type": "artifact", "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {"category": "三彩瓷塑", "period": "明成化", "description": "景德镇御窑博物馆官方介绍称，现存四件均出土于景德镇御窑厂遗址；同时列入官方公布的六件代表性院藏文物。", "source_url": "https://jdzyybwy.com/jdzmu/frontend/pg/article/id/I00004510", "verified_at": "2026-08-24", "status": "verified_identity_display_dynamic"},
+  "experience": {"importance": 5, "photo_value": 5, "recognition_value": 5, "viewing_notes": ["观察鸭形塑造和三彩装饰", "结合仅存四件的考古背景理解其稀缺性"]},
+  "related_exhibition_ids": ["jdz_ikm_exh_imperial_kiln_history"], "tags": ["明成化", "三彩", "鸭形香薰", "代表文物"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

@@ -27,10 +27,23 @@
       "jdz_imperial_kiln_museum"
     ],
     "memorials": [],
-    "food": [],
-    "accommodation_areas": [],
+    "food": [
+      "jdz_food_area_fuzhounong",
+      "jdz_food_area_zhejiang_road",
+      "jdz_food_area_taoyangli",
+      "jdz_food_area_taoxichuan",
+      "jdz_food_area_sanbao",
+      "jdz_food_area_ceramics_museum"
+    ],
+    "accommodation_areas": [
+      "jdz_stay_area_taoyangli_people_square",
+      "jdz_stay_area_taoxichuan",
+      "jdz_stay_area_sanbao",
+      "jdz_stay_area_yaoli",
+      "jdz_stay_area_ceramics_museum_fuliang"
+    ],
     "transport": ["transport_nanchang_jingdezhen", "transport_jingdezhen_shangrao"]
   },
-  "tags": ["瓷都", "江西主线", "陶瓷文化", "城市节点建设中"],
+  "tags": ["瓷都", "江西主线", "陶瓷文化", "美食区域", "住宿区域"],
   "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
 }

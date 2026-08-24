@@ -21,18 +21,20 @@
     "contact_phone": "0791-86702036",
     "opening_hours": {
       "value": null,
-      "source_name": "景区官方公告",
-      "source_url": null,
-      "verified_at": null,
-      "status": "pending_verification"
+      "source_name": "滕王阁官方网站景区公告",
+      "source_url": "https://www.cntwg.com/list56_1.html",
+      "verified_at": "2026-08-24",
+      "status": "dynamic_schedule_check_before_visit",
+      "national_day_2026": "pending_official_announcement"
     },
     "ticket": {
       "price": null,
       "currency": "CNY",
-      "source_name": "景区官方信息",
-      "source_url": null,
-      "verified_at": null,
-      "status": "pending_verification"
+      "source_name": "滕王阁官方小程序 TengWangGe",
+      "source_url": "https://www.cntwg.com/htm/News/Show-202307151125420.html",
+      "verified_at": "2026-08-24",
+      "status": "dynamic_price_check_official_channel",
+      "notes": "官方购票说明确认实名分时购票；价格和场次以购买日官方页面为准。"
     }
   },
   "experience": {
@@ -153,7 +155,9 @@
     "channels": ["景区官方购票渠道"],
     "advance_days": null,
     "notes": "节假日建议提前查询官方预约及购票要求",
-    "status": "verified"
+    "source_url": "https://www.cntwg.com/htm/News/Show-202307151125420.html",
+    "verified_at": "2026-08-24",
+    "status": "verified_official_channel_dynamic_quota"
   },
   "tags": [
     "第一次南昌旅行",

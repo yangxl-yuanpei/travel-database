@@ -25,6 +25,7 @@
     "opening_hours": {
       "regular_schedule": "周二至周日 09:00-17:00，16:00停止入馆；周一闭馆，法定节假日除外",
       "national_day_schedule": null,
+      "national_day_schedule_status": "pending_2026_official_announcement",
       "source_url": "https://tour.jxcn.cn/system/2026/05/12/031129391.shtml",
       "verified_at": "2026-08-23",
       "status": "verified_regular_schedule"
@@ -35,9 +36,9 @@
         "currency": "CNY"
       },
       "special_exhibition_exception": null,
-      "source_url": null,
-      "verified_at": null,
-      "status": "pending_verification"
+      "source_url": "https://jx.ifeng.com/c/8toqouFK0sN",
+      "verified_at": "2026-08-24",
+      "status": "verified_free_general_admission"
     }
   },
   "reservation": {
@@ -47,8 +48,8 @@
     "advance_days": 7,
     "document_requirements": ["有效身份证件"],
     "notes": "具体预约规则以博物馆官方公告为准",
-    "source_url": "https://m.thepaper.cn/newsDetail_forward_33349146",
-    "verified_at": "2026-08-23",
+    "source_url": "https://jx.ifeng.com/c/8toqouFK0sN",
+    "verified_at": "2026-08-24",
     "status": "verified"
   },
   "child_nodes": {
@@ -189,8 +190,13 @@
     },
     {
       "name": "江西省博物馆开放安排",
-      "url": "https://m.thepaper.cn/newsDetail_forward_33349146",
-      "scope": ["预约", "开放安排"]
+      "url": "https://jx.ifeng.com/c/8toqouFK0sN",
+      "scope": ["江西省博物馆2026年6月9日公告原文", "7月1日起实名免费预约", "提前七天", "暑期延时开放"]
+    },
+    {
+      "name": "南昌市人民政府：文脉里的江西采风活动",
+      "url": "https://www.nc.gov.cn/ncszf/ttxw/202605/e464b3964ea5407aaffe79af53e10644.shtml",
+      "scope": ["2026年仍在展的江西古代历史文化展", "展览主题"]
     },
     {
       "name": "南昌市文化广电旅游局：江西十大镇馆之宝",

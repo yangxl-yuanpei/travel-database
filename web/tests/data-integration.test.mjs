@@ -54,17 +54,29 @@ test("Nanchang keeps city nodes and deep nodes", async () => {
   assert.ok(foodAreas.reduce((count, area) => count + area.children.length, 0) >= 70);
   assert.ok(stayAreas.every((area) => typeof area.location.latitude === "number" && typeof area.location.longitude === "number"));
   assert.ok(stayAreas.every((area) => area.location.coordinate_system === "GCJ-02"));
-  assert.ok(stayAreas.every((area) => area.amap_integration.api_status === "proxy_configured"));
+  assert.ok(stayAreas.every((area) => area.amap_integration.api_status === "proxy_verified"));
   assert.ok(stayAreas.every((area) => !area.price_range_cny));
 });
 
 test("Jingdezhen publishes the first ceramic-culture node batch", async () => {
   const data = await atlas();
   const places = data.city_places.city_jingdezhen;
-  assert.equal(places.length, 8);
+  const foodAreas = places.filter((place) => place.node_type === "food" && place.food_scope === "area");
+  const stayAreas = places.filter((place) => place.node_type === "accommodation_area");
+  assert.equal(places.length, 19);
   assert.equal(places.filter((place) => place.node_type === "museum").length, 2);
+  assert.equal(foodAreas.length, 6);
+  assert.equal(stayAreas.length, 5);
   assert.ok(places.some((place) => place.id === "jdz_yaoli_ancient_town"));
   assert.ok(places.some((place) => place.id === "jdz_taoyangli" && place.children.some((child) => child.id === "jdz_imperial_kiln_museum")));
+  assert.ok(places.some((place) => place.id === "jdz_china_ceramics_museum" && place.children.length === 8));
+  assert.ok(places.some((place) => place.id === "jdz_imperial_kiln_museum" && place.children.length === 12));
+  assert.ok(places.some((place) => place.id === "jdz_china_ceramics_museum" && place.children.some((child) => child.node_type === "artifact")));
+  assert.ok(places.some((place) => place.id === "jdz_imperial_kiln_museum" && place.children.some((child) => child.node_type === "archaeological_site")));
+  assert.ok(foodAreas.every((area) => area.children.length > 0));
+  assert.ok(foodAreas.reduce((count, area) => count + area.children.length, 0) >= 20);
+  assert.ok(stayAreas.every((area) => area.amap_integration.api_status === "proxy_verified"));
+  assert.ok(stayAreas.every((area) => !area.price_range_cny));
   assert.ok(places.every((place) => typeof place.location.latitude === "number" && typeof place.location.longitude === "number"));
   assert.ok(places.every((place) => place.location.coordinate_system === "GCJ-02"));
 });

@@ -1,0 +1,116 @@
+{
+  "id": "jdz_food_area_taoxichuan",
+  "name": "陶溪川—新厂美食区",
+  "short_name": "陶溪川",
+  "city": "景德镇",
+  "node_type": "food",
+  "food_scope": "area",
+  "category": [
+    "美食区域",
+    "江西菜",
+    "夜间餐饮",
+    "文创街区配套"
+  ],
+  "official_info": {
+    "status": "ai_aggregated_area",
+    "description": "围绕陶溪川夜游、雕塑瓷厂和新厂片区形成的正餐与小吃选择区。",
+    "boundary_rule": "以陶溪川景点为锚点聚合，不是官方商圈边界"
+  },
+  "location": {
+    "address": "景德镇市珠山区新厂西路351号周边",
+    "latitude": 29.296921,
+    "longitude": 117.236957,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFFHARV3",
+    "map_anchor": "陶溪川文创街区"
+  },
+  "meal_periods": [
+    "lunch",
+    "dinner",
+    "late_night"
+  ],
+  "duration": {
+    "minimum_minutes": 45,
+    "recommended_minutes": 90,
+    "maximum_minutes": 150
+  },
+  "child_nodes": {
+    "dishes": [
+      "jdz_food_dish_cold_rice_noodles",
+      "jdz_food_dish_small_meat_skewers",
+      "jdz_food_dish_local_stir_fry"
+    ],
+    "restaurants": [
+      "jdz_food_rest_linxian_ge",
+      "jdz_food_rest_taojie"
+    ]
+  },
+  "related_node_ids": [
+    "jdz_taoxichuan",
+    "jdz_sculpture_porcelain_factory"
+  ],
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图115、120、136"
+    ],
+    "confidence": {
+      "overall": "medium"
+    },
+    "positive": [
+      {
+        "content": "可与陶溪川夜景、市集及雕塑瓷厂安排在同一片区。",
+        "type": "route_efficiency"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "周末市集和晚餐高峰可能叠加拥堵。",
+        "risk": "crowd",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "晚餐后继续陶溪川夜游",
+      "市集开放日期必须另行核验"
+    ],
+    "crowd_model": {
+      "weekday": "medium",
+      "weekend": "high",
+      "national_holiday": "very-high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 75,
+      "recommended_max_minutes": 150
+    },
+    "ai_note": "适合夜游用户；安静和拒绝拥挤偏好需要降低优先级。"
+  },
+  "ai_score": {
+    "local_character": 4,
+    "value": 4,
+    "queue_risk": 5,
+    "family": 4,
+    "late_night": 5
+  },
+  "tags": [
+    "陶溪川",
+    "新厂",
+    "夜游",
+    "江西菜"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "experience_verified",
+    "last_verified_at": "2026-08-24"
+  },
+  "sources": [
+    {
+      "name": "高德地图：陶溪川文创街区",
+      "url": "https://www.amap.com/place/B0FFFHARV3",
+      "scope": [
+        "锚点坐标",
+        "POI ID"
+      ]
+    }
+  ]
+}

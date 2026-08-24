@@ -20,7 +20,7 @@
     "ai_note": "高铁时刻和行李是核心触发条件；否则应被老城与红谷滩中心区域压低排名。"
   },
   "ai_score": {"first_visit": 2, "transit": 5, "walkability": 1, "quiet": 3, "river_view": 1, "value": 4, "holiday_price_risk": 4},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
   "tags": ["南昌西站", "高铁", "早晚抵离", "行李友好"],
   "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
   "sources": [{"name": "高德地图：南昌西站", "url": "https://ditu.amap.com/place/B03170UJ1R", "scope": ["锚点坐标", "POI ID", "地址"]}]

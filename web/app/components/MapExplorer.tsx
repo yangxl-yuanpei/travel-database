@@ -244,22 +244,22 @@ function DetailedCityPage({ city }: { city: City }) {
         : <CityNodeMap city={city} places={attractionPlaces} selected={undefined} onSelect={() => undefined} waterLabel={city.name === "南昌" ? "赣 江" : undefined} mode="reference" />}
     </section>
     {places.length > 0 && <section className="node-grid">{places.map((place) => <button key={place.id} type="button" onClick={() => go(place.id)}><span>{place.map_index}</span><div><b>{place.short_name ?? place.name}</b><small>{placeType(place)} · {place.node_type === "accommodation_area" ? stayFit(place) : duration(place)}</small></div><i>→</i></button>)}</section>}
-    {layer !== "attractions" && <LayerWorkspace layer={layer} hasData={places.length > 0} />}
+    {layer !== "attractions" && <LayerWorkspace layer={layer} hasData={places.length > 0} count={places.length} />}
   </main>;
 }
 
-function LayerWorkspace({ layer, hasData }: { layer: Exclude<CityLayer, "attractions">; hasData: boolean }) {
+function LayerWorkspace({ layer, hasData, count }: { layer: Exclude<CityLayer, "attractions">; hasData: boolean; count: number }) {
   const food = layer === "food";
   const cards = food ? [
     ["01", "美食区域", "带坐标的主地图节点；保存适合时段、人均区间、排队风险与主打菜。"],
     ["02", "菜品与代表店铺", "作为美食区域的子节点进入详情，不在城市总图重复堆叠。"],
     ["03", "景点参照层", "景点只作为灰色空间参照；接入高德后动态计算实际步行与驾车时间。"],
   ] : [
-    ["01", "六个住宿区域", "以区域而非单家酒店为主节点，保存适合人群、价格风险、噪声与环境特征。"],
+    ["01", `${count} 个住宿区域`, "以区域而非单家酒店为主节点，保存适合人群、价格风险、噪声与环境特征。"],
     ["02", "景点与车站锚点", "住宿区与景点均可在页面上方通勤查询器中选择，避免固化点对点距离。"],
     ["03", "高德动态计算", "路线 API 已接入；酒店库存、当日价格和房型仍由预订平台临行查询。"],
   ];
-  return <section className="layer-workspace"><div className="workspace-head"><div><p className="section-kicker">{food ? "FOOD DATA CONTRACT" : "ACCOMMODATION DATA CONTRACT"}</p><h2>{hasData ? "图层数据已接入" : "结构已就绪，等待数据集"}</h2></div><span>{food ? "橙色主节点 + 灰色景点参照" : "住宿区域 + 景点参照 + 动态通勤"}</span></div><div className="workspace-grid">{cards.map(([index, title, description]) => <article key={index}><span>{index}</span><h3>{title}</h3><p>{description}</p></article>)}</div>{!food && hasData && <div className="future-form" aria-label="住宿数据接入状态"><div><small>区域数据库</small><b>6 个区域节点已接入</b></div><div><small>通勤查询</small><b>使用页面上方高德查询器</b></div><div><small>酒店价格 / 库存</small><b>保持动态，不写入本地 JSON</b></div><button type="button">高德路线 API · 已连接</button></div>}</section>;
+  return <section className="layer-workspace"><div className="workspace-head"><div><p className="section-kicker">{food ? "FOOD DATA CONTRACT" : "ACCOMMODATION DATA CONTRACT"}</p><h2>{hasData ? "图层数据已接入" : "结构已就绪，等待数据集"}</h2></div><span>{food ? "橙色主节点 + 灰色景点参照" : "住宿区域 + 景点参照 + 动态通勤"}</span></div><div className="workspace-grid">{cards.map(([index, title, description]) => <article key={index}><span>{index}</span><h3>{title}</h3><p>{description}</p></article>)}</div>{!food && hasData && <div className="future-form" aria-label="住宿数据接入状态"><div><small>区域数据库</small><b>{count} 个区域节点已接入</b></div><div><small>通勤查询</small><b>使用页面上方高德查询器</b></div><div><small>酒店价格 / 库存</small><b>保持动态，不写入本地 JSON</b></div><button type="button">高德路线 API · 已连接</button></div>}</section>;
 }
 
 type LocatedNode = TravelNode & { location: Location & { latitude: number; longitude: number } };

@@ -1,0 +1,13 @@
+{
+  "id": "jdz_stay_area_yaoli", "name": "瑶里古镇慢游住宿区", "short_name": "瑶里古镇", "city": "景德镇", "node_type": "accommodation_area",
+  "category": ["远郊古镇住宿区", "慢游区", "古村体验区"],
+  "location": {"address": "景德镇市浮梁县瑶里镇", "latitude": 29.540982, "longitude": 117.577684, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HT42", "map_anchor": "瑶里古镇风景区", "anchor_rule": "坐标仅作为住宿检索与通勤计算锚点，不代表古镇住宿边界"},
+  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["jdz_yaoli_ancient_town"], "hotel_search_radius_m": 3000, "hotel_search_keywords": ["民宿", "客栈", "酒店"]},
+  "suitable_for": ["古镇慢游", "摄影", "希望避开当日往返", "自驾或包车"],
+  "transit_profile": {"rail_station_access": "不适合作为抵离景德镇北站的最后一晚默认区域", "public_transport": "远郊班次和末班时间必须动态核验", "walkability": "入住古镇核心后主要游览点可步行", "dynamic_note": "由高德路线 API 计算市区、北站与古镇之间路线，并额外核验公共交通末班"},
+  "experience": {"summary": "通过住一晚降低市区往返压力，适合把瑶里作为独立慢游节点。", "best_for": ["古镇摄影", "慢游", "自驾", "包车"], "highlights": ["清晨和傍晚古镇体验", "减少当日往返", "环境相对安静"], "avoid": ["晚间餐饮选择有限", "公共交通与返程约束强", "民宿设施差异较大"], "holiday_price_risk": "high", "night_noise_risk": "low"},
+  "experience_layer": {"source": ["景德镇攻略截图120、122、129"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "可获得一日游客离开后的古镇时段", "type": "time_advantage"}], "avoid": [{"content": "远离市区且末班交通不稳定", "risk": "remote_transport", "severity": "high"}], "visit_tips": ["确认晚餐、早餐和接送后再订房", "离开当日预留充分交通缓冲", "检查独立卫浴、热水和行李搬运评价"], "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "low-medium"}, "ai_note": "仅在瑶里深度游、自驾或包车条件满足时提高权重。"},
+  "ai_score": {"first_visit": 2, "transit": 1, "walkability": 4, "quiet": 5, "value": 3, "holiday_price_risk": 5},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"}, "tags": ["瑶里古镇", "远郊", "慢游", "民宿"],
+  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"}, "sources": [{"name": "高德地图：瑶里古镇风景区", "url": "https://www.amap.com/place/B031E0HT42", "scope": ["锚点坐标", "POI ID"]}]
+}

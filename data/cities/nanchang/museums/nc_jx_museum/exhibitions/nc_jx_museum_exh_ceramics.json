@@ -8,23 +8,22 @@
     "exhibition_type": "常设展",
     "floor": null,
     "hall": null,
-    "description": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "pending_verification"
+    "description": "江西省博物馆常设展，展示江西古代陶瓷文化与千年窑业发展。",
+    "source_url": "https://www.jxmuseum.cn/",
+    "verified_at": "2026-08-24",
+    "status": "official_name_verified_hall_details_dynamic"
   },
   "experience": {
     "importance": 5,
-    "recommended_duration_minutes": null,
+    "recommended_duration_minutes": 45,
     "suitable_for": ["陶瓷文化爱好者", "第一次到访"],
-    "highlights": []
+    "highlights": ["江西窑业发展", "元代青花釉里红楼阁式瓷谷仓"]
   },
   "related_artifact_ids": ["nc_jx_museum_artifact_yuan_granary"],
   "tags": ["江西陶瓷", "常设展"],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null
+    "data_status": "verified",
+    "last_verified_at": "2026-08-24"
   }
 }
-

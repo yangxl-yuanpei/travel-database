@@ -1,0 +1,6 @@
+{
+  "id": "jdz_ikm_artifact_yongle_three_pot", "name": "明永乐白釉三壶连通器", "city": "景德镇", "node_type": "artifact", "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {"category": "白釉瓷", "period": "明永乐", "description": "景德镇市人民政府公布的御窑博物院六件代表性院藏文物之一。", "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml", "verified_at": "2026-08-24", "status": "verified_identity_display_dynamic"},
+  "experience": {"importance": 5, "photo_value": 5, "recognition_value": 5, "viewing_notes": ["观察三壶连通的特殊器形", "结合御窑试制与修复过程观看"]},
+  "related_exhibition_ids": ["jdz_ikm_exh_imperial_kiln_history"], "tags": ["明永乐", "白釉", "连通器", "代表文物"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+}

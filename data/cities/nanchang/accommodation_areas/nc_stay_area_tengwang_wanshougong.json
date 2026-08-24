@@ -20,7 +20,7 @@
     "ai_note": "历史与夜游偏好权重高；安静、自驾和标准化酒店偏好需施加惩罚。"
   },
   "ai_score": {"first_visit": 5, "transit": 4, "walkability": 5, "quiet": 2, "river_view": 3, "value": 4, "holiday_price_risk": 5},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
   "tags": ["滕王阁", "万寿宫", "老城夜游", "文化慢游"],
   "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
   "sources": [{"name": "高德地图：万寿宫历史文化街区", "url": "https://ditu.amap.com/place/B0FFH2KZQN", "scope": ["锚点坐标", "POI ID"]}]

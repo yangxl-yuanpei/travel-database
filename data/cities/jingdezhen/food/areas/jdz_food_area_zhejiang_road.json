@@ -1,0 +1,130 @@
+{
+  "id": "jdz_food_area_zhejiang_road",
+  "name": "浙江路—人民广场美食区",
+  "short_name": "浙江路",
+  "city": "景德镇",
+  "node_type": "food",
+  "food_scope": "area",
+  "category": [
+    "美食区域",
+    "景德镇小炒",
+    "正餐",
+    "夜宵",
+    "冷粉"
+  ],
+  "official_info": {
+    "status": "ai_aggregated_area",
+    "description": "以浙江路和人民广场为锚点的本地菜、冷粉与夜间餐饮区域。",
+    "boundary_rule": "旅行决策聚合区，不是行政或官方商圈边界"
+  },
+  "location": {
+    "address": "景德镇市珠山区浙江路与广场南路周边",
+    "latitude": 29.286313,
+    "longitude": 117.214599,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031E0HUT8",
+    "map_anchor": "浙江商城"
+  },
+  "meal_periods": [
+    "lunch",
+    "dinner",
+    "late_night"
+  ],
+  "duration": {
+    "minimum_minutes": 45,
+    "recommended_minutes": 90,
+    "maximum_minutes": 150
+  },
+  "child_nodes": {
+    "dishes": [
+      "jdz_food_dish_cold_rice_noodles",
+      "jdz_food_dish_flower_rice_wine",
+      "jdz_food_dish_local_stir_fry"
+    ],
+    "restaurants": [
+      "jdz_food_rest_tuweimei",
+      "jdz_food_rest_huaxiang",
+      "jdz_food_rest_huanglaosan",
+      "jdz_food_rest_yaohuohuo"
+    ]
+  },
+  "related_node_ids": [
+    "jdz_taoyangli",
+    "jdz_imperial_kiln_museum"
+  ],
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图114、121、127",
+      "高德2025景德镇美食榜单"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "游客资料中本地菜、冷粉和夜宵候选最集中。",
+        "type": "choice_density"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "热门正餐店在国庆晚餐时段排队风险高。",
+        "risk": "queue",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "正餐尽量错开18:00左右高峰",
+      "能吃辣程度应在点菜时主动说明",
+      "具体分店必须核对，避免同名店定位错误"
+    ],
+    "crowd_model": {
+      "weekday": "medium-high",
+      "weekend": "high",
+      "national_holiday": "very-high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 75,
+      "recommended_max_minutes": 150
+    },
+    "ai_note": "正餐和夜宵权重高，拒绝排队的用户应提前到店或切换抚州弄小吃方案。"
+  },
+  "ai_score": {
+    "local_character": 5,
+    "value": 4,
+    "queue_risk": 5,
+    "family": 4,
+    "late_night": 5
+  },
+  "tags": [
+    "浙江路",
+    "人民广场",
+    "景德镇小炒",
+    "夜宵"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "experience_verified",
+    "last_verified_at": "2026-08-24"
+  },
+  "sources": [
+    {
+      "name": "高德地图：浙江商城",
+      "url": "https://www.amap.com/place/B031E0HUT8",
+      "scope": [
+        "锚点坐标",
+        "POI ID",
+        "地址"
+      ]
+    },
+    {
+      "name": "高德2025景德镇美食榜单",
+      "url": "https://www.amap.com/ranking/jingdezhen/food/360203",
+      "scope": [
+        "候选店铺快照",
+        "推荐菜快照"
+      ]
+    }
+  ]
+}

@@ -8,23 +8,22 @@
     "exhibition_type": "常设展",
     "floor": null,
     "hall": null,
-    "description": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "pending_verification"
+    "description": "讲述1919年至1949年中国共产党领导江西人民开展革命斗争的历史。",
+    "source_url": "https://www.jxmuseum.cn/",
+    "verified_at": "2026-08-24",
+    "status": "official_name_verified_hall_details_dynamic"
   },
   "experience": {
     "importance": 4,
-    "recommended_duration_minutes": null,
+    "recommended_duration_minutes": 45,
     "suitable_for": ["近现代史爱好者"],
-    "highlights": []
+    "highlights": ["南昌起义", "井冈山斗争", "中央苏区与长征"]
   },
   "related_artifact_ids": [],
   "tags": ["江西革命史", "常设展"],
   "metadata": {
     "schema_version": "1.0",
-    "data_status": "draft",
-    "last_verified_at": null
+    "data_status": "verified",
+    "last_verified_at": "2026-08-24"
   }
 }
-

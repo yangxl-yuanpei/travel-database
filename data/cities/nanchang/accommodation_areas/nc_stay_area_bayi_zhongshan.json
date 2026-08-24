@@ -51,7 +51,7 @@
     "ai_note": "首次到访的默认推荐区；若用户重视安静或江景，应降低权重。"
   },
   "ai_score": {"first_visit": 5, "transit": 5, "walkability": 5, "quiet": 2, "river_view": 1, "value": 3, "holiday_price_risk": 5},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
   "tags": ["老城", "地铁", "首次到访", "高效游览"],
   "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
   "sources": [{"name": "高德地图：八一广场", "url": "https://ditu.amap.com/place/B031704RAC", "scope": ["锚点坐标", "POI ID"]}]
