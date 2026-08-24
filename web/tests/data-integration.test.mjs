@@ -53,9 +53,20 @@ test("publishes the fixed four-day itinerary as structured data", async () => {
   assert.ok(itinerary.booking_checklist.length >= 5);
 });
 
-test("four-day itinerary pilot images include reusable rights metadata", async () => {
+test("published image collections include reusable rights metadata", async () => {
   const data = await atlas();
-  const pilotIds = ["nc_tengwangge", "jdz_imperial_kiln_museum", "sr_sqs_giant_python"];
+  const pilotIds = [
+    "nc_tengwangge",
+    "nc_jx_museum",
+    "nc_bayi_memorial",
+    "nc_haihunhou_museum",
+    "jdz_imperial_kiln_museum",
+    "jdz_china_ceramics_museum",
+    "jdz_taoxichuan",
+    "sr_sqs_giant_python",
+    "sr_sqs_oriental_goddess",
+    "sr_sqs_nanqingyuan",
+  ];
   const places = Object.values(data.city_places).flat();
   for (const id of pilotIds) {
     const place = places.find((item) => item.id === id);

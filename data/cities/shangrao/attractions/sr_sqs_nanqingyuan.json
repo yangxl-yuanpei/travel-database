@@ -60,6 +60,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "sr_sqs_nanqingyuan_cover_peak_trail",
+      "path": "/images/shangrao/nanqingyuan/cover.webp",
+      "type": "viewpoint",
+      "alt": "南清园群峰、山间建筑与登山步道",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：19190-SanQingShan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:19190-SanQingShan_(45434925915).jpg",
+      "license": "CC BY 2.0",
+      "credit": "xiquinhosilva",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "sr_sqs_nanqingyuan_detail_mist",
+        "path": "/images/shangrao/nanqingyuan/detail_01.webp",
+        "type": "viewpoint",
+        "alt": "南清园云雾掠过峰林与松树的景观",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Sanqing Mountain is surrounded by clouds and mists1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Mountain_is_surrounded_by_clouds_and_mists1.jpg",
+        "license": "CC0 1.0",
+        "credit": "Huangdan2060",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "sr_sqs_nanqingyuan_detail_peaks",
+        "path": "/images/shangrao/nanqingyuan/detail_02.webp",
+        "type": "viewpoint",
+        "alt": "南清园层叠峰林与山间云带",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Sanqing Mountain1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Mountain1.jpg",
+        "license": "CC0 1.0",
+        "credit": "Huangdan2060",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_shangrao"
 }

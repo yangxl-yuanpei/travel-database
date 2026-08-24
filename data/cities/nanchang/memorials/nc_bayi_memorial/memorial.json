@@ -260,6 +260,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "nc_bayi_memorial_cover_headquarters",
+      "path": "/images/nanchang/bayi-memorial/cover.webp",
+      "type": "exterior",
+      "alt": "南昌八一起义纪念馆总指挥部旧址建筑外观",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：南昌八一起义纪念馆建筑 02",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%98%8C%E5%85%AB%E4%B8%80%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E9%A6%86%E5%BB%BA%E7%AD%91_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Liuxingy",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "nc_bayi_memorial_detail_square",
+        "path": "/images/nanchang/bayi-memorial/detail_01.webp",
+        "type": "exterior",
+        "alt": "南昌八一起义纪念馆入口广场与展馆建筑",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：南昌八一起义纪念馆建筑 03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%98%8C%E5%85%AB%E4%B8%80%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E9%A6%86%E5%BB%BA%E7%AD%91_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Liuxingy",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "nc_bayi_memorial_detail_relief_wall",
+        "path": "/images/nanchang/bayi-memorial/detail_02.webp",
+        "type": "exterior",
+        "alt": "南昌八一起义纪念馆人物浮雕墙",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：南昌八一起义纪念馆雕像",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%98%8C%E5%85%AB%E4%B8%80%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E9%A6%86_%E9%9B%95%E5%83%8F_20191016_142514.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "維基小霸王",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_nanchang"
 }

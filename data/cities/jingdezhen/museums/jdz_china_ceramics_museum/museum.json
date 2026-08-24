@@ -257,6 +257,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "jdz_china_ceramics_museum_cover_exterior",
+      "path": "/images/jingdezhen/china-ceramics-museum/cover.webp",
+      "type": "exterior",
+      "alt": "景德镇中国陶瓷博物馆建筑全景",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：中国陶瓷博物馆 1",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E9%99%B6%E7%93%B7%E5%8D%9A%E7%89%A9%E9%A6%86_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "EditQ",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "jdz_china_ceramics_museum_detail_atrium",
+        "path": "/images/jingdezhen/china-ceramics-museum/detail_01.webp",
+        "type": "interior",
+        "alt": "景德镇中国陶瓷博物馆中庭与玻璃穹顶",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Inside Jingdezhen China Ceramics Museum",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Inside_Jingdezhen_China_Ceramics_Museum.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "EditQ",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "jdz_china_ceramics_museum_detail_collection_hall",
+        "path": "/images/jingdezhen/china-ceramics-museum/detail_02.webp",
+        "type": "exhibition_hall",
+        "alt": "景德镇中国陶瓷博物馆陶瓷藏品展厅",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Collections of Jingdezhen China Ceramics Museum 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Collections_of_Jingdezhen_China_Ceramics_Museum_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "EditQ",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_jingdezhen"
 }

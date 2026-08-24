@@ -268,6 +268,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "nc_jx_museum_cover_bronze_tiger",
+      "path": "/images/nanchang/jiangxi-provincial-museum/cover.webp",
+      "type": "artifact",
+      "alt": "江西省博物馆展出的商代伏鸟双尾青铜虎",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：江西博物馆老虎青铜雕像",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%A5%BF%E5%8D%9A%E7%89%A9%E9%A6%86%E8%80%81%E8%99%8E%E9%9D%92%E9%93%9C%E9%9B%95%E5%83%8F.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "User:CatOnMars",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "nc_jx_museum_detail_bronze_mask",
+        "path": "/images/nanchang/jiangxi-provincial-museum/detail_01.webp",
+        "type": "artifact",
+        "alt": "江西省博物馆展出的新干大洋洲双面神人青铜头像",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：江西博物馆青铜人像",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%A5%BF%E5%8D%9A%E7%89%A9%E9%A6%86%E9%9D%92%E9%93%9C%E4%BA%BA%E5%83%8F.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "User:CatOnMars",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "nc_jx_museum_detail_jizhou_incense_burner",
+        "path": "/images/nanchang/jiangxi-provincial-museum/detail_02.webp",
+        "type": "artifact",
+        "alt": "江西省博物馆新馆展出的元代吉州窑彩绘波涛纹炉",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：元代吉州窑彩绘波涛纹炉",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%85%83%E4%BB%A3%E5%90%89%E5%B7%9E%E7%AA%91%E5%BD%A9%E7%BB%98%E6%B3%A2%E6%B6%9B%E7%BA%B9%E7%82%89.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "叶落潇湘梧桐",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_nanchang"
 }

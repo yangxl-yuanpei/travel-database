@@ -163,6 +163,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "jdz_taoxichuan_cover_waterfront",
+      "path": "/images/jingdezhen/taoxichuan/cover.webp",
+      "type": "exterior",
+      "alt": "陶溪川文创街区红砖厂房、烟囱与水景",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：Taoxichuan 20241019",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Taoxichuan_20241019.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Simon Wade",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "jdz_taoxichuan_detail_factory",
+        "path": "/images/jingdezhen/taoxichuan/detail_01.webp",
+        "type": "exterior",
+        "alt": "陶溪川由老陶瓷厂房改造的红砖建筑入口",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Taoxichuan factory 20241019",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taoxichuan_factory_20241019.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Simon Wade",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "jdz_taoxichuan_detail_chimney",
+        "path": "/images/jingdezhen/taoxichuan/detail_02.webp",
+        "type": "exterior",
+        "alt": "陶溪川保留的红砖工业烟囱细节",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Taoxichuan chimney 20241019 1",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taoxichuan_chimney_20241019_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Simon Wade",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_jingdezhen"
 }

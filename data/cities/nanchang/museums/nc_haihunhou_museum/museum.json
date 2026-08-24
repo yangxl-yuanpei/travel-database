@@ -314,6 +314,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "nc_haihunhou_museum_cover_entrance",
+      "path": "/images/nanchang/haihunhou-museum/cover.webp",
+      "type": "exterior",
+      "alt": "南昌汉代海昏侯国遗址博物馆入口建筑",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：江西南昌海昏侯博物馆",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%A5%BF%E5%8D%97%E6%98%8C%E6%B5%B7%E6%98%8F%E4%BE%AF%E5%8D%9A%E7%89%A9%E9%A6%86.jpg",
+      "license": "CC0 1.0",
+      "credit": "Cjsy2026",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "nc_haihunhou_museum_detail_coin_hoard",
+        "path": "/images/nanchang/haihunhou-museum/detail_01.webp",
+        "type": "artifact",
+        "alt": "南昌汉代海昏侯国考古成果展中的五铢钱窖藏",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：南昌汉代海昏侯国考古成果展 03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%A5%BF%E5%8D%9A%E7%89%A9%E9%A6%86%C2%B7%E5%8D%97%E6%98%8C%E6%B1%89%E4%BB%A3%E6%B5%B7%E6%98%8F%E4%BE%AF%E5%9B%BD%E8%80%83%E5%8F%A4%E6%88%90%E6%9E%9C%E5%B1%95_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Liuxingy",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "nc_haihunhou_museum_detail_bronze_bird",
+        "path": "/images/nanchang/haihunhou-museum/detail_02.webp",
+        "type": "artifact",
+        "alt": "南昌汉代海昏侯国考古成果展中的青铜鸟形器",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：南昌汉代海昏侯国考古成果展 04",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E8%A5%BF%E5%8D%9A%E7%89%A9%E9%A6%86%C2%B7%E5%8D%97%E6%98%8C%E6%B1%89%E4%BB%A3%E6%B5%B7%E6%98%8F%E4%BE%AF%E5%9B%BD%E8%80%83%E5%8F%A4%E6%88%90%E6%9E%9C%E5%B1%95_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Liuxingy",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_nanchang"
 }

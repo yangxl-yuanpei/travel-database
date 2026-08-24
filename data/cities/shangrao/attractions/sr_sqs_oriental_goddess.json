@@ -68,6 +68,46 @@
       ]
     }
   ],
+  "media": {
+    "cover": {
+      "asset_id": "sr_sqs_oriental_goddess_cover",
+      "path": "/images/shangrao/oriental-goddess/cover.webp",
+      "type": "viewpoint",
+      "alt": "云海之上的三清山东方女神峰",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons：三清山-司春女神",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E6%B8%85%E5%B1%B1-%E5%8F%B8%E6%98%A5%E5%A5%B3%E7%A5%9E_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "credit": "御天六龙",
+      "verified_at": "2026-08-24"
+    },
+    "gallery": [
+      {
+        "asset_id": "sr_sqs_oriental_goddess_detail_profile",
+        "path": "/images/shangrao/oriental-goddess/detail_01.webp",
+        "type": "viewpoint",
+        "alt": "三清山峰林间的东方女神峰侧面视角",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Sanqingshan1518",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sanqingshan1518.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Doctoroftcm",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "sr_sqs_oriental_goddess_detail_mist",
+        "path": "/images/shangrao/oriental-goddess/detail_02.webp",
+        "type": "viewpoint",
+        "alt": "东方女神附近云雾缭绕的三清山峰林",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Sanqing Mountain is surrounded by clouds and mists3",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Mountain_is_surrounded_by_clouds_and_mists3.jpg",
+        "license": "CC0 1.0",
+        "credit": "Huangdan2060",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "aliases": [],
   "city_id": "city_shangrao"
 }
