@@ -25,6 +25,10 @@
       "国庆东线拥堵"
     ]
   },
+  "direction_options": {
+    "outbound": [{"mode":"婺源旅游客运班车","route":"婺源高铁站或婺源汽车站—篁岭","service_window_reference":"07:30-17:00","headway_reference":"约15-20分钟","fare_reference_cny":20,"reference_period":"篁岭官网交通指南","schedule_status":"dynamic_reference"},{"mode":"望仙谷/三清山跨景区站点巴士","route":"望仙谷—婺女洲/篁岭，或三清山—篁岭","reference_departures":["望仙谷09:30、14:30","三清山15:00"],"reference_period":"2026暑期","schedule_status":"dynamic_reference"}],
+    "return": [{"mode":"婺源旅游客运班车","route":"篁岭—婺源高铁站或婺源汽车站","schedule_status":"dynamic_reference"},{"mode":"跨景区站点巴士","route":"篁岭—望仙谷或三清山","reference_departures":["望仙谷方向10:00、14:00","三清山方向09:00"],"reference_period":"2026暑期","schedule_status":"dynamic_reference"}]
+  },
   "experience_layer": {
     "source": [
       "上饶攻略截图153、160、170、173、176、181、195、201-203"
@@ -72,10 +76,10 @@
     "verification_level": "mixed",
     "time_sensitivity": "critical",
     "last_verified_at": "2026-08-24",
-    "next_review_at": null
+    "next_review_at": "2026-09-20"
   },
   "aliases": [],
   "tags": [],
-  "sources": [],
+  "sources": [{"name":"篁岭官网：交通指南","url":"https://new.wyhl.cc/site/wyhl/wzhl/jtzn/detail2023-08-14-38.html","scope":["婺源枢纽往返篁岭班车参考","服务窗口与参考票价","官方咨询电话"]},{"name":"上饶文旅：2026暑期出游直通车全新班次汇总","url":"https://jx.ifeng.com/c/8uGcBXbUW1Y","scope":["望仙谷、篁岭、三清山跨景区参考班次"]}],
   "city_id": "city_shangrao"
 }

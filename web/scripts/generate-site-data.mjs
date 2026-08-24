@@ -63,8 +63,12 @@ const cityPlaces = Object.fromEntries(cities.map((city) => [
     children: referencedChildren(place),
   })),
 ]));
+const cityTransports = Object.fromEntries(cities.map((city) => [
+  city.id,
+  referencedChildren(city).filter((child) => child.node_type === "transport"),
+]));
 const places = cityPlaces.city_nanchang ?? [];
-const atlas = { journey, cities, transports, itineraries, city_places: cityPlaces };
+const atlas = { journey, cities, transports, itineraries, city_places: cityPlaces, city_transports: cityTransports };
 await mkdir(outputDir, { recursive: true });
 await writeFile(join(outputDir, "atlas.json"), `${JSON.stringify(atlas, null, 2)}\n`, "utf8");
 await writeFile(join(outputDir, "places.json"), `${JSON.stringify(places, null, 2)}\n`, "utf8");

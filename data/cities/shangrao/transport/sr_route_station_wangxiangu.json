@@ -24,6 +24,10 @@
       "节假日预售"
     ]
   },
+  "direction_options": {
+    "outbound": [{"mode":"上饶文旅站点巴士","route":"上饶汽车东站（高铁站）—望仙谷","reference_departures":["08:00","08:30","09:00","09:30","10:00","10:30","11:00","12:00","12:30","13:00","13:30","14:00","14:30","15:00","15:30","16:00","16:30"],"reference_period":"2026暑期","booking_channel":"滴滴出行小程序—站点巴士","schedule_status":"dynamic_reference"},{"mode":"正规网约车或包车","route":"上饶站—望仙谷","schedule_status":"on_demand"}],
+    "return": [{"mode":"上饶文旅站点巴士","route":"望仙谷—上饶高铁站","reference_departures":["09:15","10:00","10:30直达","11:00","11:30","12:30","13:30直达","14:30","15:00","16:00","17:00","19:00","19:30","20:00","20:15","20:30","21:00","21:30"],"reference_period":"2026暑期","booking_channel":"滴滴出行小程序—站点巴士","schedule_status":"dynamic_reference"},{"mode":"景区住宿或正规包车送站","route":"望仙谷—上饶站","schedule_status":"advance_booking_required"}]
+  },
   "experience_layer": {
     "source": [
       "上饶攻略截图160、170、173、176、181、189"
@@ -70,10 +74,10 @@
     "verification_level": "mixed",
     "time_sensitivity": "critical",
     "last_verified_at": "2026-08-24",
-    "next_review_at": null
+    "next_review_at": "2026-09-20"
   },
   "aliases": [],
   "tags": [],
-  "sources": [],
+  "sources": [{"name":"上饶文旅：2026暑期出游直通车全新班次汇总","url":"https://jx.ifeng.com/c/8uGcBXbUW1Y","scope":["上饶站往返望仙谷参考班次","滴滴站点巴士预订入口","可携带行李"]}],
   "city_id": "city_shangrao"
 }

@@ -210,5 +210,6 @@
     }
   ],
   "aliases": [],
+  "media": {"cover":{"asset_id":"nc_wanshougong_block_cover_01","path":"/images/nanchang/wanshougong-block/cover.webp","type":"street_environment","alt":"万寿宫历史文化街区牌坊与街巷入口","source_type":"open_license","source_name":"Wikimedia Commons：Wanshou Palace Histroric Street","source_url":"https://commons.wikimedia.org/wiki/File:Wanshou_Palace_Histroric_Street.jpg","license":"CC BY-SA 4.0","credit":"钉钉 / Wikimedia Commons","verified_at":"2026-08-25"},"gallery":[{"asset_id":"nc_wanshougong_block_detail_01","path":"/images/nanchang/wanshougong-block/detail_01.webp","type":"exterior","alt":"万寿宫传统建筑与院落","source_type":"open_license","source_name":"Wikimedia Commons：Wanshou Palace, Nanchang","source_url":"https://commons.wikimedia.org/wiki/File:Wanshou_Palace,_Nanchang.jpg","license":"CC BY-SA 4.0","credit":"钉钉 / Wikimedia Commons","verified_at":"2026-08-25"},{"asset_id":"nc_wanshougong_block_detail_02","path":"/images/nanchang/wanshougong-block/detail_02.webp","type":"exterior","alt":"万寿宫正殿建筑细节","source_type":"open_license","source_name":"Wikimedia Commons：Wanshou Palace","source_url":"https://commons.wikimedia.org/wiki/File:Wanshou_Palace.jpg","license":"CC BY-SA 4.0","credit":"钉钉 / Wikimedia Commons","verified_at":"2026-08-25"}]},
   "city_id": "city_nanchang"
 }

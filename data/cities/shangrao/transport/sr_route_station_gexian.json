@@ -24,6 +24,10 @@
       "夜游散场"
     ]
   },
+  "direction_options": {
+    "outbound": [{"mode":"上饶文旅站点巴士","route":"上饶高铁站—葛仙山","reference_departures":["06:30","07:10","07:50","08:20","09:00","09:20","09:50","10:20","10:50","11:10","11:30","11:50高速","12:10","12:30","12:50","13:10","13:30","13:50","14:20","14:40","15:00高速","15:20","15:40","16:10","17:00"],"reference_period":"2026暑期","booking_channel":"滴滴出行小程序—站点巴士","schedule_status":"dynamic_reference"},{"mode":"正规包车或自驾","route":"上饶站—葛仙村度假区","schedule_status":"on_demand"}],
+    "return": [{"mode":"上饶文旅站点巴士","route":"葛仙山—上饶高铁站","reference_departures":["07:20","07:50","08:20","08:50","09:20","09:50高速","10:10","10:30","10:55","11:20","11:50","12:20","12:45","13:05","13:15","13:40","14:00","14:25","15:00","15:30","16:10","16:40","17:30"],"reference_period":"2026暑期","booking_channel":"滴滴出行小程序—站点巴士","schedule_status":"dynamic_reference"},{"mode":"景区住宿或正规包车送站","route":"葛仙村度假区—上饶站","schedule_status":"advance_booking_required"}]
+  },
   "experience_layer": {
     "source": [
       "上饶攻略截图153、158、160、170、173、176、181"
@@ -70,10 +74,10 @@
     "verification_level": "mixed",
     "time_sensitivity": "critical",
     "last_verified_at": "2026-08-24",
-    "next_review_at": null
+    "next_review_at": "2026-09-20"
   },
   "aliases": [],
   "tags": [],
-  "sources": [],
+  "sources": [{"name":"上饶文旅：2026暑期出游直通车全新班次汇总","url":"https://jx.ifeng.com/c/8uGcBXbUW1Y","scope":["上饶站往返葛仙山参考班次","滴滴站点巴士预订入口","可携带行李"]}],
   "city_id": "city_shangrao"
 }

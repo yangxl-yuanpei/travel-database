@@ -481,6 +481,46 @@
       }
     ],
     "aliases": [],
+    "media": {
+      "cover": {
+        "asset_id": "nc_qiushui_square_cover_01",
+        "path": "/images/nanchang/qiushui-square/cover.webp",
+        "type": "viewpoint",
+        "alt": "秋水广场喷泉区域与赣江对岸天际线",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Qiushui Square",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Qiushui_Square.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "钉钉 / Wikimedia Commons",
+        "verified_at": "2026-08-25"
+      },
+      "gallery": [
+        {
+          "asset_id": "nc_qiushui_square_detail_01",
+          "path": "/images/nanchang/qiushui-square/detail_01.webp",
+          "type": "viewpoint",
+          "alt": "秋水广场音乐喷泉场地与红谷滩建筑",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons：Qiushui Square 20160117 151138",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Qiushui_Square_20160117_151138.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "Qa003qa003 / Wikimedia Commons",
+          "verified_at": "2026-08-25"
+        },
+        {
+          "asset_id": "nc_qiushui_square_detail_02",
+          "path": "/images/nanchang/qiushui-square/detail_02.webp",
+          "type": "viewpoint",
+          "alt": "秋水广场喷泉设施与红谷滩城市天际线",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons：Qiushui Square 20160117 151153",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Qiushui_Square_20160117_151153.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "Qa003qa003 / Wikimedia Commons",
+          "verified_at": "2026-08-25"
+        }
+      ]
+    },
     "city_id": "city_nanchang",
     "map_index": "02",
     "children": []
@@ -697,6 +737,46 @@
       }
     ],
     "aliases": [],
+    "media": {
+      "cover": {
+        "asset_id": "nc_wanshougong_block_cover_01",
+        "path": "/images/nanchang/wanshougong-block/cover.webp",
+        "type": "street_environment",
+        "alt": "万寿宫历史文化街区牌坊与街巷入口",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Wanshou Palace Histroric Street",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wanshou_Palace_Histroric_Street.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "钉钉 / Wikimedia Commons",
+        "verified_at": "2026-08-25"
+      },
+      "gallery": [
+        {
+          "asset_id": "nc_wanshougong_block_detail_01",
+          "path": "/images/nanchang/wanshougong-block/detail_01.webp",
+          "type": "exterior",
+          "alt": "万寿宫传统建筑与院落",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons：Wanshou Palace, Nanchang",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wanshou_Palace,_Nanchang.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "钉钉 / Wikimedia Commons",
+          "verified_at": "2026-08-25"
+        },
+        {
+          "asset_id": "nc_wanshougong_block_detail_02",
+          "path": "/images/nanchang/wanshougong-block/detail_02.webp",
+          "type": "exterior",
+          "alt": "万寿宫正殿建筑细节",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons：Wanshou Palace",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wanshou_Palace.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "钉钉 / Wikimedia Commons",
+          "verified_at": "2026-08-25"
+        }
+      ]
+    },
     "city_id": "city_nanchang",
     "map_index": "03",
     "children": []
@@ -860,6 +940,46 @@
       }
     ],
     "aliases": [],
+    "media": {
+      "cover": {
+        "asset_id": "nc_bayi_square_cover_01",
+        "path": "/images/nanchang/bayi-square/cover.webp",
+        "type": "viewpoint",
+        "alt": "南昌八一广场全景",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons：Bayi Square, Nanchang",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bayi_Square,_Nanchang.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "钉钉 / Wikimedia Commons",
+        "verified_at": "2026-08-25"
+      },
+      "gallery": [
+        {
+          "asset_id": "nc_bayi_square_detail_01",
+          "path": "/images/nanchang/bayi-square/detail_01.webp",
+          "type": "exterior",
+          "alt": "八一广场与八一起义纪念碑空间",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons：南昌八一广场以及八一起义纪念碑 02",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%98%8C%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E4%BB%A5%E5%8F%8A%E5%85%AB%E4%B8%80%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E7%A2%91_02.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "Liuxingy / Wikimedia Commons",
+          "verified_at": "2026-08-25"
+        },
+        {
+          "asset_id": "nc_bayi_square_detail_02",
+          "path": "/images/nanchang/bayi-square/detail_02.webp",
+          "type": "viewpoint",
+          "alt": "八一广场周边城市建筑与广场绿化",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons：Nanchang Bayi Guangchang 20120723-10",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nanchang_Bayi_Guangchang_20120723-10.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "Zhangzhugang / Wikimedia Commons",
+          "verified_at": "2026-08-25"
+        }
+      ]
+    },
     "city_id": "city_nanchang",
     "map_index": "04",
     "children": []

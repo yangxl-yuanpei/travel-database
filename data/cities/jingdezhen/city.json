@@ -81,6 +81,7 @@
     "transport": [
       "transport_nanchang_jingdezhen",
       "transport_jingdezhen_shangrao"
+      ,"jdz_route_north_station_yaoli"
     ]
   },
   "tags": [

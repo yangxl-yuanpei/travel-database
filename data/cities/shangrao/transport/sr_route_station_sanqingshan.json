@@ -84,6 +84,7 @@
       }
     ]
   },
+  "inter_scenic_reference": {"reference_period":"2026暑期","schedule_status":"dynamic_reference","options":[{"route":"望仙谷—三清山","reference_departures":["09:30","12:30"]},{"route":"三清山—望仙谷","reference_departures":["15:00","17:30"]},{"route":"篁岭—三清山","reference_departures":["09:00"]},{"route":"三清山—篁岭","reference_departures":["15:00"]}]},
   "experience_layer": {
     "source": [
       "上饶攻略截图153、159、160、170、173、176、181、188、202-204",
@@ -147,7 +148,7 @@
     "verification_level": "mixed",
     "time_sensitivity": "critical",
     "last_verified_at": "2026-08-24",
-    "next_review_at": null
+    "next_review_at": "2026-09-20"
   },
   "sources": [
     {
@@ -167,6 +168,11 @@
         "玉山南专车与转乘参考",
         "高峰换乘点"
       ]
+    },
+    {
+      "name": "上饶文旅：2026暑期出游直通车全新班次汇总",
+      "url": "https://jx.ifeng.com/c/8uGcBXbUW1Y",
+      "scope": ["望仙谷、篁岭与三清山跨景区参考班次", "滴滴站点巴士预订入口"]
     }
   ],
   "aliases": [],

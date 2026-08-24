@@ -404,7 +404,8 @@
         ],
         "transport": [
           "transport_nanchang_jingdezhen",
-          "transport_jingdezhen_shangrao"
+          "transport_jingdezhen_shangrao",
+          "jdz_route_north_station_yaoli"
         ]
       },
       "tags": [
@@ -495,7 +496,8 @@
           "sr_route_station_wangxiangu",
           "sr_route_station_sanqingshan",
           "sr_route_station_gexian",
-          "sr_route_wuyuan_huangling"
+          "sr_route_wuyuan_huangling",
+          "sr_route_yiyang_station_guifeng"
         ]
       },
       "tags": [
@@ -1902,6 +1904,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "nc_qiushui_square_cover_01",
+            "path": "/images/nanchang/qiushui-square/cover.webp",
+            "type": "viewpoint",
+            "alt": "秋水广场喷泉区域与赣江对岸天际线",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：Qiushui Square",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Qiushui_Square.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "钉钉 / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "nc_qiushui_square_detail_01",
+              "path": "/images/nanchang/qiushui-square/detail_01.webp",
+              "type": "viewpoint",
+              "alt": "秋水广场音乐喷泉场地与红谷滩建筑",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Qiushui Square 20160117 151138",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Qiushui_Square_20160117_151138.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Qa003qa003 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "nc_qiushui_square_detail_02",
+              "path": "/images/nanchang/qiushui-square/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "秋水广场喷泉设施与红谷滩城市天际线",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Qiushui Square 20160117 151153",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Qiushui_Square_20160117_151153.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Qa003qa003 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_nanchang",
         "map_index": "02",
         "children": []
@@ -2118,6 +2160,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "nc_wanshougong_block_cover_01",
+            "path": "/images/nanchang/wanshougong-block/cover.webp",
+            "type": "street_environment",
+            "alt": "万寿宫历史文化街区牌坊与街巷入口",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：Wanshou Palace Histroric Street",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Wanshou_Palace_Histroric_Street.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "钉钉 / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "nc_wanshougong_block_detail_01",
+              "path": "/images/nanchang/wanshougong-block/detail_01.webp",
+              "type": "exterior",
+              "alt": "万寿宫传统建筑与院落",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Wanshou Palace, Nanchang",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Wanshou_Palace,_Nanchang.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "钉钉 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "nc_wanshougong_block_detail_02",
+              "path": "/images/nanchang/wanshougong-block/detail_02.webp",
+              "type": "exterior",
+              "alt": "万寿宫正殿建筑细节",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Wanshou Palace",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Wanshou_Palace.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "钉钉 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_nanchang",
         "map_index": "03",
         "children": []
@@ -2281,6 +2363,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "nc_bayi_square_cover_01",
+            "path": "/images/nanchang/bayi-square/cover.webp",
+            "type": "viewpoint",
+            "alt": "南昌八一广场全景",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：Bayi Square, Nanchang",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Bayi_Square,_Nanchang.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "钉钉 / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "nc_bayi_square_detail_01",
+              "path": "/images/nanchang/bayi-square/detail_01.webp",
+              "type": "exterior",
+              "alt": "八一广场与八一起义纪念碑空间",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：南昌八一广场以及八一起义纪念碑 02",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E6%98%8C%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E4%BB%A5%E5%8F%8A%E5%85%AB%E4%B8%80%E8%B5%B7%E4%B9%89%E7%BA%AA%E5%BF%B5%E7%A2%91_02.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Liuxingy / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "nc_bayi_square_detail_02",
+              "path": "/images/nanchang/bayi-square/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "八一广场周边城市建筑与广场绿化",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Nanchang Bayi Guangchang 20120723-10",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Nanchang_Bayi_Guangchang_20120723-10.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Zhangzhugang / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_nanchang",
         "map_index": "04",
         "children": []
@@ -17087,6 +17209,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "jdz_taoyangli_cover_01",
+            "path": "/images/jingdezhen/taoyangli/cover.webp",
+            "type": "interior",
+            "alt": "陶阳里御窑博物馆砖拱内部展陈空间",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：Jingdezhen Royal Kiln Museum 2",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_2.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "EditQ / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "jdz_taoyangli_detail_01",
+              "path": "/images/jingdezhen/taoyangli/detail_01.webp",
+              "type": "exhibition_hall",
+              "alt": "陶阳里御窑博物馆瓷器展墙",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Jingdezhen Royal Kiln Museum 3",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_3.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "EditQ / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "jdz_taoyangli_detail_02",
+              "path": "/images/jingdezhen/taoyangli/detail_02.webp",
+              "type": "exhibition_hall",
+              "alt": "陶阳里御窑博物馆展厅空间",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Jingdezhen Royal Kiln Museum 4",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_4.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "EditQ / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_jingdezhen",
         "map_index": "01",
         "children": [
@@ -18089,6 +18251,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "jdz_ancient_kiln_folk_expo_cover_01",
+            "path": "/images/jingdezhen/ancient-kiln/cover.webp",
+            "type": "artifact",
+            "alt": "古窑民俗博览区内晾放的陶瓷坯体",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：景德镇古窑民俗博览区 半成品瓷器 07",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8D%8A%E6%88%90%E5%93%81%E7%93%B7%E5%99%A8_07.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "Liuxingy / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "jdz_ancient_kiln_folk_expo_detail_01",
+              "path": "/images/jingdezhen/ancient-kiln/detail_01.webp",
+              "type": "exterior",
+              "alt": "古窑民俗博览区古建筑与传统制瓷窑址",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：景德镇古窑民俗博览区 古建筑与制造瓷器的窑 01",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_%E5%8F%A4%E5%BB%BA%E7%AD%91%E4%B8%8E%E5%88%B6%E9%80%A0%E7%93%B7%E5%99%A8%E7%9A%84%E7%AA%91_01.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Liuxingy / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "jdz_ancient_kiln_folk_expo_detail_02",
+              "path": "/images/jingdezhen/ancient-kiln/detail_02.webp",
+              "type": "transport_entrance",
+              "alt": "景德镇古窑民俗博览区入口环境",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：景德镇古窑民俗博览区 01",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%8F%A4%E7%AA%91%E6%B0%91%E4%BF%97%E5%8D%9A%E8%A7%88%E5%8C%BA_01.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Liuxingy / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_jingdezhen",
         "map_index": "05",
         "children": []
@@ -18254,6 +18456,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "jdz_yaoli_ancient_town_cover_01",
+            "path": "/images/jingdezhen/yaoli/cover.webp",
+            "type": "viewpoint",
+            "alt": "云雾笼罩的瑶里山林景观",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：景德镇瑶里 14832089050",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E7%91%B6%E9%87%8C_(14832089050).jpg",
+            "license": "CC BY-SA 2.0",
+            "credit": "liuzr99 / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "jdz_yaoli_ancient_town_detail_01",
+              "path": "/images/jingdezhen/yaoli/detail_01.webp",
+              "type": "street_environment",
+              "alt": "瑶里古镇白墙黛瓦民居俯瞰",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：景德镇瑶里 14995723876",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E7%91%B6%E9%87%8C_(14995723876).jpg",
+              "license": "CC BY-SA 2.0",
+              "credit": "liuzr99 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "jdz_yaoli_ancient_town_detail_02",
+              "path": "/images/jingdezhen/yaoli/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "瑶里古镇河道、堰坝与沿岸民居",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：景德镇瑶里 15015642591",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E7%91%B6%E9%87%8C_(15015642591).jpg",
+              "license": "CC BY-SA 2.0",
+              "credit": "liuzr99 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_jingdezhen",
         "map_index": "06",
         "children": []
@@ -23874,6 +24116,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "sr_sanqingshan_cover_01",
+            "path": "/images/shangrao/sanqingshan/cover.webp",
+            "type": "viewpoint",
+            "alt": "三清山峰林与悬崖栈道远景",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：SanQingShan10",
+            "source_url": "https://commons.wikimedia.org/wiki/File:SanQingShan10.jpg",
+            "license": "Public domain",
+            "credit": "Emitchan / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "sr_sanqingshan_detail_01",
+              "path": "/images/shangrao/sanqingshan/detail_01.webp",
+              "type": "viewpoint",
+              "alt": "云雾环绕的三清山峰林",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Sanqing Mountain is surrounded by clouds and mists2",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Mountain_is_surrounded_by_clouds_and_mists2.jpg",
+              "license": "CC0",
+              "credit": "Huangdan2060 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "sr_sanqingshan_detail_02",
+              "path": "/images/shangrao/sanqingshan/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "三清山云雾中的峭壁与山松",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Cliffs of Sanqing Mountain",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Cliffs_of_Sanqing_Mountain.jpg",
+              "license": "CC0",
+              "credit": "Huangdan2060 / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_shangrao",
         "map_index": "01",
         "children": [
@@ -24047,6 +24329,46 @@
               }
             ],
             "aliases": [],
+            "media": {
+              "cover": {
+                "asset_id": "sr_sqs_west_coast_cover_01",
+                "path": "/images/shangrao/west-coast/cover.webp",
+                "type": "viewpoint",
+                "alt": "三清山西海岸绝壁栈道与云雾山林",
+                "source_type": "open_license",
+                "source_name": "Wikimedia Commons：A long plank road along the face of Sanqing Mountain cliffs",
+                "source_url": "https://commons.wikimedia.org/wiki/File:A_long_plank_road_along_the_face_of_Sanqing_Mountain_cliffs.jpg",
+                "license": "CC0",
+                "credit": "Huangdan2060 / Wikimedia Commons",
+                "verified_at": "2026-08-25"
+              },
+              "gallery": [
+                {
+                  "asset_id": "sr_sqs_west_coast_detail_01",
+                  "path": "/images/shangrao/west-coast/detail_01.webp",
+                  "type": "viewpoint",
+                  "alt": "三清山山间步道与指示设施",
+                  "source_type": "open_license",
+                  "source_name": "Wikimedia Commons：Sanqingshan National Tourism Scenic Area 15",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sanqingshan_National_Tourism_Scenic_Area_-_15_(July_18,_2025).jpg",
+                  "license": "CC BY-SA 4.0",
+                  "credit": "茅野ふたば / Wikimedia Commons",
+                  "verified_at": "2026-08-25"
+                },
+                {
+                  "asset_id": "sr_sqs_west_coast_detail_02",
+                  "path": "/images/shangrao/west-coast/detail_02.webp",
+                  "type": "viewpoint",
+                  "alt": "西海岸沿线峰柱与山谷景观",
+                  "source_type": "open_license",
+                  "source_name": "Wikimedia Commons：SanQingShan8",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SanQingShan8.jpg",
+                  "license": "Public domain",
+                  "credit": "Emitchan / Wikimedia Commons",
+                  "verified_at": "2026-08-25"
+                }
+              ]
+            },
             "city_id": "city_shangrao"
           },
           {
@@ -24638,6 +24960,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "sr_sqs_west_coast_cover_01",
+            "path": "/images/shangrao/west-coast/cover.webp",
+            "type": "viewpoint",
+            "alt": "三清山西海岸绝壁栈道与云雾山林",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：A long plank road along the face of Sanqing Mountain cliffs",
+            "source_url": "https://commons.wikimedia.org/wiki/File:A_long_plank_road_along_the_face_of_Sanqing_Mountain_cliffs.jpg",
+            "license": "CC0",
+            "credit": "Huangdan2060 / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "sr_sqs_west_coast_detail_01",
+              "path": "/images/shangrao/west-coast/detail_01.webp",
+              "type": "viewpoint",
+              "alt": "三清山山间步道与指示设施",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Sanqingshan National Tourism Scenic Area 15",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Sanqingshan_National_Tourism_Scenic_Area_-_15_(July_18,_2025).jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "茅野ふたば / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "sr_sqs_west_coast_detail_02",
+              "path": "/images/shangrao/west-coast/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "西海岸沿线峰柱与山谷景观",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：SanQingShan8",
+              "source_url": "https://commons.wikimedia.org/wiki/File:SanQingShan8.jpg",
+              "license": "Public domain",
+              "credit": "Emitchan / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_shangrao",
         "map_index": "03",
         "children": []
@@ -25034,6 +25396,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "sr_wangxiangu_cover_01",
+            "path": "/images/shangrao/wangxiangu/cover.webp",
+            "type": "night_view",
+            "alt": "望仙谷夜间亮灯的山谷街区与建筑群",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：Wangxiangu Scenic Area 50",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Wangxiangu_Scenic_Area_-_50_(July_19,_2025).jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "茅野ふたば / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "sr_wangxiangu_detail_01",
+              "path": "/images/shangrao/wangxiangu/detail_01.webp",
+              "type": "viewpoint",
+              "alt": "望仙谷夜间溪谷与沿岸建筑",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Wangxiangu Scenic Area 52",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Wangxiangu_Scenic_Area_-_52_(July_19,_2025).jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "茅野ふたば / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "sr_wangxiangu_detail_02",
+              "path": "/images/shangrao/wangxiangu/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "望仙谷溪流、巨石与山谷环境",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Wangxiangu Scenic Area 55",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Wangxiangu_Scenic_Area_-_55_(July_19,_2025).jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "茅野ふたば / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_shangrao",
         "map_index": "06",
         "children": []
@@ -25214,6 +25616,46 @@
           }
         ],
         "aliases": [],
+        "media": {
+          "cover": {
+            "asset_id": "sr_wuyuan_huangling_cover_01",
+            "path": "/images/shangrao/huangling/cover.webp",
+            "type": "viewpoint",
+            "alt": "篁岭晒秋平台、徽派村落与山谷全景",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons：Autumn sun drying at Huangling",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Autumn_sun_drying_at_Huangling.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "Leungcwd / Wikimedia Commons",
+            "verified_at": "2026-08-25"
+          },
+          "gallery": [
+            {
+              "asset_id": "sr_wuyuan_huangling_detail_01",
+              "path": "/images/shangrao/huangling/detail_01.webp",
+              "type": "street_environment",
+              "alt": "篁岭徽派建筑与街巷入口",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：Huangling Village 1",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Huangling_Village_1.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "EditQ / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            },
+            {
+              "asset_id": "sr_wuyuan_huangling_detail_02",
+              "path": "/images/shangrao/huangling/detail_02.webp",
+              "type": "street_environment",
+              "alt": "篁岭天街传统民居与游览街道",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons：婺源篁岭天街 1",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E5%A9%BA%E6%BA%90%E7%AF%81%E5%B2%AD%E5%A4%A9%E8%A1%97_1.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "EditQ / Wikimedia Commons",
+              "verified_at": "2026-08-25"
+            }
+          ]
+        },
         "city_id": "city_shangrao",
         "map_index": "07",
         "children": []
@@ -28553,6 +28995,1639 @@
         "city_id": "city_shangrao",
         "map_index": "25",
         "children": []
+      }
+    ]
+  },
+  "city_transports": {
+    "city_zhuhai": [
+      {
+        "id": "transport_zhuhai_nanchang",
+        "name": "珠海 → 南昌",
+        "node_type": "transport",
+        "from_city_id": "city_zhuhai",
+        "to_city_id": "city_nanchang",
+        "route_role": "origin_to_rendezvous",
+        "recommended_mode": "high_speed_rail",
+        "stations": {
+          "from": "珠海站",
+          "to": "南昌西站"
+        },
+        "rail_reference": {
+          "sample_date": "2026-08-11",
+          "direct": true,
+          "duration_minutes": {
+            "minimum": 324,
+            "maximum": 324
+          },
+          "second_class_fare_cny": {
+            "minimum": 632,
+            "maximum": 632
+          },
+          "sample_trains": [
+            "G1302"
+          ],
+          "fallback": "广州南或长沙南中转",
+          "status": "normal_day_reference",
+          "national_day_sale_status": "not_on_sale"
+        },
+        "amap_integration": {
+          "coordinate_system": "GCJ-02",
+          "dynamic_fields": [
+            "origin_to_station",
+            "station_to_hotel",
+            "driving_duration"
+          ],
+          "api_status": "proxy_verified"
+        },
+        "related_node_ids": [
+          "city_zhuhai",
+          "city_nanchang"
+        ],
+        "tags": [
+          "会合交通",
+          "直达车次少",
+          "需准备中转备选"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "携程火车票：珠海—南昌西常态车次样本",
+            "url": "https://trains.ctrip.com/trainbooking/zhuhai-nanchangxi/",
+            "scope": [
+              "参考车次",
+              "参考时长",
+              "参考二等座价",
+              "中转备选"
+            ]
+          },
+          {
+            "name": "中国铁路 12306",
+            "url": "https://www.12306.cn/",
+            "scope": [
+              "最终车次",
+              "最终票价",
+              "余票"
+            ]
+          }
+        ],
+        "aliases": [],
+        "category": []
+      }
+    ],
+    "city_beijing": [
+      {
+        "id": "transport_beijing_nanchang",
+        "name": "北京 → 南昌",
+        "node_type": "transport",
+        "from_city_id": "city_beijing",
+        "to_city_id": "city_nanchang",
+        "route_role": "origin_to_rendezvous",
+        "recommended_mode": "high_speed_rail",
+        "stations": {
+          "from": "北京西站",
+          "to": "南昌西站"
+        },
+        "rail_reference": {
+          "sample_date": "2026-08-13",
+          "direct": true,
+          "duration_minutes": {
+            "minimum": 352,
+            "maximum": 367
+          },
+          "second_class_fare_cny": {
+            "minimum": 742,
+            "maximum": 745
+          },
+          "sample_trains": [
+            "G333",
+            "G335",
+            "G337"
+          ],
+          "status": "normal_day_reference",
+          "national_day_sale_status": "not_on_sale"
+        },
+        "amap_integration": {
+          "coordinate_system": "GCJ-02",
+          "dynamic_fields": [
+            "origin_to_station",
+            "station_to_hotel",
+            "driving_duration"
+          ],
+          "api_status": "proxy_verified"
+        },
+        "related_node_ids": [
+          "city_beijing",
+          "city_nanchang"
+        ],
+        "tags": [
+          "会合交通",
+          "直达高铁",
+          "长距离"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "携程火车票：北京—南昌西常态车次样本",
+            "url": "https://trains.ctrip.com/TrainBooking/beijing-nanchangxi/gaotie/",
+            "scope": [
+              "参考车次",
+              "参考时长",
+              "参考二等座价"
+            ]
+          },
+          {
+            "name": "中国铁路 12306",
+            "url": "https://www.12306.cn/",
+            "scope": [
+              "最终车次",
+              "最终票价",
+              "余票"
+            ]
+          }
+        ],
+        "aliases": [],
+        "category": []
+      }
+    ],
+    "city_shanghai": [
+      {
+        "id": "transport_shanghai_nanchang",
+        "name": "上海 → 南昌",
+        "node_type": "transport",
+        "from_city_id": "city_shanghai",
+        "to_city_id": "city_nanchang",
+        "route_role": "origin_to_rendezvous",
+        "recommended_mode": "high_speed_rail",
+        "stations": {
+          "from": "上海虹桥站",
+          "to": "南昌西站"
+        },
+        "rail_reference": {
+          "sample_date": "2026-08-22",
+          "direct": true,
+          "duration_minutes": {
+            "minimum": 167,
+            "maximum": 253
+          },
+          "second_class_fare_cny": {
+            "minimum": 334,
+            "maximum": 403
+          },
+          "sample_trains": [
+            "G201",
+            "G263",
+            "G1377"
+          ],
+          "status": "normal_day_reference",
+          "national_day_sale_status": "not_on_sale"
+        },
+        "amap_integration": {
+          "coordinate_system": "GCJ-02",
+          "dynamic_fields": [
+            "origin_to_station",
+            "station_to_hotel",
+            "driving_duration"
+          ],
+          "api_status": "proxy_verified"
+        },
+        "related_node_ids": [
+          "city_shanghai",
+          "city_nanchang"
+        ],
+        "tags": [
+          "会合交通",
+          "直达高铁",
+          "班次较多"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "携程火车票：上海虹桥—南昌西常态车次样本",
+            "url": "https://trains.ctrip.com/TrainBooking/shanghaihongqiao-nanchangxi/gaotie/",
+            "scope": [
+              "参考车次",
+              "参考时长",
+              "参考二等座价"
+            ]
+          },
+          {
+            "name": "中国铁路 12306",
+            "url": "https://www.12306.cn/",
+            "scope": [
+              "最终车次",
+              "最终票价",
+              "余票"
+            ]
+          }
+        ],
+        "aliases": [],
+        "category": []
+      }
+    ],
+    "city_nanchang": [],
+    "city_jingdezhen": [
+      {
+        "id": "transport_nanchang_jingdezhen",
+        "name": "南昌 → 景德镇",
+        "node_type": "transport",
+        "from_city_id": "city_nanchang",
+        "to_city_id": "city_jingdezhen",
+        "route_role": "main_route",
+        "recommended_mode": "high_speed_rail",
+        "stations": {
+          "from": "南昌西站",
+          "to": "景德镇北站"
+        },
+        "rail_reference": {
+          "sample_date": "2026-08-24",
+          "direct": true,
+          "duration_minutes": {
+            "minimum": 79,
+            "maximum": 129
+          },
+          "second_class_fare_cny": {
+            "minimum": 100,
+            "maximum": 120
+          },
+          "sample_trains": [
+            "G5004",
+            "G5012",
+            "D6252"
+          ],
+          "status": "normal_day_reference",
+          "national_day_sale_status": "not_on_sale"
+        },
+        "amap_integration": {
+          "coordinate_system": "GCJ-02",
+          "dynamic_fields": [
+            "hotel_to_station",
+            "station_to_hotel",
+            "driving_duration"
+          ],
+          "api_status": "proxy_verified"
+        },
+        "related_node_ids": [
+          "city_nanchang",
+          "city_jingdezhen"
+        ],
+        "tags": [
+          "江西主线",
+          "直达高铁",
+          "城际移动"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "高铁网：南昌西—景德镇北常态车次样本",
+            "url": "https://www.gaotie.com.cn/lieche/nanchangxi-jingdezhenbei.html",
+            "scope": [
+              "参考车次",
+              "参考时长",
+              "参考二等座价"
+            ]
+          },
+          {
+            "name": "中国铁路 12306",
+            "url": "https://www.12306.cn/",
+            "scope": [
+              "最终车次",
+              "最终票价",
+              "余票"
+            ]
+          }
+        ],
+        "aliases": [],
+        "category": []
+      },
+      {
+        "id": "transport_jingdezhen_shangrao",
+        "name": "景德镇 → 上饶",
+        "node_type": "transport",
+        "from_city_id": "city_jingdezhen",
+        "to_city_id": "city_shangrao",
+        "route_role": "main_route",
+        "recommended_mode": "high_speed_rail",
+        "stations": {
+          "from": "景德镇北站",
+          "to": "上饶站"
+        },
+        "rail_reference": {
+          "sample_date": "2026-08-23",
+          "direct": true,
+          "duration_minutes": {
+            "minimum": 53,
+            "maximum": 64
+          },
+          "second_class_fare_cny": {
+            "minimum": 63.5,
+            "maximum": 65.5
+          },
+          "sample_trains": [
+            "G1456",
+            "G5026"
+          ],
+          "status": "normal_day_reference",
+          "national_day_sale_status": "not_on_sale"
+        },
+        "amap_integration": {
+          "coordinate_system": "GCJ-02",
+          "dynamic_fields": [
+            "hotel_to_station",
+            "station_to_hotel",
+            "driving_duration"
+          ],
+          "api_status": "proxy_verified"
+        },
+        "related_node_ids": [
+          "city_jingdezhen",
+          "city_shangrao"
+        ],
+        "tags": [
+          "江西主线",
+          "直达高铁",
+          "三清山门户"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "携程火车票：景德镇北—上饶常态车次样本",
+            "url": "https://trains.ctrip.com/trainbooking/jingdezhen-shangrao/gaotie/",
+            "scope": [
+              "参考车次",
+              "参考时长",
+              "参考二等座价"
+            ]
+          },
+          {
+            "name": "中国铁路 12306",
+            "url": "https://www.12306.cn/",
+            "scope": [
+              "最终车次",
+              "最终票价",
+              "余票"
+            ]
+          }
+        ],
+        "aliases": [],
+        "category": []
+      },
+      {
+        "id": "jdz_route_north_station_yaoli",
+        "name": "景德镇北站—瑶里古镇交通链",
+        "city": "景德镇",
+        "city_id": "city_jingdezhen",
+        "node_type": "transport",
+        "category": [
+          "城乡公交",
+          "偏远景区接驳"
+        ],
+        "aliases": [],
+        "tags": [
+          "瑶里",
+          "景德镇北站",
+          "动态班次"
+        ],
+        "route_profile": {
+          "origin_name": "景德镇北站北广场",
+          "destination_id": "jdz_yaoli_ancient_town",
+          "status": "dynamic_schedule",
+          "preferred_modes": [
+            "官方城乡公交瑶里线",
+            "正规包车或自驾"
+          ],
+          "must_check": [
+            "当日首末班",
+            "北广场上车点",
+            "瑶里返程班次",
+            "国庆临时加班车"
+          ]
+        },
+        "direction_options": {
+          "outbound": [
+            {
+              "mode": "景德镇公交瑶里线",
+              "route": "西客站—地王大厦—陶溪川大剧院—景德镇北站北广场—浮梁古县衙—瓷宫—寒溪村路口—鹅湖汽车站—高岭中国村—东埠—瑶里",
+              "fare_reference_cny": 15,
+              "service_window_reference": "09:43-14:13（官方页面公布口径，出发前需确认具体班次）",
+              "reference_period": "2026-04官方公告",
+              "booking_channel": "赣悦行微信小程序、滴滴实时公交或现场乘车",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "正规包车或自驾",
+              "route": "景德镇城区—瑶里",
+              "schedule_status": "on_demand"
+            }
+          ],
+          "return": [
+            {
+              "mode": "城乡公交返程",
+              "route": "瑶里—景德镇北站或市区",
+              "schedule_status": "must_confirm_locally"
+            },
+            {
+              "mode": "预订返程包车",
+              "route": "瑶里—景德镇城区/北站",
+              "schedule_status": "advance_booking_required"
+            }
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇市人民政府2026年北站公交线路公告"
+          ],
+          "confidence": {
+            "overall": "high",
+            "2026_national_day_schedule": "pending"
+          },
+          "positive": [
+            {
+              "content": "官方公交线路将景德镇北站与瑶里直接串联",
+              "type": "direct_service"
+            }
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "avoid": [
+            {
+              "content": "瑶里距城区较远，不能到达后才假设有晚间返程公交",
+              "risk": "last_bus",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "去程上车时先向司机确认返程时刻和站点",
+            "国庆期间优先往返同时锁定",
+            "多人同行可比较包车总价"
+          ],
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 110,
+            "recommended_max_minutes": 150
+          },
+          "ai_note": "官方2026线路与票价可作基线，国庆具体班次必须在9月下旬复核。"
+        },
+        "related_node_ids": [
+          "jdz_yaoli_ancient_town"
+        ],
+        "sources": [
+          {
+            "name": "景德镇市人民政府：景德镇北站公交线路调整",
+            "url": "https://jdz.gov.cn/zwzx/ztbd/ggqsydw/gzdt/t1089189.shtml",
+            "scope": [
+              "瑶里线途经站点",
+              "参考服务时间与全程票价",
+              "北广场乘车位置及查询渠道"
+            ]
+          }
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "critical",
+          "last_verified_at": "2026-08-25",
+          "next_review_at": "2026-09-20"
+        }
+      }
+    ],
+    "city_shangrao": [
+      {
+        "id": "transport_jingdezhen_shangrao",
+        "name": "景德镇 → 上饶",
+        "node_type": "transport",
+        "from_city_id": "city_jingdezhen",
+        "to_city_id": "city_shangrao",
+        "route_role": "main_route",
+        "recommended_mode": "high_speed_rail",
+        "stations": {
+          "from": "景德镇北站",
+          "to": "上饶站"
+        },
+        "rail_reference": {
+          "sample_date": "2026-08-23",
+          "direct": true,
+          "duration_minutes": {
+            "minimum": 53,
+            "maximum": 64
+          },
+          "second_class_fare_cny": {
+            "minimum": 63.5,
+            "maximum": 65.5
+          },
+          "sample_trains": [
+            "G1456",
+            "G5026"
+          ],
+          "status": "normal_day_reference",
+          "national_day_sale_status": "not_on_sale"
+        },
+        "amap_integration": {
+          "coordinate_system": "GCJ-02",
+          "dynamic_fields": [
+            "hotel_to_station",
+            "station_to_hotel",
+            "driving_duration"
+          ],
+          "api_status": "proxy_verified"
+        },
+        "related_node_ids": [
+          "city_jingdezhen",
+          "city_shangrao"
+        ],
+        "tags": [
+          "江西主线",
+          "直达高铁",
+          "三清山门户"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "携程火车票：景德镇北—上饶常态车次样本",
+            "url": "https://trains.ctrip.com/trainbooking/jingdezhen-shangrao/gaotie/",
+            "scope": [
+              "参考车次",
+              "参考时长",
+              "参考二等座价"
+            ]
+          },
+          {
+            "name": "中国铁路 12306",
+            "url": "https://www.12306.cn/",
+            "scope": [
+              "最终车次",
+              "最终票价",
+              "余票"
+            ]
+          }
+        ],
+        "aliases": [],
+        "category": []
+      },
+      {
+        "id": "sr_transport_hub_shangrao_station",
+        "name": "上饶站旅游换乘枢纽",
+        "city": "上饶",
+        "node_type": "transport",
+        "category": [
+          "高铁站",
+          "景区直达车枢纽",
+          "多中心换乘"
+        ],
+        "location": {
+          "address": "江西省上饶市信州区站前大道666号",
+          "latitude": 28.490464,
+          "longitude": 118.006797,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B03190PXQN"
+        },
+        "transport_role": {
+          "level": "primary_hub",
+          "serves": [
+            "上饶市区",
+            "三清山",
+            "望仙谷",
+            "葛仙村",
+            "婺源方向",
+            "弋阳龟峰方向"
+          ],
+          "boarding_note": "景区直达车常从南广场或旅游客运集散点发车，不能只写‘上饶站’而省略具体上车点。"
+        },
+        "dynamic_fields": [
+          "发车点",
+          "班次",
+          "票价",
+          "检票规则",
+          "加班车",
+          "末班",
+          "行李托运"
+        ],
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、160、173、176、181、188、189、200-203"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "是串联上饶多个县域景区最重要的外部抵达和换乘锚点",
+              "type": "hub"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "到站后跟随揽客人员乘坐非正规车辆存在风险",
+              "risk": "unlicensed_transport",
+              "severity": "high"
+            },
+            {
+              "content": "国庆早晚热门时段直达车可能售罄",
+              "risk": "sellout",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "明确南广场、汽车东站或具体旅游集散点",
+            "去程和返程同时确认",
+            "至少预留30分钟站内换乘缓冲",
+            "优先官方站点巴士、景区直达车或正规网约车"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 30,
+            "recommended_min_minutes": 45,
+            "recommended_max_minutes": 90
+          },
+          "ai_note": "所有跨县节点默认从这里或相应县级高铁站重新计算，不使用固定景点间距离。"
+        },
+        "tags": [
+          "上饶站",
+          "南广场",
+          "景区直达车",
+          "换乘"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "国家统计局《中国信息报》：上饶加密重点景区直达旅游班线",
+            "url": "https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202605/P020260513314346779785.pdf",
+            "scope": [
+              "上饶站至葛仙山、三清山、望仙谷直达班线",
+              "景区间联运"
+            ]
+          },
+          {
+            "name": "高德地图：上饶站",
+            "url": "https://www.amap.com/place/B03190PXQN",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "aliases": [],
+        "city_id": "city_shangrao"
+      },
+      {
+        "id": "sr_transport_hub_wuyuan_station",
+        "name": "婺源站县域旅游换乘枢纽",
+        "city": "上饶",
+        "node_type": "transport",
+        "category": [
+          "高铁站",
+          "婺源东线换乘",
+          "县域枢纽"
+        ],
+        "location": {
+          "address": "江西省上饶市婺源县紫阳镇古北一路",
+          "latitude": 29.23928,
+          "longitude": 117.877037,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFH8ZPK"
+        },
+        "transport_role": {
+          "level": "secondary_hub",
+          "serves": [
+            "婺源县城",
+            "篁岭",
+            "江湾",
+            "婺女洲",
+            "婺源东线与北线"
+          ],
+          "boarding_note": "县域班车可能按线路、客流和季节调整，返程应在出发前确认。"
+        },
+        "dynamic_fields": [
+          "班车线路",
+          "拼车点",
+          "票价",
+          "末班",
+          "节假日加班车"
+        ],
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图160、170、173、176、181、201-203"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "比每天回上饶市区更适合作为婺源多日游换乘中心",
+              "type": "county_hub"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "县域班次少且收班早，临时拼车议价和安全风险较高",
+              "risk": "last_mile",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "东线与北线分开规划",
+            "提前约定拼车总价与下车点",
+            "国庆返程高铁前预留较大缓冲"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 30,
+            "recommended_min_minutes": 45,
+            "recommended_max_minutes": 90
+          },
+          "ai_note": "涉及两个以上婺源节点时优先把住宿和交通锚点转移到婺源县城。"
+        },
+        "tags": [
+          "婺源站",
+          "县域班车",
+          "婺源东线",
+          "换乘"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "sources": [
+          {
+            "name": "高德地图：婺源站",
+            "url": "https://www.amap.com/place/B0FFFH8ZPK",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "aliases": [],
+        "city_id": "city_shangrao"
+      },
+      {
+        "id": "sr_route_station_wangxiangu",
+        "name": "上饶站—望仙谷景区交通链",
+        "city": "上饶",
+        "node_type": "transport",
+        "category": [
+          "景区直达车",
+          "偏远景区接驳"
+        ],
+        "route_profile": {
+          "origin_id": "sr_transport_hub_shangrao_station",
+          "destination_id": "sr_wangxiangu",
+          "preferred_modes": [
+            "官方景区直达班线",
+            "站点巴士",
+            "正规网约车"
+          ],
+          "status": "dynamic_schedule",
+          "fixed_fare_stored": false,
+          "must_check": [
+            "南广场具体上车点",
+            "去程班次",
+            "夜游返程末班",
+            "节假日预售"
+          ]
+        },
+        "direction_options": {
+          "outbound": [
+            {
+              "mode": "上饶文旅站点巴士",
+              "route": "上饶汽车东站（高铁站）—望仙谷",
+              "reference_departures": [
+                "08:00",
+                "08:30",
+                "09:00",
+                "09:30",
+                "10:00",
+                "10:30",
+                "11:00",
+                "12:00",
+                "12:30",
+                "13:00",
+                "13:30",
+                "14:00",
+                "14:30",
+                "15:00",
+                "15:30",
+                "16:00",
+                "16:30"
+              ],
+              "reference_period": "2026暑期",
+              "booking_channel": "滴滴出行小程序—站点巴士",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "正规网约车或包车",
+              "route": "上饶站—望仙谷",
+              "schedule_status": "on_demand"
+            }
+          ],
+          "return": [
+            {
+              "mode": "上饶文旅站点巴士",
+              "route": "望仙谷—上饶高铁站",
+              "reference_departures": [
+                "09:15",
+                "10:00",
+                "10:30直达",
+                "11:00",
+                "11:30",
+                "12:30",
+                "13:30直达",
+                "14:30",
+                "15:00",
+                "16:00",
+                "17:00",
+                "19:00",
+                "19:30",
+                "20:00",
+                "20:15",
+                "20:30",
+                "21:00",
+                "21:30"
+              ],
+              "reference_period": "2026暑期",
+              "booking_channel": "滴滴出行小程序—站点巴士",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "景区住宿或正规包车送站",
+              "route": "望仙谷—上饶站",
+              "schedule_status": "advance_booking_required"
+            }
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图160、170、173、176、181、189"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "存在直达班线，可减少县域多次换乘",
+              "type": "direct_service"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "夜游散场后无票再找车风险最高",
+              "risk": "return_transport",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "往返同时购票或预约",
+            "拒绝站外非正规揽客车"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 75,
+            "recommended_min_minutes": 90,
+            "recommended_max_minutes": 150
+          },
+          "ai_note": "时间字段仅作交通缓冲，不是固定行车时间；实际由高德与官方班线共同核验。"
+        },
+        "related_node_ids": [
+          "sr_transport_hub_shangrao_station",
+          "sr_wangxiangu"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "mixed",
+          "time_sensitivity": "critical",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-20"
+        },
+        "aliases": [],
+        "tags": [],
+        "sources": [
+          {
+            "name": "上饶文旅：2026暑期出游直通车全新班次汇总",
+            "url": "https://jx.ifeng.com/c/8uGcBXbUW1Y",
+            "scope": [
+              "上饶站往返望仙谷参考班次",
+              "滴滴站点巴士预订入口",
+              "可携带行李"
+            ]
+          }
+        ],
+        "city_id": "city_shangrao"
+      },
+      {
+        "id": "sr_route_station_sanqingshan",
+        "name": "上饶站—三清山交通链",
+        "city": "上饶",
+        "node_type": "transport",
+        "category": [
+          "景区直达车",
+          "定制客运",
+          "索道入口分流"
+        ],
+        "route_profile": {
+          "origin_id": "sr_transport_hub_shangrao_station",
+          "destination_id": "sr_sanqingshan",
+          "preferred_modes": [
+            "兴荣出行定制专线",
+            "酒店接送或正规包车",
+            "玉山南站换乘"
+          ],
+          "status": "dynamic_schedule",
+          "fixed_fare_stored": false,
+          "must_check": [
+            "金沙或外双溪入口",
+            "兴荣出行当日班次",
+            "下山索道末班",
+            "返程车辆",
+            "国庆紫湖停车换乘"
+          ]
+        },
+        "direction_options": {
+          "outbound_to_jinsha": [
+            {
+              "mode": "兴荣出行定制专线",
+              "route": "上饶高铁站落客区—三清山东部金沙索道口",
+              "booking_channel": "兴荣出行微信公众号",
+              "fare_reference_cny": 48,
+              "fare_reference_period": "2025清明公开样本",
+              "schedule_status": "dynamic"
+            },
+            {
+              "mode": "酒店接站或正规包车",
+              "route": "上饶站—金沙住宿点",
+              "booking_channel": "住宿方或正规平台提前预约",
+              "schedule_status": "advance_booking_required"
+            },
+            {
+              "mode": "玉山南站旅游专车",
+              "route": "玉山南站旅游集散中心—金沙索道口",
+              "fare_reference_cny": 30,
+              "fare_reference_period": "2025清明公开样本",
+              "conditions": [
+                "满5人发车",
+                "铁路终点本身适合玉山南",
+                "到站时间在现场接待时段内"
+              ],
+              "schedule_status": "reference_only"
+            }
+          ],
+          "return_from_jinsha": [
+            {
+              "mode": "兴荣出行定制专线",
+              "route": "三清山东部金沙索道口—上饶高铁站落客区",
+              "booking_channel": "兴荣出行微信公众号",
+              "fare_reference_cny": 48,
+              "fare_reference_period": "2025清明公开样本",
+              "schedule_status": "dynamic"
+            },
+            {
+              "mode": "酒店送站或正规包车",
+              "route": "金沙索道口或酒店—上饶站",
+              "booking_channel": "前一晚确认弹性接送窗口、总价与超时等待规则",
+              "schedule_status": "advance_booking_required"
+            },
+            {
+              "mode": "经玉山汽车站转玉山南站",
+              "route": "金沙入口—玉山汽车站—6路公交—玉山南站",
+              "fare_reference_cny": 19,
+              "fare_reference_period": "2025清明公开样本合计",
+              "conditions": [
+                "较早下山",
+                "当天班车与公交均核验可用",
+                "不用于17:00左右才下山的完整环线"
+              ],
+              "schedule_status": "early_descent_only"
+            }
+          ]
+        },
+        "inter_scenic_reference": {
+          "reference_period": "2026暑期",
+          "schedule_status": "dynamic_reference",
+          "options": [
+            {
+              "route": "望仙谷—三清山",
+              "reference_departures": [
+                "09:30",
+                "12:30"
+              ]
+            },
+            {
+              "route": "三清山—望仙谷",
+              "reference_departures": [
+                "15:00",
+                "17:30"
+              ]
+            },
+            {
+              "route": "篁岭—三清山",
+              "reference_departures": [
+                "09:00"
+              ]
+            },
+            {
+              "route": "三清山—篁岭",
+              "reference_departures": [
+                "15:00"
+              ]
+            }
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、159、160、170、173、176、181、188、202-204",
+            "三清山风景名胜区社会发展局公开回复",
+            "2025清明交通公开样本"
+          ],
+          "confidence": {
+            "overall": "high",
+            "2026_national_day_schedule": "pending"
+          },
+          "positive": [
+            {
+              "content": "兴荣出行定制专线同时服务金沙与外双溪，可直接匹配索道入口",
+              "type": "direct_service"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "买到外双溪车票却按金沙入口设计路线会导致严重错配",
+              "risk": "wrong_gate",
+              "severity": "high"
+            },
+            {
+              "content": "晚到上饶或晚下山时不能默认仍有当日班次",
+              "risk": "last_service",
+              "severity": "high"
+            },
+            {
+              "content": "到站后临时跟随非正规揽客车存在价格与安全风险",
+              "risk": "unlicensed_transport",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "先选入口再买班车和索道",
+            "在兴荣出行内同时核对去程和返程",
+            "晚到优先提前约酒店接站",
+            "下山时给索道排队、道路管控和铁路进站留足余量"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "不保存固定班次。优先按金沙/外双溪入口筛选运营渠道，再用高德估算道路时间；2025票价与时刻只能作为2026国庆前的参考样本。"
+        },
+        "related_node_ids": [
+          "sr_transport_hub_shangrao_station",
+          "sr_sanqingshan",
+          "sr_sqs_jinsha_ropeway",
+          "sr_sqs_waishuangxi_ropeway"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "mixed",
+          "time_sensitivity": "critical",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-20"
+        },
+        "sources": [
+          {
+            "name": "三清山风景名胜区社会发展局：上饶市区往返三清山班线回复",
+            "url": "https://wenz.jxnews.com.cn/ms/viewpage/202405/view_393047.html",
+            "scope": [
+              "兴荣出行运营主体",
+              "金沙和外双溪定制快车",
+              "班次动态调整"
+            ]
+          },
+          {
+            "name": "三清山2025清明交通攻略（参考样本）",
+            "url": "https://www.sohu.com/a/880043879_121119246",
+            "scope": [
+              "上饶站往返金沙参考票价",
+              "玉山南专车与转乘参考",
+              "高峰换乘点"
+            ]
+          },
+          {
+            "name": "上饶文旅：2026暑期出游直通车全新班次汇总",
+            "url": "https://jx.ifeng.com/c/8uGcBXbUW1Y",
+            "scope": [
+              "望仙谷、篁岭与三清山跨景区参考班次",
+              "滴滴站点巴士预订入口"
+            ]
+          }
+        ],
+        "aliases": [],
+        "tags": [],
+        "city_id": "city_shangrao"
+      },
+      {
+        "id": "sr_route_station_gexian",
+        "name": "上饶站—葛仙村交通链",
+        "city": "上饶",
+        "node_type": "transport",
+        "category": [
+          "景区直达车",
+          "夜游返程"
+        ],
+        "route_profile": {
+          "origin_id": "sr_transport_hub_shangrao_station",
+          "destination_id": "sr_gexian_village",
+          "preferred_modes": [
+            "官方景区直达班线",
+            "自驾",
+            "正规包车"
+          ],
+          "status": "dynamic_schedule",
+          "fixed_fare_stored": false,
+          "must_check": [
+            "上车点",
+            "返程末班",
+            "度假区与葛仙山票务范围",
+            "夜游散场"
+          ]
+        },
+        "direction_options": {
+          "outbound": [
+            {
+              "mode": "上饶文旅站点巴士",
+              "route": "上饶高铁站—葛仙山",
+              "reference_departures": [
+                "06:30",
+                "07:10",
+                "07:50",
+                "08:20",
+                "09:00",
+                "09:20",
+                "09:50",
+                "10:20",
+                "10:50",
+                "11:10",
+                "11:30",
+                "11:50高速",
+                "12:10",
+                "12:30",
+                "12:50",
+                "13:10",
+                "13:30",
+                "13:50",
+                "14:20",
+                "14:40",
+                "15:00高速",
+                "15:20",
+                "15:40",
+                "16:10",
+                "17:00"
+              ],
+              "reference_period": "2026暑期",
+              "booking_channel": "滴滴出行小程序—站点巴士",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "正规包车或自驾",
+              "route": "上饶站—葛仙村度假区",
+              "schedule_status": "on_demand"
+            }
+          ],
+          "return": [
+            {
+              "mode": "上饶文旅站点巴士",
+              "route": "葛仙山—上饶高铁站",
+              "reference_departures": [
+                "07:20",
+                "07:50",
+                "08:20",
+                "08:50",
+                "09:20",
+                "09:50高速",
+                "10:10",
+                "10:30",
+                "10:55",
+                "11:20",
+                "11:50",
+                "12:20",
+                "12:45",
+                "13:05",
+                "13:15",
+                "13:40",
+                "14:00",
+                "14:25",
+                "15:00",
+                "15:30",
+                "16:10",
+                "16:40",
+                "17:30"
+              ],
+              "reference_period": "2026暑期",
+              "booking_channel": "滴滴出行小程序—站点巴士",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "景区住宿或正规包车送站",
+              "route": "葛仙村度假区—上饶站",
+              "schedule_status": "advance_booking_required"
+            }
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、158、160、170、173、176、181"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "节假日通常有重点景区直达服务",
+              "type": "direct_service"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "不能把节假日加密班次视为平日固定班次",
+              "risk": "schedule_assumption",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "夜游优先住景区或锁定返程",
+            "包车应明确总价、等待和返程地点"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 75,
+            "recommended_min_minutes": 90,
+            "recommended_max_minutes": 150
+          },
+          "ai_note": "以官方班线和高德动态结果交叉核验。"
+        },
+        "related_node_ids": [
+          "sr_transport_hub_shangrao_station",
+          "sr_gexian_village"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "mixed",
+          "time_sensitivity": "critical",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-20"
+        },
+        "aliases": [],
+        "tags": [],
+        "sources": [
+          {
+            "name": "上饶文旅：2026暑期出游直通车全新班次汇总",
+            "url": "https://jx.ifeng.com/c/8uGcBXbUW1Y",
+            "scope": [
+              "上饶站往返葛仙山参考班次",
+              "滴滴站点巴士预订入口",
+              "可携带行李"
+            ]
+          }
+        ],
+        "city_id": "city_shangrao"
+      },
+      {
+        "id": "sr_route_wuyuan_huangling",
+        "name": "婺源站—篁岭景区交通链",
+        "city": "上饶",
+        "node_type": "transport",
+        "category": [
+          "县域景区班车",
+          "婺源东线"
+        ],
+        "route_profile": {
+          "origin_id": "sr_transport_hub_wuyuan_station",
+          "destination_id": "sr_wuyuan_huangling",
+          "preferred_modes": [
+            "景区班车",
+            "站点巴士",
+            "拼车/包车",
+            "自驾"
+          ],
+          "status": "dynamic_schedule",
+          "fixed_fare_stored": false,
+          "must_check": [
+            "去程班次",
+            "返程末班",
+            "索道运营",
+            "国庆东线拥堵"
+          ]
+        },
+        "direction_options": {
+          "outbound": [
+            {
+              "mode": "婺源旅游客运班车",
+              "route": "婺源高铁站或婺源汽车站—篁岭",
+              "service_window_reference": "07:30-17:00",
+              "headway_reference": "约15-20分钟",
+              "fare_reference_cny": 20,
+              "reference_period": "篁岭官网交通指南",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "望仙谷/三清山跨景区站点巴士",
+              "route": "望仙谷—婺女洲/篁岭，或三清山—篁岭",
+              "reference_departures": [
+                "望仙谷09:30、14:30",
+                "三清山15:00"
+              ],
+              "reference_period": "2026暑期",
+              "schedule_status": "dynamic_reference"
+            }
+          ],
+          "return": [
+            {
+              "mode": "婺源旅游客运班车",
+              "route": "篁岭—婺源高铁站或婺源汽车站",
+              "schedule_status": "dynamic_reference"
+            },
+            {
+              "mode": "跨景区站点巴士",
+              "route": "篁岭—望仙谷或三清山",
+              "reference_departures": [
+                "望仙谷方向10:00、14:00",
+                "三清山方向09:00"
+              ],
+              "reference_period": "2026暑期",
+              "schedule_status": "dynamic_reference"
+            }
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、160、170、173、176、181、195、201-203"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "婺源站是进入东线景区的合理县级枢纽",
+              "type": "county_hub"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "县域班次少、收班早，晚到后临时拼车不稳定",
+              "risk": "last_bus",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "出站前确认返程",
+            "与江湾联游时不要假设景点间随到随走"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 45,
+            "recommended_min_minutes": 60,
+            "recommended_max_minutes": 120
+          },
+          "ai_note": "实际路线由高德计算，班线可用性以官方或车站公告为准。"
+        },
+        "related_node_ids": [
+          "sr_transport_hub_wuyuan_station",
+          "sr_wuyuan_huangling",
+          "sr_wuyuan_jiangwan"
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "mixed",
+          "time_sensitivity": "critical",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-20"
+        },
+        "aliases": [],
+        "tags": [],
+        "sources": [
+          {
+            "name": "篁岭官网：交通指南",
+            "url": "https://new.wyhl.cc/site/wyhl/wzhl/jtzn/detail2023-08-14-38.html",
+            "scope": [
+              "婺源枢纽往返篁岭班车参考",
+              "服务窗口与参考票价",
+              "官方咨询电话"
+            ]
+          },
+          {
+            "name": "上饶文旅：2026暑期出游直通车全新班次汇总",
+            "url": "https://jx.ifeng.com/c/8uGcBXbUW1Y",
+            "scope": [
+              "望仙谷、篁岭、三清山跨景区参考班次"
+            ]
+          }
+        ],
+        "city_id": "city_shangrao"
+      },
+      {
+        "id": "sr_route_yiyang_station_guifeng",
+        "name": "弋阳站—龟峰景区交通链",
+        "city": "上饶",
+        "city_id": "city_shangrao",
+        "node_type": "transport",
+        "category": [
+          "旅游公交",
+          "偏远景区接驳"
+        ],
+        "aliases": [],
+        "tags": [
+          "弋阳站",
+          "龟峰",
+          "动态核验"
+        ],
+        "route_profile": {
+          "origin_name": "弋阳站",
+          "destination_id": "sr_yiyang_guifeng",
+          "status": "historical_service_reference",
+          "preferred_modes": [
+            "旅游公交专线",
+            "出租车或正规网约车",
+            "自驾"
+          ],
+          "must_check": [
+            "旅游专线是否仍运营",
+            "当日发车时刻",
+            "景区返程末班",
+            "国庆交通管制"
+          ]
+        },
+        "direction_options": {
+          "outbound": [
+            {
+              "mode": "旅游公交专线",
+              "route": "弋阳站—叠山文化公园—龟峰景区",
+              "duration_reference_minutes": 40,
+              "reference_period": "2024试运行公开资料",
+              "schedule_status": "historical_reference_only"
+            },
+            {
+              "mode": "出租车或正规网约车",
+              "route": "弋阳站—龟峰游客中心",
+              "schedule_status": "on_demand"
+            }
+          ],
+          "return": [
+            {
+              "mode": "旅游公交专线",
+              "route": "龟峰景区—弋阳站",
+              "schedule_status": "must_confirm_locally"
+            },
+            {
+              "mode": "出租车或正规网约车",
+              "route": "龟峰游客中心—弋阳站",
+              "schedule_status": "on_demand"
+            }
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "2024年弋阳旅游公交试运行公开资料"
+          ],
+          "confidence": {
+            "overall": "medium",
+            "current_schedule": "pending"
+          },
+          "positive": [
+            {
+              "content": "弋阳站是铁路进入龟峰的最近主要枢纽",
+              "type": "rail_hub"
+            }
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium"
+          },
+          "avoid": [
+            {
+              "content": "2024年试运行信息不能直接当作2026国庆班次",
+              "risk": "stale_schedule",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "铁路优先选择弋阳站而非上饶站",
+            "到达前向弋阳公交或景区确认专线",
+            "若计划下午返程，提前预约网约车备选"
+          ],
+          "recommended_duration": {
+            "minimum_minutes": 35,
+            "recommended_min_minutes": 45,
+            "recommended_max_minutes": 70
+          },
+          "ai_note": "先保留可执行的枢纽关系，当前班次未获2026官方确认时不得由Agent自动承诺。"
+        },
+        "related_node_ids": [
+          "sr_yiyang_guifeng"
+        ],
+        "sources": [
+          {
+            "name": "江西新闻：弋阳站至龟峰旅游公交专线试运行",
+            "url": "https://jxsr.jxnews.com.cn/system/2024/04/01/020450000.shtml",
+            "scope": [
+              "线路存在性历史参考",
+              "约20公里与约40分钟行程",
+              "主要停靠点"
+            ]
+          }
+        ],
+        "metadata": {
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "mixed",
+          "time_sensitivity": "critical",
+          "last_verified_at": "2026-08-25",
+          "next_review_at": "2026-09-20"
+        }
       }
     ]
   }

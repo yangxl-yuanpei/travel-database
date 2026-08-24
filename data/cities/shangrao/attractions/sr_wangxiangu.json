@@ -163,5 +163,6 @@
     }
   ],
   "aliases": [],
+  "media": {"cover":{"asset_id":"sr_wangxiangu_cover_01","path":"/images/shangrao/wangxiangu/cover.webp","type":"night_view","alt":"望仙谷夜间亮灯的山谷街区与建筑群","source_type":"open_license","source_name":"Wikimedia Commons：Wangxiangu Scenic Area 50","source_url":"https://commons.wikimedia.org/wiki/File:Wangxiangu_Scenic_Area_-_50_(July_19,_2025).jpg","license":"CC BY-SA 4.0","credit":"茅野ふたば / Wikimedia Commons","verified_at":"2026-08-25"},"gallery":[{"asset_id":"sr_wangxiangu_detail_01","path":"/images/shangrao/wangxiangu/detail_01.webp","type":"viewpoint","alt":"望仙谷夜间溪谷与沿岸建筑","source_type":"open_license","source_name":"Wikimedia Commons：Wangxiangu Scenic Area 52","source_url":"https://commons.wikimedia.org/wiki/File:Wangxiangu_Scenic_Area_-_52_(July_19,_2025).jpg","license":"CC BY-SA 4.0","credit":"茅野ふたば / Wikimedia Commons","verified_at":"2026-08-25"},{"asset_id":"sr_wangxiangu_detail_02","path":"/images/shangrao/wangxiangu/detail_02.webp","type":"viewpoint","alt":"望仙谷溪流、巨石与山谷环境","source_type":"open_license","source_name":"Wikimedia Commons：Wangxiangu Scenic Area 55","source_url":"https://commons.wikimedia.org/wiki/File:Wangxiangu_Scenic_Area_-_55_(July_19,_2025).jpg","license":"CC BY-SA 4.0","credit":"茅野ふたば / Wikimedia Commons","verified_at":"2026-08-25"}]},
   "city_id": "city_shangrao"
 }

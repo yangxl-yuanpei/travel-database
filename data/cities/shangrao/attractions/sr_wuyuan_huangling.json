@@ -174,5 +174,6 @@
     }
   ],
   "aliases": [],
+  "media": {"cover":{"asset_id":"sr_wuyuan_huangling_cover_01","path":"/images/shangrao/huangling/cover.webp","type":"viewpoint","alt":"篁岭晒秋平台、徽派村落与山谷全景","source_type":"open_license","source_name":"Wikimedia Commons：Autumn sun drying at Huangling","source_url":"https://commons.wikimedia.org/wiki/File:Autumn_sun_drying_at_Huangling.jpg","license":"CC BY-SA 4.0","credit":"Leungcwd / Wikimedia Commons","verified_at":"2026-08-25"},"gallery":[{"asset_id":"sr_wuyuan_huangling_detail_01","path":"/images/shangrao/huangling/detail_01.webp","type":"street_environment","alt":"篁岭徽派建筑与街巷入口","source_type":"open_license","source_name":"Wikimedia Commons：Huangling Village 1","source_url":"https://commons.wikimedia.org/wiki/File:Huangling_Village_1.jpg","license":"CC BY-SA 4.0","credit":"EditQ / Wikimedia Commons","verified_at":"2026-08-25"},{"asset_id":"sr_wuyuan_huangling_detail_02","path":"/images/shangrao/huangling/detail_02.webp","type":"street_environment","alt":"篁岭天街传统民居与游览街道","source_type":"open_license","source_name":"Wikimedia Commons：婺源篁岭天街 1","source_url":"https://commons.wikimedia.org/wiki/File:%E5%A9%BA%E6%BA%90%E7%AF%81%E5%B2%AD%E5%A4%A9%E8%A1%97_1.jpg","license":"CC BY-SA 4.0","credit":"EditQ / Wikimedia Commons","verified_at":"2026-08-25"}]},
   "city_id": "city_shangrao"
 }

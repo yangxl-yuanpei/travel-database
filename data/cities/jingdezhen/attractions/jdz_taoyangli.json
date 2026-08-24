@@ -175,5 +175,6 @@
     }
   ],
   "aliases": [],
+  "media": {"cover":{"asset_id":"jdz_taoyangli_cover_01","path":"/images/jingdezhen/taoyangli/cover.webp","type":"interior","alt":"陶阳里御窑博物馆砖拱内部展陈空间","source_type":"open_license","source_name":"Wikimedia Commons：Jingdezhen Royal Kiln Museum 2","source_url":"https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_2.jpg","license":"CC BY-SA 4.0","credit":"EditQ / Wikimedia Commons","verified_at":"2026-08-25"},"gallery":[{"asset_id":"jdz_taoyangli_detail_01","path":"/images/jingdezhen/taoyangli/detail_01.webp","type":"exhibition_hall","alt":"陶阳里御窑博物馆瓷器展墙","source_type":"open_license","source_name":"Wikimedia Commons：Jingdezhen Royal Kiln Museum 3","source_url":"https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_3.jpg","license":"CC BY-SA 4.0","credit":"EditQ / Wikimedia Commons","verified_at":"2026-08-25"},{"asset_id":"jdz_taoyangli_detail_02","path":"/images/jingdezhen/taoyangli/detail_02.webp","type":"exhibition_hall","alt":"陶阳里御窑博物馆展厅空间","source_type":"open_license","source_name":"Wikimedia Commons：Jingdezhen Royal Kiln Museum 4","source_url":"https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_4.jpg","license":"CC BY-SA 4.0","credit":"EditQ / Wikimedia Commons","verified_at":"2026-08-25"}]},
   "city_id": "city_jingdezhen"
 }

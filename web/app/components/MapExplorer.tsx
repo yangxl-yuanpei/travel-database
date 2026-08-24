@@ -16,6 +16,7 @@ type TravelNode = {
   food_scope?: "area" | "restaurant" | "dish"; meal_periods?: string[]; menu_profile?: JsonObject; price_range_cny?: JsonObject;
   suitable_for?: string[]; transit_profile?: JsonObject; spatial_layer?: JsonObject; amap_integration?: JsonObject;
   remote_transport_profile?: JsonObject; route_profile?: JsonObject;
+  related_node_ids?: string[]; direction_options?: JsonObject;
   duration?: { recommended_minutes?: number; minimum_minutes?: number; maximum_minutes?: number };
   children?: TravelNode[]; sources?: Source[]; media?: MediaCollection; metadata?: JsonObject;
 };
@@ -34,7 +35,7 @@ type BookingItem = { item: string; timing: string; status: string; note: string 
 type MountainTransferOption = { priority: string; name: string; route: string; booking: string; reference: string; best_for: string; tradeoff: string; status: string };
 type MountainTransfer = { direction: "outbound" | "return"; title: string; planned_time: string; summary: string; options: MountainTransferOption[] };
 type Itinerary = TravelNode & { duration_days: number; target_period: string; summary: string; route_city_ids: string[]; days: ItineraryDay[]; mountain_transfers?: MountainTransfer[]; booking_checklist: BookingItem[]; dynamic_rules: Record<string, string> };
-type Atlas = { journey: Journey; cities: City[]; transports: Transport[]; itineraries: Itinerary[]; city_places: Record<string, TravelNode[]> };
+type Atlas = { journey: Journey; cities: City[]; transports: Transport[]; itineraries: Itinerary[]; city_places: Record<string, TravelNode[]>; city_transports: Record<string, TravelNode[]> };
 type MapPoint = { city: City; x: number; y: number };
 
 const atlas = atlasData as unknown as Atlas;
@@ -91,8 +92,9 @@ export function MapExplorer() {
   const city = atlas.cities.find((item) => item.id === viewId);
   const itinerary = atlas.itineraries.find((item) => item.id === viewId);
   const placeCity = place ? atlas.cities.find((item) => item.name === place.city) : undefined;
+  const placeRoutes = place && placeCity ? (atlas.city_transports[placeCity.id] ?? []).filter((route) => strings(route.related_node_ids).includes(place.id)) : [];
   if (itinerary) return <ItineraryPage itinerary={itinerary} />;
-  if (place) return <PlaceDetail place={place} cityName={placeCity?.name ?? place.city ?? "城市"} onBack={() => go(placeCity?.id ?? "overview")} />;
+  if (place) return <PlaceDetail place={place} cityName={placeCity?.name ?? place.city ?? "城市"} remoteRoutes={placeRoutes} onBack={() => go(placeCity?.id ?? "overview")} />;
   if (city && (city.detail_status === "active" || (atlas.city_places[city.id]?.length ?? 0) > 0)) return <DetailedCityPage city={city} />;
   if (city) return <CityFramework city={city} />;
   return <JourneyOverview />;
@@ -483,7 +485,7 @@ function CityFramework({ city }: { city: City }) {
   return <main className="framework-page"><SiteHeader compact /><section className="framework-hero"><p className="eyebrow">CITY NODE · FRAMEWORK READY</p><h1>{city.name}</h1><p>{city.journey_role} · {city.province}</p><div className="framework-badge">城市详情节点待下一阶段完善</div></section><section className="framework-grid"><article><span>空间锚点</span><h2>{city.location?.map_anchor}</h2><p>{city.location?.latitude}, {city.location?.longitude} · GCJ‑02</p></article><article><span>铁路连接</span><h2>{links.length} 条</h2><p>{links.map((link) => link.name).join(" · ")}</p></article><article><span>数据状态</span><h2>框架已建立</h2><p>景点、博物馆、美食、住宿与市内交通将在城市阶段分别建档。</p></article></section><section className="framework-routes">{links.map((transport) => <TransportCard key={transport.id} transport={transport} />)}</section><button type="button" className="return-button" onClick={() => go("overview")}>返回旅行总地图</button></main>;
 }
 
-function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName: string; onBack: () => void }) {
+function PlaceDetail({ place, cityName, remoteRoutes, onBack }: { place: TravelNode; cityName: string; remoteRoutes: TravelNode[]; onBack: () => void }) {
   const official = object(place.official_info), experience = object(place.experience), experienceLayer = object(place.experience_layer), holidayReference = object(place.holiday_reference);
   const isFood = place.node_type === "food";
   const isStay = place.node_type === "accommodation_area";
@@ -498,6 +500,7 @@ function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName:
     <section className="notice"><b>{isFood || isStay ? "数据提示" : "国庆提示"}</b><span>{isFood ? "店铺、价格和推荐菜来自游客截图与第三方目录快照，尚未完成逐店人工核验；营业状态和排队情况请通过高德动态确认。" : isStay ? "住宿区是旅行决策范围，不是行政边界；具体酒店库存、房价、房型与真实通勤必须在预订时动态核验。" : Object.keys(holidayReference).length ? "2026 年专项公告尚未发布；下方 2025 年资料只用于预估预约、客流和开放趋势，不能视为 2026 执行规则。" : "2026 年国庆专项开放、限流及放票安排尚未发布；出发前需再次查询官方公告。"}</span></section>
     {!isFood && !isStay && Object.keys(holidayReference).length > 0 && <HolidayReference reference={holidayReference} />}
     {!isFood && !isStay && Object.keys(object(place.remote_transport_profile)).length > 0 && <RemoteTransport profile={object(place.remote_transport_profile)} />}
+    {!isFood && !isStay && remoteRoutes.length > 0 && <RemoteRoutePlans routes={remoteRoutes} />}
     <section className="content-grid"><div className="content-block official-block"><p className="section-kicker">{isFood || isStay ? "LOCATION LAYER" : "OFFICIAL LAYER"}</p><h2>{isFood ? "位置与目录信息" : isStay ? "空间锚点与交通" : "官方信息"}</h2><dl><div><dt>{isStay ? "检索范围" : "地址"}</dt><dd>{place.location?.address ?? "地址待核验"}</dd></div><div><dt>坐标</dt><dd>{place.location?.latitude}, {place.location?.longitude} · {place.location?.coordinate_system}</dd></div>{place.location?.amap_poi_id && <div><dt>高德 POI</dt><dd><a href={`https://ditu.amap.com/place/${place.location.amap_poi_id}`} target="_blank" rel="noreferrer">{place.location.amap_poi_id} ↗</a></dd></div>}<div><dt>{isFood ? "资料状态" : isStay ? "车站接驳" : "预约渠道"}</dt><dd>{isFood ? string(official.status) ?? "待核验" : isStay ? string(object(place.transit_profile).rail_station_access) ?? "动态核验" : strings(place.reservation?.channels).join("、") || "以官方公告为准"}</dd></div>{isStay && <div><dt>步行特征</dt><dd>{string(object(place.transit_profile).walkability) ?? "动态核验"}</dd></div>}</dl></div>
       <div className="content-block experience-block"><p className="section-kicker">EXPERIENCE LAYER</p><h2>{isStay ? "住宿决策经验" : "实际体验"}</h2><div className="experience-provenance"><b>游客经验 · {stayRisk(confidence.overall)}</b><span>{strings(experienceLayer.source).join(" · ")}</span></div>{highlights.length > 0 && <InfoList title="高频正向反馈" items={highlights} />}{bestFor.length > 0 && <InfoList title={isStay ? "适合人群" : "适合谁 / 何时去"} items={bestFor} />}{visitTips.length > 0 && <InfoList title={isStay ? "订房与选址建议" : "参观建议"} items={visitTips} />}{photoScenes.length > 0 && <InfoList title="推荐拍摄场景" items={photoScenes} />}<InfoList title={isStay ? "区域客流模型" : "人流模型"} items={[`工作日：${stayRisk(crowd.weekday ?? crowd.normal)}`, `周末：${stayRisk(crowd.weekend)}`, `国庆：${stayRisk(crowd.national_holiday ?? crowd.holiday)}`]} />{avoids.length > 0 && <InfoList title="避坑" items={avoids} warning />}</div></section>
     <section className="score-section"><div><p className="section-kicker">AI SCORE · 1—5</p><h2>这处节点适合什么需求？</h2></div><div className="score-grid">{Object.entries(place.ai_score ?? {}).map(([key, value]) => <Score key={key} label={scoreLabels[key] ?? key} value={value} />)}</div></section>
@@ -518,6 +521,16 @@ function MediaGallery({ media, placeName }: { media: MediaCollection; placeName:
 }
 function InfoList({ title, items, warning = false }: { title: string; items: string[]; warning?: boolean }) { return <div className={warning ? "info-list warning" : "info-list"}><h3>{title}</h3><ul>{items.map((item) => <li key={item}>{item}</li>)}</ul></div>; }
 function Score({ label, value }: { label: string; value: number | null }) { return <div className="score"><div><span>{label}</span><b>{value ?? "—"}</b></div><i><em style={{ width: `${(value ?? 0) * 20}%` }} /></i></div>; }
+function RemoteRoutePlans({ routes }: { routes: TravelNode[] }) {
+  return <section className="children-section"><div className="section-title"><div><p className="section-kicker">REMOTE TRANSFER</p><h2>偏远交通 · 去程与返程</h2></div><span>国庆前复核</span></div>
+    <div className="child-grid">{routes.flatMap((route) => Object.entries(object(route.direction_options)).map(([direction, options]) => {
+      const returning = direction.includes("return");
+      return <article className="child-card" key={`${route.id}-${direction}`}><small>{returning ? "返程选择" : "去程选择"}</small><h3>{route.name}</h3>
+        {(Array.isArray(options) ? options : []).map((raw, index) => { const option = object(raw); const departures = strings(option.reference_departures); return <div key={index}><b>{string(option.mode) ?? "交通方案"}</b><p>{string(option.route) ?? "路线待核验"}</p><p>{departures.length ? `参考班次：${departures.join("、")}` : string(option.service_window_reference) ? `参考时段：${string(option.service_window_reference)}` : "班次动态核验"}</p></div>; })}
+        <p>复核日期：{string(object(route.metadata).next_review_at) ?? "出发前"}</p></article>;
+    }))}</div>
+  </section>;
+}
 function HolidayReference({ reference }: { reference: JsonObject }) {
   const facts = object(reference.observed_facts), planning = strings(reference.planning_inference), sources = Array.isArray(reference.sources) ? reference.sources.map(object) : [];
   const year = number(reference.reference_year) ?? 2025, target = number(reference.target_year) ?? 2026;

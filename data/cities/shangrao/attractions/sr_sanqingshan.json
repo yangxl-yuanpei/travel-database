@@ -294,5 +294,6 @@
     }
   ],
   "aliases": [],
+  "media": {"cover":{"asset_id":"sr_sanqingshan_cover_01","path":"/images/shangrao/sanqingshan/cover.webp","type":"viewpoint","alt":"三清山峰林与悬崖栈道远景","source_type":"open_license","source_name":"Wikimedia Commons：SanQingShan10","source_url":"https://commons.wikimedia.org/wiki/File:SanQingShan10.jpg","license":"Public domain","credit":"Emitchan / Wikimedia Commons","verified_at":"2026-08-25"},"gallery":[{"asset_id":"sr_sanqingshan_detail_01","path":"/images/shangrao/sanqingshan/detail_01.webp","type":"viewpoint","alt":"云雾环绕的三清山峰林","source_type":"open_license","source_name":"Wikimedia Commons：Sanqing Mountain is surrounded by clouds and mists2","source_url":"https://commons.wikimedia.org/wiki/File:Sanqing_Mountain_is_surrounded_by_clouds_and_mists2.jpg","license":"CC0","credit":"Huangdan2060 / Wikimedia Commons","verified_at":"2026-08-25"},{"asset_id":"sr_sanqingshan_detail_02","path":"/images/shangrao/sanqingshan/detail_02.webp","type":"viewpoint","alt":"三清山云雾中的峭壁与山松","source_type":"open_license","source_name":"Wikimedia Commons：Cliffs of Sanqing Mountain","source_url":"https://commons.wikimedia.org/wiki/File:Cliffs_of_Sanqing_Mountain.jpg","license":"CC0","credit":"Huangdan2060 / Wikimedia Commons","verified_at":"2026-08-25"}]},
   "city_id": "city_shangrao"
 }

@@ -66,6 +66,16 @@ test("published image collections include reusable rights metadata", async () =>
     "sr_sqs_giant_python",
     "sr_sqs_oriental_goddess",
     "sr_sqs_nanqingyuan",
+    "nc_bayi_square",
+    "nc_qiushui_square",
+    "nc_wanshougong_block",
+    "jdz_ancient_kiln_folk_expo",
+    "jdz_yaoli_ancient_town",
+    "jdz_taoyangli",
+    "sr_sanqingshan",
+    "sr_sqs_west_coast",
+    "sr_wangxiangu",
+    "sr_wuyuan_huangling",
   ];
   const places = Object.values(data.city_places).flat();
   for (const id of pilotIds) {
@@ -154,4 +164,23 @@ test("Shangrao publishes the multi-hub county travel database", async () => {
   assert.ok(places.some((place) => place.node_type === "memorial" && place.id === "sr_concentration_camp"));
   assert.ok(places.filter((place) => place.node_type === "food").length >= 3);
   assert.ok(places.filter((place) => place.node_type === "accommodation_area").length >= 5);
+});
+
+test("remote attractions expose reversible transport plans", async () => {
+  const data = await atlas();
+  const places = Object.values(data.city_transports).flat();
+  for (const id of [
+    "jdz_route_north_station_yaoli",
+    "sr_route_station_sanqingshan",
+    "sr_route_station_wangxiangu",
+    "sr_route_station_gexian",
+    "sr_route_wuyuan_huangling",
+    "sr_route_yiyang_station_guifeng",
+  ]) {
+    const route = places.find((item) => item.id === id);
+    assert.ok(route, `${id} must be published`);
+    assert.ok(route.direction_options, `${id} must expose outbound and return choices`);
+    assert.ok(route.metadata.next_review_at, `${id} must define a pre-holiday review date`);
+    assert.ok(route.sources.length > 0, `${id} must cite a transport source`);
+  }
 });
