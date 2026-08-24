@@ -50,14 +50,18 @@ const transports = journey.structure.transport_node_ids.map((id) => {
   return transport;
 });
 
-const places = referencedChildren(nodes.get("city_nanchang")).map((place, index) => ({
-  ...place,
-  map_index: String(index + 1).padStart(2, "0"),
-  children: referencedChildren(place),
-}));
-
-const atlas = { journey, cities, transports, city_places: { city_nanchang: places } };
+const cityPlaces = Object.fromEntries(cities.map((city) => [
+  city.id,
+  referencedChildren(city).filter((child) => child.node_type !== "transport").map((place, index) => ({
+    ...place,
+    map_index: String(index + 1).padStart(2, "0"),
+    children: referencedChildren(place),
+  })),
+]));
+const places = cityPlaces.city_nanchang ?? [];
+const atlas = { journey, cities, transports, city_places: cityPlaces };
 await mkdir(outputDir, { recursive: true });
 await writeFile(join(outputDir, "atlas.json"), `${JSON.stringify(atlas, null, 2)}\n`, "utf8");
 await writeFile(join(outputDir, "places.json"), `${JSON.stringify(places, null, 2)}\n`, "utf8");
-console.log(`Generated ${relative(webRoot, join(outputDir, "atlas.json"))}: ${cities.length} cities, ${transports.length} links, ${places.length} Nanchang places.`);
+const publishedCities = Object.entries(cityPlaces).filter(([, cityNodes]) => cityNodes.length > 0).map(([id, cityNodes]) => `${id}:${cityNodes.length}`).join(", ");
+console.log(`Generated ${relative(webRoot, join(outputDir, "atlas.json"))}: ${cities.length} cities, ${transports.length} links, detailed nodes ${publishedCities}.`);

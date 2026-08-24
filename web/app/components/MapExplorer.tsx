@@ -70,8 +70,9 @@ export function MapExplorer() {
   }, []);
   const place = Object.values(atlas.city_places).flat().find((item) => item.id === viewId);
   const city = atlas.cities.find((item) => item.id === viewId);
-  if (place) return <PlaceDetail place={place} onBack={() => go("city_nanchang")} />;
-  if (city?.id === "city_nanchang") return <NanchangPage city={city} />;
+  const placeCity = place ? atlas.cities.find((item) => item.name === place.city) : undefined;
+  if (place) return <PlaceDetail place={place} cityName={placeCity?.name ?? place.city ?? "城市"} onBack={() => go(placeCity?.id ?? "overview")} />;
+  if (city && (city.detail_status === "active" || (atlas.city_places[city.id]?.length ?? 0) > 0)) return <DetailedCityPage city={city} />;
   if (city) return <CityFramework city={city} />;
   return <JourneyOverview />;
 }
@@ -210,7 +211,9 @@ const cityLayers: Array<{ id: CityLayer; label: string; en: string }> = [
   { id: "accommodation", label: "住宿", en: "STAY" },
 ];
 
-function NanchangPage({ city }: { city: City }) {
+const cityCodeByName: Record<string, string> = { "南昌": "0791", "景德镇": "0798" };
+
+function DetailedCityPage({ city }: { city: City }) {
   const allPlaces = atlas.city_places[city.id] ?? [];
   const attractionPlaces = allPlaces.filter((place) => ["attraction", "museum", "memorial"].includes(place.node_type));
   const foodPlaces = allPlaces.filter((place) => place.node_type === "food");
@@ -220,11 +223,12 @@ function NanchangPage({ city }: { city: City }) {
   const [selectedId, setSelectedId] = useState(attractionPlaces[0]?.id);
   const places = layerPlaces[layer];
   const selected = places.find((place) => place.id === selectedId) ?? places[0];
+  const cityEn = city.id.replace("city_", "").toUpperCase();
   const copy = layer === "food"
-    ? { eyebrow: "NANCHANG · FOOD MAP", title: "吃在南昌", intro: "以美食区域为主节点，以景点作为弱化参照；菜品与代表店铺进入区域详情。" }
+    ? { eyebrow: `${cityEn} · FOOD MAP`, title: `吃在${city.name}`, intro: "以美食区域为主节点，以景点作为弱化参照；菜品与代表店铺进入区域详情。" }
     : layer === "accommodation"
-      ? { eyebrow: "NANCHANG · STAY MAP", title: "住在哪里", intro: `已建立 ${accommodationPlaces.length} 个住宿区域节点；具体酒店、价格与通勤通过高德动态查询。` }
-      : { eyebrow: "NANCHANG · CITY KNOWLEDGE MAP", title: "南昌", intro: `会合城市 · 当前已有 ${attractionPlaces.length} 个城市级景点节点。` };
+      ? { eyebrow: `${cityEn} · STAY MAP`, title: "住在哪里", intro: `已建立 ${accommodationPlaces.length} 个住宿区域节点；具体酒店、价格与通勤通过高德动态查询。` }
+      : { eyebrow: `${cityEn} · CITY KNOWLEDGE MAP`, title: city.name, intro: `${city.journey_role ?? "城市节点"} · 当前已有 ${attractionPlaces.length} 个城市级景点节点。` };
 
   const changeLayer = (next: CityLayer) => {
     setLayer(next);
@@ -232,12 +236,12 @@ function NanchangPage({ city }: { city: City }) {
   };
 
   return <main className={`city-page layer-${layer}`}><SiteHeader compact />
-    <nav className="city-layer-nav" aria-label="南昌城市地图图层">{cityLayers.map((item) => <button type="button" key={item.id} className={layer === item.id ? "is-active" : ""} onClick={() => changeLayer(item.id)}><span>{item.en}</span><b>{item.label}</b><i>{layerPlaces[item.id].length || "待接入"}</i></button>)}</nav>
-    <CommutePlanner nodes={allPlaces} cityName="南昌" cityCode="0791" />
+    <nav className="city-layer-nav" aria-label={`${city.name}城市地图图层`}>{cityLayers.map((item) => <button type="button" key={item.id} className={layer === item.id ? "is-active" : ""} onClick={() => changeLayer(item.id)}><span>{item.en}</span><b>{item.label}</b><i>{layerPlaces[item.id].length || "待接入"}</i></button>)}</nav>
+    <CommutePlanner nodes={allPlaces} cityName={city.name} cityCode={cityCodeByName[city.name] ?? ""} />
     <section className="city-hero"><div className="city-copy"><p className="eyebrow">{copy.eyebrow}</p><h1>{copy.title}</h1><p className="intro">{copy.intro}</p><button type="button" className="back-route" onClick={() => go("overview")}>← 查看跨城交通</button></div>
       {places.length > 0
-        ? <CityNodeMap city={city} places={places} referencePlaces={layer === "attractions" ? [] : attractionPlaces} selected={selected} onSelect={setSelectedId} waterLabel="赣 江" mode={layer} />
-        : <CityNodeMap city={city} places={attractionPlaces} selected={undefined} onSelect={() => undefined} waterLabel="赣 江" mode="reference" />}
+        ? <CityNodeMap city={city} places={places} referencePlaces={layer === "attractions" ? [] : attractionPlaces} selected={selected} onSelect={setSelectedId} waterLabel={city.name === "南昌" ? "赣 江" : undefined} mode={layer} />
+        : <CityNodeMap city={city} places={attractionPlaces} selected={undefined} onSelect={() => undefined} waterLabel={city.name === "南昌" ? "赣 江" : undefined} mode="reference" />}
     </section>
     {places.length > 0 && <section className="node-grid">{places.map((place) => <button key={place.id} type="button" onClick={() => go(place.id)}><span>{place.map_index}</span><div><b>{place.short_name ?? place.name}</b><small>{placeType(place)} · {place.node_type === "accommodation_area" ? stayFit(place) : duration(place)}</small></div><i>→</i></button>)}</section>}
     {layer !== "attractions" && <LayerWorkspace layer={layer} hasData={places.length > 0} />}
@@ -354,7 +358,7 @@ function CityFramework({ city }: { city: City }) {
   return <main className="framework-page"><SiteHeader compact /><section className="framework-hero"><p className="eyebrow">CITY NODE · FRAMEWORK READY</p><h1>{city.name}</h1><p>{city.journey_role} · {city.province}</p><div className="framework-badge">城市详情节点待下一阶段完善</div></section><section className="framework-grid"><article><span>空间锚点</span><h2>{city.location?.map_anchor}</h2><p>{city.location?.latitude}, {city.location?.longitude} · GCJ‑02</p></article><article><span>铁路连接</span><h2>{links.length} 条</h2><p>{links.map((link) => link.name).join(" · ")}</p></article><article><span>数据状态</span><h2>框架已建立</h2><p>景点、博物馆、美食、住宿与市内交通将在城市阶段分别建档。</p></article></section><section className="framework-routes">{links.map((transport) => <TransportCard key={transport.id} transport={transport} />)}</section><button type="button" className="return-button" onClick={() => go("overview")}>返回旅行总地图</button></main>;
 }
 
-function PlaceDetail({ place, onBack }: { place: TravelNode; onBack: () => void }) {
+function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName: string; onBack: () => void }) {
   const official = object(place.official_info), experience = object(place.experience), experienceLayer = object(place.experience_layer);
   const isFood = place.node_type === "food";
   const isStay = place.node_type === "accommodation_area";
@@ -362,7 +366,7 @@ function PlaceDetail({ place, onBack }: { place: TravelNode; onBack: () => void 
   const bestFor = [...(place.suitable_for ?? []), ...strings(experience.best_for), ...strings(experience.best_time), ...strings(experienceLayer.experience_type)];
   const positives = contents(experienceLayer.positive), highlights = positives.length ? positives : strings(experience.highlights), avoids = contents(experienceLayer.avoid).length ? contents(experienceLayer.avoid) : strings(experience.avoid);
   const visitTips = strings(experienceLayer.visit_tips), photoScenes = strings(object(experienceLayer.photo_info).recommended_scene), crowd = Object.keys(object(experienceLayer.crowd_model)).length ? object(experienceLayer.crowd_model) : object(experience.crowd), confidence = object(experienceLayer.confidence);
-  return <main className="detail-page"><header className="detail-nav"><button type="button" onClick={onBack}>← 返回南昌地图</button><span>{place.map_index} · {placeType(place)}</span></header><article>
+  return <main className="detail-page"><header className="detail-nav"><button type="button" onClick={onBack}>← 返回{cityName}地图</button><span>{place.map_index} · {placeType(place)}</span></header><article>
     <section className="detail-hero"><p className="eyebrow">{place.city} · {place.category?.join(" / ")}</p><h1>{place.name}</h1><p className="detail-lead">{lead(place)}</p><div className="tag-row">{place.tags?.map((tag) => <span key={tag}>{tag}</span>)}</div></section>
     <section className="quick-grid">{isFood ? <><Fact label="建议停留" value={duration(place)} /><Fact label="适合时段" value={foodPeriods(place)} /><Fact label="价格参考" value={foodPrice(place)} /><Fact label="候选子节点" value={`${place.children?.length ?? 0} 个`} /></> : isStay ? <><Fact label="地图锚点" value={place.location?.map_anchor ?? "待核验"} /><Fact label="适合" value={stayFit(place)} /><Fact label="公共交通" value={string(object(place.transit_profile).public_transport) ?? "待核验"} /><Fact label="假日涨价风险" value={stayRisk(experience.holiday_price_risk)} /></> : <><Fact label="建议时长" value={duration(place)} /><Fact label="开放时间" value={openingText(place)} /><Fact label="门票" value={ticketText(place)} /><Fact label="预约" value={reservationText(place)} /></>}</section>
     <section className="notice"><b>{isFood || isStay ? "数据提示" : "国庆提示"}</b><span>{isFood ? "店铺、价格和推荐菜来自游客截图与第三方目录快照，尚未完成逐店人工核验；营业状态和排队情况请通过高德动态确认。" : isStay ? "住宿区是旅行决策范围，不是行政边界；具体酒店库存、房价、房型与真实通勤必须在预订时动态核验。" : "2026 年国庆专项开放、限流及放票安排尚未发布；出发前需再次查询官方公告。"}</span></section>

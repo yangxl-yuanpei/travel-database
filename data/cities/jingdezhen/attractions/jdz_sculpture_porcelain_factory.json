@@ -1,0 +1,22 @@
+{
+  "id": "jdz_sculpture_porcelain_factory", "name": "景德镇市雕塑瓷厂", "short_name": "雕塑瓷厂", "city": "景德镇", "node_type": "attraction",
+  "category": ["陶瓷创意园区", "工作室聚集区", "市集候选", "工业文化"],
+  "location": {"address": "江西省景德镇市珠山区新厂东路139号", "latitude": 29.299847, "longitude": 117.25403, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFGEIH74"},
+  "official_info": {"description": "由雕塑瓷生产传统延伸出的陶瓷工作室、商店与创作空间聚集区。店铺与市集信息动态维护。", "opening_hours": {"status": "dynamic_by_venue"}, "ticket": {"status": "pending_verification"}},
+  "reservation": {"required": null, "notes": "陶艺体验和工作室参观需逐店确认", "status": "dynamic_by_venue"},
+  "experience": {"recommendation_score": 5, "best_time": ["白天", "市集时段"], "highlights": ["陶瓷工作室", "原创陶瓷", "陶艺体验", "街巷摄影"]},
+  "experience_layer": {
+    "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium-high"},
+    "positive": [{"content": "适合逛原创陶瓷工作室和进行手作体验", "type": "creative_market"}, {"content": "厂区街巷和小店具有较高摄影价值", "type": "photo"}],
+    "avoid": [{"content": "节假日主干道和热门店铺拥挤", "risk": "crowd", "severity": "high"}, {"content": "商户清单与市集安排变化快", "risk": "stale_merchant_data", "severity": "high"}],
+    "visit_tips": ["主干道拥挤时转入支路", "购买陶瓷时确认包装和运输", "体验项目遵守窑炉、工具与材料安全要求"],
+    "crowd_model": {"national_holiday": "high", "weekend": "high", "weekday": "medium"},
+    "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180},
+    "ai_note": "购物、陶艺和摄影综合价值高；商户级信息只作为动态深层节点。"
+  },
+  "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 3, "crowd_risk": 5, "first_visit": 5},
+  "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
+  "tags": ["雕塑瓷", "原创陶瓷", "手作", "市集"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：景德镇市雕塑瓷厂", "url": "https://www.amap.com/place/B0FFGEIH74", "scope": ["坐标", "POI ID", "地址"]}]
+}

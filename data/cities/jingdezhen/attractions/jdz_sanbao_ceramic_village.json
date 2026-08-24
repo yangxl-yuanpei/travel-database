@@ -1,0 +1,22 @@
+{
+  "id": "jdz_sanbao_ceramic_village", "name": "景德镇陶源谷·三宝旅游度假区·三宝国际陶艺村", "short_name": "三宝国际陶艺村", "city": "景德镇", "node_type": "attraction",
+  "category": ["陶艺村", "艺术聚落", "陶艺体验", "线性游览区"],
+  "location": {"address": "江西省景德镇市珠山区三宝村四家里", "latitude": 29.247141, "longitude": 117.26534, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HWOS"},
+  "official_info": {"description": "以陶艺工作室、艺术空间与乡村环境构成的线性陶瓷文化体验区；具体店铺和体验项目动态变化。", "opening_hours": {"status": "dynamic_by_venue"}, "ticket": {"status": "dynamic_by_venue"}},
+  "reservation": {"required": null, "notes": "工作室与陶艺体验需逐店确认", "status": "dynamic_by_venue"},
+  "experience": {"recommendation_score": 5, "best_time": ["上午", "工作室营业时段"], "highlights": ["陶艺工作室", "乡村环境", "艺术空间", "骑行与慢游"]},
+  "experience_layer": {
+    "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium-high"},
+    "positive": [{"content": "陶艺工作室、咖啡与乡村环境适合慢游和拍照", "type": "slow_travel"}, {"content": "适合安排陶艺体验", "type": "hands_on"}],
+    "avoid": [{"content": "村域较长，纯步行容易疲劳", "risk": "mobility", "severity": "high"}, {"content": "体验项目、商户营业与交通都不稳定", "risk": "dynamic_availability", "severity": "medium"}],
+    "visit_tips": ["尽量早到", "选择合规交通工具并确认停放规则", "陶艺体验提前联系工作室", "不要触碰未获允许的作品和设备"],
+    "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium", "peak_time": ["午后热门店铺"]},
+    "recommended_duration": {"minimum_minutes": 120, "recommended_min_minutes": 180, "recommended_max_minutes": 300},
+    "ai_note": "体验型节点，适合摄影和陶艺；需要较长时间且依赖市内动态交通。"
+  },
+  "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 2, "crowd_risk": 4, "first_visit": 4},
+  "duration": {"recommended_minutes": 240, "minimum_minutes": 120, "maximum_minutes": 300},
+  "tags": ["陶艺体验", "艺术村", "慢游", "摄影"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：三宝国际陶艺村", "url": "https://www.amap.com/place/B031E0HWOS", "scope": ["坐标", "POI ID", "地址"]}]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "jdz_ancient_kiln_folk_expo", "name": "景德镇古窑民俗博览区", "short_name": "古窑民俗博览区", "city": "景德镇", "node_type": "attraction",
+  "category": ["陶瓷文化景区", "传统窑炉", "非遗展示", "国家5A级旅游景区"],
+  "location": {"address": "江西省景德镇市昌江区瓷都大道古窑路1号", "latitude": 29.28343, "longitude": 117.184813, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0035B"},
+  "official_info": {"description": "以传统制瓷作坊、窑炉与陶瓷民俗展示为核心的景区节点。景区等级、演示项目、票价与开放安排需官方复核。", "opening_hours": {"status": "pending_verification"}, "ticket": {"status": "pending_verification"}},
+  "reservation": {"required": null, "notes": "国庆票务和演示安排以景区公告为准", "status": "pending_verification"},
+  "experience": {"recommendation_score": 4, "best_for": ["传统制瓷", "亲子", "非遗兴趣"], "highlights": ["传统窑炉", "制瓷工艺", "民俗展示"]},
+  "experience_layer": {
+    "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium"},
+    "positive": [{"content": "适合用较直观方式了解传统制瓷工序和窑炉", "type": "craft_education"}],
+    "avoid": [{"content": "演示或烧窑活动并非随时可见", "risk": "schedule_mismatch", "severity": "high"}],
+    "visit_tips": ["提前查看当天演示活动", "亲子游客为工艺讲解预留时间", "不要将商业表演与常设展陈混为一体"],
+    "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium"},
+    "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180},
+    "ai_note": "传统工艺和亲子教育权重高；若与多座陶瓷博物馆同日，应控制内容重复。"
+  },
+  "ai_score": {"history": 4, "photo": 4, "family": 5, "rain_day": 3, "crowd_risk": 4, "first_visit": 4},
+  "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
+  "tags": ["传统窑炉", "非遗", "制瓷工艺", "亲子"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：景德镇古窑民俗博览区", "url": "https://www.amap.com/place/B031E0035B", "scope": ["坐标", "POI ID", "地址"]}]
+}

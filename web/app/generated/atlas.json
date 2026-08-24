@@ -263,14 +263,24 @@
         "map_anchor": "景德镇北站"
       },
       "journey_role": "江西第二站",
-      "detail_status": "framework",
+      "detail_status": "active",
       "primary_station": {
         "name": "景德镇北站",
         "station_code": "JDG"
       },
       "child_nodes": {
-        "attractions": [],
-        "museums": [],
+        "attractions": [
+          "jdz_taoyangli",
+          "jdz_taoxichuan",
+          "jdz_sanbao_ceramic_village",
+          "jdz_sculpture_porcelain_factory",
+          "jdz_ancient_kiln_folk_expo",
+          "jdz_yaoli_ancient_town"
+        ],
+        "museums": [
+          "jdz_china_ceramics_museum",
+          "jdz_imperial_kiln_museum"
+        ],
         "memorials": [],
         "food": [],
         "accommodation_areas": [],
@@ -282,7 +292,8 @@
       "tags": [
         "瓷都",
         "江西主线",
-        "待完善城市"
+        "陶瓷文化",
+        "城市节点建设中"
       ],
       "metadata": {
         "schema_version": "1.0",
@@ -707,6 +718,9 @@
     }
   ],
   "city_places": {
+    "city_zhuhai": [],
+    "city_beijing": [],
+    "city_shanghai": [],
     "city_nanchang": [
       {
         "id": "nc_tengwangge",
@@ -14266,6 +14280,1208 @@
         "map_index": "20",
         "children": []
       }
-    ]
+    ],
+    "city_jingdezhen": [
+      {
+        "id": "jdz_taoyangli",
+        "name": "景德镇陶阳里历史文化旅游区",
+        "short_name": "陶阳里",
+        "city": "景德镇",
+        "node_type": "attraction",
+        "category": [
+          "历史文化街区",
+          "御窑遗址",
+          "国家级旅游休闲街区"
+        ],
+        "location": {
+          "address": "江西省景德镇市珠山区陶阳里东门游客服务中心",
+          "latitude": 29.296459,
+          "longitude": 117.204535,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0LBACTXK3"
+        },
+        "official_info": {
+          "description": "围绕御窑厂遗址、传统街巷与陶瓷文化形成的复合型历史文化旅游区。景区边界、票务和活动以官方公告为准。",
+          "opening_hours": {
+            "status": "pending_verification"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "国庆入园、御窑博物馆入馆及活动规则需分别核验",
+          "status": "pending_verification"
+        },
+        "child_nodes": {
+          "museums": [
+            "jdz_imperial_kiln_museum"
+          ],
+          "archaeological_sites": [],
+          "historic_sites": [],
+          "temporary_exhibitions": []
+        },
+        "experience": {
+          "recommendation_score": 5,
+          "best_time": [
+            "下午至夜间"
+          ],
+          "highlights": [
+            "御窑遗址",
+            "老城街巷",
+            "夜间氛围",
+            "陶瓷文化"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "御窑历史、老城街巷和夜间氛围可以连续体验",
+              "type": "district_experience"
+            },
+            {
+              "content": "适合历史与建筑摄影需求",
+              "type": "photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "节假日热门入口与御窑博物馆可能拥挤",
+              "risk": "crowd",
+              "severity": "high"
+            },
+            {
+              "content": "临时巡游、市集和演出不能作为常设内容",
+              "risk": "temporary_event",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "与御窑博物馆合并规划",
+            "希望拍夜景可延伸到晚间",
+            "临行前确认临时活动和出入口"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "high",
+            "weekday": "medium",
+            "peak_time": [
+              "傍晚",
+              "夜间活动时段"
+            ]
+          },
+          "recommended_duration": {
+            "minimum_minutes": 120,
+            "recommended_min_minutes": 180,
+            "recommended_max_minutes": 300
+          },
+          "ai_note": "景德镇首访核心复合节点；避免与御窑博物馆重复计算完整停留时长。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 3,
+          "crowd_risk": 5,
+          "first_visit": 5,
+          "night": 5
+        },
+        "duration": {
+          "recommended_minutes": 240,
+          "minimum_minutes": 120,
+          "maximum_minutes": 300
+        },
+        "related_node_ids": [
+          "jdz_imperial_kiln_museum"
+        ],
+        "tags": [
+          "御窑",
+          "陶阳里",
+          "老城",
+          "夜景",
+          "历史街区"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：景德镇陶阳里历史文化旅游区",
+            "url": "https://www.amap.com/place/B0LBACTXK3",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "01",
+        "children": [
+          {
+            "id": "jdz_imperial_kiln_museum",
+            "name": "景德镇御窑博物馆",
+            "short_name": "御窑博物馆",
+            "city": "景德镇",
+            "node_type": "museum",
+            "parent_id": "jdz_taoyangli",
+            "category": [
+              "陶瓷专题博物馆",
+              "御窑文化",
+              "建筑摄影"
+            ],
+            "location": {
+              "address": "江西省景德镇市珠山区珠山中路187号",
+              "latitude": 29.296615,
+              "longitude": 117.207107,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B031E13Y61"
+            },
+            "official_info": {
+              "description": "位于陶阳里历史文化旅游区内，以御窑遗址、出土瓷片及御窑制度为重要内容的博物馆节点。",
+              "opening_hours": {
+                "status": "pending_verification"
+              },
+              "ticket": {
+                "status": "pending_verification"
+              }
+            },
+            "reservation": {
+              "required": null,
+              "channels": [],
+              "notes": "需与陶阳里景区入园规则一并核验",
+              "status": "pending_verification"
+            },
+            "child_nodes": {
+              "permanent_exhibitions": [],
+              "temporary_exhibitions": [],
+              "artifacts": [],
+              "archaeological_sites": []
+            },
+            "experience": {
+              "recommendation_score": 5,
+              "best_for": [
+                "陶瓷历史",
+                "建筑摄影",
+                "考古兴趣"
+              ],
+              "highlights": [
+                "御窑文化",
+                "博物馆建筑",
+                "遗址语境"
+              ]
+            },
+            "experience_layer": {
+              "source": [
+                "景德镇攻略截图 113-150"
+              ],
+              "confidence": {
+                "overall": "medium"
+              },
+              "positive": [
+                {
+                  "content": "博物馆建筑和御窑遗址语境兼具历史与摄影价值",
+                  "type": "history_photo"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "不要把博物馆与整个陶阳里景区视为两个完全独立的行程",
+                  "risk": "duplicate_planning",
+                  "severity": "high"
+                }
+              ],
+              "visit_tips": [
+                "与陶阳里统一安排",
+                "提前确认入园和入馆是否分别预约",
+                "为建筑外观与展陈分别预留时间"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "medium-high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 60,
+                "recommended_min_minutes": 90,
+                "recommended_max_minutes": 120
+              },
+              "ai_note": "应作为陶阳里父节点下的核心博物馆，同时保留独立检索能力。"
+            },
+            "ai_score": {
+              "history": 5,
+              "photo": 5,
+              "family": 4,
+              "rain_day": 4,
+              "crowd_risk": 4,
+              "first_visit": 5
+            },
+            "duration": {
+              "recommended_minutes": 90,
+              "minimum_minutes": 60,
+              "maximum_minutes": 120
+            },
+            "related_node_ids": [
+              "jdz_taoyangli"
+            ],
+            "tags": [
+              "御窑",
+              "考古",
+              "博物馆建筑",
+              "陶阳里"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "draft",
+              "last_verified_at": "2026-08-24"
+            },
+            "sources": [
+              {
+                "name": "高德地图：景德镇御窑博物馆",
+                "url": "https://www.amap.com/place/B031E13Y61",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "地址"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jdz_taoxichuan",
+        "name": "陶溪川文创街区",
+        "city": "景德镇",
+        "node_type": "attraction",
+        "category": [
+          "文创街区",
+          "工业遗产更新",
+          "夜间节点",
+          "市集候选"
+        ],
+        "location": {
+          "address": "江西省景德镇市珠山区新厂西路351号",
+          "latitude": 29.296921,
+          "longitude": 117.236957,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFHARV3"
+        },
+        "official_info": {
+          "description": "由老工业遗存更新形成的陶瓷文化与文创街区；市集、展览和活动安排动态变化。",
+          "opening_hours": {
+            "status": "dynamic_pending_verification"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "开放空间、展馆与活动可能适用不同规则",
+          "status": "pending_verification"
+        },
+        "experience": {
+          "recommendation_score": 5,
+          "best_time": [
+            "傍晚",
+            "夜间",
+            "周末市集时段"
+          ],
+          "highlights": [
+            "工业建筑",
+            "陶瓷文创",
+            "夜间氛围",
+            "青年市集"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "夜间灯光、工业建筑与文创商业组合适合拍照和闲逛",
+              "type": "night_photo"
+            },
+            {
+              "content": "适合观察当代陶瓷设计和青年创作",
+              "type": "creative_culture"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "周末及节假日市集时段人流密集",
+              "risk": "crowd",
+              "severity": "high"
+            },
+            {
+              "content": "市集日期与营业状态必须动态确认",
+              "risk": "dynamic_schedule",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "优先安排在傍晚后",
+            "把市集视为动态加分项而非固定内容",
+            "购物前比较原创性、工艺和价格"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "high",
+            "weekday": "medium",
+            "peak_time": [
+              "傍晚",
+              "市集开放时段"
+            ]
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "夜景和当代陶瓷兴趣权重高；不喜欢拥挤时应避开周末市集峰值。"
+        },
+        "ai_score": {
+          "history": 3,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 3,
+          "crowd_risk": 5,
+          "first_visit": 5,
+          "night": 5
+        },
+        "duration": {
+          "recommended_minutes": 150,
+          "minimum_minutes": 90,
+          "maximum_minutes": 180
+        },
+        "tags": [
+          "文创",
+          "工业遗产",
+          "夜景",
+          "陶瓷市集"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：陶溪川文创街区",
+            "url": "https://www.amap.com/place/B0FFFHARV3",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "02",
+        "children": []
+      },
+      {
+        "id": "jdz_sanbao_ceramic_village",
+        "name": "景德镇陶源谷·三宝旅游度假区·三宝国际陶艺村",
+        "short_name": "三宝国际陶艺村",
+        "city": "景德镇",
+        "node_type": "attraction",
+        "category": [
+          "陶艺村",
+          "艺术聚落",
+          "陶艺体验",
+          "线性游览区"
+        ],
+        "location": {
+          "address": "江西省景德镇市珠山区三宝村四家里",
+          "latitude": 29.247141,
+          "longitude": 117.26534,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031E0HWOS"
+        },
+        "official_info": {
+          "description": "以陶艺工作室、艺术空间与乡村环境构成的线性陶瓷文化体验区；具体店铺和体验项目动态变化。",
+          "opening_hours": {
+            "status": "dynamic_by_venue"
+          },
+          "ticket": {
+            "status": "dynamic_by_venue"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "工作室与陶艺体验需逐店确认",
+          "status": "dynamic_by_venue"
+        },
+        "experience": {
+          "recommendation_score": 5,
+          "best_time": [
+            "上午",
+            "工作室营业时段"
+          ],
+          "highlights": [
+            "陶艺工作室",
+            "乡村环境",
+            "艺术空间",
+            "骑行与慢游"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "陶艺工作室、咖啡与乡村环境适合慢游和拍照",
+              "type": "slow_travel"
+            },
+            {
+              "content": "适合安排陶艺体验",
+              "type": "hands_on"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "村域较长，纯步行容易疲劳",
+              "risk": "mobility",
+              "severity": "high"
+            },
+            {
+              "content": "体验项目、商户营业与交通都不稳定",
+              "risk": "dynamic_availability",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "尽量早到",
+            "选择合规交通工具并确认停放规则",
+            "陶艺体验提前联系工作室",
+            "不要触碰未获允许的作品和设备"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium",
+            "peak_time": [
+              "午后热门店铺"
+            ]
+          },
+          "recommended_duration": {
+            "minimum_minutes": 120,
+            "recommended_min_minutes": 180,
+            "recommended_max_minutes": 300
+          },
+          "ai_note": "体验型节点，适合摄影和陶艺；需要较长时间且依赖市内动态交通。"
+        },
+        "ai_score": {
+          "history": 3,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 2,
+          "crowd_risk": 4,
+          "first_visit": 4
+        },
+        "duration": {
+          "recommended_minutes": 240,
+          "minimum_minutes": 120,
+          "maximum_minutes": 300
+        },
+        "tags": [
+          "陶艺体验",
+          "艺术村",
+          "慢游",
+          "摄影"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：三宝国际陶艺村",
+            "url": "https://www.amap.com/place/B031E0HWOS",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "03",
+        "children": []
+      },
+      {
+        "id": "jdz_sculpture_porcelain_factory",
+        "name": "景德镇市雕塑瓷厂",
+        "short_name": "雕塑瓷厂",
+        "city": "景德镇",
+        "node_type": "attraction",
+        "category": [
+          "陶瓷创意园区",
+          "工作室聚集区",
+          "市集候选",
+          "工业文化"
+        ],
+        "location": {
+          "address": "江西省景德镇市珠山区新厂东路139号",
+          "latitude": 29.299847,
+          "longitude": 117.25403,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFGEIH74"
+        },
+        "official_info": {
+          "description": "由雕塑瓷生产传统延伸出的陶瓷工作室、商店与创作空间聚集区。店铺与市集信息动态维护。",
+          "opening_hours": {
+            "status": "dynamic_by_venue"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "陶艺体验和工作室参观需逐店确认",
+          "status": "dynamic_by_venue"
+        },
+        "experience": {
+          "recommendation_score": 5,
+          "best_time": [
+            "白天",
+            "市集时段"
+          ],
+          "highlights": [
+            "陶瓷工作室",
+            "原创陶瓷",
+            "陶艺体验",
+            "街巷摄影"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "适合逛原创陶瓷工作室和进行手作体验",
+              "type": "creative_market"
+            },
+            {
+              "content": "厂区街巷和小店具有较高摄影价值",
+              "type": "photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "节假日主干道和热门店铺拥挤",
+              "risk": "crowd",
+              "severity": "high"
+            },
+            {
+              "content": "商户清单与市集安排变化快",
+              "risk": "stale_merchant_data",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "主干道拥挤时转入支路",
+            "购买陶瓷时确认包装和运输",
+            "体验项目遵守窑炉、工具与材料安全要求"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "购物、陶艺和摄影综合价值高；商户级信息只作为动态深层节点。"
+        },
+        "ai_score": {
+          "history": 3,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 3,
+          "crowd_risk": 5,
+          "first_visit": 5
+        },
+        "duration": {
+          "recommended_minutes": 150,
+          "minimum_minutes": 90,
+          "maximum_minutes": 180
+        },
+        "tags": [
+          "雕塑瓷",
+          "原创陶瓷",
+          "手作",
+          "市集"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：景德镇市雕塑瓷厂",
+            "url": "https://www.amap.com/place/B0FFGEIH74",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "04",
+        "children": []
+      },
+      {
+        "id": "jdz_ancient_kiln_folk_expo",
+        "name": "景德镇古窑民俗博览区",
+        "short_name": "古窑民俗博览区",
+        "city": "景德镇",
+        "node_type": "attraction",
+        "category": [
+          "陶瓷文化景区",
+          "传统窑炉",
+          "非遗展示",
+          "国家5A级旅游景区"
+        ],
+        "location": {
+          "address": "江西省景德镇市昌江区瓷都大道古窑路1号",
+          "latitude": 29.28343,
+          "longitude": 117.184813,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031E0035B"
+        },
+        "official_info": {
+          "description": "以传统制瓷作坊、窑炉与陶瓷民俗展示为核心的景区节点。景区等级、演示项目、票价与开放安排需官方复核。",
+          "opening_hours": {
+            "status": "pending_verification"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "国庆票务和演示安排以景区公告为准",
+          "status": "pending_verification"
+        },
+        "experience": {
+          "recommendation_score": 4,
+          "best_for": [
+            "传统制瓷",
+            "亲子",
+            "非遗兴趣"
+          ],
+          "highlights": [
+            "传统窑炉",
+            "制瓷工艺",
+            "民俗展示"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium"
+          },
+          "positive": [
+            {
+              "content": "适合用较直观方式了解传统制瓷工序和窑炉",
+              "type": "craft_education"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "演示或烧窑活动并非随时可见",
+              "risk": "schedule_mismatch",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "提前查看当天演示活动",
+            "亲子游客为工艺讲解预留时间",
+            "不要将商业表演与常设展陈混为一体"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "传统工艺和亲子教育权重高；若与多座陶瓷博物馆同日，应控制内容重复。"
+        },
+        "ai_score": {
+          "history": 4,
+          "photo": 4,
+          "family": 5,
+          "rain_day": 3,
+          "crowd_risk": 4,
+          "first_visit": 4
+        },
+        "duration": {
+          "recommended_minutes": 150,
+          "minimum_minutes": 90,
+          "maximum_minutes": 180
+        },
+        "tags": [
+          "传统窑炉",
+          "非遗",
+          "制瓷工艺",
+          "亲子"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：景德镇古窑民俗博览区",
+            "url": "https://www.amap.com/place/B031E0035B",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "05",
+        "children": []
+      },
+      {
+        "id": "jdz_yaoli_ancient_town",
+        "name": "瑶里古镇风景区",
+        "short_name": "瑶里古镇",
+        "city": "景德镇",
+        "node_type": "attraction",
+        "category": [
+          "古镇",
+          "山水人文",
+          "远郊节点",
+          "陶瓷历史关联"
+        ],
+        "location": {
+          "address": "江西省景德镇市浮梁县瑶里镇",
+          "latitude": 29.540982,
+          "longitude": 117.577684,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031E0HT42"
+        },
+        "official_info": {
+          "description": "位于浮梁县东北部的古镇与山水文化节点；景区范围、内部收费点和交通安排需临行核验。",
+          "opening_hours": {
+            "status": "pending_verification"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "以景区官方公告为准",
+          "status": "pending_verification"
+        },
+        "experience": {
+          "recommendation_score": 4,
+          "best_time": [
+            "白天",
+            "天气稳定时"
+          ],
+          "highlights": [
+            "古镇街巷",
+            "山水环境",
+            "慢游",
+            "远郊文化"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium"
+          },
+          "positive": [
+            {
+              "content": "古镇与自然环境结合，适合远离城区慢游",
+              "type": "ancient_town"
+            },
+            {
+              "content": "街巷、溪流与传统建筑有摄影价值",
+              "type": "photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "离城区较远，公共交通班次和返程时间是主要风险",
+              "risk": "transport",
+              "severity": "high"
+            },
+            {
+              "content": "古镇周边晚间餐饮和商业选择有限",
+              "risk": "amenities",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "出发前确认去程与返程交通",
+            "住宿时优先选择主街附近",
+            "不要进入未开放区域或攀爬老建筑",
+            "与寒溪村等远郊节点组合时动态计算路程"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "low-medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 180,
+            "recommended_min_minutes": 240,
+            "recommended_max_minutes": 480
+          },
+          "ai_note": "远郊独立半日或一日节点；不应与城区景点用固定距离拼接。"
+        },
+        "ai_score": {
+          "history": 4,
+          "photo": 5,
+          "family": 3,
+          "rain_day": 1,
+          "crowd_risk": 4,
+          "first_visit": 3
+        },
+        "duration": {
+          "recommended_minutes": 360,
+          "minimum_minutes": 180,
+          "maximum_minutes": 480
+        },
+        "tags": [
+          "古镇",
+          "远郊",
+          "慢游",
+          "摄影",
+          "浮梁"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：瑶里古镇风景区",
+            "url": "https://www.amap.com/place/B031E0HT42",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "06",
+        "children": []
+      },
+      {
+        "id": "jdz_china_ceramics_museum",
+        "name": "景德镇中国陶瓷博物馆",
+        "short_name": "中国陶瓷博物馆",
+        "city": "景德镇",
+        "node_type": "museum",
+        "category": [
+          "陶瓷专题博物馆",
+          "历史文化节点",
+          "室内节点"
+        ],
+        "location": {
+          "address": "江西省景德镇市昌江区紫晶北路1号",
+          "latitude": 29.29324,
+          "longitude": 117.17553,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031E0HX27"
+        },
+        "official_info": {
+          "description": "以中国陶瓷历史与景德镇陶瓷文化为核心的专题博物馆。常设展陈名称、楼层、开放时间和预约规则等待官方逐项核验。",
+          "opening_hours": {
+            "status": "pending_verification"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "channels": [],
+          "notes": "以博物馆官方预约渠道和国庆公告为准",
+          "status": "pending_verification"
+        },
+        "child_nodes": {
+          "permanent_exhibitions": [],
+          "temporary_exhibitions": [],
+          "artifacts": [],
+          "collection_groups": []
+        },
+        "experience": {
+          "recommendation_score": 5,
+          "best_for": [
+            "陶瓷历史",
+            "首次到访",
+            "雨天旅行"
+          ],
+          "highlights": [
+            "中国陶瓷通史",
+            "景德镇陶瓷文化",
+            "室内深度参观"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium",
+            "reason": "多张游客攻略重复推荐，官方展陈细节尚待核验"
+          },
+          "positive": [
+            {
+              "content": "适合作为理解景德镇陶瓷历史的第一站",
+              "type": "culture"
+            },
+            {
+              "content": "室内参观，适合雨天与高温时段",
+              "type": "weather_adaptation"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "热门展品区域节假日可能集中排队",
+              "risk": "crowd",
+              "severity": "high"
+            },
+            {
+              "content": "不要把截图中的楼层顺序当作官方固定路线",
+              "risk": "stale_information",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "优先完成官方预约",
+            "希望系统参观时预留至少两小时",
+            "代表展品和楼层信息临行前再次核验"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium",
+            "peak_time": [
+              "上午入馆时段",
+              "热门展品区域"
+            ]
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "历史与陶瓷兴趣权重极高；国庆需要叠加预约和拥挤惩罚。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 3,
+          "family": 5,
+          "rain_day": 5,
+          "crowd_risk": 4,
+          "first_visit": 5
+        },
+        "duration": {
+          "recommended_minutes": 150,
+          "minimum_minutes": 90,
+          "maximum_minutes": 180
+        },
+        "tags": [
+          "陶瓷通史",
+          "博物馆",
+          "雨天方案",
+          "首次到访"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：景德镇中国陶瓷博物馆",
+            "url": "https://www.amap.com/place/B031E0HX27",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "07",
+        "children": []
+      },
+      {
+        "id": "jdz_imperial_kiln_museum",
+        "name": "景德镇御窑博物馆",
+        "short_name": "御窑博物馆",
+        "city": "景德镇",
+        "node_type": "museum",
+        "parent_id": "jdz_taoyangli",
+        "category": [
+          "陶瓷专题博物馆",
+          "御窑文化",
+          "建筑摄影"
+        ],
+        "location": {
+          "address": "江西省景德镇市珠山区珠山中路187号",
+          "latitude": 29.296615,
+          "longitude": 117.207107,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031E13Y61"
+        },
+        "official_info": {
+          "description": "位于陶阳里历史文化旅游区内，以御窑遗址、出土瓷片及御窑制度为重要内容的博物馆节点。",
+          "opening_hours": {
+            "status": "pending_verification"
+          },
+          "ticket": {
+            "status": "pending_verification"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "channels": [],
+          "notes": "需与陶阳里景区入园规则一并核验",
+          "status": "pending_verification"
+        },
+        "child_nodes": {
+          "permanent_exhibitions": [],
+          "temporary_exhibitions": [],
+          "artifacts": [],
+          "archaeological_sites": []
+        },
+        "experience": {
+          "recommendation_score": 5,
+          "best_for": [
+            "陶瓷历史",
+            "建筑摄影",
+            "考古兴趣"
+          ],
+          "highlights": [
+            "御窑文化",
+            "博物馆建筑",
+            "遗址语境"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "景德镇攻略截图 113-150"
+          ],
+          "confidence": {
+            "overall": "medium"
+          },
+          "positive": [
+            {
+              "content": "博物馆建筑和御窑遗址语境兼具历史与摄影价值",
+              "type": "history_photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "不要把博物馆与整个陶阳里景区视为两个完全独立的行程",
+              "risk": "duplicate_planning",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "与陶阳里统一安排",
+            "提前确认入园和入馆是否分别预约",
+            "为建筑外观与展陈分别预留时间"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 60,
+            "recommended_min_minutes": 90,
+            "recommended_max_minutes": 120
+          },
+          "ai_note": "应作为陶阳里父节点下的核心博物馆，同时保留独立检索能力。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 4,
+          "crowd_risk": 4,
+          "first_visit": 5
+        },
+        "duration": {
+          "recommended_minutes": 90,
+          "minimum_minutes": 60,
+          "maximum_minutes": 120
+        },
+        "related_node_ids": [
+          "jdz_taoyangli"
+        ],
+        "tags": [
+          "御窑",
+          "考古",
+          "博物馆建筑",
+          "陶阳里"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "draft",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：景德镇御窑博物馆",
+            "url": "https://www.amap.com/place/B031E13Y61",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "08",
+        "children": []
+      }
+    ],
+    "city_shangrao": []
   }
 }

@@ -57,3 +57,14 @@ test("Nanchang keeps city nodes and deep nodes", async () => {
   assert.ok(stayAreas.every((area) => area.amap_integration.api_status === "proxy_configured"));
   assert.ok(stayAreas.every((area) => !area.price_range_cny));
 });
+
+test("Jingdezhen publishes the first ceramic-culture node batch", async () => {
+  const data = await atlas();
+  const places = data.city_places.city_jingdezhen;
+  assert.equal(places.length, 8);
+  assert.equal(places.filter((place) => place.node_type === "museum").length, 2);
+  assert.ok(places.some((place) => place.id === "jdz_yaoli_ancient_town"));
+  assert.ok(places.some((place) => place.id === "jdz_taoyangli" && place.children.some((child) => child.id === "jdz_imperial_kiln_museum")));
+  assert.ok(places.every((place) => typeof place.location.latitude === "number" && typeof place.location.longitude === "number"));
+  assert.ok(places.every((place) => place.location.coordinate_system === "GCJ-02"));
+});

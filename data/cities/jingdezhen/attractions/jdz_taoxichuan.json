@@ -1,0 +1,22 @@
+{
+  "id": "jdz_taoxichuan", "name": "陶溪川文创街区", "city": "景德镇", "node_type": "attraction",
+  "category": ["文创街区", "工业遗产更新", "夜间节点", "市集候选"],
+  "location": {"address": "江西省景德镇市珠山区新厂西路351号", "latitude": 29.296921, "longitude": 117.236957, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFFHARV3"},
+  "official_info": {"description": "由老工业遗存更新形成的陶瓷文化与文创街区；市集、展览和活动安排动态变化。", "opening_hours": {"status": "dynamic_pending_verification"}, "ticket": {"status": "pending_verification"}},
+  "reservation": {"required": null, "notes": "开放空间、展馆与活动可能适用不同规则", "status": "pending_verification"},
+  "experience": {"recommendation_score": 5, "best_time": ["傍晚", "夜间", "周末市集时段"], "highlights": ["工业建筑", "陶瓷文创", "夜间氛围", "青年市集"]},
+  "experience_layer": {
+    "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium-high"},
+    "positive": [{"content": "夜间灯光、工业建筑与文创商业组合适合拍照和闲逛", "type": "night_photo"}, {"content": "适合观察当代陶瓷设计和青年创作", "type": "creative_culture"}],
+    "avoid": [{"content": "周末及节假日市集时段人流密集", "risk": "crowd", "severity": "high"}, {"content": "市集日期与营业状态必须动态确认", "risk": "dynamic_schedule", "severity": "high"}],
+    "visit_tips": ["优先安排在傍晚后", "把市集视为动态加分项而非固定内容", "购物前比较原创性、工艺和价格"],
+    "crowd_model": {"national_holiday": "high", "weekend": "high", "weekday": "medium", "peak_time": ["傍晚", "市集开放时段"]},
+    "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180},
+    "ai_note": "夜景和当代陶瓷兴趣权重高；不喜欢拥挤时应避开周末市集峰值。"
+  },
+  "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 3, "crowd_risk": 5, "first_visit": 5, "night": 5},
+  "duration": {"recommended_minutes": 150, "minimum_minutes": 90, "maximum_minutes": 180},
+  "tags": ["文创", "工业遗产", "夜景", "陶瓷市集"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：陶溪川文创街区", "url": "https://www.amap.com/place/B0FFFHARV3", "scope": ["坐标", "POI ID", "地址"]}]
+}
