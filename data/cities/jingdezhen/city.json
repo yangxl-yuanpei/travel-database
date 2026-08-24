@@ -12,12 +12,18 @@
   },
   "journey_role": "江西第二站",
   "detail_status": "active",
-  "primary_station": {"name": "景德镇北站", "station_code": "JDG"},
+  "primary_station": {
+    "name": "景德镇北站",
+    "station_code": "JDG"
+  },
   "holiday_reference": {
     "target_year": 2026,
     "status": "historical_reference_only",
     "reference_year": 2025,
-    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "period": {
+      "start": "2025-10-01",
+      "end": "2025-10-08"
+    },
     "observed_facts": {
       "tourist_loops": "景德镇北站北广场开行101内环和102外环，连接陶溪川、雕塑瓷厂与三宝，09:30-18:30，约30分钟一班",
       "museum_shuttle": "高铁北站至中国陶瓷博物馆、科技馆专线09:30-16:30，约30分钟一班",
@@ -37,7 +43,10 @@
     ],
     "confidence": "high",
     "recheck_required": true,
-    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "recheck_window": [
+      "2026-09-15",
+      "2026-09-30"
+    ],
     "warning": "2025年线路、发车时间、间隔和票价仅作结构参考，2026年需等待公交公司新方案。"
   },
   "child_nodes": {
@@ -69,8 +78,27 @@
       "jdz_stay_area_yaoli",
       "jdz_stay_area_ceramics_museum_fuliang"
     ],
-    "transport": ["transport_nanchang_jingdezhen", "transport_jingdezhen_shangrao"]
+    "transport": [
+      "transport_nanchang_jingdezhen",
+      "transport_jingdezhen_shangrao"
+    ]
   },
-  "tags": ["瓷都", "江西主线", "陶瓷文化", "美食区域", "住宿区域"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
+  "tags": [
+    "瓷都",
+    "江西主线",
+    "陶瓷文化",
+    "美食区域",
+    "住宿区域"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "draft",
+    "verification_level": "unverified",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": "2026-09-15"
+  },
+  "aliases": [],
+  "category": [],
+  "sources": []
 }

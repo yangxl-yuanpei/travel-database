@@ -1,1 +1,87 @@
-{"id":"sr_food_area_wanda","name":"上饶万达与滨江西路美食区","short_name":"万达/滨江","city":"上饶","node_type":"food","food_scope":"area","category":["商圈餐饮","市区补给"],"location":{"address":"江西省上饶市信州区滨江西路66号周边","latitude":28.444286,"longitude":117.955765,"coordinate_system":"GCJ-02","amap_poi_id":"B0FFFD1NWE","map_anchor":"万达广场(上饶信州店)"},"child_nodes":{"restaurants":["sr_food_rest_chunjiao","sr_food_rest_zhangji_qiaomaiguo"]},"nearby_attraction_ids":["sr_museum","sr_concentration_camp"],"official_info":{"status":"commercial_area_anchor","description":"适合市区换乘、博物馆参观前后集中解决正餐与补给。"},"experience_layer":{"source":["上饶攻略截图162-169、183-186、191-194"],"confidence":{"overall":"medium-high"},"positive":[{"content":"餐饮选择集中，适合不熟悉上饶的首次游客","type":"variety"}],"avoid":[{"content":"商场热门店国庆排队明显","risk":"queue","severity":"high"}],"visit_tips":["把景点位置作为浅色参考点，不与餐馆标记混淆","热门正餐错峰或提前取号"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":45,"recommended_min_minutes":75,"recommended_max_minutes":120},"ai_note":"市区换乘和亲子便利度高，地方烟火感低于老街区域。"},"tags":["万达","滨江西路","正餐","市区"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_food_area_wanda",
+  "name": "上饶万达与滨江西路美食区",
+  "short_name": "万达/滨江",
+  "city": "上饶",
+  "node_type": "food",
+  "food_scope": "area",
+  "category": [
+    "商圈餐饮",
+    "市区补给"
+  ],
+  "location": {
+    "address": "江西省上饶市信州区滨江西路66号周边",
+    "latitude": 28.444286,
+    "longitude": 117.955765,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFFD1NWE",
+    "map_anchor": "万达广场(上饶信州店)"
+  },
+  "child_nodes": {
+    "restaurants": [
+      "sr_food_rest_chunjiao",
+      "sr_food_rest_zhangji_qiaomaiguo"
+    ]
+  },
+  "nearby_attraction_ids": [
+    "sr_museum",
+    "sr_concentration_camp"
+  ],
+  "official_info": {
+    "status": "commercial_area_anchor",
+    "description": "适合市区换乘、博物馆参观前后集中解决正餐与补给。"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图162-169、183-186、191-194"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "餐饮选择集中，适合不熟悉上饶的首次游客",
+        "type": "variety"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "商场热门店国庆排队明显",
+        "risk": "queue",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "把景点位置作为浅色参考点，不与餐馆标记混淆",
+      "热门正餐错峰或提前取号"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 75,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "市区换乘和亲子便利度高，地方烟火感低于老街区域。"
+  },
+  "tags": [
+    "万达",
+    "滨江西路",
+    "正餐",
+    "市区"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

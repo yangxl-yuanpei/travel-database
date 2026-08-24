@@ -12,8 +12,34 @@
   },
   "journey_role": "华东出发地",
   "detail_status": "framework",
-  "primary_station": {"name": "上海虹桥站", "station_code": "AOH"},
-  "child_nodes": {"attractions": [], "museums": [], "memorials": [], "food": [], "accommodation_areas": [], "transport": ["transport_shanghai_nanchang"]},
-  "tags": ["出发地", "高铁直达南昌", "华东团队"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
+  "primary_station": {
+    "name": "上海虹桥站",
+    "station_code": "AOH"
+  },
+  "child_nodes": {
+    "attractions": [],
+    "museums": [],
+    "memorials": [],
+    "food": [],
+    "accommodation_areas": [],
+    "transport": [
+      "transport_shanghai_nanchang"
+    ]
+  },
+  "tags": [
+    "出发地",
+    "高铁直达南昌",
+    "华东团队"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "draft",
+    "verification_level": "unverified",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": []
 }

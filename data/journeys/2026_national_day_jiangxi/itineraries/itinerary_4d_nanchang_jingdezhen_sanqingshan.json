@@ -6,12 +6,26 @@
   "status": "current_fixed_reference",
   "duration_days": 4,
   "target_period": "2026国庆",
-  "route_city_ids": ["city_nanchang", "city_jingdezhen", "city_shangrao"],
+  "route_city_ids": [
+    "city_nanchang",
+    "city_jingdezhen",
+    "city_shangrao"
+  ],
   "user_constraints": {
-    "must_visit": ["nc_tengwangge"],
-    "city_nights": ["南昌", "景德镇", "三清山山脚"],
+    "must_visit": [
+      "nc_tengwangge"
+    ],
+    "city_nights": [
+      "南昌",
+      "景德镇",
+      "三清山山脚"
+    ],
     "pace": "中等",
-    "planning_priority": ["路线可执行", "减少跨区折返", "第四天完整爬三清山"]
+    "planning_priority": [
+      "路线可执行",
+      "减少跨区折返",
+      "第四天完整爬三清山"
+    ]
   },
   "summary": "第一天把滕王阁放在傍晚；第二、三天分别承担陶瓷通史与御窑老城；第三晚提前住进三清山金沙服务区；第四天独立完成南清园核心环线。",
   "days": [
@@ -404,45 +418,75 @@
     "future_generator": "当前为固定参考方案；后续可由输入天数、必去节点、偏好、排队容忍度、预算和体力自动生成。"
   },
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "planning_reference",
-    "last_verified_at": "2026-08-24"
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "mixed",
+    "time_sensitivity": "critical",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
   },
   "sources": [
     {
       "name": "中国铁路12306：客票预售期公告",
       "url": "https://www.12306.cn/mormhweb/zxdt/202205/t20220531_37508.html",
-      "scope": ["15天预售期"]
+      "scope": [
+        "15天预售期"
+      ]
     },
     {
       "name": "景德镇中国陶瓷博物馆参观预约须知",
       "url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml",
-      "scope": ["开放时间", "最长提前5天预约", "实体身份证"]
+      "scope": [
+        "开放时间",
+        "最长提前5天预约",
+        "实体身份证"
+      ]
     },
     {
       "name": "滕王阁景区公告",
       "url": "https://www.cntwg.com/list56_1.html",
-      "scope": ["预约余量", "动态运营公告"]
+      "scope": [
+        "预约余量",
+        "动态运营公告"
+      ]
     },
     {
       "name": "三清山2026年度常规优免政策",
       "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
-      "scope": ["门票", "金沙索道票"]
+      "scope": [
+        "门票",
+        "金沙索道票"
+      ]
     },
     {
       "name": "三清山2026年预约与游览提示",
       "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
-      "scope": ["实名预约", "动态限流", "停车换乘"]
+      "scope": [
+        "实名预约",
+        "动态限流",
+        "停车换乘"
+      ]
     },
     {
       "name": "三清山风景名胜区社会发展局：上饶市区往返三清山班线回复",
       "url": "https://wenz.jxnews.com.cn/ms/viewpage/202405/view_393047.html",
-      "scope": ["兴荣出行运营主体", "金沙与外双溪入口分流", "班次动态调整"]
+      "scope": [
+        "兴荣出行运营主体",
+        "金沙与外双溪入口分流",
+        "班次动态调整"
+      ]
     },
     {
       "name": "三清山2025清明交通攻略（2026国庆前的参考样本）",
       "url": "https://www.sohu.com/a/880043879_121119246",
-      "scope": ["上饶站往返金沙参考票价", "玉山南换乘参考", "高峰换乘点"]
+      "scope": [
+        "上饶站往返金沙参考票价",
+        "玉山南换乘参考",
+        "高峰换乘点"
+      ]
     }
-  ]
+  ],
+  "aliases": [],
+  "category": [],
+  "tags": []
 }

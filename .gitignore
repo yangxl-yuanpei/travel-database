@@ -8,3 +8,4 @@ node_modules/
 .pnpm-store/
 build/
 dist/
+.tmp/

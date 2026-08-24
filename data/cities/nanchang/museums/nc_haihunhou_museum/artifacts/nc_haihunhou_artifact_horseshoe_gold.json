@@ -17,9 +17,31 @@
     "importance": 5,
     "photo_value": 5,
     "recognition_value": 5,
-    "viewing_notes": ["重点观察形制与花丝工艺", "结合海昏侯墓金器出土背景理解"]
+    "viewing_notes": [
+      "重点观察形制与花丝工艺",
+      "结合海昏侯墓金器出土背景理解"
+    ]
   },
-  "related_exhibition_ids": ["nc_haihunhou_exh_golden_haihun"],
-  "tags": ["马蹄金", "金器", "西汉", "刘贺墓", "代表文物"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "related_exhibition_ids": [
+    "nc_haihunhou_exh_golden_haihun"
+  ],
+  "tags": [
+    "马蹄金",
+    "金器",
+    "西汉",
+    "刘贺墓",
+    "代表文物"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

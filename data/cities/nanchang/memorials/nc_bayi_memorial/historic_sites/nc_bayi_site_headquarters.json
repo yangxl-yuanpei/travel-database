@@ -4,8 +4,30 @@
   "city": "南昌",
   "node_type": "historic_site",
   "parent_id": "nc_bayi_memorial",
-  "official_info": {"site_type": "革命旧址", "description": "原江西大旅社，是南昌起义总指挥部旧址。", "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml", "verified_at": "2026-08-23", "status": "verified"},
-  "experience": {"importance": 5},
-  "tags": ["革命旧址", "全国重点文物保护单位"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-23"}
+  "official_info": {
+    "site_type": "革命旧址",
+    "description": "原江西大旅社，是南昌起义总指挥部旧址。",
+    "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+    "verified_at": "2026-08-23",
+    "status": "verified"
+  },
+  "experience": {
+    "importance": 5
+  },
+  "tags": [
+    "革命旧址",
+    "全国重点文物保护单位"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-23",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

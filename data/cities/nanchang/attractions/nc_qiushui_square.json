@@ -3,7 +3,12 @@
   "name": "秋水广场",
   "city": "南昌",
   "node_type": "attraction",
-  "category": ["城市广场", "夜景节点", "赣江景观节点", "音乐喷泉"],
+  "category": [
+    "城市广场",
+    "夜景节点",
+    "赣江景观节点",
+    "音乐喷泉"
+  ],
   "location": {
     "address": "江西省南昌市红谷滩区赣江中大道",
     "latitude": 28.682634,
@@ -16,7 +21,10 @@
     "place_type": "城市公共空间",
     "description": "以音乐喷泉为主题、位于赣江西岸的城市休闲广场，与滕王阁隔江相望。",
     "ticket": {
-      "general_admission": {"amount": 0, "currency": "CNY"},
+      "general_admission": {
+        "amount": 0,
+        "currency": "CNY"
+      },
       "source_url": "https://hgt.nc.gov.cn/hgtqrmzf/hgtfm/202604/85e25dfb797d41b983f074d55fcdf92f.shtml",
       "verified_at": "2026-08-24",
       "status": "verified"
@@ -36,12 +44,25 @@
   },
   "experience": {
     "recommendation_score": 4,
-    "best_time": ["夜间", "喷泉演出前后"],
-    "highlights": ["赣江夜景", "音乐喷泉", "一江两岸城市景观"],
-    "avoid": ["白天仅为普通城市广场", "雨天以喷泉演出为核心期待"]
+    "best_time": [
+      "夜间",
+      "喷泉演出前后"
+    ],
+    "highlights": [
+      "赣江夜景",
+      "音乐喷泉",
+      "一江两岸城市景观"
+    ],
+    "avoid": [
+      "白天仅为普通城市广场",
+      "雨天以喷泉演出为核心期待"
+    ]
   },
   "experience_layer": {
-    "source": ["小红书攻略", "抖音游客反馈"],
+    "source": [
+      "小红书攻略",
+      "抖音游客反馈"
+    ],
     "provenance": {
       "content_type": "游客攻略高频反馈人工整理",
       "source_urls": [],
@@ -52,14 +73,35 @@
       "reason": "夜景、喷泉和节假日人流反馈较一致"
     },
     "positive": [
-      {"content": "赣江沿岸夜景体验较好", "type": "night_view"},
-      {"content": "适合作为晚间散步和城市观景节点", "type": "city_leisure"},
-      {"content": "音乐喷泉开放时具有较高家庭游览价值", "type": "family"}
+      {
+        "content": "赣江沿岸夜景体验较好",
+        "type": "night_view"
+      },
+      {
+        "content": "适合作为晚间散步和城市观景节点",
+        "type": "city_leisure"
+      },
+      {
+        "content": "音乐喷泉开放时具有较高家庭游览价值",
+        "type": "family"
+      }
     ],
     "avoid": [
-      {"content": "主要观赏价值集中在夜景和喷泉时段", "risk": "time_mismatch", "severity": "high"},
-      {"content": "喷泉开放安排会因维护、天气或活动调整", "risk": "dynamic_schedule", "severity": "high"},
-      {"content": "节假日夜间游客集中，前排观赏区拥挤", "risk": "crowd", "severity": "medium"}
+      {
+        "content": "主要观赏价值集中在夜景和喷泉时段",
+        "risk": "time_mismatch",
+        "severity": "high"
+      },
+      {
+        "content": "喷泉开放安排会因维护、天气或活动调整",
+        "risk": "dynamic_schedule",
+        "severity": "high"
+      },
+      {
+        "content": "节假日夜间游客集中，前排观赏区拥挤",
+        "risk": "crowd",
+        "severity": "medium"
+      }
     ],
     "visit_tips": [
       "建议安排在晚上",
@@ -71,11 +113,18 @@
       "national_holiday": "high",
       "weekend": "medium-high",
       "weekday": "medium",
-      "peak_time": ["喷泉演出前", "夜景时段"]
+      "peak_time": [
+        "喷泉演出前",
+        "夜景时段"
+      ]
     },
     "photo_info": {
       "photo_value": 4,
-      "recommended_scene": ["音乐喷泉", "赣江夜景", "隔江城市天际线"]
+      "recommended_scene": [
+        "音乐喷泉",
+        "赣江夜景",
+        "隔江城市天际线"
+      ]
     },
     "recommended_duration": {
       "minimum": "30分钟",
@@ -95,20 +144,50 @@
     "first_visit": 4,
     "night": 5
   },
-  "duration": {"recommended_minutes": 60, "minimum_minutes": 30, "maximum_minutes": 90},
-  "related_node_ids": ["nc_tengwangge"],
-  "tags": ["夜景", "赣江", "音乐喷泉", "开放空间", "晚间活动"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "duration": {
+    "recommended_minutes": 60,
+    "minimum_minutes": 30,
+    "maximum_minutes": 90
+  },
+  "related_node_ids": [
+    "nc_tengwangge"
+  ],
+  "tags": [
+    "夜景",
+    "赣江",
+    "音乐喷泉",
+    "开放空间",
+    "晚间活动"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
   "sources": [
     {
       "name": "红谷滩区人民政府：秋水广场",
       "url": "https://hgt.nc.gov.cn/hgtqrmzf/hgtfm/202604/85e25dfb797d41b983f074d55fcdf92f.shtml",
-      "scope": ["官方介绍", "地址", "免票", "雨天停演提示"]
+      "scope": [
+        "官方介绍",
+        "地址",
+        "免票",
+        "雨天停演提示"
+      ]
     },
     {
       "name": "高德地图：南昌秋水广场音乐喷泉",
       "url": "https://www.amap.com/place/B0FFFGV6PM",
-      "scope": ["主景观坐标", "POI ID", "联系电话"]
+      "scope": [
+        "主景观坐标",
+        "POI ID",
+        "联系电话"
+      ]
     }
-  ]
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

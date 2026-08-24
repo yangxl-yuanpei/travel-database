@@ -1,1 +1,75 @@
-{"id":"sr_food_rest_huishen","name":"辉婶饭堂","city":"上饶","node_type":"food","food_scope":"restaurant","parent_id":"sr_food_area_jinlonggang","category":["家常菜","江西菜"],"location":{"address":"上饶市信州区马皇庙巷88-11","latitude":28.445083,"longitude":117.971023,"coordinate_system":"GCJ-02","amap_poi_id":"B0LBZROYTD"},"official_info":{"status":"amap_poi_verified_business_dynamic"},"experience_layer":{"source":["上饶攻略截图166、169","高德POI核验"],"confidence":{"overall":"medium-high"},"positive":[{"content":"适合体验本地家常菜与下饭口味","type":"home_style"}],"avoid":[{"content":"热门时段可能等位且整体偏辣","risk":"queue_and_spice","severity":"medium"}],"visit_tips":["多人分菜更合适","营业状态由高德实时核验"],"crowd_model":{"national_holiday":"high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":60,"recommended_min_minutes":90,"recommended_max_minutes":120},"ai_note":"家常正餐偏好高。"},"tags":["马皇庙","家常菜","江西菜"],"metadata":{"schema_version":"1.0","data_status":"third_party_verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_food_rest_huishen",
+  "name": "辉婶饭堂",
+  "city": "上饶",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "sr_food_area_jinlonggang",
+  "category": [
+    "家常菜",
+    "江西菜"
+  ],
+  "location": {
+    "address": "上饶市信州区马皇庙巷88-11",
+    "latitude": 28.445083,
+    "longitude": 117.971023,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0LBZROYTD"
+  },
+  "official_info": {
+    "status": "amap_poi_verified_business_dynamic"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图166、169",
+      "高德POI核验"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "适合体验本地家常菜与下饭口味",
+        "type": "home_style"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "热门时段可能等位且整体偏辣",
+        "risk": "queue_and_spice",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "多人分菜更合适",
+      "营业状态由高德实时核验"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 60,
+      "recommended_min_minutes": 90,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "家常正餐偏好高。"
+  },
+  "tags": [
+    "马皇庙",
+    "家常菜",
+    "江西菜"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "third_party",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

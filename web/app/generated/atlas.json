@@ -62,9 +62,12 @@
       "高铁"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -74,7 +77,9 @@
           "15 天预售期"
         ]
       }
-    ]
+    ],
+    "aliases": [],
+    "category": []
   },
   "cities": [
     {
@@ -111,10 +116,16 @@
         "华南团队"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "draft",
-        "last_verified_at": "2026-08-24"
-      }
+        "schema_version": "2.0",
+        "content_status": "draft",
+        "verification_level": "unverified",
+        "time_sensitivity": "medium",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
+      },
+      "aliases": [],
+      "category": [],
+      "sources": []
     },
     {
       "id": "city_beijing",
@@ -150,10 +161,16 @@
         "北方团队"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "draft",
-        "last_verified_at": "2026-08-24"
-      }
+        "schema_version": "2.0",
+        "content_status": "draft",
+        "verification_level": "unverified",
+        "time_sensitivity": "medium",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
+      },
+      "aliases": [],
+      "category": [],
+      "sources": []
     },
     {
       "id": "city_shanghai",
@@ -189,10 +206,16 @@
         "华东团队"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "draft",
-        "last_verified_at": "2026-08-24"
-      }
+        "schema_version": "2.0",
+        "content_status": "draft",
+        "verification_level": "unverified",
+        "time_sensitivity": "medium",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
+      },
+      "aliases": [],
+      "category": [],
+      "sources": []
     },
     {
       "id": "city_nanchang",
@@ -288,10 +311,16 @@
         "汉代考古"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "draft",
-        "last_verified_at": "2026-08-24"
-      }
+        "schema_version": "2.0",
+        "content_status": "draft",
+        "verification_level": "unverified",
+        "time_sensitivity": "medium",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": "2026-09-15"
+      },
+      "aliases": [],
+      "category": [],
+      "sources": []
     },
     {
       "id": "city_jingdezhen",
@@ -386,10 +415,16 @@
         "住宿区域"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "draft",
-        "last_verified_at": "2026-08-24"
-      }
+        "schema_version": "2.0",
+        "content_status": "draft",
+        "verification_level": "unverified",
+        "time_sensitivity": "medium",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": "2026-09-15"
+      },
+      "aliases": [],
+      "category": [],
+      "sources": []
     },
     {
       "id": "city_shangrao",
@@ -473,10 +508,16 @@
         "住宿区域"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "verified",
-        "last_verified_at": "2026-08-24"
-      }
+        "schema_version": "2.0",
+        "content_status": "complete",
+        "verification_level": "official",
+        "time_sensitivity": "medium",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
+      },
+      "aliases": [],
+      "category": [],
+      "sources": []
     }
   ],
   "transports": [
@@ -530,9 +571,12 @@
         "长距离"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "needs_update",
-        "last_verified_at": "2026-08-24"
+        "schema_version": "2.0",
+        "content_status": "needs_update",
+        "verification_level": "mixed",
+        "time_sensitivity": "high",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
       },
       "sources": [
         {
@@ -553,7 +597,9 @@
             "余票"
           ]
         }
-      ]
+      ],
+      "aliases": [],
+      "category": []
     },
     {
       "id": "transport_shanghai_nanchang",
@@ -605,9 +651,12 @@
         "班次较多"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "needs_update",
-        "last_verified_at": "2026-08-24"
+        "schema_version": "2.0",
+        "content_status": "needs_update",
+        "verification_level": "mixed",
+        "time_sensitivity": "high",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
       },
       "sources": [
         {
@@ -628,7 +677,9 @@
             "余票"
           ]
         }
-      ]
+      ],
+      "aliases": [],
+      "category": []
     },
     {
       "id": "transport_zhuhai_nanchang",
@@ -679,9 +730,12 @@
         "需准备中转备选"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "needs_update",
-        "last_verified_at": "2026-08-24"
+        "schema_version": "2.0",
+        "content_status": "needs_update",
+        "verification_level": "mixed",
+        "time_sensitivity": "high",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
       },
       "sources": [
         {
@@ -703,7 +757,9 @@
             "余票"
           ]
         }
-      ]
+      ],
+      "aliases": [],
+      "category": []
     },
     {
       "id": "transport_nanchang_jingdezhen",
@@ -755,9 +811,12 @@
         "城际移动"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "needs_update",
-        "last_verified_at": "2026-08-24"
+        "schema_version": "2.0",
+        "content_status": "needs_update",
+        "verification_level": "mixed",
+        "time_sensitivity": "high",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
       },
       "sources": [
         {
@@ -778,7 +837,9 @@
             "余票"
           ]
         }
-      ]
+      ],
+      "aliases": [],
+      "category": []
     },
     {
       "id": "transport_jingdezhen_shangrao",
@@ -829,9 +890,12 @@
         "三清山门户"
       ],
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "needs_update",
-        "last_verified_at": "2026-08-24"
+        "schema_version": "2.0",
+        "content_status": "needs_update",
+        "verification_level": "mixed",
+        "time_sensitivity": "high",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
       },
       "sources": [
         {
@@ -852,7 +916,9 @@
             "余票"
           ]
         }
-      ]
+      ],
+      "aliases": [],
+      "category": []
     }
   ],
   "itineraries": [
@@ -1276,9 +1342,12 @@
         "future_generator": "当前为固定参考方案；后续可由输入天数、必去节点、偏好、排队容忍度、预算和体力自动生成。"
       },
       "metadata": {
-        "schema_version": "1.0",
-        "data_status": "planning_reference",
-        "last_verified_at": "2026-08-24"
+        "schema_version": "2.0",
+        "content_status": "complete",
+        "verification_level": "mixed",
+        "time_sensitivity": "critical",
+        "last_verified_at": "2026-08-24",
+        "next_review_at": null
       },
       "sources": [
         {
@@ -1340,7 +1409,10 @@
             "高峰换乘点"
           ]
         }
-      ]
+      ],
+      "aliases": [],
+      "category": [],
+      "tags": []
     }
   ],
   "city_places": {
@@ -1554,10 +1626,57 @@
           "历史文化",
           "夜景"
         ],
+        "media": {
+          "cover": {
+            "asset_id": "nc_tengwangge_cover_01",
+            "path": "/images/nanchang/tengwangge/cover.webp",
+            "type": "exterior",
+            "alt": "正面仰望滕王阁的层叠楼阁建筑",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:20240207_Tengwang_Ge_(113337).jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "Yumeto / Wikimedia Commons",
+            "verified_at": "2026-08-24",
+            "focal_point": {
+              "x": 0.5,
+              "y": 0.45
+            }
+          },
+          "gallery": [
+            {
+              "asset_id": "nc_tengwangge_detail_01",
+              "path": "/images/nanchang/tengwangge/detail_01.webp",
+              "type": "interior",
+              "alt": "滕王阁室内彩绘藻井与匾额",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons",
+              "source_url": "https://commons.wikimedia.org/wiki/File:20240207_Tengwang_Ge_(114628).jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Yumeto / Wikimedia Commons",
+              "verified_at": "2026-08-24"
+            },
+            {
+              "asset_id": "nc_tengwangge_detail_02",
+              "path": "/images/nanchang/tengwangge/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "从滕王阁向东俯瞰景区广场与南昌城市建筑",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons",
+              "source_url": "https://commons.wikimedia.org/wiki/File:20240207_View_from_the_Tengwang_Pavilion.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "Yumeto / Wikimedia Commons",
+              "verified_at": "2026-08-24"
+            }
+          ]
+        },
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": "2026-09-15"
         },
         "sources": [
           {
@@ -1587,6 +1706,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "01",
         "children": []
       },
@@ -1752,9 +1873,12 @@
           "晚间活动"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -1777,6 +1901,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "02",
         "children": []
       },
@@ -1953,9 +2079,12 @@
           "商业街区"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -1988,6 +2117,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "03",
         "children": []
       },
@@ -2123,9 +2254,12 @@
           "路线连接节点"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -2146,6 +2280,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "04",
         "children": []
       },
@@ -2375,9 +2511,12 @@
           "文化游客"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": "2026-09-15"
         },
         "sources": [
           {
@@ -2416,6 +2555,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "05",
         "children": [
           {
@@ -2453,10 +2594,17 @@
               "常设展"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_jx_museum_exh_ceramics",
@@ -2493,10 +2641,17 @@
               "常设展"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_jx_museum_exh_revolution",
@@ -2531,10 +2686,17 @@
               "常设展"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_jx_museum_artifact_bird_double_tail_tiger",
@@ -2567,10 +2729,17 @@
               "精品文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_jx_museum_artifact_yuan_granary",
@@ -2603,10 +2772,17 @@
               "精品文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_jx_museum_group_dayangzhou_bronzes",
@@ -2632,10 +2808,17 @@
               "江西早期文明"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -2900,9 +3083,12 @@
           "亲子研学"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-15"
         },
         "sources": [
           {
@@ -2952,6 +3138,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "06",
         "children": [
           {
@@ -2979,10 +3167,17 @@
               "考古背景"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_site_liuhe_mausoleum",
@@ -3013,10 +3208,17 @@
               "西汉"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_site_zijin_city",
@@ -3046,10 +3248,17 @@
               "侯国聚落"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_exh_golden_haihun",
@@ -3090,10 +3299,17 @@
               "汉代"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_exh_written_haihun",
@@ -3131,10 +3347,17 @@
               "典籍"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_exh_lacquer_haihun",
@@ -3174,10 +3397,17 @@
               "汉代工艺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_exh_meet_haihun",
@@ -3214,10 +3444,17 @@
               "数字体验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_artifact_horseshoe_gold",
@@ -3254,10 +3491,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_group_gold",
@@ -3290,10 +3534,17 @@
               "重点藏品组"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_group_bronzes",
@@ -3323,10 +3574,17 @@
               "生活器用"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_group_jade",
@@ -3356,10 +3614,17 @@
               "身份"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_haihunhou_group_lacquerware",
@@ -3393,10 +3658,17 @@
               "贵族生活"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -3623,9 +3895,12 @@
           "室内参观"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": "2026-09-15"
         },
         "sources": [
           {
@@ -3659,6 +3934,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "07",
         "children": [
           {
@@ -3685,10 +3962,17 @@
               "南昌起义"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-23"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-23",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_site_headquarters",
@@ -3711,10 +3995,17 @@
               "全国重点文物保护单位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-23"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-23",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_site_helong_headquarters",
@@ -3737,10 +4028,17 @@
               "全国重点文物保护单位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-23"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-23",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_site_yeting_headquarters",
@@ -3763,10 +4061,17 @@
               "全国重点文物保护单位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-23"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-23",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_site_zhude_officer_corps",
@@ -3789,10 +4094,17 @@
               "全国重点文物保护单位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-23"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-23",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_site_zhude_residence",
@@ -3815,10 +4127,17 @@
               "全国重点文物保护单位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-23"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-23",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_exh_nanchang_uprising",
@@ -3849,10 +4168,17 @@
               "常设展"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_exh_pla_history",
@@ -3881,10 +4207,17 @@
               "常设展"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_bayi_exh_restored_site",
@@ -3913,10 +4246,17 @@
               "常设展"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -4056,11 +4396,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "08",
         "children": [
           {
@@ -4169,11 +4515,17 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "draft",
+              "schema_version": "2.0",
+              "content_status": "draft",
+              "verification_level": "unverified",
+              "time_sensitivity": "medium",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
-            }
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b031703ut3",
@@ -4303,9 +4655,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -4324,7 +4679,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0fffmi84l",
@@ -4455,9 +4812,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -4476,7 +4836,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0kkr4r4kw",
@@ -4589,9 +4951,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -4610,7 +4975,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffm4e0xt",
@@ -4726,9 +5093,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -4747,7 +5117,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffi8nppa",
@@ -4880,9 +5252,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -4901,7 +5276,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffhtx20s",
@@ -5013,9 +5390,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5034,7 +5414,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0kksnulwt",
@@ -5151,9 +5533,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5172,7 +5557,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0m67awv1t",
@@ -5290,9 +5677,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5311,7 +5701,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffksl9mb",
@@ -5428,9 +5820,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5449,7 +5844,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0j3drm4ba",
@@ -5567,9 +5964,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5588,7 +5988,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffff5cpn",
@@ -5708,9 +6110,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5729,7 +6134,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffk77qwl",
@@ -5845,9 +6252,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -5866,7 +6276,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0jg1lksuu",
@@ -5982,9 +6394,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6003,7 +6418,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0jr94etw5",
@@ -6120,9 +6537,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6141,7 +6561,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffm9tnoe",
@@ -6258,9 +6680,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6279,7 +6704,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0l37al3y9",
@@ -6433,9 +6860,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6454,7 +6884,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0k3frn497",
@@ -6617,9 +7049,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6638,7 +7073,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0jr3zcgv5",
@@ -6775,9 +7212,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6796,7 +7236,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0317040iu",
@@ -6943,9 +7385,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -6964,7 +7409,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffjigwks",
@@ -7084,9 +7531,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -7105,7 +7555,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -7246,11 +7698,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "09",
         "children": [
           {
@@ -7399,9 +7857,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -7420,7 +7881,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0k6l5geaf",
@@ -7556,9 +8019,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -7577,7 +8043,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffj1u1sh",
@@ -7719,9 +8187,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -7740,7 +8211,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ibo5i4sk",
@@ -7883,9 +8356,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -7904,7 +8380,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0k06ca04y",
@@ -8020,9 +8498,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8041,7 +8522,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0la99vnps",
@@ -8174,9 +8657,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8195,7 +8681,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0iu7sirmt",
@@ -8311,9 +8799,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8332,7 +8823,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0h09zm2rw",
@@ -8448,9 +8941,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8469,7 +8965,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0k29cu9px",
@@ -8586,9 +9084,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8607,7 +9108,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffkjyxsg",
@@ -8726,9 +9229,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8747,7 +9253,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffggc9g8",
@@ -8882,9 +9390,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -8903,7 +9414,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0kgu4u1le",
@@ -9038,9 +9551,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9059,7 +9575,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffjiuofo",
@@ -9210,9 +9728,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9231,7 +9752,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0l2uzemgc",
@@ -9359,9 +9882,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9380,7 +9906,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0m6auzpc6",
@@ -9492,9 +10020,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9513,7 +10044,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b031705dga",
@@ -9625,9 +10158,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9646,7 +10182,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0h2udqub9",
@@ -9769,9 +10307,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9790,7 +10331,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0l2y1wws1",
@@ -9919,9 +10462,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -9940,7 +10486,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0irc56j63",
@@ -10092,9 +10640,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -10113,7 +10664,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0juz7784c",
@@ -10249,9 +10802,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -10270,7 +10826,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0mu459syc",
@@ -10369,9 +10927,12 @@
               "高德POI已核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "sources": [
               {
@@ -10386,7 +10947,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -10521,11 +11084,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "10",
         "children": [
           {
@@ -10643,9 +11212,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -10664,7 +11236,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffhsl1et",
@@ -10776,9 +11350,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -10797,7 +11374,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_candidate_009",
@@ -10914,9 +11493,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -10938,7 +11520,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffioy34g",
@@ -11089,9 +11673,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -11110,7 +11697,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0maxhl35m",
@@ -11256,9 +11845,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -11277,7 +11869,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffhu9w1w",
@@ -11435,9 +12029,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -11456,7 +12053,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0fflj25yd",
@@ -11570,9 +12169,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -11591,7 +12193,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b031703jgd",
@@ -11746,9 +12350,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -11767,7 +12374,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffl7a3ug",
@@ -11887,9 +12496,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -11908,7 +12520,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0jry7cdfy",
@@ -12042,9 +12656,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -12063,7 +12680,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0kr4k0fhw",
@@ -12174,9 +12793,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -12195,7 +12817,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0jk7uoqoq",
@@ -12309,9 +12933,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -12330,7 +12957,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0g0cnqi86",
@@ -12442,9 +13071,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -12463,7 +13095,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffff8g67",
@@ -12580,9 +13214,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -12601,7 +13238,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0lk2aqmfd",
@@ -12714,9 +13353,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -12735,7 +13377,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -12841,11 +13485,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "11",
         "children": [
           {
@@ -12997,9 +13647,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -13018,7 +13671,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -13139,11 +13794,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "12",
         "children": [
           {
@@ -13258,9 +13919,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -13279,7 +13943,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0gum19vjc",
@@ -13416,9 +14082,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -13437,7 +14106,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0j1d5uefe",
@@ -13573,9 +14244,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -13594,7 +14268,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ma56ngbu",
@@ -13726,9 +14402,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -13747,7 +14426,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0l35cf1if",
@@ -13870,9 +14551,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -13891,7 +14575,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0lryavq9r",
@@ -14020,9 +14706,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -14041,7 +14730,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -14153,11 +14844,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "13",
         "children": [
           {
@@ -14290,9 +14987,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -14311,7 +15011,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0fffa0f3x",
@@ -14421,9 +15123,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -14442,7 +15147,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffig9t51",
@@ -14553,9 +15260,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -14574,7 +15284,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffksaq8x",
@@ -14685,9 +15397,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -14706,7 +15421,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -14817,11 +15534,17 @@
           "国庆错峰"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang",
         "map_index": "14",
         "children": [
           {
@@ -14943,9 +15666,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -14964,7 +15690,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           },
           {
             "id": "nc_food_rest_b0ffhfxah0",
@@ -15076,9 +15804,12 @@
               "待人工核验"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
               "last_verified_at": null,
+              "next_review_at": null,
               "import_source": "nanchang_food_candidates_raw.json"
             },
             "business_status": {
@@ -15097,7 +15828,9 @@
                   "地址快照"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_nanchang"
           }
         ]
       },
@@ -15238,9 +15971,12 @@
           "高效游览"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -15252,6 +15988,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "15",
         "children": []
       },
@@ -15392,9 +16130,12 @@
           "文化慢游"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -15406,6 +16147,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "16",
         "children": []
       },
@@ -15544,9 +16287,12 @@
           "品质住宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -15558,6 +16304,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "17",
         "children": []
       },
@@ -15696,9 +16444,12 @@
           "红谷滩"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -15710,6 +16461,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "18",
         "children": []
       },
@@ -15843,9 +16596,12 @@
           "行李友好"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -15858,6 +16614,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "19",
         "children": []
       },
@@ -16000,9 +16758,12 @@
           "性价比"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -16022,6 +16783,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_nanchang",
         "map_index": "20",
         "children": []
       }
@@ -16168,9 +16931,12 @@
           "历史街区"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -16200,6 +16966,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "01",
         "children": [
           {
@@ -16408,10 +17176,57 @@
               "博物馆建筑",
               "陶阳里"
             ],
+            "media": {
+              "cover": {
+                "asset_id": "jdz_imperial_kiln_museum_cover_01",
+                "path": "/images/jingdezhen/imperial-kiln-museum/cover.webp",
+                "type": "exterior",
+                "alt": "蓝天下景德镇御窑博物馆连续拱券建筑与水面",
+                "source_type": "open_license",
+                "source_name": "Wikimedia Commons",
+                "source_url": "https://commons.wikimedia.org/wiki/File:01-Jingdezhen_Imperial_Kiln_Museum.jpg",
+                "license": "CC BY-SA 4.0",
+                "credit": "Zhu Pei / Wikimedia Commons",
+                "verified_at": "2026-08-24",
+                "focal_point": {
+                  "x": 0.5,
+                  "y": 0.48
+                }
+              },
+              "gallery": [
+                {
+                  "asset_id": "jdz_imperial_kiln_museum_detail_01",
+                  "path": "/images/jingdezhen/imperial-kiln-museum/detail_01.webp",
+                  "type": "interior",
+                  "alt": "御窑博物馆砖拱室内入口与展厅空间",
+                  "source_type": "open_license",
+                  "source_name": "Wikimedia Commons",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_1.jpg",
+                  "license": "CC BY-SA 4.0",
+                  "credit": "EditQ / Wikimedia Commons",
+                  "verified_at": "2026-08-24"
+                },
+                {
+                  "asset_id": "jdz_imperial_kiln_museum_detail_02",
+                  "path": "/images/jingdezhen/imperial-kiln-museum/detail_02.webp",
+                  "type": "exterior",
+                  "alt": "水面旁御窑博物馆红砖拱形建筑侧景",
+                  "source_type": "open_license",
+                  "source_name": "Wikimedia Commons",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%BE%A1%E7%AA%91%E5%8D%9A%E7%89%A9%E9%A6%86_1.jpg",
+                  "license": "CC BY-SA 4.0",
+                  "credit": "EditQ / Wikimedia Commons",
+                  "verified_at": "2026-08-24"
+                }
+              ]
+            },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": "2026-09-15"
             },
             "sources": [
               {
@@ -16451,7 +17266,9 @@
                   "地址"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -16586,9 +17403,12 @@
           "陶瓷市集"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -16617,6 +17437,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "02",
         "children": []
       },
@@ -16749,9 +17571,12 @@
           "摄影"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -16781,6 +17606,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "03",
         "children": []
       },
@@ -16908,9 +17735,12 @@
           "市集"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -16933,6 +17763,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "04",
         "children": []
       },
@@ -17053,9 +17885,12 @@
           "亲子"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -17093,6 +17928,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "05",
         "children": []
       },
@@ -17223,9 +18060,12 @@
           "浮梁"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -17253,6 +18093,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "06",
         "children": []
       },
@@ -17477,9 +18319,12 @@
           "实名预约"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-15"
         },
         "sources": [
           {
@@ -17512,6 +18357,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "07",
         "children": [
           {
@@ -17565,10 +18412,17 @@
               "首次到访"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_exh_sculpture_century",
@@ -17610,10 +18464,17 @@
               "动态展览"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "time_sensitive",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "mixed",
+              "time_sensitivity": "critical",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_exh_jingci_zhonghua",
@@ -17662,10 +18523,17 @@
               "动态展览"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "time_sensitive",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "mixed",
+              "time_sensitivity": "critical",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_artifact_meditating_arhat",
@@ -17701,10 +18569,17 @@
               "热门展品"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_artifact_yuan_blue_white_meiping",
@@ -17739,10 +18614,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_artifact_song_qingbai_phoenix_bowl",
@@ -17777,10 +18659,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_artifact_qianlong_bailu_vase",
@@ -17816,10 +18705,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ccm_group_modern_masters",
@@ -17850,10 +18746,17 @@
               "名家作品"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -18063,10 +18966,57 @@
           "博物馆建筑",
           "陶阳里"
         ],
+        "media": {
+          "cover": {
+            "asset_id": "jdz_imperial_kiln_museum_cover_01",
+            "path": "/images/jingdezhen/imperial-kiln-museum/cover.webp",
+            "type": "exterior",
+            "alt": "蓝天下景德镇御窑博物馆连续拱券建筑与水面",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:01-Jingdezhen_Imperial_Kiln_Museum.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "Zhu Pei / Wikimedia Commons",
+            "verified_at": "2026-08-24",
+            "focal_point": {
+              "x": 0.5,
+              "y": 0.48
+            }
+          },
+          "gallery": [
+            {
+              "asset_id": "jdz_imperial_kiln_museum_detail_01",
+              "path": "/images/jingdezhen/imperial-kiln-museum/detail_01.webp",
+              "type": "interior",
+              "alt": "御窑博物馆砖拱室内入口与展厅空间",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_1.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "EditQ / Wikimedia Commons",
+              "verified_at": "2026-08-24"
+            },
+            {
+              "asset_id": "jdz_imperial_kiln_museum_detail_02",
+              "path": "/images/jingdezhen/imperial-kiln-museum/detail_02.webp",
+              "type": "exterior",
+              "alt": "水面旁御窑博物馆红砖拱形建筑侧景",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%BE%A1%E7%AA%91%E5%8D%9A%E7%89%A9%E9%A6%86_1.jpg",
+              "license": "CC BY-SA 4.0",
+              "credit": "EditQ / Wikimedia Commons",
+              "verified_at": "2026-08-24"
+            }
+          ]
+        },
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-15"
         },
         "sources": [
           {
@@ -18107,6 +19057,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "08",
         "children": [
           {
@@ -18144,10 +19096,17 @@
               "陶瓷史"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_exh_imperial_kiln_history",
@@ -18192,10 +19151,17 @@
               "御窑制度"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_exh_civilization_interaction",
@@ -18235,10 +19201,17 @@
               "动态展览"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "time_sensitive",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "mixed",
+              "time_sensitivity": "critical",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_artifact_yuan_dragon_go_jar",
@@ -18273,10 +19246,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_artifact_hongwu_red_white_bowl",
@@ -18311,10 +19291,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_artifact_yongle_three_pot",
@@ -18349,10 +19336,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_artifact_xuande_cricket_jar",
@@ -18388,10 +19382,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_artifact_xuande_doucai_duck_plate",
@@ -18426,10 +19427,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_artifact_chenghua_duck_incense_burner",
@@ -18464,10 +19472,17 @@
               "代表文物"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_group_restored_imperial_wares",
@@ -18504,10 +19519,17 @@
               "出土瓷片"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_site_ming_south_slope",
@@ -18538,10 +19560,17 @@
               "南麓遗址"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_ikm_site_ming_north_slope",
@@ -18572,10 +19601,17 @@
               "北麓遗址"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -18684,9 +19720,12 @@
           "油条包麻糍"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -18699,6 +19738,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "09",
         "children": [
           {
@@ -18761,10 +19802,16 @@
               "抚州弄"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_dish_jiaozi_ba",
@@ -18824,10 +19871,16 @@
               "地方小吃"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_tanpo",
@@ -18895,9 +19948,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": null,
             "location": {
@@ -18927,7 +19983,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_chengxin_youtiao",
@@ -18994,9 +20052,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "中华南路店",
             "location": {
@@ -19026,7 +20087,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_gonghepu",
@@ -19092,9 +20155,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "抚州弄店",
             "location": {
@@ -19125,7 +20191,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_huaxiang",
@@ -19193,9 +20261,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "抚州弄店",
             "location": {
@@ -19225,7 +20296,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -19335,9 +20408,12 @@
           "夜宵"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -19358,6 +20434,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "10",
         "children": [
           {
@@ -19421,10 +20499,16 @@
               "早餐"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_dish_flower_rice_wine",
@@ -19486,10 +20570,16 @@
               "冷粉搭配"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_dish_local_stir_fry",
@@ -19556,10 +20646,16 @@
               "偏辣"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_tuweimei",
@@ -19629,9 +20725,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "浙江路店",
             "location": {
@@ -19661,7 +20760,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_huaxiang",
@@ -19729,9 +20830,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "抚州弄店",
             "location": {
@@ -19761,7 +20865,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_huanglaosan",
@@ -19831,9 +20937,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": null,
             "location": {
@@ -19864,7 +20973,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_yaohuohuo",
@@ -19933,9 +21044,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "浙江路店",
             "location": {
@@ -19966,7 +21080,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -20069,9 +21185,12 @@
           "老城晚餐"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -20083,6 +21202,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "11",
         "children": [
           {
@@ -20150,10 +21271,16 @@
               "偏辣"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_8degree_kitchen",
@@ -20220,9 +21347,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "御窑博物馆广场店",
             "location": {
@@ -20252,7 +21382,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_chifanriji",
@@ -20319,9 +21451,12 @@
               "待定位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "陶阳里店",
             "location": {
@@ -20352,7 +21487,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_wuji",
@@ -20417,9 +21554,12 @@
               "待定位"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "御窑厂店",
             "location": {
@@ -20450,7 +21590,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -20555,9 +21697,12 @@
           "江西菜"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -20569,6 +21714,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "12",
         "children": [
           {
@@ -20632,10 +21779,16 @@
               "早餐"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_dish_small_meat_skewers",
@@ -20696,10 +21849,16 @@
               "小吃"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_dish_local_stir_fry",
@@ -20766,10 +21925,16 @@
               "偏辣"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_linxian_ge",
@@ -20836,9 +22001,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "新村花园店",
             "location": {
@@ -20869,7 +22037,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_taojie",
@@ -20936,9 +22106,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "新厂店",
             "location": {
@@ -20969,7 +22142,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -21068,9 +22243,12 @@
           "陶艺体验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -21082,6 +22260,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "13",
         "children": [
           {
@@ -21148,9 +22328,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": null,
             "location": {
@@ -21181,7 +22364,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -21279,9 +22464,12 @@
           "行程补给"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -21293,6 +22481,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "14",
         "children": [
           {
@@ -21360,10 +22550,16 @@
               "偏辣"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_jingdezhen"
           },
           {
             "id": "jdz_food_rest_dongli_courtyard",
@@ -21431,9 +22627,12 @@
               "候选店铺"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "branch": "博物馆店",
             "location": {
@@ -21464,7 +22663,9 @@
                   "2026-08-24可检索状态"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_jingdezhen"
           }
         ]
       },
@@ -21588,9 +22789,12 @@
           "老城夜游"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -21603,6 +22807,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "15",
         "children": []
       },
@@ -21725,9 +22931,12 @@
           "市集"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -21739,6 +22948,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "16",
         "children": []
       },
@@ -21862,9 +23073,12 @@
           "民宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -21876,6 +23090,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "17",
         "children": []
       },
@@ -21999,9 +23215,12 @@
           "民宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -22013,6 +23232,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "18",
         "children": []
       },
@@ -22133,9 +23354,12 @@
           "安静"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -22147,6 +23371,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_jingdezhen",
         "map_index": "19",
         "children": []
       }
@@ -22390,9 +23616,12 @@
           "实名预约"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
           "last_verified_at": "2026-08-24",
+          "next_review_at": "2026-09-15",
           "experience_status": "integrated_2026_user_materials"
         },
         "sources": [
@@ -22444,6 +23673,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "01",
         "children": [
           {
@@ -22480,9 +23711,12 @@
               "巨蟒出山"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "experience_status": "awaiting_user_materials"
             },
             "sources": [
@@ -22504,7 +23738,9 @@
                   "地址"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_sqs_west_coast",
@@ -22534,9 +23770,12 @@
               "三清山核心"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "experience_status": "awaiting_user_materials"
             },
             "sources": [
@@ -22566,7 +23805,9 @@
                   "地址"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_sqs_giant_python",
@@ -22602,10 +23843,57 @@
               "花岗岩",
               "南清园"
             ],
+            "media": {
+              "cover": {
+                "asset_id": "sr_sqs_giant_python_cover_01",
+                "path": "/images/shangrao/giant-python/cover.webp",
+                "type": "viewpoint",
+                "alt": "日出暖光中的三清山巨蟒出山花岗岩石柱",
+                "source_type": "open_license",
+                "source_name": "Wikimedia Commons",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Sanqingshan_sunrise_python.jpg",
+                "license": "CC BY-SA 4.0",
+                "credit": "Dcpeets / Wikimedia Commons",
+                "verified_at": "2026-08-24",
+                "focal_point": {
+                  "x": 0.46,
+                  "y": 0.48
+                }
+              },
+              "gallery": [
+                {
+                  "asset_id": "sr_sqs_giant_python_detail_01",
+                  "path": "/images/shangrao/giant-python/detail_01.webp",
+                  "type": "viewpoint",
+                  "alt": "云雾环绕的巨蟒出山石柱与东海岸栈道视角",
+                  "source_type": "open_license",
+                  "source_name": "Wikimedia Commons",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Shan_2013.06.15_15-05-03.jpg",
+                  "license": "CC BY-SA 3.0",
+                  "credit": "Zhangzhugang / Wikimedia Commons",
+                  "verified_at": "2026-08-24"
+                },
+                {
+                  "asset_id": "sr_sqs_giant_python_detail_02",
+                  "path": "/images/shangrao/giant-python/detail_02.webp",
+                  "type": "viewpoint",
+                  "alt": "雾中远望巨蟒出山石柱及周围花岗岩峰林",
+                  "source_type": "open_license",
+                  "source_name": "Wikimedia Commons",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SanQingShan7.jpg",
+                  "license": "Public domain",
+                  "credit": "Emitchan / Wikimedia Commons",
+                  "verified_at": "2026-08-24"
+                }
+              ]
+            },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "experience_status": "awaiting_user_materials"
             },
             "sources": [
@@ -22627,7 +23915,9 @@
                   "地址"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_sqs_oriental_goddess",
@@ -22663,9 +23953,12 @@
               "南清园"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
               "last_verified_at": "2026-08-24",
+              "next_review_at": null,
               "experience_status": "awaiting_user_materials"
             },
             "sources": [
@@ -22695,7 +23988,9 @@
                   "地址"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_sqs_jinsha_ropeway",
@@ -22731,9 +24026,12 @@
               "动态运营"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "sources": [
               {
@@ -22754,7 +24052,9 @@
                   "入口位置"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_sqs_waishuangxi_ropeway",
@@ -22790,9 +24090,12 @@
               "动态运营"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "sources": [
               {
@@ -22813,7 +24116,9 @@
                   "入口位置"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_sqs_gangshou_ropeway",
@@ -22849,9 +24154,12 @@
               "动态运营"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
             },
             "sources": [
               {
@@ -22872,7 +24180,9 @@
                   "入口位置"
                 ]
               }
-            ]
+            ],
+            "aliases": [],
+            "city_id": "city_shangrao"
           }
         ]
       },
@@ -22910,9 +24220,12 @@
           "巨蟒出山"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "experience_status": "awaiting_user_materials"
         },
         "sources": [
@@ -22935,6 +24248,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "02",
         "children": []
       },
@@ -22966,9 +24281,12 @@
           "三清山核心"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "experience_status": "awaiting_user_materials"
         },
         "sources": [
@@ -22999,6 +24317,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "03",
         "children": []
       },
@@ -23036,10 +24356,57 @@
           "花岗岩",
           "南清园"
         ],
+        "media": {
+          "cover": {
+            "asset_id": "sr_sqs_giant_python_cover_01",
+            "path": "/images/shangrao/giant-python/cover.webp",
+            "type": "viewpoint",
+            "alt": "日出暖光中的三清山巨蟒出山花岗岩石柱",
+            "source_type": "open_license",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Sanqingshan_sunrise_python.jpg",
+            "license": "CC BY-SA 4.0",
+            "credit": "Dcpeets / Wikimedia Commons",
+            "verified_at": "2026-08-24",
+            "focal_point": {
+              "x": 0.46,
+              "y": 0.48
+            }
+          },
+          "gallery": [
+            {
+              "asset_id": "sr_sqs_giant_python_detail_01",
+              "path": "/images/shangrao/giant-python/detail_01.webp",
+              "type": "viewpoint",
+              "alt": "云雾环绕的巨蟒出山石柱与东海岸栈道视角",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Shan_2013.06.15_15-05-03.jpg",
+              "license": "CC BY-SA 3.0",
+              "credit": "Zhangzhugang / Wikimedia Commons",
+              "verified_at": "2026-08-24"
+            },
+            {
+              "asset_id": "sr_sqs_giant_python_detail_02",
+              "path": "/images/shangrao/giant-python/detail_02.webp",
+              "type": "viewpoint",
+              "alt": "雾中远望巨蟒出山石柱及周围花岗岩峰林",
+              "source_type": "open_license",
+              "source_name": "Wikimedia Commons",
+              "source_url": "https://commons.wikimedia.org/wiki/File:SanQingShan7.jpg",
+              "license": "Public domain",
+              "credit": "Emitchan / Wikimedia Commons",
+              "verified_at": "2026-08-24"
+            }
+          ]
+        },
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "experience_status": "awaiting_user_materials"
         },
         "sources": [
@@ -23062,6 +24429,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "04",
         "children": []
       },
@@ -23099,9 +24468,12 @@
           "南清园"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "experience_status": "awaiting_user_materials"
         },
         "sources": [
@@ -23132,6 +24504,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "05",
         "children": []
       },
@@ -23272,9 +24646,12 @@
           "返程风险"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -23296,6 +24673,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "06",
         "children": []
       },
@@ -23440,9 +24819,12 @@
           "婺源"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -23471,6 +24853,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "07",
         "children": []
       },
@@ -23597,9 +24981,12 @@
           "婺源"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -23619,6 +25006,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "08",
         "children": []
       },
@@ -23759,9 +25148,12 @@
           "远郊"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -23783,6 +25175,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "09",
         "children": []
       },
@@ -23910,9 +25304,12 @@
           "远郊"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -23925,6 +25322,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "10",
         "children": []
       },
@@ -24058,9 +25457,12 @@
           "远郊"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -24081,6 +25483,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "11",
         "children": []
       },
@@ -24207,9 +25611,12 @@
           "宗祠"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -24222,6 +25629,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "12",
         "children": []
       },
@@ -24347,9 +25756,12 @@
           "历史街区"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -24362,6 +25774,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "13",
         "children": []
       },
@@ -24486,9 +25900,12 @@
           "铅山"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -24510,6 +25927,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "14",
         "children": []
       },
@@ -24623,9 +26042,12 @@
           "待核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "needs_update",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "needs_update",
+          "verification_level": "mixed",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -24637,6 +26059,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "15",
         "children": []
       },
@@ -24775,9 +26199,12 @@
           "市区"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -24807,6 +26234,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "16",
         "children": [
           {
@@ -24850,10 +26279,18 @@
               "ai_note": "红色历史偏好高。"
             },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "tags": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_museum_exhibition_zhongling_yuxiu",
@@ -24896,10 +26333,18 @@
               "ai_note": "第一次到访权重高。"
             },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "tags": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_museum_exhibition_wenmai_mianchang",
@@ -24942,10 +26387,18 @@
               "ai_note": "历史和书院偏好高。"
             },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "tags": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_museum_exhibition_wuhua_tianbao",
@@ -24994,10 +26447,18 @@
               "ai_note": "工艺与地方物产偏好高。"
             },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "tags": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_museum_exhibition_folk_customs",
@@ -25040,10 +26501,18 @@
               "ai_note": "亲子与民俗偏好高。"
             },
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "official",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "category": [],
+            "tags": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           }
         ]
       },
@@ -25159,9 +26628,12 @@
           "革命旧址"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -25183,6 +26655,8 @@
             ]
           }
         ],
+        "aliases": [],
+        "city_id": "city_shangrao",
         "map_index": "17",
         "children": []
       },
@@ -25262,10 +26736,16 @@
           "市区"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "18",
         "children": [
           {
@@ -25332,10 +26812,16 @@
               "正餐"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_rest_zhangji_qiaomaiguo",
@@ -25401,10 +26887,16 @@
               "小吃"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           }
         ]
       },
@@ -25490,10 +26982,16 @@
           "小吃"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "19",
         "children": [
           {
@@ -25560,10 +27058,16 @@
               "江西菜"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_rest_siji",
@@ -25630,10 +27134,16 @@
               "金龙岗"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_rest_jiubazhuo",
@@ -25699,10 +27209,16 @@
               "多人正餐"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_rest_tiexiaoyi",
@@ -25769,10 +27285,16 @@
               "小吃"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_rest_dijing",
@@ -25839,10 +27361,16 @@
               "东方帝景"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_rest_zhangji_qiaomaiguo",
@@ -25908,10 +27436,16 @@
               "小吃"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "third_party_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "third_party",
+              "time_sensitivity": "high",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           }
         ]
       },
@@ -25992,10 +27526,16 @@
           "县域小吃"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "20",
         "children": [
           {
@@ -26056,10 +27596,16 @@
               "铅山"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           },
           {
             "id": "sr_food_dish_dengzhan_guo",
@@ -26118,10 +27664,16 @@
               "小吃"
             ],
             "metadata": {
-              "schema_version": "1.0",
-              "data_status": "experience_verified",
-              "last_verified_at": "2026-08-24"
-            }
+              "schema_version": "2.0",
+              "content_status": "complete",
+              "verification_level": "experience_only",
+              "time_sensitivity": "medium",
+              "last_verified_at": "2026-08-24",
+              "next_review_at": null
+            },
+            "aliases": [],
+            "sources": [],
+            "city_id": "city_shangrao"
           }
         ]
       },
@@ -26215,10 +27767,16 @@
           "住宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "21",
         "children": []
       },
@@ -26314,10 +27872,16 @@
           "住宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "22",
         "children": []
       },
@@ -26413,10 +27977,16 @@
           "山脚住宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "23",
         "children": []
       },
@@ -26510,10 +28080,16 @@
           "住宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "24",
         "children": []
       },
@@ -26605,10 +28181,16 @@
           "住宿"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "experience_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "experience_only",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_shangrao",
         "map_index": "25",
         "children": []
       }

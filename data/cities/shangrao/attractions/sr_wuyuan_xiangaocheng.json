@@ -1,12 +1,130 @@
 {
-  "id": "sr_wuyuan_xiangaocheng", "name": "婺源弦高城", "short_name": "弦高城", "city": "上饶", "node_type": "attraction",
-  "category": ["新兴文旅街区", "夜游", "婺源节点", "动态维护节点"],
-  "location": {"address": "江西省上饶市婺源县", "latitude": null, "longitude": null, "coordinate_system": "GCJ-02", "amap_poi_id": null},
-  "official_info": {"description": "婺源县近年来新增的文旅街区与夜游产品，当前仍处于业态持续更新阶段。", "opening_hours": {"status": "dynamic_new_project"}, "ticket": {"status": "dynamic_by_zone_and_event"}},
-  "reservation": {"required": null, "notes": "主景区、分区及活动票务边界须逐项核对，不采用截图中的固定金额。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "medium", "primary_hubs": ["婺源站", "婺源县城"], "public_transport": [{"from": "婺源站", "mode": "公交/网约车", "status": "needs_poi_verification"}], "return_risk": "medium_after_night_event", "holiday_risk": ["新项目规则变化快", "分区票务易混淆"], "dynamic_checks": ["高德正式POI", "官方票务分区", "开放区域", "节目单"]},
-  "experience_layer": {"source": ["上饶攻略截图153、154、158、196"], "confidence": {"overall": "low-medium", "reason": "游客资料集中于新开阶段，官方稳定运营信息不足"}, "positive": [{"content": "徽派街巷和夜游活动具有新鲜感", "type": "new_night_product"}], "avoid": [{"content": "新项目票务、分区和开放范围变化快", "risk": "time_sensitive", "severity": "high"}], "visit_tips": ["仅作为候选节点，不应自动排入路线", "出发前以官方票务页和高德正式POI双重核验"], "crowd_model": {"national_holiday": "unknown_high_risk", "weekend": "unknown", "weekday": "unknown"}, "recommended_duration": {"minimum_minutes": 120, "recommended_min_minutes": 180, "recommended_max_minutes": 300}, "ai_note": "在坐标和正式运营规则核验前保持低权重。"},
-  "ai_score": {"history": 2, "photo": 4, "family": 3, "rain_day": 2, "crowd_risk": 5, "first_visit": 2}, "tags": ["弦高城", "婺源", "夜游", "待核验"],
-  "metadata": {"schema_version": "1.0", "data_status": "needs_update", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "婺源文旅发展新闻发布：弦高城文旅新场景", "url": "https://xjq.nc.gov.cn/xjqrmzf/xjbmzwdt25/202509/c411f35b32be4d2db6b7ab437947c93e.shtml", "scope": ["项目存在", "文旅定位"]}]
+  "id": "sr_wuyuan_xiangaocheng",
+  "name": "婺源弦高城",
+  "short_name": "弦高城",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "新兴文旅街区",
+    "夜游",
+    "婺源节点",
+    "动态维护节点"
+  ],
+  "location": {
+    "address": "江西省上饶市婺源县",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": null
+  },
+  "official_info": {
+    "description": "婺源县近年来新增的文旅街区与夜游产品，当前仍处于业态持续更新阶段。",
+    "opening_hours": {
+      "status": "dynamic_new_project"
+    },
+    "ticket": {
+      "status": "dynamic_by_zone_and_event"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "主景区、分区及活动票务边界须逐项核对，不采用截图中的固定金额。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "medium",
+    "primary_hubs": [
+      "婺源站",
+      "婺源县城"
+    ],
+    "public_transport": [
+      {
+        "from": "婺源站",
+        "mode": "公交/网约车",
+        "status": "needs_poi_verification"
+      }
+    ],
+    "return_risk": "medium_after_night_event",
+    "holiday_risk": [
+      "新项目规则变化快",
+      "分区票务易混淆"
+    ],
+    "dynamic_checks": [
+      "高德正式POI",
+      "官方票务分区",
+      "开放区域",
+      "节目单"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、154、158、196"
+    ],
+    "confidence": {
+      "overall": "low-medium",
+      "reason": "游客资料集中于新开阶段，官方稳定运营信息不足"
+    },
+    "positive": [
+      {
+        "content": "徽派街巷和夜游活动具有新鲜感",
+        "type": "new_night_product"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "新项目票务、分区和开放范围变化快",
+        "risk": "time_sensitive",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "仅作为候选节点，不应自动排入路线",
+      "出发前以官方票务页和高德正式POI双重核验"
+    ],
+    "crowd_model": {
+      "national_holiday": "unknown_high_risk",
+      "weekend": "unknown",
+      "weekday": "unknown"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 120,
+      "recommended_min_minutes": 180,
+      "recommended_max_minutes": 300
+    },
+    "ai_note": "在坐标和正式运营规则核验前保持低权重。"
+  },
+  "ai_score": {
+    "history": 2,
+    "photo": 4,
+    "family": 3,
+    "rain_day": 2,
+    "crowd_risk": 5,
+    "first_visit": 2
+  },
+  "tags": [
+    "弦高城",
+    "婺源",
+    "夜游",
+    "待核验"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "needs_update",
+    "verification_level": "mixed",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "婺源文旅发展新闻发布：弦高城文旅新场景",
+      "url": "https://xjq.nc.gov.cn/xjqrmzf/xjbmzwdt25/202509/c411f35b32be4d2db6b7ab437947c93e.shtml",
+      "scope": [
+        "项目存在",
+        "文旅定位"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

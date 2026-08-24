@@ -4,7 +4,11 @@
   "short_name": "八一起义纪念馆",
   "city": "南昌",
   "node_type": "memorial",
-  "category": ["纪念馆", "红色文化节点", "历史文化节点"],
+  "category": [
+    "纪念馆",
+    "红色文化节点",
+    "历史文化节点"
+  ],
   "location": {
     "address": "江西省南昌市西湖区中山路380号",
     "latitude": 28.67467,
@@ -25,7 +29,10 @@
       "status": "verified_regular_schedule"
     },
     "ticket": {
-      "general_admission": {"amount": 0, "currency": "CNY"},
+      "general_admission": {
+        "amount": 0,
+        "currency": "CNY"
+      },
       "source_url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
       "verified_at": "2026-08-23",
       "status": "verified"
@@ -34,10 +41,15 @@
   "reservation": {
     "required": true,
     "real_name_required": true,
-    "channels": ["南昌八一起义纪念馆微信小程序", "南昌八一起义纪念馆支付宝小程序"],
+    "channels": [
+      "南昌八一起义纪念馆微信小程序",
+      "南昌八一起义纪念馆支付宝小程序"
+    ],
     "advance_days": 7,
     "release_time": "21:00",
-    "document_requirements": ["预约时使用的有效身份证件"],
+    "document_requirements": [
+      "预约时使用的有效身份证件"
+    ],
     "notes": "仅使用官方渠道预约；国庆开放时间和增补票额需等待节前公告。",
     "source_url": "https://www.81-china.com/",
     "verified_at": "2026-08-24",
@@ -47,7 +59,10 @@
     "target_year": 2026,
     "status": "historical_reference_only",
     "reference_year": 2025,
-    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "period": {
+      "start": "2025-10-01",
+      "end": "2025-10-08"
+    },
     "observed_facts": {
       "opening_schedule": "09:00-21:00，20:30停止入馆",
       "late_open_area": "17:00后仅开放陈列大楼，其余旧址不开放",
@@ -68,11 +83,16 @@
     ],
     "confidence": "medium-high",
     "recheck_required": true,
-    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "recheck_window": [
+      "2026-09-15",
+      "2026-09-30"
+    ],
     "warning": "2025年的延时开放、旧址开放范围和增发名额仅作排程参考，2026年可能调整。"
   },
   "child_nodes": {
-    "history_events": ["nc_bayi_event_nanchang_uprising"],
+    "history_events": [
+      "nc_bayi_event_nanchang_uprising"
+    ],
     "historic_sites": [
       "nc_bayi_site_headquarters",
       "nc_bayi_site_helong_headquarters",
@@ -90,11 +110,25 @@
   },
   "experience": {
     "recommendation_score": 5,
-    "best_for": ["历史爱好者", "红色文化游客", "亲子教育"],
+    "best_for": [
+      "历史爱好者",
+      "红色文化游客",
+      "亲子教育"
+    ],
     "weather": "适合雨天参观",
-    "highlights": ["历史旧址", "革命展陈", "历史现场感"],
-    "crowd": {"normal": "中等", "holiday": "较高"},
-    "avoid": ["国庆期间未预约直接到馆", "只看陈列大楼而忽略旧址建筑"]
+    "highlights": [
+      "历史旧址",
+      "革命展陈",
+      "历史现场感"
+    ],
+    "crowd": {
+      "normal": "中等",
+      "holiday": "较高"
+    },
+    "avoid": [
+      "国庆期间未预约直接到馆",
+      "只看陈列大楼而忽略旧址建筑"
+    ]
   },
   "experience_layer": {
     "source": [
@@ -180,27 +214,52 @@
     "minimum_minutes": 60,
     "maximum_minutes": 120
   },
-  "tags": ["南昌城市文化", "红色历史", "纪念馆", "室内参观"],
+  "tags": [
+    "南昌城市文化",
+    "红色历史",
+    "纪念馆",
+    "室内参观"
+  ],
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "verified",
-    "last_verified_at": "2026-08-23"
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-23",
+    "next_review_at": "2026-09-15"
   },
   "sources": [
     {
       "name": "南昌市人民政府：南昌八一起义纪念馆",
       "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
-      "scope": ["2026年场馆介绍", "定位", "五处旧址", "免费开放", "三类基本陈展"]
+      "scope": [
+        "2026年场馆介绍",
+        "定位",
+        "五处旧址",
+        "免费开放",
+        "三类基本陈展"
+      ]
     },
     {
       "name": "高德地图：南昌八一起义纪念馆",
       "url": "https://ditu.amap.com/place/B031704VYJ",
-      "scope": ["坐标", "POI ID", "地址", "电话"]
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址",
+        "电话"
+      ]
     },
     {
       "name": "南昌市人民政府：公共文化设施目录",
       "url": "https://www.nc.gov.cn/ncszf/whtya/202204/c10e54cf79f44cd694469c865d13d7c5.shtml",
-      "scope": ["常规开放时间", "停止验证时间", "联系电话"]
+      "scope": [
+        "常规开放时间",
+        "停止验证时间",
+        "联系电话"
+      ]
     }
-  ]
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

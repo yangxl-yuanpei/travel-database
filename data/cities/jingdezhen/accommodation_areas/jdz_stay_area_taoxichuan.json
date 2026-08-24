@@ -1,13 +1,139 @@
 {
-  "id": "jdz_stay_area_taoxichuan", "name": "陶溪川—新厂住宿区", "short_name": "陶溪川", "city": "景德镇", "node_type": "accommodation_area",
-  "category": ["文创夜游住宿区", "年轻游客住宿区", "夜生活便利区"],
-  "location": {"address": "景德镇市珠山区陶溪川文创街区周边", "latitude": 29.296921, "longitude": 117.236957, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFFHARV3", "map_anchor": "陶溪川文创街区", "anchor_rule": "坐标仅作为住宿检索与通勤计算锚点，不代表区域边界"},
-  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["jdz_taoxichuan", "jdz_sculpture_porcelain_factory"], "hotel_search_radius_m": 1600, "hotel_search_keywords": ["酒店", "公寓", "民宿"]},
-  "suitable_for": ["喜欢文创市集", "夜游", "年轻游客", "摄影"],
-  "transit_profile": {"rail_station_access": "相对靠近景德镇北站方向，但实际通勤需动态计算", "public_transport": "市区公交与网约车选择较多", "walkability": "适合步行游陶溪川，前往雕塑瓷厂可短途接驳", "dynamic_note": "路线、夜间叫车与节假日拥堵由高德 API 动态核验"},
-  "experience": {"summary": "适合把陶溪川夜景、市集和文创体验放在行程核心的游客。", "best_for": ["夜游", "文创市集", "摄影", "年轻游客"], "highlights": ["夜间活动丰富", "靠近陶溪川", "餐饮选择较多"], "avoid": ["周末市集时段拥挤", "临街及活动区可能有噪声"], "holiday_price_risk": "high", "night_noise_risk": "high"},
-  "experience_layer": {"source": ["景德镇攻略截图115、120"], "confidence": {"overall": "high"}, "positive": [{"content": "夜间文创活动结束后可直接回住处", "type": "night_access"}], "avoid": [{"content": "活动与晚餐客流可能导致夜间拥堵和噪声", "risk": "crowd_noise", "severity": "high"}], "visit_tips": ["不喜欢热闹时选择背街房间", "确认市集开放日后再决定是否住此区"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "ai_note": "夜游权重高；安静、早睡及拒绝拥挤用户需惩罚。"},
-  "ai_score": {"first_visit": 4, "transit": 4, "walkability": 5, "quiet": 2, "value": 3, "holiday_price_risk": 5},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"}, "tags": ["陶溪川", "文创", "夜游", "市集"],
-  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"}, "sources": [{"name": "高德地图：陶溪川文创街区", "url": "https://www.amap.com/place/B0FFFHARV3", "scope": ["锚点坐标", "POI ID"]}]
+  "id": "jdz_stay_area_taoxichuan",
+  "name": "陶溪川—新厂住宿区",
+  "short_name": "陶溪川",
+  "city": "景德镇",
+  "node_type": "accommodation_area",
+  "category": [
+    "文创夜游住宿区",
+    "年轻游客住宿区",
+    "夜生活便利区"
+  ],
+  "location": {
+    "address": "景德镇市珠山区陶溪川文创街区周边",
+    "latitude": 29.296921,
+    "longitude": 117.236957,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFFHARV3",
+    "map_anchor": "陶溪川文创街区",
+    "anchor_rule": "坐标仅作为住宿检索与通勤计算锚点，不代表区域边界"
+  },
+  "spatial_layer": {
+    "boundary_status": "conceptual_area",
+    "related_node_ids": [
+      "jdz_taoxichuan",
+      "jdz_sculpture_porcelain_factory"
+    ],
+    "hotel_search_radius_m": 1600,
+    "hotel_search_keywords": [
+      "酒店",
+      "公寓",
+      "民宿"
+    ]
+  },
+  "suitable_for": [
+    "喜欢文创市集",
+    "夜游",
+    "年轻游客",
+    "摄影"
+  ],
+  "transit_profile": {
+    "rail_station_access": "相对靠近景德镇北站方向，但实际通勤需动态计算",
+    "public_transport": "市区公交与网约车选择较多",
+    "walkability": "适合步行游陶溪川，前往雕塑瓷厂可短途接驳",
+    "dynamic_note": "路线、夜间叫车与节假日拥堵由高德 API 动态核验"
+  },
+  "experience": {
+    "summary": "适合把陶溪川夜景、市集和文创体验放在行程核心的游客。",
+    "best_for": [
+      "夜游",
+      "文创市集",
+      "摄影",
+      "年轻游客"
+    ],
+    "highlights": [
+      "夜间活动丰富",
+      "靠近陶溪川",
+      "餐饮选择较多"
+    ],
+    "avoid": [
+      "周末市集时段拥挤",
+      "临街及活动区可能有噪声"
+    ],
+    "holiday_price_risk": "high",
+    "night_noise_risk": "high"
+  },
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图115、120"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "夜间文创活动结束后可直接回住处",
+        "type": "night_access"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "活动与晚餐客流可能导致夜间拥堵和噪声",
+        "risk": "crowd_noise",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "不喜欢热闹时选择背街房间",
+      "确认市集开放日后再决定是否住此区"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "ai_note": "夜游权重高；安静、早睡及拒绝拥挤用户需惩罚。"
+  },
+  "ai_score": {
+    "first_visit": 4,
+    "transit": 4,
+    "walkability": 5,
+    "quiet": 2,
+    "value": 3,
+    "holiday_price_risk": 5
+  },
+  "amap_integration": {
+    "dynamic_fields": [
+      "attraction_commute",
+      "station_transfer",
+      "hotel_poi_search"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "tags": [
+    "陶溪川",
+    "文创",
+    "夜游",
+    "市集"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：陶溪川文创街区",
+      "url": "https://www.amap.com/place/B0FFFHARV3",
+      "scope": [
+        "锚点坐标",
+        "POI ID"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_jingdezhen"
 }

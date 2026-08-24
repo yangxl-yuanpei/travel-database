@@ -1,9 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://local.example/schemas/node.schema.json",
-  "title": "Jiangxi Travel Knowledge Node",
+  "title": "Jiangxi Travel Knowledge Node Schema 2.0",
   "type": "object",
-  "required": ["id", "name", "node_type"],
+  "required": ["id", "name", "aliases", "node_type", "category", "tags", "sources", "metadata"],
   "properties": {
     "id": {
       "type": "string",
@@ -13,13 +13,23 @@
       "type": "string",
       "minLength": 1
     },
+    "aliases": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
     "city": {
       "type": "string"
+    },
+    "city_id": {
+      "type": "string",
+      "pattern": "^city_[a-z0-9]+(?:_[a-z0-9]+)*$"
     },
     "node_type": {
       "enum": [
         "city",
         "journey",
+        "itinerary",
         "attraction",
         "museum",
         "memorial",
@@ -52,6 +62,36 @@
       "type": "array",
       "items": {"type": "string"},
       "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "url"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "minLength": 1},
+          "scope": {
+            "type": "array",
+            "items": {"type": "string"},
+            "uniqueItems": true
+          },
+          "source_type": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": ["cover", "gallery"],
+      "properties": {
+        "cover": {"anyOf": [{"$ref": "#/$defs/mediaAsset"}, {"type": "null"}]},
+        "gallery": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/mediaAsset"}
+        }
+      },
+      "additionalProperties": false
     },
     "ai_score": {
       "type": "object",
@@ -180,21 +220,36 @@
     },
     "metadata": {
       "type": "object",
+      "required": [
+        "schema_version",
+        "content_status",
+        "verification_level",
+        "time_sensitivity",
+        "last_verified_at",
+        "next_review_at"
+      ],
       "properties": {
-        "schema_version": {"type": "string"},
-        "data_status": {
+        "schema_version": {"const": "2.0"},
+        "content_status": {
           "enum": [
             "draft",
             "candidate",
-            "experience_verified",
-            "third_party_verified",
-            "time_sensitive",
-            "verified",
+            "complete",
             "needs_update",
             "archived"
           ]
         },
+        "verification_level": {
+          "enum": ["unverified", "experience_only", "third_party", "official", "mixed", "historical"]
+        },
+        "time_sensitivity": {
+          "enum": ["low", "medium", "high", "critical"]
+        },
         "last_verified_at": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "next_review_at": {
           "type": ["string", "null"],
           "format": "date"
         }
@@ -203,6 +258,51 @@
     }
   },
   "additionalProperties": true,
+  "$defs": {
+    "mediaAsset": {
+      "type": "object",
+      "required": [
+        "asset_id",
+        "path",
+        "type",
+        "alt",
+        "source_type",
+        "source_name",
+        "source_url",
+        "license",
+        "credit",
+        "verified_at"
+      ],
+      "properties": {
+        "asset_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
+        "path": {"type": "string", "pattern": "^/images/"},
+        "type": {
+          "enum": [
+            "exterior", "interior", "exhibition_hall", "artifact", "viewpoint",
+            "night_view", "food", "street_environment", "transport_entrance",
+            "accommodation_environment"
+          ]
+        },
+        "alt": {"type": "string", "minLength": 4},
+        "source_type": {"enum": ["official", "open_license", "self_produced", "user_provided"]},
+        "source_name": {"type": "string", "minLength": 1},
+        "source_url": {"type": ["string", "null"]},
+        "license": {"type": "string", "minLength": 1},
+        "credit": {"type": ["string", "null"]},
+        "verified_at": {"type": "string", "format": "date"},
+        "focal_point": {
+          "type": "object",
+          "required": ["x", "y"],
+          "properties": {
+            "x": {"type": "number", "minimum": 0, "maximum": 1},
+            "y": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
   "allOf": [
     {
       "if": {

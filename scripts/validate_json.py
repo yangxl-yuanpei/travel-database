@@ -21,16 +21,21 @@ CHILD_TYPES = {
     "archaeological_site",
 }
 NODE_TYPES = {
-    "city", "journey", "attraction", "museum", "memorial",
+    "city", "journey", "itinerary", "attraction", "museum", "memorial",
     "permanent_exhibition", "temporary_exhibition", "artifact",
     "collection_group", "history_event", "historic_site",
     "archaeological_site", "food", "accommodation_area", "transport",
 }
-DATA_STATUSES = {
-    "draft", "candidate", "experience_verified", "third_party_verified",
-    "time_sensitive", "verified", "needs_update", "archived",
-}
+CONTENT_STATUSES = {"draft", "candidate", "complete", "needs_update", "archived"}
+VERIFICATION_LEVELS = {"unverified", "experience_only", "third_party", "official", "mixed", "historical"}
+TIME_SENSITIVITIES = {"low", "medium", "high", "critical"}
 CONFIDENCE_LEVELS = {"low", "low-medium", "medium", "medium-high", "high"}
+MEDIA_TYPES = {
+    "exterior", "interior", "exhibition_hall", "artifact", "viewpoint",
+    "night_view", "food", "street_environment", "transport_entrance",
+    "accommodation_environment",
+}
+MEDIA_SOURCE_TYPES = {"official", "open_license", "self_produced", "user_provided"}
 
 
 def iter_reference_ids(node: dict) -> list[str]:
@@ -56,6 +61,7 @@ def iter_reference_ids(node: dict) -> list[str]:
 def main() -> int:
     errors: list[str] = []
     nodes: dict[str, tuple[Path, dict]] = {}
+    media_assets: dict[str, Path] = {}
 
     for path in sorted(DATA_ROOT.rglob("*.json")):
         try:
@@ -92,13 +98,72 @@ def main() -> int:
                 f"{path.relative_to(ROOT)}: unknown node_type {node.get('node_type')!r}"
             )
 
+        for field in ("aliases", "category", "tags", "sources"):
+            if not isinstance(node.get(field), list):
+                errors.append(f"{path.relative_to(ROOT)}: {field} must be a list")
+
         metadata = node.get("metadata")
-        if isinstance(metadata, dict):
-            data_status = metadata.get("data_status")
-            if data_status not in DATA_STATUSES:
-                errors.append(
-                    f"{path.relative_to(ROOT)}: invalid metadata.data_status {data_status!r}"
-                )
+        if not isinstance(metadata, dict):
+            errors.append(f"{path.relative_to(ROOT)}: metadata must be an object")
+        else:
+            if metadata.get("schema_version") != "2.0":
+                errors.append(f"{path.relative_to(ROOT)}: metadata.schema_version must be '2.0'")
+            if metadata.get("content_status") not in CONTENT_STATUSES:
+                errors.append(f"{path.relative_to(ROOT)}: invalid metadata.content_status {metadata.get('content_status')!r}")
+            if metadata.get("verification_level") not in VERIFICATION_LEVELS:
+                errors.append(f"{path.relative_to(ROOT)}: invalid metadata.verification_level {metadata.get('verification_level')!r}")
+            if metadata.get("time_sensitivity") not in TIME_SENSITIVITIES:
+                errors.append(f"{path.relative_to(ROOT)}: invalid metadata.time_sensitivity {metadata.get('time_sensitivity')!r}")
+            if "last_verified_at" not in metadata or "next_review_at" not in metadata:
+                errors.append(f"{path.relative_to(ROOT)}: metadata requires last_verified_at and next_review_at")
+
+        city_id = node.get("city_id")
+        if city_id is not None and (not isinstance(city_id, str) or not city_id.startswith("city_")):
+            errors.append(f"{path.relative_to(ROOT)}: invalid city_id {city_id!r}")
+        if node.get("node_type") not in {"city", "journey", "itinerary", "transport"} and not city_id:
+            errors.append(f"{path.relative_to(ROOT)}: city-scoped node requires city_id")
+
+        sources = node.get("sources", [])
+        for index, source in enumerate(sources if isinstance(sources, list) else []):
+            if not isinstance(source, dict) or not source.get("name") or not source.get("url"):
+                errors.append(f"{path.relative_to(ROOT)}: sources[{index}] requires name and url")
+
+        media = node.get("media")
+        if media is not None:
+            if not isinstance(media, dict) or "cover" not in media or not isinstance(media.get("gallery"), list):
+                errors.append(f"{path.relative_to(ROOT)}: media requires cover and gallery")
+            else:
+                assets = ([media.get("cover")] if media.get("cover") else []) + media.get("gallery", [])
+                for index, asset in enumerate(assets):
+                    label = "cover" if index == 0 and media.get("cover") else f"gallery[{index - 1 if media.get('cover') else index}]"
+                    if not isinstance(asset, dict):
+                        errors.append(f"{path.relative_to(ROOT)}: media.{label} must be an object")
+                        continue
+                    required_media = {"asset_id", "path", "type", "alt", "source_type", "source_name", "source_url", "license", "credit", "verified_at"}
+                    missing_media = sorted(required_media - set(asset))
+                    if missing_media:
+                        errors.append(f"{path.relative_to(ROOT)}: media.{label} missing: {', '.join(missing_media)}")
+                        continue
+                    asset_id = asset.get("asset_id")
+                    if asset_id in media_assets:
+                        errors.append(f"{path.relative_to(ROOT)}: duplicate media asset_id {asset_id!r}")
+                    elif isinstance(asset_id, str):
+                        media_assets[asset_id] = path
+                    if asset.get("type") not in MEDIA_TYPES:
+                        errors.append(f"{path.relative_to(ROOT)}: invalid media type {asset.get('type')!r}")
+                    if asset.get("source_type") not in MEDIA_SOURCE_TYPES:
+                        errors.append(f"{path.relative_to(ROOT)}: invalid media source_type {asset.get('source_type')!r}")
+                    if asset.get("source_type") == "open_license":
+                        for field in ("source_name", "source_url", "license", "credit"):
+                            if not isinstance(asset.get(field), str) or not asset[field].strip():
+                                errors.append(
+                                    f"{path.relative_to(ROOT)}: open-license media.{label} requires non-empty {field}"
+                                )
+                    media_path = asset.get("path")
+                    if not isinstance(media_path, str) or not media_path.startswith("/images/"):
+                        errors.append(f"{path.relative_to(ROOT)}: media path must start with /images/")
+                    elif not (ROOT / "web" / "public" / media_path.lstrip("/")).is_file():
+                        errors.append(f"{path.relative_to(ROOT)}: media file does not exist: {media_path}")
 
         if node.get("node_type") in CHILD_TYPES and not node.get("parent_id"):
             errors.append(f"{path.relative_to(ROOT)}: child node requires parent_id")
@@ -175,6 +240,9 @@ def main() -> int:
                 errors.append(
                     f"{path.relative_to(ROOT)}: unknown node reference {reference_id!r}"
                 )
+        city_id = node.get("city_id")
+        if city_id and (city_id not in nodes or nodes[city_id][1].get("node_type") != "city"):
+            errors.append(f"{path.relative_to(ROOT)}: unknown city_id {city_id!r}")
 
     if errors:
         print("Validation failed:")

@@ -6,22 +6,74 @@
   "to_city_id": "city_shangrao",
   "route_role": "main_route",
   "recommended_mode": "high_speed_rail",
-  "stations": {"from": "景德镇北站", "to": "上饶站"},
+  "stations": {
+    "from": "景德镇北站",
+    "to": "上饶站"
+  },
   "rail_reference": {
     "sample_date": "2026-08-23",
     "direct": true,
-    "duration_minutes": {"minimum": 53, "maximum": 64},
-    "second_class_fare_cny": {"minimum": 63.5, "maximum": 65.5},
-    "sample_trains": ["G1456", "G5026"],
+    "duration_minutes": {
+      "minimum": 53,
+      "maximum": 64
+    },
+    "second_class_fare_cny": {
+      "minimum": 63.5,
+      "maximum": 65.5
+    },
+    "sample_trains": [
+      "G1456",
+      "G5026"
+    ],
     "status": "normal_day_reference",
     "national_day_sale_status": "not_on_sale"
   },
-  "amap_integration": {"coordinate_system": "GCJ-02", "dynamic_fields": ["hotel_to_station", "station_to_hotel", "driving_duration"], "api_status": "proxy_verified"},
-  "related_node_ids": ["city_jingdezhen", "city_shangrao"],
-  "tags": ["江西主线", "直达高铁", "三清山门户"],
-  "metadata": {"schema_version": "1.0", "data_status": "needs_update", "last_verified_at": "2026-08-24"},
+  "amap_integration": {
+    "coordinate_system": "GCJ-02",
+    "dynamic_fields": [
+      "hotel_to_station",
+      "station_to_hotel",
+      "driving_duration"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "related_node_ids": [
+    "city_jingdezhen",
+    "city_shangrao"
+  ],
+  "tags": [
+    "江西主线",
+    "直达高铁",
+    "三清山门户"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "needs_update",
+    "verification_level": "mixed",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
   "sources": [
-    {"name": "携程火车票：景德镇北—上饶常态车次样本", "url": "https://trains.ctrip.com/trainbooking/jingdezhen-shangrao/gaotie/", "scope": ["参考车次", "参考时长", "参考二等座价"]},
-    {"name": "中国铁路 12306", "url": "https://www.12306.cn/", "scope": ["最终车次", "最终票价", "余票"]}
-  ]
+    {
+      "name": "携程火车票：景德镇北—上饶常态车次样本",
+      "url": "https://trains.ctrip.com/trainbooking/jingdezhen-shangrao/gaotie/",
+      "scope": [
+        "参考车次",
+        "参考时长",
+        "参考二等座价"
+      ]
+    },
+    {
+      "name": "中国铁路 12306",
+      "url": "https://www.12306.cn/",
+      "scope": [
+        "最终车次",
+        "最终票价",
+        "余票"
+      ]
+    }
+  ],
+  "aliases": [],
+  "category": []
 }

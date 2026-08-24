@@ -1,1 +1,70 @@
-{"id":"jdz_food_dish_small_meat_skewers","name":"七中小肉","city":"景德镇","node_type":"food","food_scope":"dish","parent_id":"city_jingdezhen","category":["烧烤","地方小吃"],"official_info":{"status":"regional_dish_candidate","description":"游客资料反复提及的景德镇小肉串类小吃。"},"experience_layer":{"source":["景德镇攻略截图121"],"confidence":{"overall":"medium"},"positive":[{"content":"焦香肉串适合边走边吃","type":"street_food"}],"avoid":[{"content":"摊位与营业时间待核验","risk":"availability","severity":"medium"}],"visit_tips":["按串少量购买，避免影响后续正餐"],"crowd_model":{"weekday":"varies","weekend":"high","national_holiday":"high"},"recommended_duration":{"minimum_minutes":10,"recommended_min_minutes":20,"recommended_max_minutes":45},"ai_note":"烧烤和街头小吃偏好高。"},"related_node_ids":["jdz_food_area_taoxichuan"],"tags":["七中小肉","肉串","小吃"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "jdz_food_dish_small_meat_skewers",
+  "name": "七中小肉",
+  "city": "景德镇",
+  "node_type": "food",
+  "food_scope": "dish",
+  "parent_id": "city_jingdezhen",
+  "category": [
+    "烧烤",
+    "地方小吃"
+  ],
+  "official_info": {
+    "status": "regional_dish_candidate",
+    "description": "游客资料反复提及的景德镇小肉串类小吃。"
+  },
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图121"
+    ],
+    "confidence": {
+      "overall": "medium"
+    },
+    "positive": [
+      {
+        "content": "焦香肉串适合边走边吃",
+        "type": "street_food"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "摊位与营业时间待核验",
+        "risk": "availability",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "按串少量购买，避免影响后续正餐"
+    ],
+    "crowd_model": {
+      "weekday": "varies",
+      "weekend": "high",
+      "national_holiday": "high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 10,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "烧烤和街头小吃偏好高。"
+  },
+  "related_node_ids": [
+    "jdz_food_area_taoxichuan"
+  ],
+  "tags": [
+    "七中小肉",
+    "肉串",
+    "小吃"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_jingdezhen"
+}

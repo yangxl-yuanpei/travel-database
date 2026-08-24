@@ -5,20 +5,53 @@
   "city": "景德镇",
   "node_type": "museum",
   "parent_id": "jdz_taoyangli",
-  "category": ["陶瓷专题博物馆", "国家一级博物馆", "御窑文化", "考古遗址", "建筑摄影"],
-  "location": {"address": "江西省景德镇市珠山区珠山中路187号", "latitude": 29.296615, "longitude": 117.207107, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E13Y61"},
+  "category": [
+    "陶瓷专题博物馆",
+    "国家一级博物馆",
+    "御窑文化",
+    "考古遗址",
+    "建筑摄影"
+  ],
+  "location": {
+    "address": "江西省景德镇市珠山区珠山中路187号",
+    "latitude": 29.296615,
+    "longitude": 117.207107,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031E13Y61"
+  },
   "official_info": {
-    "museum_level": {"value": "国家一级博物馆", "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml", "verified_at": "2026-08-24", "status": "verified"},
+    "museum_level": {
+      "value": "国家一级博物馆",
+      "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml",
+      "verified_at": "2026-08-24",
+      "status": "verified"
+    },
     "museum_type": "御窑遗址型陶瓷专题博物馆",
     "positioning": "位于陶阳里历史文化旅游区内，收藏、研究和展示以明清御窑出土瓷器及修复器为核心，并与御窑厂遗址共同构成参观语境。",
     "collection_profile": "官方资料记载，三十余年考古发掘出土瓷片数以千万计，已修复瓷器5000余件。",
-    "opening_hours": {"regular_schedule": "周二至周日09:00-22:00，21:30停止入馆；法定节假日正常开放", "national_day_schedule": null, "source_url": "https://www.jdzyybwy.com/", "verified_at": "2026-08-24", "status": "verified_regular_schedule_dynamic_holiday_check"},
-    "ticket": {"price": null, "currency": "CNY", "scope_note": "博物馆位于陶阳里景区内，是否需要景区门票及组合票价以陶阳里官方渠道为准。", "source_url": null, "verified_at": null, "status": "dynamic_check_taoyangli_official_channel"}
+    "opening_hours": {
+      "regular_schedule": "周二至周日09:00-22:00，21:30停止入馆；法定节假日正常开放",
+      "national_day_schedule": null,
+      "source_url": "https://www.jdzyybwy.com/",
+      "verified_at": "2026-08-24",
+      "status": "verified_regular_schedule_dynamic_holiday_check"
+    },
+    "ticket": {
+      "price": null,
+      "currency": "CNY",
+      "scope_note": "博物馆位于陶阳里景区内，是否需要景区门票及组合票价以陶阳里官方渠道为准。",
+      "source_url": null,
+      "verified_at": null,
+      "status": "dynamic_check_taoyangli_official_channel"
+    }
   },
   "reservation": {
     "required": true,
     "real_name_required": true,
-    "channels": ["“畅游景德镇”微信小程序", "景德镇御窑博物馆微信公众号“预约导览”"],
+    "channels": [
+      "“畅游景德镇”微信小程序",
+      "景德镇御窑博物馆微信公众号“预约导览”"
+    ],
     "advance_days": null,
     "notes": "官方活动期公告确认实行实名预约，但提前天数和现场登记规则可能随客流调整；与陶阳里入园规则一并核验。",
     "source_url": "https://jdz.gov.cn/zwzx/jrcd/t1051135.shtml",
@@ -29,7 +62,10 @@
     "target_year": 2026,
     "status": "historical_reference_only",
     "reference_year": 2025,
-    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "period": {
+      "start": "2025-10-01",
+      "end": "2025-10-08"
+    },
     "observed_facts": {
       "holiday_visitors": "2025年国庆中秋8天接待约14万人",
       "crowd_observation": "官方总结称双节期间博物馆展馆持续处于高客流状态",
@@ -48,36 +84,214 @@
     ],
     "confidence": "medium",
     "recheck_required": true,
-    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "recheck_window": [
+      "2026-09-15",
+      "2026-09-30"
+    ],
     "warning": "官方资料仅支持2025年客流判断，不能据此推定2026年开放时间、预约提前天数或现场预约规则。"
   },
   "child_nodes": {
-    "permanent_exhibitions": ["jdz_ikm_exh_pearl_of_porcelain", "jdz_ikm_exh_imperial_kiln_history"],
-    "temporary_exhibitions": ["jdz_ikm_exh_civilization_interaction"],
-    "artifacts": ["jdz_ikm_artifact_yuan_dragon_go_jar", "jdz_ikm_artifact_hongwu_red_white_bowl", "jdz_ikm_artifact_yongle_three_pot", "jdz_ikm_artifact_xuande_cricket_jar", "jdz_ikm_artifact_xuande_doucai_duck_plate", "jdz_ikm_artifact_chenghua_duck_incense_burner"],
-    "collection_groups": ["jdz_ikm_group_restored_imperial_wares"],
-    "archaeological_sites": ["jdz_ikm_site_ming_south_slope", "jdz_ikm_site_ming_north_slope"]
+    "permanent_exhibitions": [
+      "jdz_ikm_exh_pearl_of_porcelain",
+      "jdz_ikm_exh_imperial_kiln_history"
+    ],
+    "temporary_exhibitions": [
+      "jdz_ikm_exh_civilization_interaction"
+    ],
+    "artifacts": [
+      "jdz_ikm_artifact_yuan_dragon_go_jar",
+      "jdz_ikm_artifact_hongwu_red_white_bowl",
+      "jdz_ikm_artifact_yongle_three_pot",
+      "jdz_ikm_artifact_xuande_cricket_jar",
+      "jdz_ikm_artifact_xuande_doucai_duck_plate",
+      "jdz_ikm_artifact_chenghua_duck_incense_burner"
+    ],
+    "collection_groups": [
+      "jdz_ikm_group_restored_imperial_wares"
+    ],
+    "archaeological_sites": [
+      "jdz_ikm_site_ming_south_slope",
+      "jdz_ikm_site_ming_north_slope"
+    ]
   },
-  "experience": {"recommendation_score": 5, "best_for": ["陶瓷历史", "建筑摄影", "考古兴趣", "首次到访"], "highlights": ["御窑制度与瓷业史", "出土修复瓷器", "御窑遗址", "博物馆建筑"]},
+  "experience": {
+    "recommendation_score": 5,
+    "best_for": [
+      "陶瓷历史",
+      "建筑摄影",
+      "考古兴趣",
+      "首次到访"
+    ],
+    "highlights": [
+      "御窑制度与瓷业史",
+      "出土修复瓷器",
+      "御窑遗址",
+      "博物馆建筑"
+    ]
+  },
   "experience_layer": {
-    "source": ["景德镇攻略截图 113-150"],
-    "confidence": {"overall": "medium-high", "reason": "游客体验已与博物馆官网及景德镇市政府资料分层"},
-    "positive": [{"content": "博物馆建筑和御窑遗址语境兼具历史与摄影价值", "type": "history_photo"}, {"content": "修复瓷器可直观看到宫廷制瓷、淘汰与考古拼接过程", "type": "archaeology"}],
-    "avoid": [{"content": "不要把博物馆与整个陶阳里景区视为两个完全独立的行程", "risk": "duplicate_planning", "severity": "high"}, {"content": "晚间开放与节假日预约规则可能临时调整", "risk": "dynamic_schedule", "severity": "high"}],
-    "visit_tips": ["与陶阳里统一安排", "先看御窑史常设展，再看六件代表修复器", "把南北坡遗址和博物馆建筑外观纳入同一参观序列", "提前确认入园和入馆规则是否分别执行"],
-    "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium", "peak_time": ["傍晚与夜景时段", "节假日白天"]},
-    "recommended_duration": {"minimum_minutes": 60, "recommended_min_minutes": 90, "recommended_max_minutes": 150},
+    "source": [
+      "景德镇攻略截图 113-150"
+    ],
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "游客体验已与博物馆官网及景德镇市政府资料分层"
+    },
+    "positive": [
+      {
+        "content": "博物馆建筑和御窑遗址语境兼具历史与摄影价值",
+        "type": "history_photo"
+      },
+      {
+        "content": "修复瓷器可直观看到宫廷制瓷、淘汰与考古拼接过程",
+        "type": "archaeology"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "不要把博物馆与整个陶阳里景区视为两个完全独立的行程",
+        "risk": "duplicate_planning",
+        "severity": "high"
+      },
+      {
+        "content": "晚间开放与节假日预约规则可能临时调整",
+        "risk": "dynamic_schedule",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "与陶阳里统一安排",
+      "先看御窑史常设展，再看六件代表修复器",
+      "把南北坡遗址和博物馆建筑外观纳入同一参观序列",
+      "提前确认入园和入馆规则是否分别执行"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "medium",
+      "peak_time": [
+        "傍晚与夜景时段",
+        "节假日白天"
+      ]
+    },
+    "recommended_duration": {
+      "minimum_minutes": 60,
+      "recommended_min_minutes": 90,
+      "recommended_max_minutes": 150
+    },
     "ai_note": "作为陶阳里父节点下的核心博物馆保留独立检索；规划器应避免重复计算交通与门票。"
   },
-  "ai_score": {"history": 5, "photo": 5, "family": 4, "rain_day": 4, "crowd_risk": 4, "first_visit": 5},
-  "duration": {"recommended_minutes": 120, "minimum_minutes": 60, "maximum_minutes": 150},
-  "related_node_ids": ["jdz_taoyangli"],
-  "tags": ["御窑", "考古", "国家一级博物馆", "博物馆建筑", "陶阳里"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "ai_score": {
+    "history": 5,
+    "photo": 5,
+    "family": 4,
+    "rain_day": 4,
+    "crowd_risk": 4,
+    "first_visit": 5
+  },
+  "duration": {
+    "recommended_minutes": 120,
+    "minimum_minutes": 60,
+    "maximum_minutes": 150
+  },
+  "related_node_ids": [
+    "jdz_taoyangli"
+  ],
+  "tags": [
+    "御窑",
+    "考古",
+    "国家一级博物馆",
+    "博物馆建筑",
+    "陶阳里"
+  ],
+  "media": {
+    "cover": {
+      "asset_id": "jdz_imperial_kiln_museum_cover_01",
+      "path": "/images/jingdezhen/imperial-kiln-museum/cover.webp",
+      "type": "exterior",
+      "alt": "蓝天下景德镇御窑博物馆连续拱券建筑与水面",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:01-Jingdezhen_Imperial_Kiln_Museum.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Zhu Pei / Wikimedia Commons",
+      "verified_at": "2026-08-24",
+      "focal_point": {"x": 0.5, "y": 0.48}
+    },
+    "gallery": [
+      {
+        "asset_id": "jdz_imperial_kiln_museum_detail_01",
+        "path": "/images/jingdezhen/imperial-kiln-museum/detail_01.webp",
+        "type": "interior",
+        "alt": "御窑博物馆砖拱室内入口与展厅空间",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Royal_Kiln_Museum_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "EditQ / Wikimedia Commons",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "jdz_imperial_kiln_museum_detail_02",
+        "path": "/images/jingdezhen/imperial-kiln-museum/detail_02.webp",
+        "type": "exterior",
+        "alt": "水面旁御窑博物馆红砖拱形建筑侧景",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%BE%A1%E7%AA%91%E5%8D%9A%E7%89%A9%E9%A6%86_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "EditQ / Wikimedia Commons",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": "2026-09-15"
+  },
   "sources": [
-    {"name": "景德镇御窑博物馆官网", "url": "https://www.jdzyybwy.com/", "scope": ["开放时间", "官方展览栏目", "预约入口"]},
-    {"name": "景德镇市人民政府：御窑博物院发布六大镇院之宝", "url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml", "scope": ["国家一级博物馆", "馆藏特色", "考古修复规模", "六件代表文物"]},
-    {"name": "景德镇御窑博物馆预约公告", "url": "https://jdz.gov.cn/zwzx/jrcd/t1051135.shtml", "scope": ["实名预约", "预约渠道", "动态规则"]},
-    {"name": "高德地图：景德镇御窑博物馆", "url": "https://www.amap.com/place/B031E13Y61", "scope": ["坐标", "POI ID", "地址"]}
-  ]
+    {
+      "name": "景德镇御窑博物馆官网",
+      "url": "https://www.jdzyybwy.com/",
+      "scope": [
+        "开放时间",
+        "官方展览栏目",
+        "预约入口"
+      ]
+    },
+    {
+      "name": "景德镇市人民政府：御窑博物院发布六大镇院之宝",
+      "url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml",
+      "scope": [
+        "国家一级博物馆",
+        "馆藏特色",
+        "考古修复规模",
+        "六件代表文物"
+      ]
+    },
+    {
+      "name": "景德镇御窑博物馆预约公告",
+      "url": "https://jdz.gov.cn/zwzx/jrcd/t1051135.shtml",
+      "scope": [
+        "实名预约",
+        "预约渠道",
+        "动态规则"
+      ]
+    },
+    {
+      "name": "高德地图：景德镇御窑博物馆",
+      "url": "https://www.amap.com/place/B031E13Y61",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_jingdezhen"
 }

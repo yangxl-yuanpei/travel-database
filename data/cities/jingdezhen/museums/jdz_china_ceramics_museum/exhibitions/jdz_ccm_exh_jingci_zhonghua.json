@@ -1,6 +1,59 @@
 {
-  "id": "jdz_ccm_exh_jingci_zhonghua", "name": "景瓷汇中华——景德镇陶瓷与各民族交往交流交融展", "city": "景德镇", "node_type": "temporary_exhibition", "parent_id": "jdz_china_ceramics_museum",
-  "official_info": {"exhibition_type": "专题展（展期动态）", "floor": null, "hall": null, "description": "以200余件（套）展品呈现景德镇陶瓷与各民族交往交流交融。", "sections": ["瓷源初起", "风华宋韵", "元风胡韵", "明领风骚", "清瓷集萃", "民国新韵", "百花齐放"], "start_date": null, "end_date": null, "current_as_of": "2026-08-17", "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1102281.shtml", "verified_at": "2026-08-24", "status": "verified_at_source_date_recheck_before_visit"},
-  "experience": {"importance": 4, "recommended_duration_minutes": 40, "suitable_for": ["陶瓷史", "民族交流史", "专题研究"], "highlights": ["七个历史章节", "200余件（套）展品"]},
-  "related_artifact_ids": [], "tags": ["陶瓷交流史", "专题展", "动态展览"], "metadata": {"schema_version": "1.0", "data_status": "time_sensitive", "last_verified_at": "2026-08-24"}
+  "id": "jdz_ccm_exh_jingci_zhonghua",
+  "name": "景瓷汇中华——景德镇陶瓷与各民族交往交流交融展",
+  "city": "景德镇",
+  "node_type": "temporary_exhibition",
+  "parent_id": "jdz_china_ceramics_museum",
+  "official_info": {
+    "exhibition_type": "专题展（展期动态）",
+    "floor": null,
+    "hall": null,
+    "description": "以200余件（套）展品呈现景德镇陶瓷与各民族交往交流交融。",
+    "sections": [
+      "瓷源初起",
+      "风华宋韵",
+      "元风胡韵",
+      "明领风骚",
+      "清瓷集萃",
+      "民国新韵",
+      "百花齐放"
+    ],
+    "start_date": null,
+    "end_date": null,
+    "current_as_of": "2026-08-17",
+    "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1102281.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_at_source_date_recheck_before_visit"
+  },
+  "experience": {
+    "importance": 4,
+    "recommended_duration_minutes": 40,
+    "suitable_for": [
+      "陶瓷史",
+      "民族交流史",
+      "专题研究"
+    ],
+    "highlights": [
+      "七个历史章节",
+      "200余件（套）展品"
+    ]
+  },
+  "related_artifact_ids": [],
+  "tags": [
+    "陶瓷交流史",
+    "专题展",
+    "动态展览"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "mixed",
+    "time_sensitivity": "critical",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_jingdezhen"
 }

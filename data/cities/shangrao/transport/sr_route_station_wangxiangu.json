@@ -1,1 +1,79 @@
-{"id":"sr_route_station_wangxiangu","name":"上饶站—望仙谷景区交通链","city":"上饶","node_type":"transport","category":["景区直达车","偏远景区接驳"],"route_profile":{"origin_id":"sr_transport_hub_shangrao_station","destination_id":"sr_wangxiangu","preferred_modes":["官方景区直达班线","站点巴士","正规网约车"],"status":"dynamic_schedule","fixed_fare_stored":false,"must_check":["南广场具体上车点","去程班次","夜游返程末班","节假日预售"]},"experience_layer":{"source":["上饶攻略截图160、170、173、176、181、189"],"confidence":{"overall":"high"},"positive":[{"content":"存在直达班线，可减少县域多次换乘","type":"direct_service"}],"avoid":[{"content":"夜游散场后无票再找车风险最高","risk":"return_transport","severity":"high"}],"visit_tips":["往返同时购票或预约","拒绝站外非正规揽客车"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":75,"recommended_min_minutes":90,"recommended_max_minutes":150},"ai_note":"时间字段仅作交通缓冲，不是固定行车时间；实际由高德与官方班线共同核验。"},"related_node_ids":["sr_transport_hub_shangrao_station","sr_wangxiangu"],"metadata":{"schema_version":"1.0","data_status":"time_sensitive","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_route_station_wangxiangu",
+  "name": "上饶站—望仙谷景区交通链",
+  "city": "上饶",
+  "node_type": "transport",
+  "category": [
+    "景区直达车",
+    "偏远景区接驳"
+  ],
+  "route_profile": {
+    "origin_id": "sr_transport_hub_shangrao_station",
+    "destination_id": "sr_wangxiangu",
+    "preferred_modes": [
+      "官方景区直达班线",
+      "站点巴士",
+      "正规网约车"
+    ],
+    "status": "dynamic_schedule",
+    "fixed_fare_stored": false,
+    "must_check": [
+      "南广场具体上车点",
+      "去程班次",
+      "夜游返程末班",
+      "节假日预售"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图160、170、173、176、181、189"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "存在直达班线，可减少县域多次换乘",
+        "type": "direct_service"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "夜游散场后无票再找车风险最高",
+        "risk": "return_transport",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "往返同时购票或预约",
+      "拒绝站外非正规揽客车"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 75,
+      "recommended_min_minutes": 90,
+      "recommended_max_minutes": 150
+    },
+    "ai_note": "时间字段仅作交通缓冲，不是固定行车时间；实际由高德与官方班线共同核验。"
+  },
+  "related_node_ids": [
+    "sr_transport_hub_shangrao_station",
+    "sr_wangxiangu"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "mixed",
+    "time_sensitivity": "critical",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "tags": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

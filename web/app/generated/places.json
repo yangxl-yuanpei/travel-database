@@ -205,10 +205,57 @@
       "历史文化",
       "夜景"
     ],
+    "media": {
+      "cover": {
+        "asset_id": "nc_tengwangge_cover_01",
+        "path": "/images/nanchang/tengwangge/cover.webp",
+        "type": "exterior",
+        "alt": "正面仰望滕王阁的层叠楼阁建筑",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20240207_Tengwang_Ge_(113337).jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Yumeto / Wikimedia Commons",
+        "verified_at": "2026-08-24",
+        "focal_point": {
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "gallery": [
+        {
+          "asset_id": "nc_tengwangge_detail_01",
+          "path": "/images/nanchang/tengwangge/detail_01.webp",
+          "type": "interior",
+          "alt": "滕王阁室内彩绘藻井与匾额",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20240207_Tengwang_Ge_(114628).jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "Yumeto / Wikimedia Commons",
+          "verified_at": "2026-08-24"
+        },
+        {
+          "asset_id": "nc_tengwangge_detail_02",
+          "path": "/images/nanchang/tengwangge/detail_02.webp",
+          "type": "viewpoint",
+          "alt": "从滕王阁向东俯瞰景区广场与南昌城市建筑",
+          "source_type": "open_license",
+          "source_name": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20240207_View_from_the_Tengwang_Pavilion.jpg",
+          "license": "CC BY-SA 4.0",
+          "credit": "Yumeto / Wikimedia Commons",
+          "verified_at": "2026-08-24"
+        }
+      ]
+    },
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-23"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-23",
+      "next_review_at": "2026-09-15"
     },
     "sources": [
       {
@@ -238,6 +285,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "01",
     "children": []
   },
@@ -403,9 +452,12 @@
       "晚间活动"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -428,6 +480,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "02",
     "children": []
   },
@@ -604,9 +658,12 @@
       "商业街区"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -639,6 +696,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "03",
     "children": []
   },
@@ -774,9 +833,12 @@
       "路线连接节点"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -797,6 +859,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "04",
     "children": []
   },
@@ -1026,9 +1090,12 @@
       "文化游客"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-23"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-23",
+      "next_review_at": "2026-09-15"
     },
     "sources": [
       {
@@ -1067,6 +1134,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "05",
     "children": [
       {
@@ -1104,10 +1173,17 @@
           "常设展"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_jx_museum_exh_ceramics",
@@ -1144,10 +1220,17 @@
           "常设展"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_jx_museum_exh_revolution",
@@ -1182,10 +1265,17 @@
           "常设展"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_jx_museum_artifact_bird_double_tail_tiger",
@@ -1218,10 +1308,17 @@
           "精品文物"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_jx_museum_artifact_yuan_granary",
@@ -1254,10 +1351,17 @@
           "精品文物"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_jx_museum_group_dayangzhou_bronzes",
@@ -1283,10 +1387,17 @@
           "江西早期文明"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -1551,9 +1662,12 @@
       "亲子研学"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": "2026-09-15"
     },
     "sources": [
       {
@@ -1603,6 +1717,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "06",
     "children": [
       {
@@ -1630,10 +1746,17 @@
           "考古背景"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_site_liuhe_mausoleum",
@@ -1664,10 +1787,17 @@
           "西汉"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_site_zijin_city",
@@ -1697,10 +1827,17 @@
           "侯国聚落"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_exh_golden_haihun",
@@ -1741,10 +1878,17 @@
           "汉代"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_exh_written_haihun",
@@ -1782,10 +1926,17 @@
           "典籍"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_exh_lacquer_haihun",
@@ -1825,10 +1976,17 @@
           "汉代工艺"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_exh_meet_haihun",
@@ -1865,10 +2023,17 @@
           "数字体验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_artifact_horseshoe_gold",
@@ -1905,10 +2070,17 @@
           "代表文物"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_group_gold",
@@ -1941,10 +2113,17 @@
           "重点藏品组"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_group_bronzes",
@@ -1974,10 +2153,17 @@
           "生活器用"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_group_jade",
@@ -2007,10 +2193,17 @@
           "身份"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_haihunhou_group_lacquerware",
@@ -2044,10 +2237,17 @@
           "贵族生活"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -2274,9 +2474,12 @@
       "室内参观"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "verified",
-      "last_verified_at": "2026-08-23"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "official",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-23",
+      "next_review_at": "2026-09-15"
     },
     "sources": [
       {
@@ -2310,6 +2513,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "07",
     "children": [
       {
@@ -2336,10 +2541,17 @@
           "南昌起义"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_site_headquarters",
@@ -2362,10 +2574,17 @@
           "全国重点文物保护单位"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_site_helong_headquarters",
@@ -2388,10 +2607,17 @@
           "全国重点文物保护单位"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_site_yeting_headquarters",
@@ -2414,10 +2640,17 @@
           "全国重点文物保护单位"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_site_zhude_officer_corps",
@@ -2440,10 +2673,17 @@
           "全国重点文物保护单位"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_site_zhude_residence",
@@ -2466,10 +2706,17 @@
           "全国重点文物保护单位"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-23"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-23",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_exh_nanchang_uprising",
@@ -2500,10 +2747,17 @@
           "常设展"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_exh_pla_history",
@@ -2532,10 +2786,17 @@
           "常设展"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_bayi_exh_restored_site",
@@ -2564,10 +2825,17 @@
           "常设展"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "verified",
-          "last_verified_at": "2026-08-24"
-        }
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "official",
+          "time_sensitivity": "medium",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
+        },
+        "aliases": [],
+        "category": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -2707,11 +2975,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "08",
     "children": [
       {
@@ -2820,11 +3094,17 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "draft",
+          "schema_version": "2.0",
+          "content_status": "draft",
+          "verification_level": "unverified",
+          "time_sensitivity": "medium",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
-        }
+        },
+        "aliases": [],
+        "sources": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b031703ut3",
@@ -2954,9 +3234,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -2975,7 +3258,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0fffmi84l",
@@ -3106,9 +3391,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3127,7 +3415,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0kkr4r4kw",
@@ -3240,9 +3530,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3261,7 +3554,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffm4e0xt",
@@ -3377,9 +3672,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3398,7 +3696,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffi8nppa",
@@ -3531,9 +3831,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3552,7 +3855,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffhtx20s",
@@ -3664,9 +3969,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3685,7 +3993,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0kksnulwt",
@@ -3802,9 +4112,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3823,7 +4136,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0m67awv1t",
@@ -3941,9 +4256,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -3962,7 +4280,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffksl9mb",
@@ -4079,9 +4399,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4100,7 +4423,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0j3drm4ba",
@@ -4218,9 +4543,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4239,7 +4567,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffff5cpn",
@@ -4359,9 +4689,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4380,7 +4713,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffk77qwl",
@@ -4496,9 +4831,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4517,7 +4855,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0jg1lksuu",
@@ -4633,9 +4973,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4654,7 +4997,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0jr94etw5",
@@ -4771,9 +5116,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4792,7 +5140,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffm9tnoe",
@@ -4909,9 +5259,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -4930,7 +5283,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0l37al3y9",
@@ -5084,9 +5439,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -5105,7 +5463,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0k3frn497",
@@ -5268,9 +5628,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -5289,7 +5652,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0jr3zcgv5",
@@ -5426,9 +5791,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -5447,7 +5815,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0317040iu",
@@ -5594,9 +5964,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -5615,7 +5988,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffjigwks",
@@ -5735,9 +6110,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -5756,7 +6134,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -5897,11 +6277,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "09",
     "children": [
       {
@@ -6050,9 +6436,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6071,7 +6460,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0k6l5geaf",
@@ -6207,9 +6598,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6228,7 +6622,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffj1u1sh",
@@ -6370,9 +6766,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6391,7 +6790,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ibo5i4sk",
@@ -6534,9 +6935,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6555,7 +6959,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0k06ca04y",
@@ -6671,9 +7077,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6692,7 +7101,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0la99vnps",
@@ -6825,9 +7236,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6846,7 +7260,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0iu7sirmt",
@@ -6962,9 +7378,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -6983,7 +7402,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0h09zm2rw",
@@ -7099,9 +7520,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -7120,7 +7544,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0k29cu9px",
@@ -7237,9 +7663,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -7258,7 +7687,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffkjyxsg",
@@ -7377,9 +7808,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -7398,7 +7832,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffggc9g8",
@@ -7533,9 +7969,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -7554,7 +7993,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0kgu4u1le",
@@ -7689,9 +8130,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -7710,7 +8154,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffjiuofo",
@@ -7861,9 +8307,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -7882,7 +8331,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0l2uzemgc",
@@ -8010,9 +8461,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8031,7 +8485,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0m6auzpc6",
@@ -8143,9 +8599,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8164,7 +8623,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b031705dga",
@@ -8276,9 +8737,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8297,7 +8761,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0h2udqub9",
@@ -8420,9 +8886,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8441,7 +8910,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0l2y1wws1",
@@ -8570,9 +9041,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8591,7 +9065,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0irc56j63",
@@ -8743,9 +9219,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8764,7 +9243,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0juz7784c",
@@ -8900,9 +9381,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -8921,7 +9405,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0mu459syc",
@@ -9020,9 +9506,12 @@
           "高德POI已核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
-          "last_verified_at": "2026-08-24"
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
+          "last_verified_at": "2026-08-24",
+          "next_review_at": null
         },
         "sources": [
           {
@@ -9037,7 +9526,9 @@
               "2026-08-24可检索状态"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -9172,11 +9663,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "10",
     "children": [
       {
@@ -9294,9 +9791,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -9315,7 +9815,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffhsl1et",
@@ -9427,9 +9929,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -9448,7 +9953,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_candidate_009",
@@ -9565,9 +10072,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": "2026-08-24",
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -9589,7 +10099,9 @@
               "2026-08-24可检索状态"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffioy34g",
@@ -9740,9 +10252,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -9761,7 +10276,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0maxhl35m",
@@ -9907,9 +10424,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -9928,7 +10448,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffhu9w1w",
@@ -10086,9 +10608,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10107,7 +10632,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0fflj25yd",
@@ -10221,9 +10748,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10242,7 +10772,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b031703jgd",
@@ -10397,9 +10929,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10418,7 +10953,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffl7a3ug",
@@ -10538,9 +11075,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10559,7 +11099,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0jry7cdfy",
@@ -10693,9 +11235,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10714,7 +11259,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0kr4k0fhw",
@@ -10825,9 +11372,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10846,7 +11396,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0jk7uoqoq",
@@ -10960,9 +11512,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -10981,7 +11536,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0g0cnqi86",
@@ -11093,9 +11650,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -11114,7 +11674,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffff8g67",
@@ -11231,9 +11793,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -11252,7 +11817,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0lk2aqmfd",
@@ -11365,9 +11932,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -11386,7 +11956,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -11492,11 +12064,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "11",
     "children": [
       {
@@ -11648,9 +12226,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -11669,7 +12250,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -11790,11 +12373,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "12",
     "children": [
       {
@@ -11909,9 +12498,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -11930,7 +12522,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0gum19vjc",
@@ -12067,9 +12661,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -12088,7 +12685,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0j1d5uefe",
@@ -12224,9 +12823,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -12245,7 +12847,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ma56ngbu",
@@ -12377,9 +12981,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -12398,7 +13005,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0l35cf1if",
@@ -12521,9 +13130,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -12542,7 +13154,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0lryavq9r",
@@ -12671,9 +13285,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -12692,7 +13309,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -12804,11 +13423,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "13",
     "children": [
       {
@@ -12941,9 +13566,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -12962,7 +13590,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0fffa0f3x",
@@ -13072,9 +13702,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -13093,7 +13726,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffig9t51",
@@ -13204,9 +13839,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -13225,7 +13863,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffksaq8x",
@@ -13336,9 +13976,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -13357,7 +14000,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -13468,11 +14113,17 @@
       "国庆错峰"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
       "last_verified_at": null,
+      "next_review_at": null,
       "import_source": "nanchang_food_candidates_raw.json"
     },
+    "aliases": [],
+    "sources": [],
+    "city_id": "city_nanchang",
     "map_index": "14",
     "children": [
       {
@@ -13594,9 +14245,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -13615,7 +14269,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       },
       {
         "id": "nc_food_rest_b0ffhfxah0",
@@ -13727,9 +14383,12 @@
           "待人工核验"
         ],
         "metadata": {
-          "schema_version": "1.0",
-          "data_status": "third_party_verified",
+          "schema_version": "2.0",
+          "content_status": "complete",
+          "verification_level": "third_party",
+          "time_sensitivity": "high",
           "last_verified_at": null,
+          "next_review_at": null,
           "import_source": "nanchang_food_candidates_raw.json"
         },
         "business_status": {
@@ -13748,7 +14407,9 @@
               "地址快照"
             ]
           }
-        ]
+        ],
+        "aliases": [],
+        "city_id": "city_nanchang"
       }
     ]
   },
@@ -13889,9 +14550,12 @@
       "高效游览"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "experience_verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "experience_only",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -13903,6 +14567,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "15",
     "children": []
   },
@@ -14043,9 +14709,12 @@
       "文化慢游"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "experience_verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "experience_only",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -14057,6 +14726,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "16",
     "children": []
   },
@@ -14195,9 +14866,12 @@
       "品质住宿"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "experience_verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "experience_only",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -14209,6 +14883,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "17",
     "children": []
   },
@@ -14347,9 +15023,12 @@
       "红谷滩"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "experience_verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "experience_only",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -14361,6 +15040,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "18",
     "children": []
   },
@@ -14494,9 +15175,12 @@
       "行李友好"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "experience_verified",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "complete",
+      "verification_level": "experience_only",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -14509,6 +15193,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "19",
     "children": []
   },
@@ -14651,9 +15337,12 @@
       "性价比"
     ],
     "metadata": {
-      "schema_version": "1.0",
-      "data_status": "draft",
-      "last_verified_at": "2026-08-24"
+      "schema_version": "2.0",
+      "content_status": "draft",
+      "verification_level": "unverified",
+      "time_sensitivity": "medium",
+      "last_verified_at": "2026-08-24",
+      "next_review_at": null
     },
     "sources": [
       {
@@ -14673,6 +15362,8 @@
         ]
       }
     ],
+    "aliases": [],
+    "city_id": "city_nanchang",
     "map_index": "20",
     "children": []
   }

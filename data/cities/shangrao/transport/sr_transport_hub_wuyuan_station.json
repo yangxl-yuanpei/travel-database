@@ -1,9 +1,100 @@
 {
-  "id": "sr_transport_hub_wuyuan_station", "name": "婺源站县域旅游换乘枢纽", "city": "上饶", "node_type": "transport", "category": ["高铁站", "婺源东线换乘", "县域枢纽"],
-  "location": {"address": "江西省上饶市婺源县紫阳镇古北一路", "latitude": 29.23928, "longitude": 117.877037, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFFH8ZPK"},
-  "transport_role": {"level": "secondary_hub", "serves": ["婺源县城", "篁岭", "江湾", "婺女洲", "婺源东线与北线"], "boarding_note": "县域班车可能按线路、客流和季节调整，返程应在出发前确认。"},
-  "dynamic_fields": ["班车线路", "拼车点", "票价", "末班", "节假日加班车"],
-  "experience_layer": {"source": ["上饶攻略截图160、170、173、176、181、201-203"], "confidence": {"overall": "high"}, "positive": [{"content": "比每天回上饶市区更适合作为婺源多日游换乘中心", "type": "county_hub"}], "avoid": [{"content": "县域班次少且收班早，临时拼车议价和安全风险较高", "risk": "last_mile", "severity": "high"}], "visit_tips": ["东线与北线分开规划", "提前约定拼车总价与下车点", "国庆返程高铁前预留较大缓冲"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 30, "recommended_min_minutes": 45, "recommended_max_minutes": 90}, "ai_note": "涉及两个以上婺源节点时优先把住宿和交通锚点转移到婺源县城。"},
-  "tags": ["婺源站", "县域班车", "婺源东线", "换乘"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：婺源站", "url": "https://www.amap.com/place/B0FFFH8ZPK", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_transport_hub_wuyuan_station",
+  "name": "婺源站县域旅游换乘枢纽",
+  "city": "上饶",
+  "node_type": "transport",
+  "category": [
+    "高铁站",
+    "婺源东线换乘",
+    "县域枢纽"
+  ],
+  "location": {
+    "address": "江西省上饶市婺源县紫阳镇古北一路",
+    "latitude": 29.23928,
+    "longitude": 117.877037,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFFH8ZPK"
+  },
+  "transport_role": {
+    "level": "secondary_hub",
+    "serves": [
+      "婺源县城",
+      "篁岭",
+      "江湾",
+      "婺女洲",
+      "婺源东线与北线"
+    ],
+    "boarding_note": "县域班车可能按线路、客流和季节调整，返程应在出发前确认。"
+  },
+  "dynamic_fields": [
+    "班车线路",
+    "拼车点",
+    "票价",
+    "末班",
+    "节假日加班车"
+  ],
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图160、170、173、176、181、201-203"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "比每天回上饶市区更适合作为婺源多日游换乘中心",
+        "type": "county_hub"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "县域班次少且收班早，临时拼车议价和安全风险较高",
+        "risk": "last_mile",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "东线与北线分开规划",
+      "提前约定拼车总价与下车点",
+      "国庆返程高铁前预留较大缓冲"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 30,
+      "recommended_min_minutes": 45,
+      "recommended_max_minutes": 90
+    },
+    "ai_note": "涉及两个以上婺源节点时优先把住宿和交通锚点转移到婺源县城。"
+  },
+  "tags": [
+    "婺源站",
+    "县域班车",
+    "婺源东线",
+    "换乘"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：婺源站",
+      "url": "https://www.amap.com/place/B0FFFH8ZPK",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

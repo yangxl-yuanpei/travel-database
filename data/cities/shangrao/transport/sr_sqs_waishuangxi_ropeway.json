@@ -4,16 +4,61 @@
   "city": "上饶",
   "node_type": "transport",
   "parent_id": "sr_sanqingshan",
-  "category": ["景区索道", "南部入口"],
-  "location": {"address": "江西省上饶市玉山县三清山外双溪服务区", "latitude": 28.879391, "longitude": 118.066423, "coordinate_system": "GCJ-02", "amap_poi_id": "B03190R9EG"},
+  "category": [
+    "景区索道",
+    "南部入口"
+  ],
+  "location": {
+    "address": "江西省上饶市玉山县三清山外双溪服务区",
+    "latitude": 28.879391,
+    "longitude": 118.066423,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B03190R9EG"
+  },
   "official_info": {
     "description": "三清山南部主要索道入口。运行时间及相关步道开放状态随季节、天气和客流动态调整。",
-    "ticket": {"round_trip": 125, "up": 70, "down": 55, "currency": "CNY", "scope": "成人常规票价", "verified_at": "2026-08-24"}
+    "ticket": {
+      "round_trip": 125,
+      "up": 70,
+      "down": 55,
+      "currency": "CNY",
+      "scope": "成人常规票价",
+      "verified_at": "2026-08-24"
+    }
   },
-  "tags": ["南部入口", "外双溪服务区", "动态运营"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "tags": [
+    "南部入口",
+    "外双溪服务区",
+    "动态运营"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
   "sources": [
-    {"name": "三清山官网：2026年度常规优免政策", "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html", "scope": ["往返票价", "上行票价", "下行票价"]},
-    {"name": "高德地图：外双溪索道下站", "url": "https://www.amap.com/place/B03190R9EG", "scope": ["坐标", "POI ID", "入口位置"]}
-  ]
+    {
+      "name": "三清山官网：2026年度常规优免政策",
+      "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+      "scope": [
+        "往返票价",
+        "上行票价",
+        "下行票价"
+      ]
+    },
+    {
+      "name": "高德地图：外双溪索道下站",
+      "url": "https://www.amap.com/place/B03190R9EG",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "入口位置"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

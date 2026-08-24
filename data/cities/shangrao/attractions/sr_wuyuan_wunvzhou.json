@@ -1,12 +1,151 @@
 {
-  "id": "sr_wuyuan_wunvzhou", "name": "婺女洲度假区", "short_name": "婺女洲", "city": "上饶", "node_type": "attraction",
-  "category": ["文化度假区", "夜游", "实景演艺", "婺源节点"],
-  "location": {"address": "江西省上饶市婺源县文公北路8号", "latitude": 29.284812, "longitude": 117.858482, "coordinate_system": "GCJ-02", "amap_poi_id": "B0I6YAU3C4"},
-  "official_info": {"description": "以婺源徽派文化、湖区夜游和演艺体验为核心的文化度假区。", "opening_hours": {"status": "dynamic_by_performance_calendar"}, "ticket": {"status": "dynamic_by_package_and_event"}},
-  "reservation": {"required": null, "notes": "演出、烟花和游船受日期与天气影响，需在官方渠道复核。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "medium", "primary_hubs": ["婺源站", "婺源县城"], "public_transport": [{"from": "婺源站", "mode": "公交/网约车", "status": "dynamic_route"}], "self_drive": {"suitable": true, "risk": ["夜游散场拥堵"]}, "return_risk": "medium_after_show", "same_day_pairing": {"recommended": ["婺源县城", "上饶市博物馆非同日"], "avoid": ["三清山深度游"]}, "holiday_risk": ["演出时段集中客流", "烟花活动临时调整"], "dynamic_checks": ["当日演出单", "烟花与游船", "散场交通"]},
-  "experience_layer": {"source": ["上饶攻略截图153、158、170、178、181、197"], "confidence": {"overall": "high"}, "positive": [{"content": "抱玉塔、湖面倒影、徽派建筑与夜间演艺适合夜景摄影", "type": "night_photo"}], "avoid": [{"content": "只在上午停留半天会错过主要夜游价值", "risk": "wrong_time", "severity": "high"}], "visit_tips": ["下午入园，先看建筑与湖区，晚间覆盖亮灯和核心演出", "烟花并非每日固定，应以当日节目单为准"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 240, "recommended_min_minutes": 300, "recommended_max_minutes": 420}, "ai_note": "夜游和亲子演艺权重高；纯历史深度游客或早睡用户降权。"},
-  "ai_score": {"history": 2, "photo": 5, "family": 5, "rain_day": 2, "crowd_risk": 5, "first_visit": 4}, "tags": ["婺女洲", "夜游", "演艺", "婺源"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "婺源文旅发展新闻发布：婺女洲非遗体验", "url": "https://xjq.nc.gov.cn/xjqrmzf/xjbmzwdt25/202509/c411f35b32be4d2db6b7ab437947c93e.shtml", "scope": ["婺女洲文旅定位"]}, {"name": "高德地图：婺女洲度假区", "url": "https://www.amap.com/place/B0I6YAU3C4", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_wuyuan_wunvzhou",
+  "name": "婺女洲度假区",
+  "short_name": "婺女洲",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "文化度假区",
+    "夜游",
+    "实景演艺",
+    "婺源节点"
+  ],
+  "location": {
+    "address": "江西省上饶市婺源县文公北路8号",
+    "latitude": 29.284812,
+    "longitude": 117.858482,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0I6YAU3C4"
+  },
+  "official_info": {
+    "description": "以婺源徽派文化、湖区夜游和演艺体验为核心的文化度假区。",
+    "opening_hours": {
+      "status": "dynamic_by_performance_calendar"
+    },
+    "ticket": {
+      "status": "dynamic_by_package_and_event"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "演出、烟花和游船受日期与天气影响，需在官方渠道复核。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "medium",
+    "primary_hubs": [
+      "婺源站",
+      "婺源县城"
+    ],
+    "public_transport": [
+      {
+        "from": "婺源站",
+        "mode": "公交/网约车",
+        "status": "dynamic_route"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "夜游散场拥堵"
+      ]
+    },
+    "return_risk": "medium_after_show",
+    "same_day_pairing": {
+      "recommended": [
+        "婺源县城",
+        "上饶市博物馆非同日"
+      ],
+      "avoid": [
+        "三清山深度游"
+      ]
+    },
+    "holiday_risk": [
+      "演出时段集中客流",
+      "烟花活动临时调整"
+    ],
+    "dynamic_checks": [
+      "当日演出单",
+      "烟花与游船",
+      "散场交通"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、158、170、178、181、197"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "抱玉塔、湖面倒影、徽派建筑与夜间演艺适合夜景摄影",
+        "type": "night_photo"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "只在上午停留半天会错过主要夜游价值",
+        "risk": "wrong_time",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "下午入园，先看建筑与湖区，晚间覆盖亮灯和核心演出",
+      "烟花并非每日固定，应以当日节目单为准"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 240,
+      "recommended_min_minutes": 300,
+      "recommended_max_minutes": 420
+    },
+    "ai_note": "夜游和亲子演艺权重高；纯历史深度游客或早睡用户降权。"
+  },
+  "ai_score": {
+    "history": 2,
+    "photo": 5,
+    "family": 5,
+    "rain_day": 2,
+    "crowd_risk": 5,
+    "first_visit": 4
+  },
+  "tags": [
+    "婺女洲",
+    "夜游",
+    "演艺",
+    "婺源"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "婺源文旅发展新闻发布：婺女洲非遗体验",
+      "url": "https://xjq.nc.gov.cn/xjqrmzf/xjbmzwdt25/202509/c411f35b32be4d2db6b7ab437947c93e.shtml",
+      "scope": [
+        "婺女洲文旅定位"
+      ]
+    },
+    {
+      "name": "高德地图：婺女洲度假区",
+      "url": "https://www.amap.com/place/B0I6YAU3C4",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

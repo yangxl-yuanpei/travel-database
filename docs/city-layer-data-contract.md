@@ -51,7 +51,7 @@ python scripts/import_nanchang_food.py <nanchang_food_candidates_raw.json>
 3. 高德坐标统一转换为 GCJ-02 数值，经纬度缺失或匹配冲突的候选不进入地图；
 4. 游客截图、第三方地图和点评摘要分别保存，第三方资料不得进入官方事实层；
 5. 不保存点评原文、电话号码或 API Key；
-6. 未人工核验的数据保持 `metadata.data_status = "draft"`。
+6. 未人工核验的数据保持 `metadata.content_status = "draft"` 与 `metadata.verification_level = "unverified"`。
 
 ## 住宿图层
 
@@ -98,7 +98,7 @@ python scripts/import_nanchang_food.py <nanchang_food_candidates_raw.json>
 2. 截图中的酒店价格属于发布时样本，不进入数据库；
 3. 高德 POI 只负责区域锚点和路线计算，不代表推荐某家酒店；
 4. 节假日涨价、噪声和人流均为风险等级，不是实时结论；
-5. `metadata.data_status` 用于区分多源经验已核对与仍需补样的节点。
+5. `metadata.content_status` 与 `metadata.verification_level` 分别表达完成度和证据等级。
 
 ## 自动接入步骤
 

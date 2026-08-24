@@ -4,24 +4,148 @@
   "short_name": "南昌西站",
   "city": "南昌",
   "node_type": "accommodation_area",
-  "category": ["高铁抵离住宿区", "新区住宿区", "交通前置区"],
-  "location": {"address": "江西省南昌市红谷滩区西站大街1号周边", "latitude": 28.622886, "longitude": 115.792938, "coordinate_system": "GCJ-02", "amap_poi_id": "B03170UJ1R", "map_anchor": "南昌西站", "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"},
-  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": [], "hotel_search_radius_m": 2500, "hotel_search_keywords": ["酒店", "公寓式酒店"]},
-  "suitable_for": ["早班或晚班高铁", "短暂停留", "携带大件行李", "第二天离昌"],
-  "transit_profile": {"rail_station_access": "南昌西站抵离最便利", "public_transport": "可通过地铁进入红谷滩和老城区", "walkability": "主要价值是车站接驳，城市景点不适合步行串联", "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"},
-  "experience": {"summary": "解决高铁抵离与行李负担，不适合作为老城深度游的默认住宿区。", "best_for": ["早晚高铁", "一晚过渡", "行李较多"], "highlights": ["高铁接驳直接", "新区住宿供给", "减少赶车风险"], "avoid": ["距离老城核心景点较远", "若连续多日游览会增加往返通勤"], "holiday_price_risk": "medium-high", "night_noise_risk": "medium"},
+  "category": [
+    "高铁抵离住宿区",
+    "新区住宿区",
+    "交通前置区"
+  ],
+  "location": {
+    "address": "江西省南昌市红谷滩区西站大街1号周边",
+    "latitude": 28.622886,
+    "longitude": 115.792938,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B03170UJ1R",
+    "map_anchor": "南昌西站",
+    "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"
+  },
+  "spatial_layer": {
+    "boundary_status": "conceptual_area",
+    "related_node_ids": [],
+    "hotel_search_radius_m": 2500,
+    "hotel_search_keywords": [
+      "酒店",
+      "公寓式酒店"
+    ]
+  },
+  "suitable_for": [
+    "早班或晚班高铁",
+    "短暂停留",
+    "携带大件行李",
+    "第二天离昌"
+  ],
+  "transit_profile": {
+    "rail_station_access": "南昌西站抵离最便利",
+    "public_transport": "可通过地铁进入红谷滩和老城区",
+    "walkability": "主要价值是车站接驳，城市景点不适合步行串联",
+    "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"
+  },
+  "experience": {
+    "summary": "解决高铁抵离与行李负担，不适合作为老城深度游的默认住宿区。",
+    "best_for": [
+      "早晚高铁",
+      "一晚过渡",
+      "行李较多"
+    ],
+    "highlights": [
+      "高铁接驳直接",
+      "新区住宿供给",
+      "减少赶车风险"
+    ],
+    "avoid": [
+      "距离老城核心景点较远",
+      "若连续多日游览会增加往返通勤"
+    ],
+    "holiday_price_risk": "medium-high",
+    "night_noise_risk": "medium"
+  },
   "experience_layer": {
-    "source": ["游客攻略截图107", "游客攻略截图108"],
-    "confidence": {"overall": "medium", "reason": "车站便利性明确，住宿体验仍取决于具体酒店"},
-    "positive": [{"content": "适合降低早班或晚班高铁的赶车风险", "type": "station_access"}, {"content": "携带大件行李时可减少跨城内转运", "type": "luggage"}],
-    "avoid": [{"content": "多日老城游览会产生重复通勤", "risk": "commute", "severity": "high"}, {"content": "不能因靠近车站就默认房间安静，应查看朝向与隔音评价", "risk": "noise", "severity": "medium"}],
-    "visit_tips": ["仅在抵达过晚、离开过早或行李较多时显著加权", "核查具体酒店到进站口的真实步行路线", "多日行程可考虑只在最后一晚换住此区"],
-    "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium", "peak_time": ["节假日铁路到发高峰"]},
+    "source": [
+      "游客攻略截图107",
+      "游客攻略截图108"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "车站便利性明确，住宿体验仍取决于具体酒店"
+    },
+    "positive": [
+      {
+        "content": "适合降低早班或晚班高铁的赶车风险",
+        "type": "station_access"
+      },
+      {
+        "content": "携带大件行李时可减少跨城内转运",
+        "type": "luggage"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "多日老城游览会产生重复通勤",
+        "risk": "commute",
+        "severity": "high"
+      },
+      {
+        "content": "不能因靠近车站就默认房间安静，应查看朝向与隔音评价",
+        "risk": "noise",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "仅在抵达过晚、离开过早或行李较多时显著加权",
+      "核查具体酒店到进站口的真实步行路线",
+      "多日行程可考虑只在最后一晚换住此区"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "medium",
+      "peak_time": [
+        "节假日铁路到发高峰"
+      ]
+    },
     "ai_note": "高铁时刻和行李是核心触发条件；否则应被老城与红谷滩中心区域压低排名。"
   },
-  "ai_score": {"first_visit": 2, "transit": 5, "walkability": 1, "quiet": 3, "river_view": 1, "value": 4, "holiday_price_risk": 4},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
-  "tags": ["南昌西站", "高铁", "早晚抵离", "行李友好"],
-  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：南昌西站", "url": "https://ditu.amap.com/place/B03170UJ1R", "scope": ["锚点坐标", "POI ID", "地址"]}]
+  "ai_score": {
+    "first_visit": 2,
+    "transit": 5,
+    "walkability": 1,
+    "quiet": 3,
+    "river_view": 1,
+    "value": 4,
+    "holiday_price_risk": 4
+  },
+  "amap_integration": {
+    "dynamic_fields": [
+      "attraction_commute",
+      "station_transfer",
+      "hotel_poi_search"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "tags": [
+    "南昌西站",
+    "高铁",
+    "早晚抵离",
+    "行李友好"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：南昌西站",
+      "url": "https://ditu.amap.com/place/B03170UJ1R",
+      "scope": [
+        "锚点坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

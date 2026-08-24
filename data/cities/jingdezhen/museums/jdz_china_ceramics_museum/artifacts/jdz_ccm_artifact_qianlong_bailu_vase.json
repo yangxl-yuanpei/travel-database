@@ -1,6 +1,46 @@
 {
-  "id": "jdz_ccm_artifact_qianlong_bailu_vase", "name": "清乾隆粉彩兽耳百鹿尊", "city": "景德镇", "node_type": "artifact", "parent_id": "jdz_china_ceramics_museum",
-  "official_info": {"category": "粉彩瓷", "period": "清乾隆", "description": "景德镇市政府专题报道列出的馆藏代表文物之一。", "source_url": "https://www.jdz.gov.cn/zwzx/tpxw/t1095082.shtml", "verified_at": "2026-08-24", "status": "verified_identity_display_dynamic"},
-  "experience": {"importance": 5, "photo_value": 5, "recognition_value": 4, "viewing_notes": ["观察百鹿图景与兽耳造型", "与宋代青白瓷对比色彩和装饰密度"]},
-  "related_exhibition_ids": ["jdz_ccm_exh_ceramic_history"], "tags": ["清代", "乾隆", "粉彩", "百鹿尊", "代表文物"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "id": "jdz_ccm_artifact_qianlong_bailu_vase",
+  "name": "清乾隆粉彩兽耳百鹿尊",
+  "city": "景德镇",
+  "node_type": "artifact",
+  "parent_id": "jdz_china_ceramics_museum",
+  "official_info": {
+    "category": "粉彩瓷",
+    "period": "清乾隆",
+    "description": "景德镇市政府专题报道列出的馆藏代表文物之一。",
+    "source_url": "https://www.jdz.gov.cn/zwzx/tpxw/t1095082.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_identity_display_dynamic"
+  },
+  "experience": {
+    "importance": 5,
+    "photo_value": 5,
+    "recognition_value": 4,
+    "viewing_notes": [
+      "观察百鹿图景与兽耳造型",
+      "与宋代青白瓷对比色彩和装饰密度"
+    ]
+  },
+  "related_exhibition_ids": [
+    "jdz_ccm_exh_ceramic_history"
+  ],
+  "tags": [
+    "清代",
+    "乾隆",
+    "粉彩",
+    "百鹿尊",
+    "代表文物"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_jingdezhen"
 }

@@ -1,12 +1,167 @@
 {
-  "id": "sr_wangxiangu", "name": "望仙谷景区", "city": "上饶", "node_type": "attraction",
-  "category": ["峡谷型景区", "夜游", "国家4A级旅游景区", "远郊节点"],
-  "location": {"address": "江西省上饶市广信区望仙乡636县道", "latitude": 28.679503, "longitude": 117.819171, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFKHIMXK"},
-  "official_info": {"description": "位于广信区北部灵山余脉，由废弃矿区生态修复转型形成的峡谷型文旅景区，已获评国家4A级旅游景区。", "opening_hours": {"status": "dynamic_by_season_and_event"}, "ticket": {"status": "dynamic_official_channel"}},
-  "reservation": {"required": null, "notes": "普通日期与节假日规则动态变化，须通过景区官方渠道复核。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["上饶站南广场旅游集散区"], "public_transport": [{"from": "上饶站", "mode": "景区直达班线/站点巴士", "status": "dynamic_schedule", "notes": "班次受季节和客流调整，去程与返程应同时购票或确认。"}], "self_drive": {"suitable": true, "risk": ["山区道路", "节假日停车紧张", "夜间返程"]}, "last_mile": "抵达景区游客中心后以步行为主；住景区外需确认接送。", "return_risk": "high_after_night_show", "same_day_pairing": {"recommended": [], "avoid": ["三清山", "葛仙村", "婺源篁岭"]}, "holiday_risk": ["热门时段直达车售罄", "景区入口拥堵", "夜游散场集中"], "dynamic_checks": ["官方班车发车点与末班", "演出与亮灯时刻", "返程车辆预约"]},
-  "experience_layer": {"source": ["上饶攻略截图153、159、170、176、179、181、189、199"], "confidence": {"overall": "high", "reason": "多份攻略对夜游时段、交通风险和停留方式结论一致"}, "positive": [{"content": "峡谷、瀑布、悬崖建筑与夜景组合具有很强摄影价值", "type": "night_photo"}, {"content": "下午入园可同时覆盖日景与亮灯后的夜景", "type": "time_strategy"}], "avoid": [{"content": "不宜与三清山安排在同一天", "risk": "overplanning", "severity": "high"}, {"content": "看完夜景再临时寻找返程车辆风险高", "risk": "return_transport", "severity": "high"}], "visit_tips": ["首次到访优先下午入园并预留完整夜游时段", "先确认返程再进入景区", "国庆不要依赖现场揽客车辆"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 240, "recommended_min_minutes": 300, "recommended_max_minutes": 480}, "ai_note": "夜景与摄影权重高；拒绝拥挤、无返程方案或当天还安排山岳景区时显著降权。"},
-  "ai_score": {"history": 2, "photo": 5, "family": 4, "rain_day": 2, "crowd_risk": 5, "first_visit": 5}, "tags": ["望仙谷", "夜游", "远郊", "摄影", "返程风险"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "国家林业和草原局：江西上饶望仙谷从石矿经济到生态经济", "url": "https://www.forestry.gov.cn/c/www/lcstly/635216.jhtml", "scope": ["区位", "生态修复", "国家4A级景区"]}, {"name": "高德地图：望仙谷景区", "url": "https://www.amap.com/place/B0FFKHIMXK", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_wangxiangu",
+  "name": "望仙谷景区",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "峡谷型景区",
+    "夜游",
+    "国家4A级旅游景区",
+    "远郊节点"
+  ],
+  "location": {
+    "address": "江西省上饶市广信区望仙乡636县道",
+    "latitude": 28.679503,
+    "longitude": 117.819171,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFKHIMXK"
+  },
+  "official_info": {
+    "description": "位于广信区北部灵山余脉，由废弃矿区生态修复转型形成的峡谷型文旅景区，已获评国家4A级旅游景区。",
+    "opening_hours": {
+      "status": "dynamic_by_season_and_event"
+    },
+    "ticket": {
+      "status": "dynamic_official_channel"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "普通日期与节假日规则动态变化，须通过景区官方渠道复核。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "high",
+    "primary_hubs": [
+      "上饶站南广场旅游集散区"
+    ],
+    "public_transport": [
+      {
+        "from": "上饶站",
+        "mode": "景区直达班线/站点巴士",
+        "status": "dynamic_schedule",
+        "notes": "班次受季节和客流调整，去程与返程应同时购票或确认。"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "山区道路",
+        "节假日停车紧张",
+        "夜间返程"
+      ]
+    },
+    "last_mile": "抵达景区游客中心后以步行为主；住景区外需确认接送。",
+    "return_risk": "high_after_night_show",
+    "same_day_pairing": {
+      "recommended": [],
+      "avoid": [
+        "三清山",
+        "葛仙村",
+        "婺源篁岭"
+      ]
+    },
+    "holiday_risk": [
+      "热门时段直达车售罄",
+      "景区入口拥堵",
+      "夜游散场集中"
+    ],
+    "dynamic_checks": [
+      "官方班车发车点与末班",
+      "演出与亮灯时刻",
+      "返程车辆预约"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、159、170、176、179、181、189、199"
+    ],
+    "confidence": {
+      "overall": "high",
+      "reason": "多份攻略对夜游时段、交通风险和停留方式结论一致"
+    },
+    "positive": [
+      {
+        "content": "峡谷、瀑布、悬崖建筑与夜景组合具有很强摄影价值",
+        "type": "night_photo"
+      },
+      {
+        "content": "下午入园可同时覆盖日景与亮灯后的夜景",
+        "type": "time_strategy"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "不宜与三清山安排在同一天",
+        "risk": "overplanning",
+        "severity": "high"
+      },
+      {
+        "content": "看完夜景再临时寻找返程车辆风险高",
+        "risk": "return_transport",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "首次到访优先下午入园并预留完整夜游时段",
+      "先确认返程再进入景区",
+      "国庆不要依赖现场揽客车辆"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 240,
+      "recommended_min_minutes": 300,
+      "recommended_max_minutes": 480
+    },
+    "ai_note": "夜景与摄影权重高；拒绝拥挤、无返程方案或当天还安排山岳景区时显著降权。"
+  },
+  "ai_score": {
+    "history": 2,
+    "photo": 5,
+    "family": 4,
+    "rain_day": 2,
+    "crowd_risk": 5,
+    "first_visit": 5
+  },
+  "tags": [
+    "望仙谷",
+    "夜游",
+    "远郊",
+    "摄影",
+    "返程风险"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "国家林业和草原局：江西上饶望仙谷从石矿经济到生态经济",
+      "url": "https://www.forestry.gov.cn/c/www/lcstly/635216.jhtml",
+      "scope": [
+        "区位",
+        "生态修复",
+        "国家4A级景区"
+      ]
+    },
+    {
+      "name": "高德地图：望仙谷景区",
+      "url": "https://www.amap.com/place/B0FFKHIMXK",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

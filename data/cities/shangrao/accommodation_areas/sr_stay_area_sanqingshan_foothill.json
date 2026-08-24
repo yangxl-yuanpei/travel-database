@@ -1,8 +1,103 @@
 {
-  "id":"sr_stay_area_sanqingshan_foothill","name":"三清山金沙/外双溪山脚住宿区","short_name":"三清山山脚","city":"上饶","node_type":"accommodation_area","category":["山脚住宿区","早登山"],
-  "location":{"address":"江西省上饶市玉山县三清山金沙索道服务区","latitude":28.923172,"longitude":118.093636,"coordinate_system":"GCJ-02","amap_poi_id":"B0FFFQZC4M","map_anchor":"金沙索道进站口","anchor_rule":"金沙仅为默认锚点；外双溪需单独检索"},
-  "spatial_layer":{"boundary_status":"two_gate_area","related_node_ids":["sr_sanqingshan","sr_sqs_jinsha_ropeway","sr_sqs_waishuangxi_ropeway"],"hotel_search_radius_m":4000,"hotel_search_keywords":["酒店","民宿","客栈"]},
-  "suitable_for":["早登山","避开市区往返","看日出前后","深度山岳游"],"transit_profile":{"rail_station_access":"弱，不适合作为返程高铁前夜默认区域","public_transport":"依赖景区班线且必须匹配金沙或外双溪入口","walkability":"选对入口后可步行到索道，选错入口则不可替代","dynamic_note":"酒店搜索必须带索道入口关键词"},
-  "experience_layer":{"source":["上饶攻略截图160、172、177、202-203"],"confidence":{"overall":"high"},"positive":[{"content":"可在早晨索道开放前抵达，降低市区往返压力","type":"early_access"}],"avoid":[{"content":"误订到另一索道入口会造成交通错配","risk":"wrong_gate_stay","severity":"high"}],"visit_tips":["先定游览入口再订住宿","确认酒店是否提供班车接送和行李寄存","返程日不要安排过早高铁"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"ai_note":"三清山深度游和早登山高权重；公共交通过境游客需谨慎。"},
-  "ai_score":{"first_visit":4,"transit":2,"walkability":5,"quiet":4,"value":3,"holiday_price_risk":5},"tags":["三清山","金沙","外双溪","山脚住宿"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}
+  "id": "sr_stay_area_sanqingshan_foothill",
+  "name": "三清山金沙/外双溪山脚住宿区",
+  "short_name": "三清山山脚",
+  "city": "上饶",
+  "node_type": "accommodation_area",
+  "category": [
+    "山脚住宿区",
+    "早登山"
+  ],
+  "location": {
+    "address": "江西省上饶市玉山县三清山金沙索道服务区",
+    "latitude": 28.923172,
+    "longitude": 118.093636,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFFQZC4M",
+    "map_anchor": "金沙索道进站口",
+    "anchor_rule": "金沙仅为默认锚点；外双溪需单独检索"
+  },
+  "spatial_layer": {
+    "boundary_status": "two_gate_area",
+    "related_node_ids": [
+      "sr_sanqingshan",
+      "sr_sqs_jinsha_ropeway",
+      "sr_sqs_waishuangxi_ropeway"
+    ],
+    "hotel_search_radius_m": 4000,
+    "hotel_search_keywords": [
+      "酒店",
+      "民宿",
+      "客栈"
+    ]
+  },
+  "suitable_for": [
+    "早登山",
+    "避开市区往返",
+    "看日出前后",
+    "深度山岳游"
+  ],
+  "transit_profile": {
+    "rail_station_access": "弱，不适合作为返程高铁前夜默认区域",
+    "public_transport": "依赖景区班线且必须匹配金沙或外双溪入口",
+    "walkability": "选对入口后可步行到索道，选错入口则不可替代",
+    "dynamic_note": "酒店搜索必须带索道入口关键词"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图160、172、177、202-203"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "可在早晨索道开放前抵达，降低市区往返压力",
+        "type": "early_access"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "误订到另一索道入口会造成交通错配",
+        "risk": "wrong_gate_stay",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "先定游览入口再订住宿",
+      "确认酒店是否提供班车接送和行李寄存",
+      "返程日不要安排过早高铁"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "ai_note": "三清山深度游和早登山高权重；公共交通过境游客需谨慎。"
+  },
+  "ai_score": {
+    "first_visit": 4,
+    "transit": 2,
+    "walkability": 5,
+    "quiet": 4,
+    "value": 3,
+    "holiday_price_risk": 5
+  },
+  "tags": [
+    "三清山",
+    "金沙",
+    "外双溪",
+    "山脚住宿"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
 }

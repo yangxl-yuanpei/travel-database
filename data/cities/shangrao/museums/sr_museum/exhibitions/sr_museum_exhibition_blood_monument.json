@@ -1,1 +1,54 @@
-{"id":"sr_museum_exhibition_blood_monument","name":"热血丰碑","city":"上饶","node_type":"permanent_exhibition","parent_id":"sr_museum","theme":"上饶革命历史与红色文化","importance":5,"official_info":{"status":"permanent_exhibition","description":"展示闽浙赣革命根据地、上饶集中营及上饶解放等区域革命历史。"},"experience_layer":{"source":["上饶市博物馆公开展陈资料"],"confidence":{"overall":"high"},"positive":[{"content":"适合建立上饶红色历史框架","type":"history_context"}],"avoid":[],"visit_tips":["可与上饶集中营名胜区形成先总览后实地的知识链"],"crowd_model":{"national_holiday":"medium-high","weekday":"low"},"recommended_duration":{"minimum_minutes":20,"recommended_min_minutes":30,"recommended_max_minutes":45},"ai_note":"红色历史偏好高。"},"metadata":{"schema_version":"1.0","data_status":"verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_museum_exhibition_blood_monument",
+  "name": "热血丰碑",
+  "city": "上饶",
+  "node_type": "permanent_exhibition",
+  "parent_id": "sr_museum",
+  "theme": "上饶革命历史与红色文化",
+  "importance": 5,
+  "official_info": {
+    "status": "permanent_exhibition",
+    "description": "展示闽浙赣革命根据地、上饶集中营及上饶解放等区域革命历史。"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶市博物馆公开展陈资料"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "适合建立上饶红色历史框架",
+        "type": "history_context"
+      }
+    ],
+    "avoid": [],
+    "visit_tips": [
+      "可与上饶集中营名胜区形成先总览后实地的知识链"
+    ],
+    "crowd_model": {
+      "national_holiday": "medium-high",
+      "weekday": "low"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 20,
+      "recommended_min_minutes": 30,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "红色历史偏好高。"
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "tags": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

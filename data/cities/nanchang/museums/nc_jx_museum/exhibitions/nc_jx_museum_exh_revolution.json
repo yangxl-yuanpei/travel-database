@@ -16,14 +16,30 @@
   "experience": {
     "importance": 4,
     "recommended_duration_minutes": 45,
-    "suitable_for": ["近现代史爱好者"],
-    "highlights": ["南昌起义", "井冈山斗争", "中央苏区与长征"]
+    "suitable_for": [
+      "近现代史爱好者"
+    ],
+    "highlights": [
+      "南昌起义",
+      "井冈山斗争",
+      "中央苏区与长征"
+    ]
   },
   "related_artifact_ids": [],
-  "tags": ["江西革命史", "常设展"],
+  "tags": [
+    "江西革命史",
+    "常设展"
+  ],
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "verified",
-    "last_verified_at": "2026-08-24"
-  }
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

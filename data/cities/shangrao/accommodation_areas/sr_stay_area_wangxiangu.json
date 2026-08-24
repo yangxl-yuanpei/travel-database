@@ -1,8 +1,101 @@
 {
-  "id":"sr_stay_area_wangxiangu","name":"望仙谷景区内外住宿区","short_name":"望仙谷住宿","city":"上饶","node_type":"accommodation_area","category":["夜游住宿区","景区民宿"],
-  "location":{"address":"江西省上饶市广信区望仙谷景区周边","latitude":28.679503,"longitude":117.819171,"coordinate_system":"GCJ-02","amap_poi_id":"B0FFKHIMXK","map_anchor":"望仙谷景区","anchor_rule":"景区内与景区外民宿体验、门票和接送条件必须分开比较"},
-  "spatial_layer":{"boundary_status":"conceptual_area","related_node_ids":["sr_wangxiangu"],"hotel_search_radius_m":5000,"hotel_search_keywords":["景区内酒店","民宿","客栈"]},
-  "suitable_for":["完整夜游","摄影","不想赶末班车","度假"],"transit_profile":{"rail_station_access":"弱","public_transport":"进出依赖景区直达车、接送或包车","walkability":"景区内住宿较强，景区外取决于接送","dynamic_note":"用高德和酒店确认实际入口、接驳与行李搬运"},
-  "experience_layer":{"source":["上饶攻略截图160、170、172、177、181"],"confidence":{"overall":"high"},"positive":[{"content":"避免夜游后集中返程，可获得清晨和深夜的景区氛围","type":"night_stay"}],"avoid":[{"content":"节假日价格波动大，景区外‘附近’不等于步行可达","risk":"price_and_access","severity":"high"}],"visit_tips":["确认住宿是否含门票、接送和行李服务","不要把截图中的历史房价写入长期数据","退房日预留回上饶站的交通缓冲"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"ai_note":"夜景和摄影权重高；预算敏感或赶早车用户降权。"},
-  "ai_score":{"first_visit":4,"transit":2,"walkability":4,"quiet":3,"value":2,"holiday_price_risk":5},"tags":["望仙谷","夜游","民宿","住宿"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}
+  "id": "sr_stay_area_wangxiangu",
+  "name": "望仙谷景区内外住宿区",
+  "short_name": "望仙谷住宿",
+  "city": "上饶",
+  "node_type": "accommodation_area",
+  "category": [
+    "夜游住宿区",
+    "景区民宿"
+  ],
+  "location": {
+    "address": "江西省上饶市广信区望仙谷景区周边",
+    "latitude": 28.679503,
+    "longitude": 117.819171,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFKHIMXK",
+    "map_anchor": "望仙谷景区",
+    "anchor_rule": "景区内与景区外民宿体验、门票和接送条件必须分开比较"
+  },
+  "spatial_layer": {
+    "boundary_status": "conceptual_area",
+    "related_node_ids": [
+      "sr_wangxiangu"
+    ],
+    "hotel_search_radius_m": 5000,
+    "hotel_search_keywords": [
+      "景区内酒店",
+      "民宿",
+      "客栈"
+    ]
+  },
+  "suitable_for": [
+    "完整夜游",
+    "摄影",
+    "不想赶末班车",
+    "度假"
+  ],
+  "transit_profile": {
+    "rail_station_access": "弱",
+    "public_transport": "进出依赖景区直达车、接送或包车",
+    "walkability": "景区内住宿较强，景区外取决于接送",
+    "dynamic_note": "用高德和酒店确认实际入口、接驳与行李搬运"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图160、170、172、177、181"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "避免夜游后集中返程，可获得清晨和深夜的景区氛围",
+        "type": "night_stay"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "节假日价格波动大，景区外‘附近’不等于步行可达",
+        "risk": "price_and_access",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "确认住宿是否含门票、接送和行李服务",
+      "不要把截图中的历史房价写入长期数据",
+      "退房日预留回上饶站的交通缓冲"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "ai_note": "夜景和摄影权重高；预算敏感或赶早车用户降权。"
+  },
+  "ai_score": {
+    "first_visit": 4,
+    "transit": 2,
+    "walkability": 4,
+    "quiet": 3,
+    "value": 2,
+    "holiday_price_risk": 5
+  },
+  "tags": [
+    "望仙谷",
+    "夜游",
+    "民宿",
+    "住宿"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
 }

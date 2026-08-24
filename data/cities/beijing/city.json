@@ -12,8 +12,34 @@
   },
   "journey_role": "北方出发地",
   "detail_status": "framework",
-  "primary_station": {"name": "北京西站", "station_code": "BXP"},
-  "child_nodes": {"attractions": [], "museums": [], "memorials": [], "food": [], "accommodation_areas": [], "transport": ["transport_beijing_nanchang"]},
-  "tags": ["出发地", "高铁直达南昌", "北方团队"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"}
+  "primary_station": {
+    "name": "北京西站",
+    "station_code": "BXP"
+  },
+  "child_nodes": {
+    "attractions": [],
+    "museums": [],
+    "memorials": [],
+    "food": [],
+    "accommodation_areas": [],
+    "transport": [
+      "transport_beijing_nanchang"
+    ]
+  },
+  "tags": [
+    "出发地",
+    "高铁直达南昌",
+    "北方团队"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "draft",
+    "verification_level": "unverified",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": []
 }

@@ -24,7 +24,15 @@ for (const path of await jsonFiles(restaurantsRoot)) {
   node.business_status ??= exactChecked
     ? { value: "searchable_on_amap", checked_at: checkedAt, status: "third_party_snapshot_dynamic_recheck_required", note: "能被高德地点搜索检出不等同于承诺当日营业；临行前仍需动态复核。" }
     : { value: null, checked_at: null, status: "dynamic_check_required", note: "POI 与坐标来自高德导入快照；营业状态需要临行前重新查询。" };
-  node.metadata = { ...node.metadata, data_status: "third_party_verified", last_verified_at: exactChecked ? checkedAt : node.metadata.last_verified_at };
+  node.metadata = {
+    ...node.metadata,
+    schema_version: "2.0",
+    content_status: "complete",
+    verification_level: "third_party",
+    time_sensitivity: "high",
+    last_verified_at: exactChecked ? checkedAt : node.metadata.last_verified_at,
+    next_review_at: node.metadata.next_review_at ?? null,
+  };
   const sourceUrl = `https://www.amap.com/place/${poiId}`;
   if (!(node.sources ?? []).some((source) => source.url === sourceUrl)) {
     node.sources = [...(node.sources ?? []), { name: "高德地图POI快照", url: sourceUrl, scope: ["坐标", "POI ID", "地址快照"] }];

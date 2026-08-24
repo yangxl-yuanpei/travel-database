@@ -4,7 +4,12 @@
   "short_name": "三清山",
   "city": "上饶",
   "node_type": "attraction",
-  "category": ["山岳型风景名胜区", "世界自然遗产", "世界地质公园", "国家5A级旅游景区"],
+  "category": [
+    "山岳型风景名胜区",
+    "世界自然遗产",
+    "世界地质公园",
+    "国家5A级旅游景区"
+  ],
   "location": {
     "address": "江西省上饶市玉山县三清乡",
     "latitude": 28.895559,
@@ -15,8 +20,15 @@
   "official_info": {
     "description": "位于江西省上饶市的花岗岩峰林型山岳景区，2008年列入《世界遗产名录》。联合国教科文组织资料强调其密集的花岗岩峰柱、森林植被与多变气象共同形成的突出景观价值。",
     "heritage_status": [
-      {"name": "世界自然遗产", "year": 2008, "criterion": "(vii)"},
-      {"name": "联合国教科文组织世界地质公园", "designation_year": 2015}
+      {
+        "name": "世界自然遗产",
+        "year": 2008,
+        "criterion": "(vii)"
+      },
+      {
+        "name": "联合国教科文组织世界地质公园",
+        "designation_year": 2015
+      }
     ],
     "contact_phone": "0793-96373",
     "opening_hours": {
@@ -26,8 +38,15 @@
       "verified_at": "2026-08-24"
     },
     "ticket": {
-      "general_admission": {"amount": 120, "currency": "CNY", "unit": "成人票"},
-      "half_price_admission": {"amount": 60, "currency": "CNY"},
+      "general_admission": {
+        "amount": 120,
+        "currency": "CNY",
+        "unit": "成人票"
+      },
+      "half_price_admission": {
+        "amount": 60,
+        "currency": "CNY"
+      },
       "ropeway_separate": true,
       "status": "verified_2026_regular_policy",
       "source_url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
@@ -37,7 +56,10 @@
   "reservation": {
     "required": true,
     "real_name_required": true,
-    "channels": ["“三清山旅游”官方微信公众号", "景区官方授权线上平台"],
+    "channels": [
+      "“三清山旅游”官方微信公众号",
+      "景区官方授权线上平台"
+    ],
     "advance_days": null,
     "notes": "景区实行实名预约购票；常规提前天数及节假日限额会动态调整，线上售罄表示当日预约量已达限额。",
     "source_url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
@@ -48,7 +70,10 @@
     "target_year": 2026,
     "status": "historical_reference_only",
     "reference_year": 2025,
-    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "period": {
+      "start": "2025-10-01",
+      "end": "2025-10-08"
+    },
     "observed_facts": {
       "opening_schedule": "10月1日、6日06:00-18:00；10月2日至5日05:30-18:00；10月7日、8日06:30-18:00",
       "reservation_rule": "全员实名制预约购票；线上售罄表示当日人数达到限额",
@@ -62,51 +87,212 @@
       "不能直接套用2025年的具体运营时刻，需在2026年9月等待专项公告"
     ],
     "sources": [
-      {"name": "三清山文化和旅游局：2025年国庆中秋开放运营公告", "url": "https://jx.ifeng.com/c/8n2s34nqlKX", "source_type": "official_republication"}
+      {
+        "name": "三清山文化和旅游局：2025年国庆中秋开放运营公告",
+        "url": "https://jx.ifeng.com/c/8n2s34nqlKX",
+        "source_type": "official_republication"
+      }
     ],
     "confidence": "high",
     "recheck_required": true,
-    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "recheck_window": [
+      "2026-09-15",
+      "2026-09-30"
+    ],
     "warning": "2025年分日运营时间、转运线路和限流安排仅用于预判2026年国庆运行模式，不是2026年执行规则。"
   },
   "child_nodes": {
-    "core_areas": ["sr_sqs_nanqingyuan", "sr_sqs_west_coast"],
-    "landmarks": ["sr_sqs_giant_python", "sr_sqs_oriental_goddess"],
-    "scenic_transport": ["sr_sqs_jinsha_ropeway", "sr_sqs_waishuangxi_ropeway", "sr_sqs_gangshou_ropeway"]
+    "core_areas": [
+      "sr_sqs_nanqingyuan",
+      "sr_sqs_west_coast"
+    ],
+    "landmarks": [
+      "sr_sqs_giant_python",
+      "sr_sqs_oriental_goddess"
+    ],
+    "scenic_transport": [
+      "sr_sqs_jinsha_ropeway",
+      "sr_sqs_waishuangxi_ropeway",
+      "sr_sqs_gangshou_ropeway"
+    ]
   },
   "remote_transport_profile": {
     "remote_level": "high",
-    "primary_hubs": ["上饶站南广场", "玉山南站", "婺源站"],
-    "public_transport": [
-      {"from": "上饶站", "mode": "景区直达班线/站点巴士", "status": "dynamic_schedule", "notes": "需先确认到金沙或外双溪服务区，入口不同会影响游览方向。"},
-      {"from": "玉山南站", "mode": "客运接驳/网约车", "status": "dynamic_schedule"},
-      {"from": "婺源", "mode": "包车/拼车或季节性景区联运", "status": "limited_direct_service"}
+    "primary_hubs": [
+      "上饶站南广场",
+      "玉山南站",
+      "婺源站"
     ],
-    "self_drive": {"suitable": true, "risk": ["盘山路", "国庆停车换乘", "天气突变"]},
+    "public_transport": [
+      {
+        "from": "上饶站",
+        "mode": "景区直达班线/站点巴士",
+        "status": "dynamic_schedule",
+        "notes": "需先确认到金沙或外双溪服务区，入口不同会影响游览方向。"
+      },
+      {
+        "from": "玉山南站",
+        "mode": "客运接驳/网约车",
+        "status": "dynamic_schedule"
+      },
+      {
+        "from": "婺源",
+        "mode": "包车/拼车或季节性景区联运",
+        "status": "limited_direct_service"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "盘山路",
+        "国庆停车换乘",
+        "天气突变"
+      ]
+    },
     "last_mile": "抵达索道服务区后依赖索道或徒步；金沙与外双溪不可视为同一入口。",
     "return_risk": "high_if_descending_late",
-    "same_day_pairing": {"recommended": [], "avoid": ["望仙谷", "篁岭", "葛仙村", "龟峰"]},
-    "holiday_risk": ["直达车与索道排队叠加", "停车场转运", "索道提前停运或天气停运"],
-    "dynamic_checks": ["进山入口", "索道运营与排队", "返程班车末班", "天气和步道开放"]
+    "same_day_pairing": {
+      "recommended": [],
+      "avoid": [
+        "望仙谷",
+        "篁岭",
+        "葛仙村",
+        "龟峰"
+      ]
+    },
+    "holiday_risk": [
+      "直达车与索道排队叠加",
+      "停车场转运",
+      "索道提前停运或天气停运"
+    ],
+    "dynamic_checks": [
+      "进山入口",
+      "索道运营与排队",
+      "返程班车末班",
+      "天气和步道开放"
+    ]
   },
   "experience_layer": {
-    "source": ["上饶攻略截图153、159、160、170、176、178、181、182、188、202-204"],
-    "confidence": {"overall": "high", "reason": "多份攻略对一日独立安排、入口选择和返程风险结论一致"},
-    "positive": [{"content": "花岗岩峰林、云海与高空栈道构成上饶最强自然景观节点之一", "type": "mountain_landscape"}, {"content": "南清园核心景观对首次到访者识别度高", "type": "first_visit"}],
-    "avoid": [{"content": "上午三清山、下午望仙谷会严重压缩游览并放大交通风险", "risk": "overplanning", "severity": "high"}, {"content": "不区分金沙与外双溪入口会造成路线和返程错配", "risk": "wrong_gate", "severity": "high"}, {"content": "游客关于‘没有电梯’的评论不适用于索道事实判断，不能写入官方层", "risk": "misinformation", "severity": "medium"}],
-    "visit_tips": ["按独立一日节点安排", "先决定入口与索道再选环线", "雨雾和大风时同时复核步道、索道和返程", "国庆提前锁定去程与返程班车"],
-    "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"},
-    "recommended_duration": {"minimum_minutes": 360, "recommended_min_minutes": 480, "recommended_max_minutes": 600},
+    "source": [
+      "上饶攻略截图153、159、160、170、176、178、181、182、188、202-204"
+    ],
+    "confidence": {
+      "overall": "high",
+      "reason": "多份攻略对一日独立安排、入口选择和返程风险结论一致"
+    },
+    "positive": [
+      {
+        "content": "花岗岩峰林、云海与高空栈道构成上饶最强自然景观节点之一",
+        "type": "mountain_landscape"
+      },
+      {
+        "content": "南清园核心景观对首次到访者识别度高",
+        "type": "first_visit"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "上午三清山、下午望仙谷会严重压缩游览并放大交通风险",
+        "risk": "overplanning",
+        "severity": "high"
+      },
+      {
+        "content": "不区分金沙与外双溪入口会造成路线和返程错配",
+        "risk": "wrong_gate",
+        "severity": "high"
+      },
+      {
+        "content": "游客关于‘没有电梯’的评论不适用于索道事实判断，不能写入官方层",
+        "risk": "misinformation",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "按独立一日节点安排",
+      "先决定入口与索道再选环线",
+      "雨雾和大风时同时复核步道、索道和返程",
+      "国庆提前锁定去程与返程班车"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 360,
+      "recommended_min_minutes": 480,
+      "recommended_max_minutes": 600
+    },
     "ai_note": "自然景观和摄影偏好最高；不想排队者必须早到并接受天气不确定性，不能和远郊夜游节点硬拼同日。"
   },
-  "related_node_ids": ["city_shangrao"],
-  "tags": ["花岗岩峰林", "世界自然遗产", "世界地质公园", "山岳景区", "实名预约"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24", "experience_status": "integrated_2026_user_materials"},
+  "related_node_ids": [
+    "city_shangrao"
+  ],
+  "tags": [
+    "花岗岩峰林",
+    "世界自然遗产",
+    "世界地质公园",
+    "山岳景区",
+    "实名预约"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": "2026-09-15",
+    "experience_status": "integrated_2026_user_materials"
+  },
   "sources": [
-    {"name": "联合国教科文组织世界遗产中心：Mount Sanqingshan National Park", "url": "https://whc.unesco.org/en/list/1292/", "scope": ["世界自然遗产", "列入年份", "突出普遍价值", "遗产范围"]},
-    {"name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark", "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark", "scope": ["世界地质公园", "花岗岩地貌", "代表景观"]},
-    {"name": "三清山官网：2026年度常规优免政策", "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html", "scope": ["门票", "索道票", "优免口径"]},
-    {"name": "三清山官网：2026年预约与游览提示", "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html", "scope": ["实名预约", "官方渠道", "动态限流", "停车转运"]},
-    {"name": "高德地图：三清山国家级旅游风景区", "url": "https://www.amap.com/place/B0319005FP", "scope": ["坐标", "POI ID", "行政区"]}
-  ]
+    {
+      "name": "联合国教科文组织世界遗产中心：Mount Sanqingshan National Park",
+      "url": "https://whc.unesco.org/en/list/1292/",
+      "scope": [
+        "世界自然遗产",
+        "列入年份",
+        "突出普遍价值",
+        "遗产范围"
+      ]
+    },
+    {
+      "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+      "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+      "scope": [
+        "世界地质公园",
+        "花岗岩地貌",
+        "代表景观"
+      ]
+    },
+    {
+      "name": "三清山官网：2026年度常规优免政策",
+      "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+      "scope": [
+        "门票",
+        "索道票",
+        "优免口径"
+      ]
+    },
+    {
+      "name": "三清山官网：2026年预约与游览提示",
+      "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
+      "scope": [
+        "实名预约",
+        "官方渠道",
+        "动态限流",
+        "停车转运"
+      ]
+    },
+    {
+      "name": "高德地图：三清山国家级旅游风景区",
+      "url": "https://www.amap.com/place/B0319005FP",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "行政区"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

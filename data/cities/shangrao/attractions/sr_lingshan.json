@@ -1,12 +1,145 @@
 {
-  "id": "sr_lingshan", "name": "上饶灵山风景名胜区", "short_name": "灵山", "city": "上饶", "node_type": "attraction",
-  "category": ["山岳景区", "花岗岩地貌", "国家级风景名胜区", "远郊节点"],
-  "location": {"address": "江西省上饶市广信区左溪村", "latitude": 28.545288, "longitude": 117.831819, "coordinate_system": "GCJ-02", "amap_poi_id": "B0319018AO"},
-  "official_info": {"description": "位于上饶市广信区的花岗岩山岳型风景名胜区，以峰林、栈道和云海景观为主要游览价值。", "opening_hours": {"status": "dynamic_by_weather_and_ropeway"}, "ticket": {"status": "dynamic_with_ropeway_separate"}},
-  "reservation": {"required": null, "notes": "入园、索道和极端天气规则须在官方渠道动态核验。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["上饶市区", "上饶站"], "public_transport": [{"from": "上饶市区", "mode": "旅游专线/县域公交", "status": "dynamic_schedule"}], "self_drive": {"suitable": true, "risk": ["山路", "天气变化", "停车"]}, "return_risk": "medium_high", "same_day_pairing": {"recommended": [], "avoid": ["三清山", "望仙谷夜游"]}, "holiday_risk": ["索道排队", "班次稀疏"], "dynamic_checks": ["索道运营", "返程班次", "天气与步道开放"]},
-  "experience_layer": {"source": ["上饶攻略截图154、157、179、181、188、200"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "相较三清山体量更轻，适合半日至一日山岳体验", "type": "lighter_hike"}], "avoid": [{"content": "下午过晚入园可能赶不上索道或完整环线", "risk": "late_entry", "severity": "high"}], "visit_tips": ["尽量早到，先核对索道收班和步道状态", "不能把游客攻略中的时间与价格当作长期规则"], "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "low-medium"}, "recommended_duration": {"minimum_minutes": 240, "recommended_min_minutes": 300, "recommended_max_minutes": 480}, "ai_note": "喜欢山岳但体力或时间不足以安排三清山时可提高权重。"},
-  "ai_score": {"history": 2, "photo": 5, "family": 3, "rain_day": 1, "crowd_risk": 4, "first_visit": 3}, "tags": ["灵山", "山岳", "栈道", "云海", "远郊"],
-  "metadata": {"schema_version": "1.0", "data_status": "third_party_verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：上饶灵山风景名胜区", "url": "https://www.amap.com/place/B0319018AO", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_lingshan",
+  "name": "上饶灵山风景名胜区",
+  "short_name": "灵山",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "山岳景区",
+    "花岗岩地貌",
+    "国家级风景名胜区",
+    "远郊节点"
+  ],
+  "location": {
+    "address": "江西省上饶市广信区左溪村",
+    "latitude": 28.545288,
+    "longitude": 117.831819,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0319018AO"
+  },
+  "official_info": {
+    "description": "位于上饶市广信区的花岗岩山岳型风景名胜区，以峰林、栈道和云海景观为主要游览价值。",
+    "opening_hours": {
+      "status": "dynamic_by_weather_and_ropeway"
+    },
+    "ticket": {
+      "status": "dynamic_with_ropeway_separate"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "入园、索道和极端天气规则须在官方渠道动态核验。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "high",
+    "primary_hubs": [
+      "上饶市区",
+      "上饶站"
+    ],
+    "public_transport": [
+      {
+        "from": "上饶市区",
+        "mode": "旅游专线/县域公交",
+        "status": "dynamic_schedule"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "山路",
+        "天气变化",
+        "停车"
+      ]
+    },
+    "return_risk": "medium_high",
+    "same_day_pairing": {
+      "recommended": [],
+      "avoid": [
+        "三清山",
+        "望仙谷夜游"
+      ]
+    },
+    "holiday_risk": [
+      "索道排队",
+      "班次稀疏"
+    ],
+    "dynamic_checks": [
+      "索道运营",
+      "返程班次",
+      "天气与步道开放"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图154、157、179、181、188、200"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "相较三清山体量更轻，适合半日至一日山岳体验",
+        "type": "lighter_hike"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "下午过晚入园可能赶不上索道或完整环线",
+        "risk": "late_entry",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "尽量早到，先核对索道收班和步道状态",
+      "不能把游客攻略中的时间与价格当作长期规则"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "low-medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 240,
+      "recommended_min_minutes": 300,
+      "recommended_max_minutes": 480
+    },
+    "ai_note": "喜欢山岳但体力或时间不足以安排三清山时可提高权重。"
+  },
+  "ai_score": {
+    "history": 2,
+    "photo": 5,
+    "family": 3,
+    "rain_day": 1,
+    "crowd_risk": 4,
+    "first_visit": 3
+  },
+  "tags": [
+    "灵山",
+    "山岳",
+    "栈道",
+    "云海",
+    "远郊"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "third_party",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：上饶灵山风景名胜区",
+      "url": "https://www.amap.com/place/B0319018AO",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

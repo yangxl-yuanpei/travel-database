@@ -15,10 +15,37 @@
   "experience": {
     "importance": 5,
     "recommended_duration_minutes": 90,
-    "suitable_for": ["第一次到访", "汉代历史爱好者", "考古爱好者"],
-    "highlights": ["刘贺墓出土文物", "车马仪仗", "墓室结构", "海昏侯国历史主线"]
+    "suitable_for": [
+      "第一次到访",
+      "汉代历史爱好者",
+      "考古爱好者"
+    ],
+    "highlights": [
+      "刘贺墓出土文物",
+      "车马仪仗",
+      "墓室结构",
+      "海昏侯国历史主线"
+    ]
   },
-  "related_artifact_ids": ["nc_haihunhou_artifact_horseshoe_gold"],
-  "tags": ["基本陈列", "金色海昏", "刘贺", "汉代"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "related_artifact_ids": [
+    "nc_haihunhou_artifact_horseshoe_gold"
+  ],
+  "tags": [
+    "基本陈列",
+    "金色海昏",
+    "刘贺",
+    "汉代"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

@@ -1,1 +1,81 @@
-{"id":"sr_route_wuyuan_huangling","name":"婺源站—篁岭景区交通链","city":"上饶","node_type":"transport","category":["县域景区班车","婺源东线"],"route_profile":{"origin_id":"sr_transport_hub_wuyuan_station","destination_id":"sr_wuyuan_huangling","preferred_modes":["景区班车","站点巴士","拼车/包车","自驾"],"status":"dynamic_schedule","fixed_fare_stored":false,"must_check":["去程班次","返程末班","索道运营","国庆东线拥堵"]},"experience_layer":{"source":["上饶攻略截图153、160、170、173、176、181、195、201-203"],"confidence":{"overall":"high"},"positive":[{"content":"婺源站是进入东线景区的合理县级枢纽","type":"county_hub"}],"avoid":[{"content":"县域班次少、收班早，晚到后临时拼车不稳定","risk":"last_bus","severity":"high"}],"visit_tips":["出站前确认返程","与江湾联游时不要假设景点间随到随走"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":45,"recommended_min_minutes":60,"recommended_max_minutes":120},"ai_note":"实际路线由高德计算，班线可用性以官方或车站公告为准。"},"related_node_ids":["sr_transport_hub_wuyuan_station","sr_wuyuan_huangling","sr_wuyuan_jiangwan"],"metadata":{"schema_version":"1.0","data_status":"time_sensitive","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_route_wuyuan_huangling",
+  "name": "婺源站—篁岭景区交通链",
+  "city": "上饶",
+  "node_type": "transport",
+  "category": [
+    "县域景区班车",
+    "婺源东线"
+  ],
+  "route_profile": {
+    "origin_id": "sr_transport_hub_wuyuan_station",
+    "destination_id": "sr_wuyuan_huangling",
+    "preferred_modes": [
+      "景区班车",
+      "站点巴士",
+      "拼车/包车",
+      "自驾"
+    ],
+    "status": "dynamic_schedule",
+    "fixed_fare_stored": false,
+    "must_check": [
+      "去程班次",
+      "返程末班",
+      "索道运营",
+      "国庆东线拥堵"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、160、170、173、176、181、195、201-203"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "婺源站是进入东线景区的合理县级枢纽",
+        "type": "county_hub"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "县域班次少、收班早，晚到后临时拼车不稳定",
+        "risk": "last_bus",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "出站前确认返程",
+      "与江湾联游时不要假设景点间随到随走"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 45,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "实际路线由高德计算，班线可用性以官方或车站公告为准。"
+  },
+  "related_node_ids": [
+    "sr_transport_hub_wuyuan_station",
+    "sr_wuyuan_huangling",
+    "sr_wuyuan_jiangwan"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "mixed",
+    "time_sensitivity": "critical",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "tags": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

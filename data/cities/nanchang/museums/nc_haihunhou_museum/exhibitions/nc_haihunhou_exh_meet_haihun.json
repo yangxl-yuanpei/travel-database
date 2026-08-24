@@ -15,10 +15,33 @@
   "experience": {
     "importance": 4,
     "recommended_duration_minutes": 30,
-    "suitable_for": ["亲子游客", "互动体验偏好者"],
-    "highlights": ["汉文化互动", "数字体验", "衣冠礼乐"]
+    "suitable_for": [
+      "亲子游客",
+      "互动体验偏好者"
+    ],
+    "highlights": [
+      "汉文化互动",
+      "数字体验",
+      "衣冠礼乐"
+    ]
   },
   "related_artifact_ids": [],
-  "tags": ["互动展", "亲子", "遇见海昏", "数字体验"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "tags": [
+    "互动展",
+    "亲子",
+    "遇见海昏",
+    "数字体验"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

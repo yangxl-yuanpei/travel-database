@@ -1,1 +1,75 @@
-{"id":"sr_food_rest_jiubazhuo","name":"就八桌火锅（金龙岗店）","city":"上饶","node_type":"food","food_scope":"restaurant","parent_id":"sr_food_area_jinlonggang","category":["火锅","正餐"],"location":{"address":"上饶市信州区金龙岗路地委大院底层1-8","latitude":28.44514,"longitude":117.9761,"coordinate_system":"GCJ-02","amap_poi_id":"B0JD4ML0SE"},"official_info":{"status":"amap_poi_verified_business_dynamic"},"experience_layer":{"source":["上饶攻略截图162、169","高德POI核验"],"confidence":{"overall":"medium-high"},"positive":[{"content":"适合多人晚餐与牛肉火锅偏好","type":"group_dinner"}],"avoid":[{"content":"单人旅行性价比与等位体验较弱","risk":"group_size","severity":"medium"}],"visit_tips":["多人提前取号","营业与排队由高德实时核验"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium-high"},"recommended_duration":{"minimum_minutes":75,"recommended_min_minutes":105,"recommended_max_minutes":150},"ai_note":"多人晚餐和火锅偏好高。"},"tags":["火锅","金龙岗","多人正餐"],"metadata":{"schema_version":"1.0","data_status":"third_party_verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_food_rest_jiubazhuo",
+  "name": "就八桌火锅（金龙岗店）",
+  "city": "上饶",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "sr_food_area_jinlonggang",
+  "category": [
+    "火锅",
+    "正餐"
+  ],
+  "location": {
+    "address": "上饶市信州区金龙岗路地委大院底层1-8",
+    "latitude": 28.44514,
+    "longitude": 117.9761,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0JD4ML0SE"
+  },
+  "official_info": {
+    "status": "amap_poi_verified_business_dynamic"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图162、169",
+      "高德POI核验"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "适合多人晚餐与牛肉火锅偏好",
+        "type": "group_dinner"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "单人旅行性价比与等位体验较弱",
+        "risk": "group_size",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "多人提前取号",
+      "营业与排队由高德实时核验"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium-high"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 75,
+      "recommended_min_minutes": 105,
+      "recommended_max_minutes": 150
+    },
+    "ai_note": "多人晚餐和火锅偏好高。"
+  },
+  "tags": [
+    "火锅",
+    "金龙岗",
+    "多人正餐"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "third_party",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

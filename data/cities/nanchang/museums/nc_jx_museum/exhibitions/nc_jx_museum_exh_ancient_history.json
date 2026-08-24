@@ -16,14 +16,32 @@
   "experience": {
     "importance": 5,
     "recommended_duration_minutes": 60,
-    "suitable_for": ["历史爱好者", "第一次到访"],
-    "highlights": ["江西文明发展主线", "新干大洋洲商代青铜器"]
+    "suitable_for": [
+      "历史爱好者",
+      "第一次到访"
+    ],
+    "highlights": [
+      "江西文明发展主线",
+      "新干大洋洲商代青铜器"
+    ]
   },
-  "related_artifact_ids": ["nc_jx_museum_artifact_bird_double_tail_tiger"],
-  "tags": ["江西古代史", "常设展"],
+  "related_artifact_ids": [
+    "nc_jx_museum_artifact_bird_double_tail_tiger"
+  ],
+  "tags": [
+    "江西古代史",
+    "常设展"
+  ],
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "verified",
-    "last_verified_at": "2026-08-24"
-  }
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

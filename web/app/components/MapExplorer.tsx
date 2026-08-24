@@ -6,6 +6,8 @@ import { CommutePlanner } from "./CommutePlanner";
 
 type JsonObject = Record<string, unknown>;
 type Source = { name: string; url: string; scope?: string[] };
+type MediaAsset = { asset_id: string; path: string; type: string; alt: string; source_type: string; source_name: string; source_url: string | null; license: string; credit: string | null; verified_at: string; focal_point?: { x: number; y: number } };
+type MediaCollection = { cover: MediaAsset | null; gallery: MediaAsset[] };
 type Location = { address?: string; latitude?: number; longitude?: number; coordinate_system?: string; amap_poi_id?: string; map_anchor?: string };
 type TravelNode = {
   id: string; name: string; short_name?: string; city?: string; node_type: string; map_index?: string;
@@ -15,7 +17,7 @@ type TravelNode = {
   suitable_for?: string[]; transit_profile?: JsonObject; spatial_layer?: JsonObject; amap_integration?: JsonObject;
   remote_transport_profile?: JsonObject; route_profile?: JsonObject;
   duration?: { recommended_minutes?: number; minimum_minutes?: number; maximum_minutes?: number };
-  children?: TravelNode[]; sources?: Source[]; metadata?: JsonObject;
+  children?: TravelNode[]; sources?: Source[]; media?: MediaCollection; metadata?: JsonObject;
 };
 type City = TravelNode & { province?: string; journey_role?: string; detail_status?: string; primary_station?: { name?: string; station_code?: string } };
 type Transport = TravelNode & {
@@ -77,6 +79,7 @@ function childDescription(child: TravelNode): string {
   const official = object(child.official_info); return string(official.description) ?? string(official.theme) ?? ([string(official.period), string(official.category), string(official.site_type)].filter(Boolean).join(" · ") || "详细内容持续核验中");
 }
 function go(id: string) { window.location.hash = id; }
+function mediaUrl(path: string) { const base = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, ""); return `${base}${path.startsWith("/") ? path : `/${path}`}`; }
 
 export function MapExplorer() {
   const [viewId, setViewId] = useState("overview");
@@ -490,6 +493,7 @@ function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName:
   const visitTips = strings(experienceLayer.visit_tips), photoScenes = strings(object(experienceLayer.photo_info).recommended_scene), crowd = Object.keys(object(experienceLayer.crowd_model)).length ? object(experienceLayer.crowd_model) : object(experience.crowd), confidence = object(experienceLayer.confidence);
   return <main className="detail-page"><header className="detail-nav"><button type="button" onClick={onBack}>← 返回{cityName}地图</button><span>{place.map_index} · {placeType(place)}</span></header><article>
     <section className="detail-hero"><p className="eyebrow">{place.city} · {place.category?.join(" / ")}</p><h1>{place.name}</h1><p className="detail-lead">{lead(place)}</p><div className="tag-row">{place.tags?.map((tag) => <span key={tag}>{tag}</span>)}</div></section>
+    {place.media?.cover && <MediaGallery media={place.media} placeName={place.name} />}
     <section className="quick-grid">{isFood ? <><Fact label="建议停留" value={duration(place)} /><Fact label="适合时段" value={foodPeriods(place)} /><Fact label="价格参考" value={foodPrice(place)} /><Fact label="候选子节点" value={`${place.children?.length ?? 0} 个`} /></> : isStay ? <><Fact label="地图锚点" value={place.location?.map_anchor ?? "待核验"} /><Fact label="适合" value={stayFit(place)} /><Fact label="公共交通" value={string(object(place.transit_profile).public_transport) ?? "待核验"} /><Fact label="假日涨价风险" value={stayRisk(experience.holiday_price_risk)} /></> : <><Fact label="建议时长" value={duration(place)} /><Fact label="开放时间" value={openingText(place)} /><Fact label="门票" value={ticketText(place)} /><Fact label="预约" value={reservationText(place)} /></>}</section>
     <section className="notice"><b>{isFood || isStay ? "数据提示" : "国庆提示"}</b><span>{isFood ? "店铺、价格和推荐菜来自游客截图与第三方目录快照，尚未完成逐店人工核验；营业状态和排队情况请通过高德动态确认。" : isStay ? "住宿区是旅行决策范围，不是行政边界；具体酒店库存、房价、房型与真实通勤必须在预订时动态核验。" : Object.keys(holidayReference).length ? "2026 年专项公告尚未发布；下方 2025 年资料只用于预估预约、客流和开放趋势，不能视为 2026 执行规则。" : "2026 年国庆专项开放、限流及放票安排尚未发布；出发前需再次查询官方公告。"}</span></section>
     {!isFood && !isStay && Object.keys(holidayReference).length > 0 && <HolidayReference reference={holidayReference} />}
@@ -503,6 +507,15 @@ function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName:
 }
 
 function Fact({ label, value }: { label: string; value: string }) { return <div className="fact"><small>{label}</small><b>{value}</b></div>; }
+function MediaGallery({ media, placeName }: { media: MediaCollection; placeName: string }) {
+  const assets = [media.cover, ...media.gallery].filter((asset): asset is MediaAsset => Boolean(asset));
+  return <section className="media-gallery" aria-label={`${placeName}图片`}>
+    <div className="media-grid">{assets.map((asset, index) => <figure className={index === 0 ? "media-cover" : ""} key={asset.asset_id}>
+      <img src={mediaUrl(asset.path)} alt={asset.alt} loading={index === 0 ? "eager" : "lazy"} style={asset.focal_point ? { objectPosition: `${asset.focal_point.x * 100}% ${asset.focal_point.y * 100}%` } : undefined} />
+      <figcaption><span>{index === 0 ? "封面" : `详情 ${index}`}</span><p>{asset.alt}</p>{asset.source_url ? <a href={asset.source_url} target="_blank" rel="noreferrer">{asset.credit ?? asset.source_name} · {asset.license} ↗</a> : <small>{asset.credit ?? asset.source_name} · {asset.license}</small>}</figcaption>
+    </figure>)}</div>
+  </section>;
+}
 function InfoList({ title, items, warning = false }: { title: string; items: string[]; warning?: boolean }) { return <div className={warning ? "info-list warning" : "info-list"}><h3>{title}</h3><ul>{items.map((item) => <li key={item}>{item}</li>)}</ul></div>; }
 function Score({ label, value }: { label: string; value: number | null }) { return <div className="score"><div><span>{label}</span><b>{value ?? "—"}</b></div><i><em style={{ width: `${(value ?? 0) * 20}%` }} /></i></div>; }
 function HolidayReference({ reference }: { reference: JsonObject }) {

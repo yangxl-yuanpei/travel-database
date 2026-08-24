@@ -1,12 +1,178 @@
 {
-  "id": "sr_wuyuan_huangling", "name": "婺源篁岭景区", "short_name": "篁岭", "city": "上饶", "node_type": "attraction",
-  "category": ["古村落", "乡村旅游", "晒秋", "国家5A级旅游景区", "远郊节点"],
-  "location": {"address": "江西省上饶市婺源县江湾镇346乡道", "latitude": 29.319004, "longitude": 118.12006, "coordinate_system": "GCJ-02", "amap_poi_id": "B03190QMY3"},
-  "official_info": {"description": "以山地徽派村落、古建筑保护利用和‘篁岭晒秋’为核心品牌的婺源乡村旅游景区，2024年晋升国家5A级旅游景区。", "opening_hours": {"status": "dynamic_by_season_and_night_event"}, "ticket": {"status": "dynamic_package_with_ropeway"}},
-  "reservation": {"required": null, "notes": "门票与索道套餐、夜游和节庆活动均需以官方渠道当日信息为准。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["婺源站", "婺源县城"], "public_transport": [{"from": "婺源站", "mode": "景区班车/站点巴士", "status": "dynamic_schedule", "notes": "县域班次和返程收班较早，国庆需提前购票。"}], "self_drive": {"suitable": true, "risk": ["旺季入口拥堵", "停车换乘", "山路"]}, "last_mile": "景区核心游览依赖索道与步行，行李不宜随身带入。", "return_risk": "medium_high", "same_day_pairing": {"recommended": ["江湾景区"], "avoid": ["三清山", "葛仙村"]}, "holiday_risk": ["索道排队", "返程班次紧张", "晒秋平台拥挤"], "dynamic_checks": ["婺源站班车时刻", "索道运营", "夜游开放", "停车换乘"]},
-  "experience_layer": {"source": ["上饶攻略截图153、154、158、170、178、181、182、195"], "confidence": {"overall": "high"}, "positive": [{"content": "晒秋平台、徽派古村与山地层次适合摄影", "type": "photo"}, {"content": "并非只在油菜花季有价值，秋季晒秋和夜游也可形成完整体验", "type": "seasonal_value"}], "avoid": [{"content": "到观景台拍照后立即下山会遗漏古村与水口林等区域", "risk": "shallow_visit", "severity": "medium"}, {"content": "节假日索道与返程交通可能双重排队", "risk": "queue_transport", "severity": "high"}], "visit_tips": ["优先早到，按索道—天街—晒秋平台—古村—水口林方向完整游览", "与江湾组合时动态核算返程，不固定写死距离", "国庆先确认索道与班车末班"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 240, "recommended_min_minutes": 300, "recommended_max_minutes": 480}, "ai_note": "摄影、徽派村落和首次婺源偏好高；不想排队者需早入园并避开热门平台峰值。"},
-  "ai_score": {"history": 4, "photo": 5, "family": 4, "rain_day": 2, "crowd_risk": 5, "first_visit": 5}, "tags": ["篁岭", "晒秋", "徽派古村", "索道", "婺源"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "国家发展改革委：创造乡村旅游篁岭模式", "url": "https://www.ndrc.gov.cn/xwdt/ztzl/qgxcly/202004/t20200423_1301912.html", "scope": ["篁岭模式", "晒秋品牌", "古建筑保护"]}, {"name": "上饶文旅：篁岭创建国家5A级景区", "url": "https://www.aiyoujiangxi.com/bads/222902/", "scope": ["国家5A级景区"]}, {"name": "高德地图：婺源篁岭景区", "url": "https://www.amap.com/place/B03190QMY3", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_wuyuan_huangling",
+  "name": "婺源篁岭景区",
+  "short_name": "篁岭",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "古村落",
+    "乡村旅游",
+    "晒秋",
+    "国家5A级旅游景区",
+    "远郊节点"
+  ],
+  "location": {
+    "address": "江西省上饶市婺源县江湾镇346乡道",
+    "latitude": 29.319004,
+    "longitude": 118.12006,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B03190QMY3"
+  },
+  "official_info": {
+    "description": "以山地徽派村落、古建筑保护利用和‘篁岭晒秋’为核心品牌的婺源乡村旅游景区，2024年晋升国家5A级旅游景区。",
+    "opening_hours": {
+      "status": "dynamic_by_season_and_night_event"
+    },
+    "ticket": {
+      "status": "dynamic_package_with_ropeway"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "门票与索道套餐、夜游和节庆活动均需以官方渠道当日信息为准。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "high",
+    "primary_hubs": [
+      "婺源站",
+      "婺源县城"
+    ],
+    "public_transport": [
+      {
+        "from": "婺源站",
+        "mode": "景区班车/站点巴士",
+        "status": "dynamic_schedule",
+        "notes": "县域班次和返程收班较早，国庆需提前购票。"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "旺季入口拥堵",
+        "停车换乘",
+        "山路"
+      ]
+    },
+    "last_mile": "景区核心游览依赖索道与步行，行李不宜随身带入。",
+    "return_risk": "medium_high",
+    "same_day_pairing": {
+      "recommended": [
+        "江湾景区"
+      ],
+      "avoid": [
+        "三清山",
+        "葛仙村"
+      ]
+    },
+    "holiday_risk": [
+      "索道排队",
+      "返程班次紧张",
+      "晒秋平台拥挤"
+    ],
+    "dynamic_checks": [
+      "婺源站班车时刻",
+      "索道运营",
+      "夜游开放",
+      "停车换乘"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、154、158、170、178、181、182、195"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "晒秋平台、徽派古村与山地层次适合摄影",
+        "type": "photo"
+      },
+      {
+        "content": "并非只在油菜花季有价值，秋季晒秋和夜游也可形成完整体验",
+        "type": "seasonal_value"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "到观景台拍照后立即下山会遗漏古村与水口林等区域",
+        "risk": "shallow_visit",
+        "severity": "medium"
+      },
+      {
+        "content": "节假日索道与返程交通可能双重排队",
+        "risk": "queue_transport",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "优先早到，按索道—天街—晒秋平台—古村—水口林方向完整游览",
+      "与江湾组合时动态核算返程，不固定写死距离",
+      "国庆先确认索道与班车末班"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 240,
+      "recommended_min_minutes": 300,
+      "recommended_max_minutes": 480
+    },
+    "ai_note": "摄影、徽派村落和首次婺源偏好高；不想排队者需早入园并避开热门平台峰值。"
+  },
+  "ai_score": {
+    "history": 4,
+    "photo": 5,
+    "family": 4,
+    "rain_day": 2,
+    "crowd_risk": 5,
+    "first_visit": 5
+  },
+  "tags": [
+    "篁岭",
+    "晒秋",
+    "徽派古村",
+    "索道",
+    "婺源"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "国家发展改革委：创造乡村旅游篁岭模式",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/qgxcly/202004/t20200423_1301912.html",
+      "scope": [
+        "篁岭模式",
+        "晒秋品牌",
+        "古建筑保护"
+      ]
+    },
+    {
+      "name": "上饶文旅：篁岭创建国家5A级景区",
+      "url": "https://www.aiyoujiangxi.com/bads/222902/",
+      "scope": [
+        "国家5A级景区"
+      ]
+    },
+    {
+      "name": "高德地图：婺源篁岭景区",
+      "url": "https://www.amap.com/place/B03190QMY3",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

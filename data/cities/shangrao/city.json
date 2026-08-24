@@ -12,25 +12,82 @@
   },
   "journey_role": "江西第三站",
   "detail_status": "active",
-  "primary_station": {"name": "上饶站", "station_code": "SRG"},
+  "primary_station": {
+    "name": "上饶站",
+    "station_code": "SRG"
+  },
   "spatial_model": {
     "type": "multi_hub_county_network",
     "primary_hub": "sr_transport_hub_shangrao_station",
-    "secondary_hubs": ["sr_transport_hub_wuyuan_station"],
+    "secondary_hubs": [
+      "sr_transport_hub_wuyuan_station"
+    ],
     "rule": "上饶市区、三清山、婺源、铅山与弋阳按多个县域目的地处理；景点间交通全部由高德和官方班线动态计算。"
   },
   "child_nodes": {
     "attractions": [
-      "sr_sanqingshan", "sr_sqs_nanqingyuan", "sr_sqs_west_coast", "sr_sqs_giant_python", "sr_sqs_oriental_goddess",
-      "sr_wangxiangu", "sr_wuyuan_huangling", "sr_wuyuan_wunvzhou", "sr_gexian_village", "sr_lingshan", "sr_yiyang_guifeng",
-      "sr_wuyuan_jiangwan", "sr_hekou_ancient_town", "sr_ehu_academy", "sr_wuyuan_xiangaocheng"
+      "sr_sanqingshan",
+      "sr_sqs_nanqingyuan",
+      "sr_sqs_west_coast",
+      "sr_sqs_giant_python",
+      "sr_sqs_oriental_goddess",
+      "sr_wangxiangu",
+      "sr_wuyuan_huangling",
+      "sr_wuyuan_wunvzhou",
+      "sr_gexian_village",
+      "sr_lingshan",
+      "sr_yiyang_guifeng",
+      "sr_wuyuan_jiangwan",
+      "sr_hekou_ancient_town",
+      "sr_ehu_academy",
+      "sr_wuyuan_xiangaocheng"
     ],
-    "museums": ["sr_museum"],
-    "memorials": ["sr_concentration_camp"],
-    "food": ["sr_food_area_wanda", "sr_food_area_jinlonggang", "sr_food_area_yanshan_hekou"],
-    "accommodation_areas": ["sr_stay_area_shangrao_station", "sr_stay_area_wuyuan_county", "sr_stay_area_sanqingshan_foothill", "sr_stay_area_wangxiangu", "sr_stay_area_gexian_village"],
-    "transport": ["transport_jingdezhen_shangrao", "sr_transport_hub_shangrao_station", "sr_transport_hub_wuyuan_station", "sr_route_station_wangxiangu", "sr_route_station_sanqingshan", "sr_route_station_gexian", "sr_route_wuyuan_huangling"]
+    "museums": [
+      "sr_museum"
+    ],
+    "memorials": [
+      "sr_concentration_camp"
+    ],
+    "food": [
+      "sr_food_area_wanda",
+      "sr_food_area_jinlonggang",
+      "sr_food_area_yanshan_hekou"
+    ],
+    "accommodation_areas": [
+      "sr_stay_area_shangrao_station",
+      "sr_stay_area_wuyuan_county",
+      "sr_stay_area_sanqingshan_foothill",
+      "sr_stay_area_wangxiangu",
+      "sr_stay_area_gexian_village"
+    ],
+    "transport": [
+      "transport_jingdezhen_shangrao",
+      "sr_transport_hub_shangrao_station",
+      "sr_transport_hub_wuyuan_station",
+      "sr_route_station_wangxiangu",
+      "sr_route_station_sanqingshan",
+      "sr_route_station_gexian",
+      "sr_route_wuyuan_huangling"
+    ]
   },
-  "tags": ["三清山门户", "江西主线", "世界自然遗产", "婺源", "多中心县域交通", "美食区域", "住宿区域"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "tags": [
+    "三清山门户",
+    "江西主线",
+    "世界自然遗产",
+    "婺源",
+    "多中心县域交通",
+    "美食区域",
+    "住宿区域"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": []
 }

@@ -1,1 +1,54 @@
-{"id":"sr_museum_exhibition_wenmai_mianchang","name":"文脉绵长","city":"上饶","node_type":"permanent_exhibition","parent_id":"sr_museum","theme":"上饶人文、理学、书院与名人文化","importance":5,"official_info":{"status":"permanent_exhibition","description":"展示上饶理学、书院、宗教与历史名人相关文化。"},"experience_layer":{"source":["上饶市博物馆公开展陈资料"],"confidence":{"overall":"high"},"positive":[{"content":"可为鹅湖书院和婺源文化节点提供背景","type":"intellectual_history"}],"avoid":[],"visit_tips":["计划鹅湖书院前优先参观"],"crowd_model":{"national_holiday":"medium","weekday":"low"},"recommended_duration":{"minimum_minutes":20,"recommended_min_minutes":30,"recommended_max_minutes":45},"ai_note":"历史和书院偏好高。"},"metadata":{"schema_version":"1.0","data_status":"verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_museum_exhibition_wenmai_mianchang",
+  "name": "文脉绵长",
+  "city": "上饶",
+  "node_type": "permanent_exhibition",
+  "parent_id": "sr_museum",
+  "theme": "上饶人文、理学、书院与名人文化",
+  "importance": 5,
+  "official_info": {
+    "status": "permanent_exhibition",
+    "description": "展示上饶理学、书院、宗教与历史名人相关文化。"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶市博物馆公开展陈资料"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "可为鹅湖书院和婺源文化节点提供背景",
+        "type": "intellectual_history"
+      }
+    ],
+    "avoid": [],
+    "visit_tips": [
+      "计划鹅湖书院前优先参观"
+    ],
+    "crowd_model": {
+      "national_holiday": "medium",
+      "weekday": "low"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 20,
+      "recommended_min_minutes": 30,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "历史和书院偏好高。"
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "tags": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

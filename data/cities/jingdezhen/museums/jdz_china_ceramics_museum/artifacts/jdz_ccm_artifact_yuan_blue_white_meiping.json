@@ -1,6 +1,45 @@
 {
-  "id": "jdz_ccm_artifact_yuan_blue_white_meiping", "name": "元青花缠枝牡丹纹梅瓶", "city": "景德镇", "node_type": "artifact", "parent_id": "jdz_china_ceramics_museum",
-  "official_info": {"category": "青花瓷", "period": "元代", "description": "使用进口钴料绘饰，器身分五层纹饰；官方资料称其为馆内极为罕见的元青花代表器。", "display_note": "官方资料记载陈列于元代展厅，具体展位临行前核验。", "source_url": "https://credit.jdz.gov.cn/cms/content/queryOfPreview.action?contentId=25657", "verified_at": "2026-08-24", "status": "verified_display_dynamic"},
-  "experience": {"importance": 5, "photo_value": 4, "recognition_value": 5, "viewing_notes": ["观察青花铁锈斑与五层纹饰", "结合元代制瓷原料与配方理解"]},
-  "related_exhibition_ids": ["jdz_ccm_exh_ceramic_history"], "tags": ["元青花", "梅瓶", "代表文物"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "id": "jdz_ccm_artifact_yuan_blue_white_meiping",
+  "name": "元青花缠枝牡丹纹梅瓶",
+  "city": "景德镇",
+  "node_type": "artifact",
+  "parent_id": "jdz_china_ceramics_museum",
+  "official_info": {
+    "category": "青花瓷",
+    "period": "元代",
+    "description": "使用进口钴料绘饰，器身分五层纹饰；官方资料称其为馆内极为罕见的元青花代表器。",
+    "display_note": "官方资料记载陈列于元代展厅，具体展位临行前核验。",
+    "source_url": "https://credit.jdz.gov.cn/cms/content/queryOfPreview.action?contentId=25657",
+    "verified_at": "2026-08-24",
+    "status": "verified_display_dynamic"
+  },
+  "experience": {
+    "importance": 5,
+    "photo_value": 4,
+    "recognition_value": 5,
+    "viewing_notes": [
+      "观察青花铁锈斑与五层纹饰",
+      "结合元代制瓷原料与配方理解"
+    ]
+  },
+  "related_exhibition_ids": [
+    "jdz_ccm_exh_ceramic_history"
+  ],
+  "tags": [
+    "元青花",
+    "梅瓶",
+    "代表文物"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_jingdezhen"
 }

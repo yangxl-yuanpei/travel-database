@@ -1,7 +1,47 @@
 {
-  "id": "jdz_ikm_group_restored_imperial_wares", "name": "御窑遗址出土修复瓷器", "city": "景德镇", "node_type": "collection_group", "parent_id": "jdz_imperial_kiln_museum",
-  "official_info": {"theme": "御窑考古与瓷器修复", "period": "元明清", "description": "三十余年御窑考古发掘出土瓷片数以千万计，官方资料称已修复瓷器5000余件；展陈个体会轮换。", "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml", "verified_at": "2026-08-24", "status": "verified_scale_individual_display_dynamic"},
-  "experience": {"importance": 5, "viewing_notes": ["观察残片拼接与修复痕迹", "结合御窑淘汰制度理解大量瓷片来源"]},
-  "artifact_ids": ["jdz_ikm_artifact_yuan_dragon_go_jar", "jdz_ikm_artifact_hongwu_red_white_bowl", "jdz_ikm_artifact_yongle_three_pot", "jdz_ikm_artifact_xuande_cricket_jar", "jdz_ikm_artifact_xuande_doucai_duck_plate", "jdz_ikm_artifact_chenghua_duck_incense_burner"],
-  "tags": ["御窑考古", "瓷器修复", "出土瓷片"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "id": "jdz_ikm_group_restored_imperial_wares",
+  "name": "御窑遗址出土修复瓷器",
+  "city": "景德镇",
+  "node_type": "collection_group",
+  "parent_id": "jdz_imperial_kiln_museum",
+  "official_info": {
+    "theme": "御窑考古与瓷器修复",
+    "period": "元明清",
+    "description": "三十余年御窑考古发掘出土瓷片数以千万计，官方资料称已修复瓷器5000余件；展陈个体会轮换。",
+    "source_url": "https://www.jdz.gov.cn/zwzx/jrcd/t1076204.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_scale_individual_display_dynamic"
+  },
+  "experience": {
+    "importance": 5,
+    "viewing_notes": [
+      "观察残片拼接与修复痕迹",
+      "结合御窑淘汰制度理解大量瓷片来源"
+    ]
+  },
+  "artifact_ids": [
+    "jdz_ikm_artifact_yuan_dragon_go_jar",
+    "jdz_ikm_artifact_hongwu_red_white_bowl",
+    "jdz_ikm_artifact_yongle_three_pot",
+    "jdz_ikm_artifact_xuande_cricket_jar",
+    "jdz_ikm_artifact_xuande_doucai_duck_plate",
+    "jdz_ikm_artifact_chenghua_duck_incense_burner"
+  ],
+  "tags": [
+    "御窑考古",
+    "瓷器修复",
+    "出土瓷片"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_jingdezhen"
 }

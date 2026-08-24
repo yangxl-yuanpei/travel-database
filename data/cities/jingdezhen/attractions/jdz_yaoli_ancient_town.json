@@ -1,22 +1,163 @@
 {
-  "id": "jdz_yaoli_ancient_town", "name": "瑶里古镇风景区", "short_name": "瑶里古镇", "city": "景德镇", "node_type": "attraction",
-  "category": ["古镇", "山水人文", "远郊节点", "陶瓷历史关联"],
-  "location": {"address": "江西省景德镇市浮梁县瑶里镇", "latitude": 29.540982, "longitude": 117.577684, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HT42"},
-  "official_info": {"description": "位于浮梁县东北部、属于高岭·瑶里风景区组成部分的开放式古镇与山水文化节点。", "parent_scenic_area_level": "高岭·瑶里风景区国家4A级旅游景区", "opening_hours": {"scope": "古镇公共村落", "status": "open_area_sub_attraction_hours_dynamic"}, "ticket": {"price": null, "currency": "CNY", "scope": "古镇公共村落及周边子景点", "verified_at": "2026-08-24", "status": "public_town_restored_original_model_sub_attractions_dynamic"}},
-  "reservation": {"required": false, "scope": "古镇公共村落", "exceptions": [{"type": "paid_sub_attraction_or_activity", "rule": "周边收费子景点和活动按各自规则购票"}], "notes": "古镇公共村落无统一预约；周边子景点、国庆交通和活动以运营方公告为准。", "status": "open_area_no_unified_reservation"},
-  "experience": {"recommendation_score": 4, "best_time": ["白天", "天气稳定时"], "highlights": ["古镇街巷", "山水环境", "慢游", "远郊文化"]},
+  "id": "jdz_yaoli_ancient_town",
+  "name": "瑶里古镇风景区",
+  "short_name": "瑶里古镇",
+  "city": "景德镇",
+  "node_type": "attraction",
+  "category": [
+    "古镇",
+    "山水人文",
+    "远郊节点",
+    "陶瓷历史关联"
+  ],
+  "location": {
+    "address": "江西省景德镇市浮梁县瑶里镇",
+    "latitude": 29.540982,
+    "longitude": 117.577684,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031E0HT42"
+  },
+  "official_info": {
+    "description": "位于浮梁县东北部、属于高岭·瑶里风景区组成部分的开放式古镇与山水文化节点。",
+    "parent_scenic_area_level": "高岭·瑶里风景区国家4A级旅游景区",
+    "opening_hours": {
+      "scope": "古镇公共村落",
+      "status": "open_area_sub_attraction_hours_dynamic"
+    },
+    "ticket": {
+      "price": null,
+      "currency": "CNY",
+      "scope": "古镇公共村落及周边子景点",
+      "verified_at": "2026-08-24",
+      "status": "public_town_restored_original_model_sub_attractions_dynamic"
+    }
+  },
+  "reservation": {
+    "required": false,
+    "scope": "古镇公共村落",
+    "exceptions": [
+      {
+        "type": "paid_sub_attraction_or_activity",
+        "rule": "周边收费子景点和活动按各自规则购票"
+      }
+    ],
+    "notes": "古镇公共村落无统一预约；周边子景点、国庆交通和活动以运营方公告为准。",
+    "status": "open_area_no_unified_reservation"
+  },
+  "experience": {
+    "recommendation_score": 4,
+    "best_time": [
+      "白天",
+      "天气稳定时"
+    ],
+    "highlights": [
+      "古镇街巷",
+      "山水环境",
+      "慢游",
+      "远郊文化"
+    ]
+  },
   "experience_layer": {
-    "source": ["景德镇攻略截图 113-150"], "confidence": {"overall": "medium"},
-    "positive": [{"content": "古镇与自然环境结合，适合远离城区慢游", "type": "ancient_town"}, {"content": "街巷、溪流与传统建筑有摄影价值", "type": "photo"}],
-    "avoid": [{"content": "离城区较远，公共交通班次和返程时间是主要风险", "risk": "transport", "severity": "high"}, {"content": "古镇周边晚间餐饮和商业选择有限", "risk": "amenities", "severity": "medium"}],
-    "visit_tips": ["出发前确认去程与返程交通", "住宿时优先选择主街附近", "不要进入未开放区域或攀爬老建筑", "与寒溪村等远郊节点组合时动态计算路程"],
-    "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "low-medium"},
-    "recommended_duration": {"minimum_minutes": 180, "recommended_min_minutes": 240, "recommended_max_minutes": 480},
+    "source": [
+      "景德镇攻略截图 113-150"
+    ],
+    "confidence": {
+      "overall": "medium"
+    },
+    "positive": [
+      {
+        "content": "古镇与自然环境结合，适合远离城区慢游",
+        "type": "ancient_town"
+      },
+      {
+        "content": "街巷、溪流与传统建筑有摄影价值",
+        "type": "photo"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "离城区较远，公共交通班次和返程时间是主要风险",
+        "risk": "transport",
+        "severity": "high"
+      },
+      {
+        "content": "古镇周边晚间餐饮和商业选择有限",
+        "risk": "amenities",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "出发前确认去程与返程交通",
+      "住宿时优先选择主街附近",
+      "不要进入未开放区域或攀爬老建筑",
+      "与寒溪村等远郊节点组合时动态计算路程"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "low-medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 180,
+      "recommended_min_minutes": 240,
+      "recommended_max_minutes": 480
+    },
     "ai_note": "远郊独立半日或一日节点；不应与城区景点用固定距离拼接。"
   },
-  "ai_score": {"history": 4, "photo": 5, "family": 3, "rain_day": 1, "crowd_risk": 4, "first_visit": 3},
-  "duration": {"recommended_minutes": 360, "minimum_minutes": 180, "maximum_minutes": 480},
-  "tags": ["古镇", "远郊", "慢游", "摄影", "浮梁"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "景德镇市文化广电旅游局：2026年A级景区名单", "url": "https://wgxl.jdz.gov.cn/zwgk/fdzdgknr/zdly/ly/t1098113.shtml", "scope": ["高岭·瑶里风景区国家4A级旅游景区"]}, {"name": "景德镇瑶里旅游发展有限公司公告（经工人日报报道）", "url": "https://www.workercn.cn/papers/grrb/2025/07/20/2/grrb202507202.pdf", "scope": ["恢复原有经营管理模式", "古镇公共村落与收费子景点应区分"]}, {"name": "高德地图：瑶里古镇风景区", "url": "https://www.amap.com/place/B031E0HT42", "scope": ["坐标", "POI ID", "地址"]}]
+  "ai_score": {
+    "history": 4,
+    "photo": 5,
+    "family": 3,
+    "rain_day": 1,
+    "crowd_risk": 4,
+    "first_visit": 3
+  },
+  "duration": {
+    "recommended_minutes": 360,
+    "minimum_minutes": 180,
+    "maximum_minutes": 480
+  },
+  "tags": [
+    "古镇",
+    "远郊",
+    "慢游",
+    "摄影",
+    "浮梁"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "景德镇市文化广电旅游局：2026年A级景区名单",
+      "url": "https://wgxl.jdz.gov.cn/zwgk/fdzdgknr/zdly/ly/t1098113.shtml",
+      "scope": [
+        "高岭·瑶里风景区国家4A级旅游景区"
+      ]
+    },
+    {
+      "name": "景德镇瑶里旅游发展有限公司公告（经工人日报报道）",
+      "url": "https://www.workercn.cn/papers/grrb/2025/07/20/2/grrb202507202.pdf",
+      "scope": [
+        "恢复原有经营管理模式",
+        "古镇公共村落与收费子景点应区分"
+      ]
+    },
+    {
+      "name": "高德地图：瑶里古镇风景区",
+      "url": "https://www.amap.com/place/B031E0HT42",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_jingdezhen"
 }

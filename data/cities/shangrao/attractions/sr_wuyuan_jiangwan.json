@@ -1,12 +1,144 @@
 {
-  "id": "sr_wuyuan_jiangwan", "name": "婺源江湾景区", "short_name": "江湾", "city": "上饶", "node_type": "attraction",
-  "category": ["徽派古村", "历史文化", "国家5A级旅游景区组成节点", "婺源东线"],
-  "location": {"address": "江西省上饶市婺源县江湾镇云湾路", "latitude": 29.368753, "longitude": 118.051112, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFF0F10H"},
-  "official_info": {"description": "婺源东线代表性古村节点，以宗祠、古巷、徽派建筑与村落文化为核心。", "opening_hours": {"status": "dynamic"}, "ticket": {"status": "dynamic_single_or_wuyuan_pass"}},
-  "reservation": {"required": null, "notes": "单点票、联票及节假日规则以婺源旅游官方渠道为准。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["婺源站", "婺源县城"], "public_transport": [{"from": "婺源县城", "mode": "东线班车/旅游专线", "status": "dynamic_schedule"}], "self_drive": {"suitable": true, "risk": ["古村停车", "旺季东线拥堵"]}, "return_risk": "medium_high", "same_day_pairing": {"recommended": ["篁岭"], "avoid": ["三清山"]}, "holiday_risk": ["东线道路拥堵", "班次与末班不稳定"], "dynamic_checks": ["婺源东线班车", "联票范围", "返程时刻"]},
-  "experience_layer": {"source": ["上饶攻略截图154、157、170、178、179、181、182"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "宗祠、古巷与村落生活更偏历史文化而非单纯晒秋摄影", "type": "village_culture"}], "avoid": [{"content": "只有一天婺源时间时与篁岭同等深度游可能过满", "risk": "time_budget", "severity": "medium"}], "visit_tips": ["历史文化偏好高可保留；纯摄影且时间有限时优先篁岭", "与篁岭组合必须根据东线交通动态排程"], "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 120, "recommended_min_minutes": 150, "recommended_max_minutes": 240}, "ai_note": "徽派村落和历史偏好高；首次婺源且只有一天时与篁岭二选一或缩短停留。"},
-  "ai_score": {"history": 4, "photo": 4, "family": 4, "rain_day": 2, "crowd_risk": 4, "first_visit": 3}, "tags": ["江湾", "徽派古村", "婺源东线", "宗祠"],
-  "metadata": {"schema_version": "1.0", "data_status": "third_party_verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：江湾景区", "url": "https://www.amap.com/place/B0FFF0F10H", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_wuyuan_jiangwan",
+  "name": "婺源江湾景区",
+  "short_name": "江湾",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "徽派古村",
+    "历史文化",
+    "国家5A级旅游景区组成节点",
+    "婺源东线"
+  ],
+  "location": {
+    "address": "江西省上饶市婺源县江湾镇云湾路",
+    "latitude": 29.368753,
+    "longitude": 118.051112,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFF0F10H"
+  },
+  "official_info": {
+    "description": "婺源东线代表性古村节点，以宗祠、古巷、徽派建筑与村落文化为核心。",
+    "opening_hours": {
+      "status": "dynamic"
+    },
+    "ticket": {
+      "status": "dynamic_single_or_wuyuan_pass"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "单点票、联票及节假日规则以婺源旅游官方渠道为准。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "high",
+    "primary_hubs": [
+      "婺源站",
+      "婺源县城"
+    ],
+    "public_transport": [
+      {
+        "from": "婺源县城",
+        "mode": "东线班车/旅游专线",
+        "status": "dynamic_schedule"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "古村停车",
+        "旺季东线拥堵"
+      ]
+    },
+    "return_risk": "medium_high",
+    "same_day_pairing": {
+      "recommended": [
+        "篁岭"
+      ],
+      "avoid": [
+        "三清山"
+      ]
+    },
+    "holiday_risk": [
+      "东线道路拥堵",
+      "班次与末班不稳定"
+    ],
+    "dynamic_checks": [
+      "婺源东线班车",
+      "联票范围",
+      "返程时刻"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图154、157、170、178、179、181、182"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "宗祠、古巷与村落生活更偏历史文化而非单纯晒秋摄影",
+        "type": "village_culture"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "只有一天婺源时间时与篁岭同等深度游可能过满",
+        "risk": "time_budget",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "历史文化偏好高可保留；纯摄影且时间有限时优先篁岭",
+      "与篁岭组合必须根据东线交通动态排程"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 120,
+      "recommended_min_minutes": 150,
+      "recommended_max_minutes": 240
+    },
+    "ai_note": "徽派村落和历史偏好高；首次婺源且只有一天时与篁岭二选一或缩短停留。"
+  },
+  "ai_score": {
+    "history": 4,
+    "photo": 4,
+    "family": 4,
+    "rain_day": 2,
+    "crowd_risk": 4,
+    "first_visit": 3
+  },
+  "tags": [
+    "江湾",
+    "徽派古村",
+    "婺源东线",
+    "宗祠"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "third_party",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：江湾景区",
+      "url": "https://www.amap.com/place/B0FFF0F10H",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

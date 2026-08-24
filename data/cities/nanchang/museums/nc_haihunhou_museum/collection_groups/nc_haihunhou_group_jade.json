@@ -12,8 +12,29 @@
     "verified_at": "2026-08-24",
     "status": "verified_group"
   },
-  "experience": {"importance": 4, "viewing_notes": ["注意小型器物细节和身份信息"]},
+  "experience": {
+    "importance": 4,
+    "viewing_notes": [
+      "注意小型器物细节和身份信息"
+    ]
+  },
   "artifact_ids": [],
-  "tags": ["玉器", "西汉", "礼制", "身份"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "tags": [
+    "玉器",
+    "西汉",
+    "礼制",
+    "身份"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

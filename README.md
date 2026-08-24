@@ -26,6 +26,8 @@ docs/
 
 每个景点、展览、文物和藏品组都使用独立 JSON 文件。博物馆主节点只保存子节点 ID，不内嵌完整子节点。
 
+全部节点采用 Schema 2.0，共有字段包括 `aliases`、`category`、`tags`、`sources` 与分层 `metadata`。图片通过 `media` 保存路径、来源、许可和替代文字。
+
 ## 数据原则
 
 - `official_info`：名称、地址、开放时间、门票、预约和官方介绍等可核验事实。

@@ -4,7 +4,11 @@
   "short_name": "八一—中山路",
   "city": "南昌",
   "node_type": "accommodation_area",
-  "category": ["老城核心住宿区", "地铁换乘区", "首次到访优先区"],
+  "category": [
+    "老城核心住宿区",
+    "地铁换乘区",
+    "首次到访优先区"
+  ],
   "location": {
     "address": "江西省南昌市东湖区八一广场及中山路周边",
     "latitude": 28.673856,
@@ -16,11 +20,24 @@
   },
   "spatial_layer": {
     "boundary_status": "conceptual_area",
-    "related_node_ids": ["nc_bayi_square", "nc_bayi_memorial", "nc_wanshougong_block"],
+    "related_node_ids": [
+      "nc_bayi_square",
+      "nc_bayi_memorial",
+      "nc_wanshougong_block"
+    ],
     "hotel_search_radius_m": 1800,
-    "hotel_search_keywords": ["酒店", "民宿", "公寓式酒店"]
+    "hotel_search_keywords": [
+      "酒店",
+      "民宿",
+      "公寓式酒店"
+    ]
   },
-  "suitable_for": ["第一次到南昌", "时间紧凑", "依赖地铁", "老城景点优先"],
+  "suitable_for": [
+    "第一次到南昌",
+    "时间紧凑",
+    "依赖地铁",
+    "老城景点优先"
+  ],
   "transit_profile": {
     "rail_station_access": "前往南昌站较方便；南昌西站需通过地铁或其他市内交通接驳",
     "public_transport": "地铁1号线、2号线换乘便利",
@@ -29,30 +46,112 @@
   },
   "experience": {
     "summary": "老城综合效率最高，适合首次到访和景点密集型行程。",
-    "best_for": ["首次到访", "高效游览", "公共交通出行"],
-    "highlights": ["老城核心位置", "地铁换乘便利", "餐饮与景点密集"],
-    "avoid": ["临街低楼层可能受噪声影响", "节假日早晚高峰人流密集"],
+    "best_for": [
+      "首次到访",
+      "高效游览",
+      "公共交通出行"
+    ],
+    "highlights": [
+      "老城核心位置",
+      "地铁换乘便利",
+      "餐饮与景点密集"
+    ],
+    "avoid": [
+      "临街低楼层可能受噪声影响",
+      "节假日早晚高峰人流密集"
+    ],
     "holiday_price_risk": "high",
     "night_noise_risk": "medium-high"
   },
   "experience_layer": {
-    "source": ["游客攻略截图106", "游客攻略截图109", "游客攻略截图111"],
-    "confidence": {"overall": "medium-high", "reason": "多份游客攻略对位置、交通和节假日风险的描述一致"},
+    "source": [
+      "游客攻略截图106",
+      "游客攻略截图109",
+      "游客攻略截图111"
+    ],
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "多份游客攻略对位置、交通和节假日风险的描述一致"
+    },
     "positive": [
-      {"content": "处于南昌老城核心，第一次到访时路线组织效率较高", "type": "first_visit"},
-      {"content": "地铁换乘与餐饮选择较集中", "type": "transit"}
+      {
+        "content": "处于南昌老城核心，第一次到访时路线组织效率较高",
+        "type": "first_visit"
+      },
+      {
+        "content": "地铁换乘与餐饮选择较集中",
+        "type": "transit"
+      }
     ],
     "avoid": [
-      {"content": "临街酒店隔音差异较大，应重点查看近期真实评价", "risk": "noise", "severity": "high"},
-      {"content": "国庆期间房价和客流均可能明显上升", "risk": "holiday_price", "severity": "high"}
+      {
+        "content": "临街酒店隔音差异较大，应重点查看近期真实评价",
+        "risk": "noise",
+        "severity": "high"
+      },
+      {
+        "content": "国庆期间房价和客流均可能明显上升",
+        "risk": "holiday_price",
+        "severity": "high"
+      }
     ],
-    "visit_tips": ["优先筛选距离地铁站步行可达的酒店", "预订前检查隔音、卫生和近期评价", "国庆住宿应提前预订并保留可取消选项"],
-    "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "medium", "peak_time": ["早晚通勤时段", "节假日晚间"]},
+    "visit_tips": [
+      "优先筛选距离地铁站步行可达的酒店",
+      "预订前检查隔音、卫生和近期评价",
+      "国庆住宿应提前预订并保留可取消选项"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium-high",
+      "weekday": "medium",
+      "peak_time": [
+        "早晚通勤时段",
+        "节假日晚间"
+      ]
+    },
     "ai_note": "首次到访的默认推荐区；若用户重视安静或江景，应降低权重。"
   },
-  "ai_score": {"first_visit": 5, "transit": 5, "walkability": 5, "quiet": 2, "river_view": 1, "value": 3, "holiday_price_risk": 5},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
-  "tags": ["老城", "地铁", "首次到访", "高效游览"],
-  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：八一广场", "url": "https://ditu.amap.com/place/B031704RAC", "scope": ["锚点坐标", "POI ID"]}]
+  "ai_score": {
+    "first_visit": 5,
+    "transit": 5,
+    "walkability": 5,
+    "quiet": 2,
+    "river_view": 1,
+    "value": 3,
+    "holiday_price_risk": 5
+  },
+  "amap_integration": {
+    "dynamic_fields": [
+      "attraction_commute",
+      "station_transfer",
+      "hotel_poi_search"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "tags": [
+    "老城",
+    "地铁",
+    "首次到访",
+    "高效游览"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：八一广场",
+      "url": "https://ditu.amap.com/place/B031704RAC",
+      "scope": [
+        "锚点坐标",
+        "POI ID"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

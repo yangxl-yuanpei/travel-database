@@ -53,6 +53,26 @@ test("publishes the fixed four-day itinerary as structured data", async () => {
   assert.ok(itinerary.booking_checklist.length >= 5);
 });
 
+test("four-day itinerary pilot images include reusable rights metadata", async () => {
+  const data = await atlas();
+  const pilotIds = ["nc_tengwangge", "jdz_imperial_kiln_museum", "sr_sqs_giant_python"];
+  const places = Object.values(data.city_places).flat();
+  for (const id of pilotIds) {
+    const place = places.find((item) => item.id === id);
+    assert.ok(place, `${id} must be published`);
+    assert.ok(place.media?.cover, `${id} must have a cover image`);
+    assert.equal(place.media.gallery.length, 2, `${id} must have two detail images`);
+    for (const asset of [place.media.cover, ...place.media.gallery]) {
+      assert.equal(asset.source_type, "open_license");
+      assert.ok(asset.path.startsWith("/images/"));
+      assert.ok(asset.alt);
+      assert.ok(asset.credit);
+      assert.ok(asset.license);
+      assert.ok(asset.source_url);
+    }
+  }
+});
+
 test("Nanchang keeps city nodes and deep nodes", async () => {
   const data = await atlas();
   const places = data.city_places.city_nanchang;
@@ -103,7 +123,9 @@ test("Shangrao publishes the multi-hub county travel database", async () => {
   assert.ok(places.length >= 25);
   const sanqingshan = places.find((place) => place.id === "sr_sanqingshan");
   assert.ok(sanqingshan);
-  assert.equal(sanqingshan.metadata.data_status, "verified");
+  assert.equal(sanqingshan.metadata.schema_version, "2.0");
+  assert.equal(sanqingshan.metadata.content_status, "complete");
+  assert.equal(sanqingshan.metadata.verification_level, "official");
   assert.equal(sanqingshan.location.coordinate_system, "GCJ-02");
   assert.equal(sanqingshan.official_info.ticket.general_admission.amount, 120);
   assert.equal(sanqingshan.reservation.required, true);

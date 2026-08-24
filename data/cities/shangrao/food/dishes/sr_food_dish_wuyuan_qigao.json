@@ -1,1 +1,68 @@
-{"id":"sr_food_dish_wuyuan_qigao","name":"婺源汽糕","city":"上饶","node_type":"food","food_scope":"dish","category":["地方早餐","米制品"],"official_info":{"status":"regional_dish_candidate","description":"以米浆蒸制并搭配萝卜、肉末或葱等配料的婺源早餐小吃。"},"experience_layer":{"source":["上饶攻略截图155、170、171、191"],"confidence":{"overall":"high"},"positive":[{"content":"适合婺源县城早餐","type":"breakfast"}],"avoid":[{"content":"过晚到店可能售罄","risk":"availability","severity":"medium"}],"visit_tips":["优先早餐时段品尝"],"crowd_model":{"national_holiday":"high_at_popular_shops","weekday":"medium"},"recommended_duration":{"minimum_minutes":15,"recommended_min_minutes":25,"recommended_max_minutes":45},"ai_note":"婺源住宿时提高权重。"},"related_node_ids":["sr_stay_area_wuyuan_county"],"tags":["婺源汽糕","早餐","婺源"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_food_dish_wuyuan_qigao",
+  "name": "婺源汽糕",
+  "city": "上饶",
+  "node_type": "food",
+  "food_scope": "dish",
+  "category": [
+    "地方早餐",
+    "米制品"
+  ],
+  "official_info": {
+    "status": "regional_dish_candidate",
+    "description": "以米浆蒸制并搭配萝卜、肉末或葱等配料的婺源早餐小吃。"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图155、170、171、191"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "适合婺源县城早餐",
+        "type": "breakfast"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "过晚到店可能售罄",
+        "risk": "availability",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "优先早餐时段品尝"
+    ],
+    "crowd_model": {
+      "national_holiday": "high_at_popular_shops",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 15,
+      "recommended_min_minutes": 25,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "婺源住宿时提高权重。"
+  },
+  "related_node_ids": [
+    "sr_stay_area_wuyuan_county"
+  ],
+  "tags": [
+    "婺源汽糕",
+    "早餐",
+    "婺源"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

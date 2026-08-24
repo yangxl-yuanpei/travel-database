@@ -15,11 +15,36 @@
   "experience": {
     "importance": 4,
     "recommended_duration_minutes": 25,
-    "suitable_for": ["工艺美术爱好者", "汉代生活文化游客"],
-    "highlights": ["漆器纹饰", "汉代工艺", "贵族生活器用"]
+    "suitable_for": [
+      "工艺美术爱好者",
+      "汉代生活文化游客"
+    ],
+    "highlights": [
+      "漆器纹饰",
+      "汉代工艺",
+      "贵族生活器用"
+    ]
   },
   "related_artifact_ids": [],
-  "related_collection_group_ids": ["nc_haihunhou_group_lacquerware"],
-  "tags": ["专题展", "漆器", "丹漆海昏", "汉代工艺"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "related_collection_group_ids": [
+    "nc_haihunhou_group_lacquerware"
+  ],
+  "tags": [
+    "专题展",
+    "漆器",
+    "丹漆海昏",
+    "汉代工艺"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

@@ -6,22 +6,75 @@
   "to_city_id": "city_nanchang",
   "route_role": "origin_to_rendezvous",
   "recommended_mode": "high_speed_rail",
-  "stations": {"from": "北京西站", "to": "南昌西站"},
+  "stations": {
+    "from": "北京西站",
+    "to": "南昌西站"
+  },
   "rail_reference": {
     "sample_date": "2026-08-13",
     "direct": true,
-    "duration_minutes": {"minimum": 352, "maximum": 367},
-    "second_class_fare_cny": {"minimum": 742, "maximum": 745},
-    "sample_trains": ["G333", "G335", "G337"],
+    "duration_minutes": {
+      "minimum": 352,
+      "maximum": 367
+    },
+    "second_class_fare_cny": {
+      "minimum": 742,
+      "maximum": 745
+    },
+    "sample_trains": [
+      "G333",
+      "G335",
+      "G337"
+    ],
     "status": "normal_day_reference",
     "national_day_sale_status": "not_on_sale"
   },
-  "amap_integration": {"coordinate_system": "GCJ-02", "dynamic_fields": ["origin_to_station", "station_to_hotel", "driving_duration"], "api_status": "proxy_verified"},
-  "related_node_ids": ["city_beijing", "city_nanchang"],
-  "tags": ["会合交通", "直达高铁", "长距离"],
-  "metadata": {"schema_version": "1.0", "data_status": "needs_update", "last_verified_at": "2026-08-24"},
+  "amap_integration": {
+    "coordinate_system": "GCJ-02",
+    "dynamic_fields": [
+      "origin_to_station",
+      "station_to_hotel",
+      "driving_duration"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "related_node_ids": [
+    "city_beijing",
+    "city_nanchang"
+  ],
+  "tags": [
+    "会合交通",
+    "直达高铁",
+    "长距离"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "needs_update",
+    "verification_level": "mixed",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
   "sources": [
-    {"name": "携程火车票：北京—南昌西常态车次样本", "url": "https://trains.ctrip.com/TrainBooking/beijing-nanchangxi/gaotie/", "scope": ["参考车次", "参考时长", "参考二等座价"]},
-    {"name": "中国铁路 12306", "url": "https://www.12306.cn/", "scope": ["最终车次", "最终票价", "余票"]}
-  ]
+    {
+      "name": "携程火车票：北京—南昌西常态车次样本",
+      "url": "https://trains.ctrip.com/TrainBooking/beijing-nanchangxi/gaotie/",
+      "scope": [
+        "参考车次",
+        "参考时长",
+        "参考二等座价"
+      ]
+    },
+    {
+      "name": "中国铁路 12306",
+      "url": "https://www.12306.cn/",
+      "scope": [
+        "最终车次",
+        "最终票价",
+        "余票"
+      ]
+    }
+  ],
+  "aliases": [],
+  "category": []
 }

@@ -4,19 +4,104 @@
   "city": "上饶",
   "node_type": "attraction",
   "parent_id": "sr_sanqingshan",
-  "category": ["象形石景观", "花岗岩石柱", "标志性景观"],
-  "location": {"address": "江西省上饶市玉山县三清乡金沙街66号三清山南清园景区", "latitude": 28.905746, "longitude": 118.069954, "coordinate_system": "GCJ-02", "amap_poi_id": "B03190139E"},
+  "category": [
+    "象形石景观",
+    "花岗岩石柱",
+    "标志性景观"
+  ],
+  "location": {
+    "address": "江西省上饶市玉山县三清乡金沙街66号三清山南清园景区",
+    "latitude": 28.905746,
+    "longitude": 118.069954,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B03190139E"
+  },
   "official_info": {
     "description": "三清山标志性花岗岩石柱，联合国教科文组织资料记载其垂直高度约128米、最细处直径约7米，形态如巨蟒破山而出。",
     "landform_type": "花岗岩石柱",
     "vertical_height_m": 128,
     "narrowest_diameter_m": 7
   },
-  "related_node_ids": ["sr_sqs_oriental_goddess", "sr_sqs_nanqingyuan"],
-  "tags": ["三清山地标", "象形石", "花岗岩", "南清园"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24", "experience_status": "awaiting_user_materials"},
+  "related_node_ids": [
+    "sr_sqs_oriental_goddess",
+    "sr_sqs_nanqingyuan"
+  ],
+  "tags": [
+    "三清山地标",
+    "象形石",
+    "花岗岩",
+    "南清园"
+  ],
+  "media": {
+    "cover": {
+      "asset_id": "sr_sqs_giant_python_cover_01",
+      "path": "/images/shangrao/giant-python/cover.webp",
+      "type": "viewpoint",
+      "alt": "日出暖光中的三清山巨蟒出山花岗岩石柱",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sanqingshan_sunrise_python.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Dcpeets / Wikimedia Commons",
+      "verified_at": "2026-08-24",
+      "focal_point": {"x": 0.46, "y": 0.48}
+    },
+    "gallery": [
+      {
+        "asset_id": "sr_sqs_giant_python_detail_01",
+        "path": "/images/shangrao/giant-python/detail_01.webp",
+        "type": "viewpoint",
+        "alt": "云雾环绕的巨蟒出山石柱与东海岸栈道视角",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sanqing_Shan_2013.06.15_15-05-03.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Zhangzhugang / Wikimedia Commons",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "sr_sqs_giant_python_detail_02",
+        "path": "/images/shangrao/giant-python/detail_02.webp",
+        "type": "viewpoint",
+        "alt": "雾中远望巨蟒出山石柱及周围花岗岩峰林",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SanQingShan7.jpg",
+        "license": "Public domain",
+        "credit": "Emitchan / Wikimedia Commons",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null,
+    "experience_status": "awaiting_user_materials"
+  },
   "sources": [
-    {"name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark", "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark", "scope": ["代表景观", "地貌类型", "高度与直径"]},
-    {"name": "高德地图：巨蟒出山", "url": "https://www.amap.com/place/B03190139E", "scope": ["坐标", "POI ID", "地址"]}
-  ]
+    {
+      "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+      "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+      "scope": [
+        "代表景观",
+        "地貌类型",
+        "高度与直径"
+      ]
+    },
+    {
+      "name": "高德地图：巨蟒出山",
+      "url": "https://www.amap.com/place/B03190139E",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

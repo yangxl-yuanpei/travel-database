@@ -1,1 +1,76 @@
-{"id":"sr_food_rest_tiexiaoyi","name":"铁小阿姨麻辣烫","city":"上饶","node_type":"food","food_scope":"restaurant","parent_id":"sr_food_area_jinlonggang","category":["麻辣烫","小吃"],"location":{"address":"上饶市信州区明珠广场附近","latitude":28.449816,"longitude":117.966818,"coordinate_system":"GCJ-02","amap_poi_id":"B0FFLHG2FC"},"official_info":{"status":"amap_poi_verified_name_differs_from_screenshot","warning":"攻略写作‘铁小姨’，高德正式POI为‘铁小阿姨’，下单导航以高德为准。"},"experience_layer":{"source":["上饶攻略截图167、169","高德POI核验"],"confidence":{"overall":"medium"},"positive":[{"content":"游客素材强调老式酸甜辣风格","type":"flavor"}],"avoid":[{"content":"名称存在俗称差异且口味偏辣","risk":"name_and_spice","severity":"medium"}],"visit_tips":["导航以POI ID为准","清淡饮食用户谨慎"],"crowd_model":{"national_holiday":"high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":30,"recommended_min_minutes":45,"recommended_max_minutes":75},"ai_note":"麻辣烫偏好高。"},"tags":["麻辣烫","酸甜辣","小吃"],"metadata":{"schema_version":"1.0","data_status":"third_party_verified","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_food_rest_tiexiaoyi",
+  "name": "铁小阿姨麻辣烫",
+  "city": "上饶",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "sr_food_area_jinlonggang",
+  "category": [
+    "麻辣烫",
+    "小吃"
+  ],
+  "location": {
+    "address": "上饶市信州区明珠广场附近",
+    "latitude": 28.449816,
+    "longitude": 117.966818,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFLHG2FC"
+  },
+  "official_info": {
+    "status": "amap_poi_verified_name_differs_from_screenshot",
+    "warning": "攻略写作‘铁小姨’，高德正式POI为‘铁小阿姨’，下单导航以高德为准。"
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图167、169",
+      "高德POI核验"
+    ],
+    "confidence": {
+      "overall": "medium"
+    },
+    "positive": [
+      {
+        "content": "游客素材强调老式酸甜辣风格",
+        "type": "flavor"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "名称存在俗称差异且口味偏辣",
+        "risk": "name_and_spice",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "导航以POI ID为准",
+      "清淡饮食用户谨慎"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 30,
+      "recommended_min_minutes": 45,
+      "recommended_max_minutes": 75
+    },
+    "ai_note": "麻辣烫偏好高。"
+  },
+  "tags": [
+    "麻辣烫",
+    "酸甜辣",
+    "小吃"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "third_party",
+    "time_sensitivity": "high",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

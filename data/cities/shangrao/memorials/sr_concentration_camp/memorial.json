@@ -1,14 +1,142 @@
 {
-  "id": "sr_concentration_camp", "name": "上饶集中营名胜区", "city": "上饶", "node_type": "memorial",
-  "category": ["革命纪念地", "爱国主义教育", "红色文化节点"],
-  "location": {"address": "江西省上饶市信州区陵园路66号", "latitude": 28.414574, "longitude": 117.961764, "coordinate_system": "GCJ-02", "amap_poi_id": "B0319047U1"},
-  "official_info": {"description": "以1941年皖南事变后被囚禁革命志士的历史及其斗争为主题，包含革命烈士纪念馆、茅家岭监狱旧址等组成节点。", "ticket": {"price": "免费", "status": "public_memorial_dynamic_entry_rule"}, "opening_hours": {"status": "dynamic_by_venue"}},
-  "reservation": {"required": null, "notes": "个人与团队预约、讲解和节假日开放以官方渠道为准。", "status": "dynamic"},
-  "history_event": {"name": "上饶集中营革命斗争", "period": "1941-1942", "importance": "皖南事变后革命志士被囚禁并坚持斗争的重要历史见证"},
-  "historic_sites": [{"name": "上饶集中营革命烈士纪念馆", "type": "纪念馆", "importance": 5}, {"name": "茅家岭监狱旧址", "type": "革命旧址", "importance": 5}],
-  "exhibitions": {"permanent": [{"name": "上饶集中营革命斗争主题陈列", "theme": "通过史料、照片与革命文物展示被囚革命志士的斗争", "importance": 5}], "temporary": {"status": "dynamic_maintain"}},
-  "experience_layer": {"source": ["上饶攻略截图154、156、179、188"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "适合红色历史、研学与亲子历史教育", "type": "history_education"}], "avoid": [{"content": "纪念馆与旧址可能存在分区和交通安排，不应按单一室内馆估时", "risk": "scope", "severity": "medium"}], "visit_tips": ["先确认纪念馆与茅家岭旧址的当日开放", "保持肃穆并避免娱乐化拍摄"], "crowd_model": {"national_holiday": "high", "weekend": "medium", "weekday": "low-medium"}, "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 240}, "ai_note": "红色历史偏好高，雨天可作为备选但旧址间移动仍受天气影响。"},
-  "ai_score": {"history": 5, "photo": 2, "family": 4, "rain_day": 4, "crowd_risk": 3, "first_visit": 3}, "tags": ["上饶集中营", "红色历史", "纪念馆", "革命旧址"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "财政部江西监管局：赴上饶集中营接受红色教育", "url": "https://jx.mof.gov.cn/gzdt/caizhengjiancha/201809/t20180911_3014167.htm", "scope": ["历史事件", "纪念馆", "茅家岭监狱旧址"]}, {"name": "高德地图：上饶集中营名胜区", "url": "https://www.amap.com/place/B0319047U1", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_concentration_camp",
+  "name": "上饶集中营名胜区",
+  "city": "上饶",
+  "node_type": "memorial",
+  "category": [
+    "革命纪念地",
+    "爱国主义教育",
+    "红色文化节点"
+  ],
+  "location": {
+    "address": "江西省上饶市信州区陵园路66号",
+    "latitude": 28.414574,
+    "longitude": 117.961764,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0319047U1"
+  },
+  "official_info": {
+    "description": "以1941年皖南事变后被囚禁革命志士的历史及其斗争为主题，包含革命烈士纪念馆、茅家岭监狱旧址等组成节点。",
+    "ticket": {
+      "price": "免费",
+      "status": "public_memorial_dynamic_entry_rule"
+    },
+    "opening_hours": {
+      "status": "dynamic_by_venue"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "个人与团队预约、讲解和节假日开放以官方渠道为准。",
+    "status": "dynamic"
+  },
+  "history_event": {
+    "name": "上饶集中营革命斗争",
+    "period": "1941-1942",
+    "importance": "皖南事变后革命志士被囚禁并坚持斗争的重要历史见证"
+  },
+  "historic_sites": [
+    {
+      "name": "上饶集中营革命烈士纪念馆",
+      "type": "纪念馆",
+      "importance": 5
+    },
+    {
+      "name": "茅家岭监狱旧址",
+      "type": "革命旧址",
+      "importance": 5
+    }
+  ],
+  "exhibitions": {
+    "permanent": [
+      {
+        "name": "上饶集中营革命斗争主题陈列",
+        "theme": "通过史料、照片与革命文物展示被囚革命志士的斗争",
+        "importance": 5
+      }
+    ],
+    "temporary": {
+      "status": "dynamic_maintain"
+    }
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图154、156、179、188"
+    ],
+    "confidence": {
+      "overall": "medium-high"
+    },
+    "positive": [
+      {
+        "content": "适合红色历史、研学与亲子历史教育",
+        "type": "history_education"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "纪念馆与旧址可能存在分区和交通安排，不应按单一室内馆估时",
+        "risk": "scope",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "先确认纪念馆与茅家岭旧址的当日开放",
+      "保持肃穆并避免娱乐化拍摄"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "medium",
+      "weekday": "low-medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 90,
+      "recommended_min_minutes": 120,
+      "recommended_max_minutes": 240
+    },
+    "ai_note": "红色历史偏好高，雨天可作为备选但旧址间移动仍受天气影响。"
+  },
+  "ai_score": {
+    "history": 5,
+    "photo": 2,
+    "family": 4,
+    "rain_day": 4,
+    "crowd_risk": 3,
+    "first_visit": 3
+  },
+  "tags": [
+    "上饶集中营",
+    "红色历史",
+    "纪念馆",
+    "革命旧址"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "财政部江西监管局：赴上饶集中营接受红色教育",
+      "url": "https://jx.mof.gov.cn/gzdt/caizhengjiancha/201809/t20180911_3014167.htm",
+      "scope": [
+        "历史事件",
+        "纪念馆",
+        "茅家岭监狱旧址"
+      ]
+    },
+    {
+      "name": "高德地图：上饶集中营名胜区",
+      "url": "https://www.amap.com/place/B0319047U1",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

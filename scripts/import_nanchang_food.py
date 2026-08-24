@@ -414,9 +414,12 @@ def build_restaurant_node(candidate: dict[str, Any], index: int) -> tuple[dict[s
         "ai_score": build_ai_score(candidate, categories, average_price),
         "tags": list(dict.fromkeys(categories + ([area.short_name] if area else []) + ["南昌美食候选", "待人工核验"])),
         "metadata": {
-            "schema_version": "1.0",
-            "data_status": "draft",
+            "schema_version": "2.0",
+            "content_status": "draft",
+            "verification_level": "unverified",
+            "time_sensitivity": "high",
             "last_verified_at": None,
+            "next_review_at": None,
             "import_source": "nanchang_food_candidates_raw.json",
         },
     }
@@ -497,7 +500,7 @@ def build_area_node(area: FoodArea, children: list[dict[str, Any]]) -> dict[str,
             "late_night": 5 if "late_night" in periods else 3,
         },
         "tags": ["南昌美食", "美食区域", area.short_name, "国庆错峰"],
-        "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": None, "import_source": "nanchang_food_candidates_raw.json"},
+        "metadata": {"schema_version": "2.0", "content_status": "draft", "verification_level": "unverified", "time_sensitivity": "high", "last_verified_at": None, "next_review_at": None, "import_source": "nanchang_food_candidates_raw.json"},
     }
 
 

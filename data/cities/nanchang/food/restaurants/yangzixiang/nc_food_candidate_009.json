@@ -113,9 +113,12 @@
     "待人工核验"
   ],
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "third_party_verified",
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "third_party",
+    "time_sensitivity": "high",
     "last_verified_at": "2026-08-24",
+    "next_review_at": null,
     "import_source": "nanchang_food_candidates_raw.json"
   },
   "business_status": {
@@ -137,5 +140,7 @@
         "2026-08-24可检索状态"
       ]
     }
-  ]
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

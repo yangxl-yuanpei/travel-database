@@ -1,13 +1,140 @@
 {
-  "id": "jdz_stay_area_sanbao", "name": "三宝村陶艺慢居区", "short_name": "三宝村", "city": "景德镇", "node_type": "accommodation_area",
-  "category": ["陶艺体验住宿区", "自然环境住宿区", "慢游区"],
-  "location": {"address": "景德镇市珠山区三宝村四家里周边", "latitude": 29.247141, "longitude": 117.26534, "coordinate_system": "GCJ-02", "amap_poi_id": "B031E0HWOS", "map_anchor": "三宝国际陶艺村", "anchor_rule": "坐标仅作为住宿检索与通勤计算锚点，不代表村内分散住宿边界"},
-  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["jdz_sanbao_ceramic_village"], "hotel_search_radius_m": 3000, "hotel_search_keywords": ["民宿", "客栈", "艺术酒店"]},
-  "suitable_for": ["陶艺体验", "慢节奏旅行", "自然环境", "愿意连续住两晚"],
-  "transit_profile": {"rail_station_access": "距离铁路抵离节点较远，需网约车或接送", "public_transport": "不应依赖固定公交作为晚间返程保障", "walkability": "村内点位沿道路分散，部分民宿可步行到工作室和咖啡馆", "dynamic_note": "订房前用高德分别测算到村口、陶溪川和北站的路线"},
-  "experience": {"summary": "环境和陶艺氛围优先，牺牲城市景点通勤效率。", "best_for": ["慢游", "陶艺体验", "安静环境", "民宿体验"], "highlights": ["村落与自然环境", "陶艺工作室", "清晨慢游"], "avoid": ["点位分散", "晚间返程与叫车不稳定", "行李多时不便"], "holiday_price_risk": "high", "night_noise_risk": "low"},
-  "experience_layer": {"source": ["景德镇攻略截图115、120、129"], "confidence": {"overall": "high"}, "positive": [{"content": "住宿本身可成为陶艺村体验的一部分", "type": "immersive_stay"}], "avoid": [{"content": "交通便利度明显弱于老城和陶溪川", "risk": "transport", "severity": "high"}], "visit_tips": ["优先选择提供接送或可协助叫车的民宿", "确认房间到主路的步行与行李条件", "返程日不建议安排过早高铁"], "crowd_model": {"national_holiday": "high", "weekend": "high", "weekday": "medium"}, "ai_note": "陶艺和安静偏好高；首次短住、行李多或依赖公共交通需显著降权。"},
-  "ai_score": {"first_visit": 2, "transit": 2, "walkability": 3, "quiet": 5, "value": 3, "holiday_price_risk": 5},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"}, "tags": ["三宝村", "陶艺", "慢居", "民宿"],
-  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"}, "sources": [{"name": "高德地图：三宝国际陶艺村", "url": "https://www.amap.com/place/B031E0HWOS", "scope": ["锚点坐标", "POI ID"]}]
+  "id": "jdz_stay_area_sanbao",
+  "name": "三宝村陶艺慢居区",
+  "short_name": "三宝村",
+  "city": "景德镇",
+  "node_type": "accommodation_area",
+  "category": [
+    "陶艺体验住宿区",
+    "自然环境住宿区",
+    "慢游区"
+  ],
+  "location": {
+    "address": "景德镇市珠山区三宝村四家里周边",
+    "latitude": 29.247141,
+    "longitude": 117.26534,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031E0HWOS",
+    "map_anchor": "三宝国际陶艺村",
+    "anchor_rule": "坐标仅作为住宿检索与通勤计算锚点，不代表村内分散住宿边界"
+  },
+  "spatial_layer": {
+    "boundary_status": "conceptual_area",
+    "related_node_ids": [
+      "jdz_sanbao_ceramic_village"
+    ],
+    "hotel_search_radius_m": 3000,
+    "hotel_search_keywords": [
+      "民宿",
+      "客栈",
+      "艺术酒店"
+    ]
+  },
+  "suitable_for": [
+    "陶艺体验",
+    "慢节奏旅行",
+    "自然环境",
+    "愿意连续住两晚"
+  ],
+  "transit_profile": {
+    "rail_station_access": "距离铁路抵离节点较远，需网约车或接送",
+    "public_transport": "不应依赖固定公交作为晚间返程保障",
+    "walkability": "村内点位沿道路分散，部分民宿可步行到工作室和咖啡馆",
+    "dynamic_note": "订房前用高德分别测算到村口、陶溪川和北站的路线"
+  },
+  "experience": {
+    "summary": "环境和陶艺氛围优先，牺牲城市景点通勤效率。",
+    "best_for": [
+      "慢游",
+      "陶艺体验",
+      "安静环境",
+      "民宿体验"
+    ],
+    "highlights": [
+      "村落与自然环境",
+      "陶艺工作室",
+      "清晨慢游"
+    ],
+    "avoid": [
+      "点位分散",
+      "晚间返程与叫车不稳定",
+      "行李多时不便"
+    ],
+    "holiday_price_risk": "high",
+    "night_noise_risk": "low"
+  },
+  "experience_layer": {
+    "source": [
+      "景德镇攻略截图115、120、129"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "住宿本身可成为陶艺村体验的一部分",
+        "type": "immersive_stay"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "交通便利度明显弱于老城和陶溪川",
+        "risk": "transport",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "优先选择提供接送或可协助叫车的民宿",
+      "确认房间到主路的步行与行李条件",
+      "返程日不建议安排过早高铁"
+    ],
+    "crowd_model": {
+      "national_holiday": "high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "ai_note": "陶艺和安静偏好高；首次短住、行李多或依赖公共交通需显著降权。"
+  },
+  "ai_score": {
+    "first_visit": 2,
+    "transit": 2,
+    "walkability": 3,
+    "quiet": 5,
+    "value": 3,
+    "holiday_price_risk": 5
+  },
+  "amap_integration": {
+    "dynamic_fields": [
+      "attraction_commute",
+      "station_transfer",
+      "hotel_poi_search"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "tags": [
+    "三宝村",
+    "陶艺",
+    "慢居",
+    "民宿"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：三宝国际陶艺村",
+      "url": "https://www.amap.com/place/B031E0HWOS",
+      "scope": [
+        "锚点坐标",
+        "POI ID"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_jingdezhen"
 }

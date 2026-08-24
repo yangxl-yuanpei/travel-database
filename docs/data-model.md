@@ -78,22 +78,21 @@
 
 可按节点特性增加 `food`、`night`、`transport_cost` 等维度，仍使用 1–5。`transport_cost` 数值越高表示从城市核心区域前往的综合时间与交通成本越高，路线生成时应作为惩罚项使用。
 
-## 数据状态
+## Schema 2.0 元数据状态
 
-`metadata.data_status` 使用统一枚举，表示“哪一层证据已完成”，不能把不同证据层混为一个笼统的已核验：
+Schema 2.0 不再用一个 `data_status` 混合表达多种含义，而是拆成三个正交维度：
 
-| 状态 | 含义 |
-|---|---|
-| `draft` | 结构已建立，仍有核心字段待核验 |
-| `candidate` | 仅作为候选，地址、分店或身份尚未确认 |
-| `experience_verified` | 游客经验层已完成整理，不能据此推定官方事实已核验 |
-| `third_party_verified` | 已由高德等第三方确认 POI、坐标或经营快照 |
-| `time_sensitive` | 信息已核验但有明确时效，检索时必须检查日期 |
-| `verified` | 当前核心官方事实已由权威来源核验 |
-| `needs_update` | 已知信息过期或尚未到可确认窗口 |
-| `archived` | 历史节点，默认不参与推荐 |
+- `content_status`：`draft`、`candidate`、`complete`、`needs_update`、`archived`；
+- `verification_level`：`unverified`、`experience_only`、`third_party`、`official`、`mixed`、`historical`；
+- `time_sensitivity`：`low`、`medium`、`high`、`critical`。
+
+所有节点必须保存 `schema_version: "2.0"`、`last_verified_at` 与 `next_review_at`。例如游客经验已整理但官方事实未确认的节点使用 `content_status: complete` 与 `verification_level: experience_only`；已由高德确认经营快照的店铺使用 `third_party`，不冒充官方核验。
 
 经验置信度仅使用 `low`、`low-medium`、`medium`、`medium-high`、`high`。住宿区域不要求游览时长；其余带 `experience_layer` 的节点必须提供分钟制 `recommended_duration`。
+
+## 图片与版权
+
+节点图片保存在 `media.cover` 与 `media.gallery`，JSON 只保存资源路径和元数据，不嵌入二进制。每张图片必须包含替代文字、来源、来源链接、许可、署名与核验日期。公开网站只接入官方授权、自有、用户明确提供或开放许可图片；来源不明的攻略截图不得作为公开封面。
 
 ## 空间数据
 

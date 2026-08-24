@@ -1,1 +1,79 @@
-{"id":"sr_route_station_gexian","name":"上饶站—葛仙村交通链","city":"上饶","node_type":"transport","category":["景区直达车","夜游返程"],"route_profile":{"origin_id":"sr_transport_hub_shangrao_station","destination_id":"sr_gexian_village","preferred_modes":["官方景区直达班线","自驾","正规包车"],"status":"dynamic_schedule","fixed_fare_stored":false,"must_check":["上车点","返程末班","度假区与葛仙山票务范围","夜游散场"]},"experience_layer":{"source":["上饶攻略截图153、158、160、170、173、176、181"],"confidence":{"overall":"high"},"positive":[{"content":"节假日通常有重点景区直达服务","type":"direct_service"}],"avoid":[{"content":"不能把节假日加密班次视为平日固定班次","risk":"schedule_assumption","severity":"high"}],"visit_tips":["夜游优先住景区或锁定返程","包车应明确总价、等待和返程地点"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"recommended_duration":{"minimum_minutes":75,"recommended_min_minutes":90,"recommended_max_minutes":150},"ai_note":"以官方班线和高德动态结果交叉核验。"},"related_node_ids":["sr_transport_hub_shangrao_station","sr_gexian_village"],"metadata":{"schema_version":"1.0","data_status":"time_sensitive","last_verified_at":"2026-08-24"}}
+{
+  "id": "sr_route_station_gexian",
+  "name": "上饶站—葛仙村交通链",
+  "city": "上饶",
+  "node_type": "transport",
+  "category": [
+    "景区直达车",
+    "夜游返程"
+  ],
+  "route_profile": {
+    "origin_id": "sr_transport_hub_shangrao_station",
+    "destination_id": "sr_gexian_village",
+    "preferred_modes": [
+      "官方景区直达班线",
+      "自驾",
+      "正规包车"
+    ],
+    "status": "dynamic_schedule",
+    "fixed_fare_stored": false,
+    "must_check": [
+      "上车点",
+      "返程末班",
+      "度假区与葛仙山票务范围",
+      "夜游散场"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、158、160、170、173、176、181"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "节假日通常有重点景区直达服务",
+        "type": "direct_service"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "不能把节假日加密班次视为平日固定班次",
+        "risk": "schedule_assumption",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "夜游优先住景区或锁定返程",
+      "包车应明确总价、等待和返程地点"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 75,
+      "recommended_min_minutes": 90,
+      "recommended_max_minutes": 150
+    },
+    "ai_note": "以官方班线和高德动态结果交叉核验。"
+  },
+  "related_node_ids": [
+    "sr_transport_hub_shangrao_station",
+    "sr_gexian_village"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "mixed",
+    "time_sensitivity": "critical",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "tags": [],
+  "sources": [],
+  "city_id": "city_shangrao"
+}

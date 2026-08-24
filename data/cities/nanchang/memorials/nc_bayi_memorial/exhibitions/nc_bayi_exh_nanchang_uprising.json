@@ -4,9 +4,38 @@
   "city": "南昌",
   "node_type": "permanent_exhibition",
   "parent_id": "nc_bayi_memorial",
-  "official_info": {"exhibition_type": "基本陈列", "theme": "全面展示南昌起义的酝酿、决策、战斗、南征与转战历程", "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202010/af598d038d0f49409df4e723a9143f23.shtml", "verified_at": "2026-08-24", "status": "verified_government_cultural_source"},
-  "experience": {"importance": 5, "recommended_duration_minutes": 50, "highlights": ["危难中奋起", "伟大的决策", "打响第一枪", "南征与转战"]},
+  "official_info": {
+    "exhibition_type": "基本陈列",
+    "theme": "全面展示南昌起义的酝酿、决策、战斗、南征与转战历程",
+    "source_url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202010/af598d038d0f49409df4e723a9143f23.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_government_cultural_source"
+  },
+  "experience": {
+    "importance": 5,
+    "recommended_duration_minutes": 50,
+    "highlights": [
+      "危难中奋起",
+      "伟大的决策",
+      "打响第一枪",
+      "南征与转战"
+    ]
+  },
   "related_artifact_ids": [],
-  "tags": ["南昌起义", "常设展"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"}
+  "tags": [
+    "南昌起义",
+    "常设展"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_nanchang"
 }

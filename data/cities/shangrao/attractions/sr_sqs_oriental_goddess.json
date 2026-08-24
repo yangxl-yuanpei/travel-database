@@ -4,19 +4,70 @@
   "city": "上饶",
   "node_type": "attraction",
   "parent_id": "sr_sanqingshan",
-  "category": ["象形石景观", "花岗岩峰柱", "标志性景观"],
-  "location": {"address": "江西省上饶市玉山县三清山南清园景区", "latitude": 28.905645, "longitude": 118.071571, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFFOKJMF"},
+  "category": [
+    "象形石景观",
+    "花岗岩峰柱",
+    "标志性景观"
+  ],
+  "location": {
+    "address": "江西省上饶市玉山县三清山南清园景区",
+    "latitude": 28.905645,
+    "longitude": 118.071571,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFFOKJMF"
+  },
   "official_info": {
     "description": "三清山代表性花岗岩象形峰，轮廓近似端坐人物。联合国教科文组织将其与巨蟒出山共同列为三清山花岗岩峰林的标志性地貌。",
     "landform_type": "花岗岩象形峰",
     "elevation_note": "中央纪委国家监委网站资料记载海拔1180余米"
   },
-  "related_node_ids": ["sr_sqs_giant_python", "sr_sqs_nanqingyuan"],
-  "tags": ["三清山地标", "象形峰", "花岗岩", "南清园"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24", "experience_status": "awaiting_user_materials"},
+  "related_node_ids": [
+    "sr_sqs_giant_python",
+    "sr_sqs_nanqingyuan"
+  ],
+  "tags": [
+    "三清山地标",
+    "象形峰",
+    "花岗岩",
+    "南清园"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null,
+    "experience_status": "awaiting_user_materials"
+  },
   "sources": [
-    {"name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark", "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark", "scope": ["代表景观", "地貌类型", "形态描述"]},
-    {"name": "中央纪委国家监委网站：锦绣山河——三清山", "url": "https://www.ccdi.gov.cn/special/jtsj/jt_jtsj/201708/t20170821_104953.html", "scope": ["海拔", "官方形态描述"]},
-    {"name": "高德地图：女神峰", "url": "https://www.amap.com/place/B0FFFOKJMF", "scope": ["坐标", "POI ID", "地址"]}
-  ]
+    {
+      "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+      "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+      "scope": [
+        "代表景观",
+        "地貌类型",
+        "形态描述"
+      ]
+    },
+    {
+      "name": "中央纪委国家监委网站：锦绣山河——三清山",
+      "url": "https://www.ccdi.gov.cn/special/jtsj/jt_jtsj/201708/t20170821_104953.html",
+      "scope": [
+        "海拔",
+        "官方形态描述"
+      ]
+    },
+    {
+      "name": "高德地图：女神峰",
+      "url": "https://www.amap.com/place/B0FFFOKJMF",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

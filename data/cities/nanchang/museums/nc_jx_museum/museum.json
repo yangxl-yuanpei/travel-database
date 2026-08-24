@@ -44,9 +44,13 @@
   "reservation": {
     "required": true,
     "real_name_required": true,
-    "channels": ["江西省博物馆微信公众号"],
+    "channels": [
+      "江西省博物馆微信公众号"
+    ],
     "advance_days": 7,
-    "document_requirements": ["有效身份证件"],
+    "document_requirements": [
+      "有效身份证件"
+    ],
     "notes": "具体预约规则以博物馆官方公告为准",
     "source_url": "https://jx.ifeng.com/c/8toqouFK0sN",
     "verified_at": "2026-08-24",
@@ -56,13 +60,19 @@
     "target_year": 2026,
     "status": "historical_reference_only",
     "reference_year": 2025,
-    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "period": {
+      "start": "2025-10-01",
+      "end": "2025-10-08"
+    },
     "observed_facts": {
       "opening_schedule": "10月1日至8日09:00-18:00，17:00停止入馆",
       "special_night_session": "10月2日09:00-20:00，19:00停止入馆",
       "reservation_rule": "实名制免费预约",
       "advance_days": 7,
-      "official_channels": ["江西省博物馆微信公众号江博预约", "江西省博物馆官网团队预约"]
+      "official_channels": [
+        "江西省博物馆微信公众号江博预约",
+        "江西省博物馆官网团队预约"
+      ]
     },
     "planning_inference": [
       "2026年可先按延时开放存在的可能性规划，但不能提前承诺夜场",
@@ -82,7 +92,10 @@
     ],
     "confidence": "high",
     "recheck_required": true,
-    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "recheck_window": [
+      "2026-09-15",
+      "2026-09-30"
+    ],
     "warning": "2025年的延时和夜场安排不能直接继承为2026事实，预约提前天数也需以2026公告为准。"
   },
   "child_nodes": {
@@ -211,30 +224,50 @@
     "文化游客"
   ],
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "verified",
-    "last_verified_at": "2026-08-23"
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-23",
+    "next_review_at": "2026-09-15"
   },
   "sources": [
     {
       "name": "高德地图：江西省博物馆",
       "url": "https://ditu.amap.com/place/B0FFGY018L",
-      "scope": ["坐标", "POI ID", "地址", "联系电话"]
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址",
+        "联系电话"
+      ]
     },
     {
       "name": "江西省博物馆开放安排",
       "url": "https://jx.ifeng.com/c/8toqouFK0sN",
-      "scope": ["江西省博物馆2026年6月9日公告原文", "7月1日起实名免费预约", "提前七天", "暑期延时开放"]
+      "scope": [
+        "江西省博物馆2026年6月9日公告原文",
+        "7月1日起实名免费预约",
+        "提前七天",
+        "暑期延时开放"
+      ]
     },
     {
       "name": "南昌市人民政府：文脉里的江西采风活动",
       "url": "https://www.nc.gov.cn/ncszf/ttxw/202605/e464b3964ea5407aaffe79af53e10644.shtml",
-      "scope": ["2026年仍在展的江西古代历史文化展", "展览主题"]
+      "scope": [
+        "2026年仍在展的江西古代历史文化展",
+        "展览主题"
+      ]
     },
     {
       "name": "南昌市文化广电旅游局：江西十大镇馆之宝",
       "url": "https://wgxj.nc.gov.cn/wgxlj/zwdt/202306/0ec5d76bb75c4e6eb3a94f5e83e1b6b9.shtml",
-      "scope": ["代表文物"]
+      "scope": [
+        "代表文物"
+      ]
     }
-  ]
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

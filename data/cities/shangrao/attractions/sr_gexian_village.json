@@ -1,12 +1,167 @@
 {
-  "id": "sr_gexian_village", "name": "葛仙村度假区", "short_name": "葛仙村", "city": "上饶", "node_type": "attraction",
-  "category": ["道文化度假区", "夜游", "国家4A级旅游景区关联", "远郊节点"],
-  "location": {"address": "江西省上饶市铅山县葛仙山镇葛仙村度假区游客中心", "latitude": 28.093503, "longitude": 117.692986, "coordinate_system": "GCJ-02", "amap_poi_id": "B031900WXO"},
-  "official_info": {"description": "位于铅山县葛仙山脚下，以道文化、汉唐风格街区、水竹村落和度假体验为核心；葛仙村与葛仙山索道游览应作为不同票务范围理解。", "opening_hours": {"status": "dynamic_by_event"}, "ticket": {"status": "village_and_mountain_ropeway_separate_or_package"}},
-  "reservation": {"required": null, "notes": "度假区门票、葛仙山索道及节庆套餐须分别核对。", "status": "dynamic"},
-  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["上饶站南广场", "铅山县城"], "public_transport": [{"from": "上饶站", "mode": "景区直达班线", "status": "dynamic_schedule", "notes": "节假日会加密，但不能将临时加班车视为常态。"}], "self_drive": {"suitable": true, "risk": ["夜游散场", "山路", "节假日停车"]}, "last_mile": "住度假区内可减少夜游返程；住外部需确认接驳。", "return_risk": "high_after_night_show", "same_day_pairing": {"recommended": ["葛仙山（需另核票务与索道）"], "avoid": ["望仙谷", "三清山", "篁岭"]}, "holiday_risk": ["直达车售罄", "索道与度假区票务混淆", "散场拥堵"], "dynamic_checks": ["上饶站直达车", "度假区节目单", "葛仙山索道", "返程末班"]},
-  "experience_layer": {"source": ["上饶攻略截图153、158、170、176、178、181、182、198"], "confidence": {"overall": "high"}, "positive": [{"content": "灵宝仙街、水景与夜间灯光适合慢游和汉服摄影", "type": "night_photo"}], "avoid": [{"content": "误以为葛仙村门票包含葛仙山索道会造成预算与时间偏差", "risk": "ticket_scope", "severity": "high"}, {"content": "夜游结束后再临时回上饶市区风险高", "risk": "return_transport", "severity": "high"}], "visit_tips": ["村落夜游与登山祈福应分别计算时间", "计划山村联游时预留完整一天并核对索道", "只玩村落可下午入园并优先解决住宿或返程"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 240, "recommended_min_minutes": 360, "recommended_max_minutes": 600}, "ai_note": "夜游、汉服和度假偏好高；短途过境、无夜间交通方案时降权。"},
-  "ai_score": {"history": 3, "photo": 5, "family": 4, "rain_day": 2, "crowd_risk": 5, "first_visit": 4}, "tags": ["葛仙村", "葛仙山", "夜游", "道文化", "远郊"],
-  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "生态中国网：来葛仙村过几天神仙日子", "url": "https://www.eco.gov.cn/news_info/50564.html", "scope": ["区位", "葛仙山与葛仙村关系", "文化定位"]}, {"name": "高德地图：葛仙村度假区", "url": "https://www.amap.com/place/B031900WXO", "scope": ["坐标", "POI ID", "地址"]}]
+  "id": "sr_gexian_village",
+  "name": "葛仙村度假区",
+  "short_name": "葛仙村",
+  "city": "上饶",
+  "node_type": "attraction",
+  "category": [
+    "道文化度假区",
+    "夜游",
+    "国家4A级旅游景区关联",
+    "远郊节点"
+  ],
+  "location": {
+    "address": "江西省上饶市铅山县葛仙山镇葛仙村度假区游客中心",
+    "latitude": 28.093503,
+    "longitude": 117.692986,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B031900WXO"
+  },
+  "official_info": {
+    "description": "位于铅山县葛仙山脚下，以道文化、汉唐风格街区、水竹村落和度假体验为核心；葛仙村与葛仙山索道游览应作为不同票务范围理解。",
+    "opening_hours": {
+      "status": "dynamic_by_event"
+    },
+    "ticket": {
+      "status": "village_and_mountain_ropeway_separate_or_package"
+    }
+  },
+  "reservation": {
+    "required": null,
+    "notes": "度假区门票、葛仙山索道及节庆套餐须分别核对。",
+    "status": "dynamic"
+  },
+  "remote_transport_profile": {
+    "remote_level": "high",
+    "primary_hubs": [
+      "上饶站南广场",
+      "铅山县城"
+    ],
+    "public_transport": [
+      {
+        "from": "上饶站",
+        "mode": "景区直达班线",
+        "status": "dynamic_schedule",
+        "notes": "节假日会加密，但不能将临时加班车视为常态。"
+      }
+    ],
+    "self_drive": {
+      "suitable": true,
+      "risk": [
+        "夜游散场",
+        "山路",
+        "节假日停车"
+      ]
+    },
+    "last_mile": "住度假区内可减少夜游返程；住外部需确认接驳。",
+    "return_risk": "high_after_night_show",
+    "same_day_pairing": {
+      "recommended": [
+        "葛仙山（需另核票务与索道）"
+      ],
+      "avoid": [
+        "望仙谷",
+        "三清山",
+        "篁岭"
+      ]
+    },
+    "holiday_risk": [
+      "直达车售罄",
+      "索道与度假区票务混淆",
+      "散场拥堵"
+    ],
+    "dynamic_checks": [
+      "上饶站直达车",
+      "度假区节目单",
+      "葛仙山索道",
+      "返程末班"
+    ]
+  },
+  "experience_layer": {
+    "source": [
+      "上饶攻略截图153、158、170、176、178、181、182、198"
+    ],
+    "confidence": {
+      "overall": "high"
+    },
+    "positive": [
+      {
+        "content": "灵宝仙街、水景与夜间灯光适合慢游和汉服摄影",
+        "type": "night_photo"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "误以为葛仙村门票包含葛仙山索道会造成预算与时间偏差",
+        "risk": "ticket_scope",
+        "severity": "high"
+      },
+      {
+        "content": "夜游结束后再临时回上饶市区风险高",
+        "risk": "return_transport",
+        "severity": "high"
+      }
+    ],
+    "visit_tips": [
+      "村落夜游与登山祈福应分别计算时间",
+      "计划山村联游时预留完整一天并核对索道",
+      "只玩村落可下午入园并优先解决住宿或返程"
+    ],
+    "crowd_model": {
+      "national_holiday": "very-high",
+      "weekend": "high",
+      "weekday": "medium"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 240,
+      "recommended_min_minutes": 360,
+      "recommended_max_minutes": 600
+    },
+    "ai_note": "夜游、汉服和度假偏好高；短途过境、无夜间交通方案时降权。"
+  },
+  "ai_score": {
+    "history": 3,
+    "photo": 5,
+    "family": 4,
+    "rain_day": 2,
+    "crowd_risk": 5,
+    "first_visit": 4
+  },
+  "tags": [
+    "葛仙村",
+    "葛仙山",
+    "夜游",
+    "道文化",
+    "远郊"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "生态中国网：来葛仙村过几天神仙日子",
+      "url": "https://www.eco.gov.cn/news_info/50564.html",
+      "scope": [
+        "区位",
+        "葛仙山与葛仙村关系",
+        "文化定位"
+      ]
+    },
+    {
+      "name": "高德地图：葛仙村度假区",
+      "url": "https://www.amap.com/place/B031900WXO",
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_shangrao"
 }

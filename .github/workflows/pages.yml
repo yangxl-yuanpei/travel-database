@@ -32,6 +32,7 @@ jobs:
           cache: pnpm
           cache-dependency-path: web/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
+      - run: pnpm test
       - run: pnpm run build:github
         env:
           VITE_COMMUTE_API_BASE: ${{ vars.COMMUTE_API_BASE }}

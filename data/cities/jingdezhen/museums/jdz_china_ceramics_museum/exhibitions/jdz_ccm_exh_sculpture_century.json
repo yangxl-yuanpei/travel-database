@@ -1,6 +1,52 @@
 {
-  "id": "jdz_ccm_exh_sculpture_century", "name": "泥火匠心·瓷塑万象——近百年陶瓷雕塑精品展", "city": "景德镇", "node_type": "temporary_exhibition", "parent_id": "jdz_china_ceramics_museum",
-  "official_info": {"exhibition_type": "专题展（展期动态）", "floor": "七楼（2026年5月官方报道时）", "hall": null, "description": "集中展示近百年陶瓷雕塑精品；官方报道确认沉思罗汉（“无语菩萨”）在展。", "start_date": null, "end_date": null, "current_as_of": "2026-05-01", "source_url": "https://jdz.gov.cn/zwzx/ztbd/wmly/t1089912.shtml", "verified_at": "2026-08-24", "status": "verified_at_source_date_recheck_before_visit"},
-  "experience": {"importance": 5, "recommended_duration_minutes": 30, "suitable_for": ["陶瓷雕塑", "摄影", "热门展品打卡"], "highlights": ["沉思罗汉（无语菩萨）", "近现代陶瓷雕塑"]},
-  "related_artifact_ids": ["jdz_ccm_artifact_meditating_arhat"], "tags": ["陶瓷雕塑", "专题展", "动态展览"], "metadata": {"schema_version": "1.0", "data_status": "time_sensitive", "last_verified_at": "2026-08-24"}
+  "id": "jdz_ccm_exh_sculpture_century",
+  "name": "泥火匠心·瓷塑万象——近百年陶瓷雕塑精品展",
+  "city": "景德镇",
+  "node_type": "temporary_exhibition",
+  "parent_id": "jdz_china_ceramics_museum",
+  "official_info": {
+    "exhibition_type": "专题展（展期动态）",
+    "floor": "七楼（2026年5月官方报道时）",
+    "hall": null,
+    "description": "集中展示近百年陶瓷雕塑精品；官方报道确认沉思罗汉（“无语菩萨”）在展。",
+    "start_date": null,
+    "end_date": null,
+    "current_as_of": "2026-05-01",
+    "source_url": "https://jdz.gov.cn/zwzx/ztbd/wmly/t1089912.shtml",
+    "verified_at": "2026-08-24",
+    "status": "verified_at_source_date_recheck_before_visit"
+  },
+  "experience": {
+    "importance": 5,
+    "recommended_duration_minutes": 30,
+    "suitable_for": [
+      "陶瓷雕塑",
+      "摄影",
+      "热门展品打卡"
+    ],
+    "highlights": [
+      "沉思罗汉（无语菩萨）",
+      "近现代陶瓷雕塑"
+    ]
+  },
+  "related_artifact_ids": [
+    "jdz_ccm_artifact_meditating_arhat"
+  ],
+  "tags": [
+    "陶瓷雕塑",
+    "专题展",
+    "动态展览"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "mixed",
+    "time_sensitivity": "critical",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "aliases": [],
+  "category": [],
+  "sources": [],
+  "city_id": "city_jingdezhen"
 }

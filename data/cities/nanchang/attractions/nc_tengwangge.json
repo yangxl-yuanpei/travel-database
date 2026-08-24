@@ -41,11 +41,18 @@
     "target_year": 2026,
     "status": "historical_reference_only",
     "reference_year": 2025,
-    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "period": {
+      "start": "2025-10-01",
+      "end": "2025-10-08"
+    },
     "observed_facts": {
       "reservation_rule": "2025年双节实行实名制分时预约购票",
       "advance_window": "提前1至7天预约",
-      "channels": ["滕王阁旅游区官方微信公众号", "美团", "携程"],
+      "channels": [
+        "滕王阁旅游区官方微信公众号",
+        "美团",
+        "携程"
+      ],
       "entry_rule": "按预约时段凭购票二维码或本人有效身份证核验入园；错过预约时段需重新预约"
     },
     "planning_inference": [
@@ -61,7 +68,10 @@
     ],
     "confidence": "medium-high",
     "recheck_required": true,
-    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "recheck_window": [
+      "2026-09-15",
+      "2026-09-30"
+    ],
     "warning": "仅为2025年国庆中秋安排的历史参考，不代表2026年预约窗口、开放时段或入园规则。"
   },
   "experience": {
@@ -179,7 +189,9 @@
     "required": true,
     "recommended": true,
     "real_name_required": true,
-    "channels": ["景区官方购票渠道"],
+    "channels": [
+      "景区官方购票渠道"
+    ],
     "advance_days": null,
     "notes": "节假日建议提前查询官方预约及购票要求",
     "source_url": "https://www.cntwg.com/htm/News/Show-202307151125420.html",
@@ -192,26 +204,83 @@
     "历史文化",
     "夜景"
   ],
+  "media": {
+    "cover": {
+      "asset_id": "nc_tengwangge_cover_01",
+      "path": "/images/nanchang/tengwangge/cover.webp",
+      "type": "exterior",
+      "alt": "正面仰望滕王阁的层叠楼阁建筑",
+      "source_type": "open_license",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20240207_Tengwang_Ge_(113337).jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Yumeto / Wikimedia Commons",
+      "verified_at": "2026-08-24",
+      "focal_point": {"x": 0.5, "y": 0.45}
+    },
+    "gallery": [
+      {
+        "asset_id": "nc_tengwangge_detail_01",
+        "path": "/images/nanchang/tengwangge/detail_01.webp",
+        "type": "interior",
+        "alt": "滕王阁室内彩绘藻井与匾额",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20240207_Tengwang_Ge_(114628).jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Yumeto / Wikimedia Commons",
+        "verified_at": "2026-08-24"
+      },
+      {
+        "asset_id": "nc_tengwangge_detail_02",
+        "path": "/images/nanchang/tengwangge/detail_02.webp",
+        "type": "viewpoint",
+        "alt": "从滕王阁向东俯瞰景区广场与南昌城市建筑",
+        "source_type": "open_license",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20240207_View_from_the_Tengwang_Pavilion.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Yumeto / Wikimedia Commons",
+        "verified_at": "2026-08-24"
+      }
+    ]
+  },
   "metadata": {
-    "schema_version": "1.0",
-    "data_status": "verified",
-    "last_verified_at": "2026-08-23"
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "official",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-23",
+    "next_review_at": "2026-09-15"
   },
   "sources": [
     {
       "name": "滕王阁官方网站",
       "url": "https://www.cntwg.com/",
-      "scope": ["地址", "联系电话", "官方公告"]
+      "scope": [
+        "地址",
+        "联系电话",
+        "官方公告"
+      ]
     },
     {
       "name": "南昌市人民政府：滕王阁",
       "url": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
-      "scope": ["历史介绍", "地标定位"]
+      "scope": [
+        "历史介绍",
+        "地标定位"
+      ]
     },
     {
       "name": "高德地图：滕王阁",
       "url": "https://ditu.amap.com/place/B031701YGL",
-      "scope": ["坐标", "POI ID", "地址"]
+      "scope": [
+        "坐标",
+        "POI ID",
+        "地址"
+      ]
     }
-  ]
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }

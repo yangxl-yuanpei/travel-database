@@ -2,11 +2,24 @@
   "id": "journey_2026_national_day_jiangxi",
   "name": "2026 国庆江西会合旅行",
   "node_type": "journey",
-  "travel_window": {"start": "2026-10-01", "end": "2026-10-05", "days": 5, "status": "planning"},
+  "travel_window": {
+    "start": "2026-10-01",
+    "end": "2026-10-05",
+    "days": 5,
+    "status": "planning"
+  },
   "structure": {
-    "origin_city_ids": ["city_zhuhai", "city_beijing", "city_shanghai"],
+    "origin_city_ids": [
+      "city_zhuhai",
+      "city_beijing",
+      "city_shanghai"
+    ],
     "rendezvous_city_id": "city_nanchang",
-    "main_city_sequence": ["city_nanchang", "city_jingdezhen", "city_shangrao"],
+    "main_city_sequence": [
+      "city_nanchang",
+      "city_jingdezhen",
+      "city_shangrao"
+    ],
     "transport_node_ids": [
       "transport_beijing_nanchang",
       "transport_shanghai_nanchang",
@@ -26,14 +39,44 @@
     "amap_role": "保存 GCJ-02 空间锚点；未来通过高德 API 动态计算站点接驳、驾车和步行方案。"
   },
   "related_node_ids": [
-    "city_zhuhai", "city_beijing", "city_shanghai", "city_nanchang", "city_jingdezhen", "city_shangrao",
-    "transport_beijing_nanchang", "transport_shanghai_nanchang", "transport_zhuhai_nanchang",
-    "transport_nanchang_jingdezhen", "transport_jingdezhen_shangrao",
+    "city_zhuhai",
+    "city_beijing",
+    "city_shanghai",
+    "city_nanchang",
+    "city_jingdezhen",
+    "city_shangrao",
+    "transport_beijing_nanchang",
+    "transport_shanghai_nanchang",
+    "transport_zhuhai_nanchang",
+    "transport_nanchang_jingdezhen",
+    "transport_jingdezhen_shangrao",
     "itinerary_4d_nanchang_jingdezhen_sanqingshan"
   ],
-  "tags": ["国庆", "三地出发", "南昌会合", "景德镇", "上饶", "高铁"],
-  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "tags": [
+    "国庆",
+    "三地出发",
+    "南昌会合",
+    "景德镇",
+    "上饶",
+    "高铁"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "draft",
+    "verification_level": "unverified",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
   "sources": [
-    {"name": "中国铁路 12306：客票预售期公告", "url": "https://www.12306.cn/mormhweb/zxdt/202205/t20220531_37508.html", "scope": ["15 天预售期"]}
-  ]
+    {
+      "name": "中国铁路 12306：客票预售期公告",
+      "url": "https://www.12306.cn/mormhweb/zxdt/202205/t20220531_37508.html",
+      "scope": [
+        "15 天预售期"
+      ]
+    }
+  ],
+  "aliases": [],
+  "category": []
 }

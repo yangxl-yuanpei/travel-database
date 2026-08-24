@@ -4,24 +4,152 @@
   "short_name": "省博—万达",
   "city": "南昌",
   "node_type": "accommodation_area",
-  "category": ["博物馆便利区", "亲子住宿区", "公寓酒店集中区"],
-  "location": {"address": "江西省南昌市红谷滩区江西省博物馆周边", "latitude": 28.7059, "longitude": 115.881823, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFGY018L", "map_anchor": "江西省博物馆", "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"},
-  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["nc_jx_museum", "nc_qiushui_square"], "hotel_search_radius_m": 2500, "hotel_search_keywords": ["酒店", "公寓式酒店", "亲子酒店"]},
-  "suitable_for": ["亲子家庭", "博物馆爱好者", "住宿性价比偏好", "连住需求"],
-  "transit_profile": {"rail_station_access": "往返南昌西站相对方便", "public_transport": "依赖地铁或公交前往老城核心景点", "walkability": "适合博物馆和周边商业活动，老城串联能力有限", "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"},
-  "experience": {"summary": "适合省博深度参观、亲子和公寓式住宿需求，老城行程需预留通勤。", "best_for": ["亲子", "博物馆深度游", "连住"], "highlights": ["靠近江西省博物馆", "商业餐饮配套", "公寓式住宿选择"], "avoid": ["距离老城核心景点有一定距离", "不同商业片区的实际步行距离需核算"], "holiday_price_risk": "medium-high", "night_noise_risk": "medium"},
+  "category": [
+    "博物馆便利区",
+    "亲子住宿区",
+    "公寓酒店集中区"
+  ],
+  "location": {
+    "address": "江西省南昌市红谷滩区江西省博物馆周边",
+    "latitude": 28.7059,
+    "longitude": 115.881823,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFGY018L",
+    "map_anchor": "江西省博物馆",
+    "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"
+  },
+  "spatial_layer": {
+    "boundary_status": "conceptual_area",
+    "related_node_ids": [
+      "nc_jx_museum",
+      "nc_qiushui_square"
+    ],
+    "hotel_search_radius_m": 2500,
+    "hotel_search_keywords": [
+      "酒店",
+      "公寓式酒店",
+      "亲子酒店"
+    ]
+  },
+  "suitable_for": [
+    "亲子家庭",
+    "博物馆爱好者",
+    "住宿性价比偏好",
+    "连住需求"
+  ],
+  "transit_profile": {
+    "rail_station_access": "往返南昌西站相对方便",
+    "public_transport": "依赖地铁或公交前往老城核心景点",
+    "walkability": "适合博物馆和周边商业活动，老城串联能力有限",
+    "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"
+  },
+  "experience": {
+    "summary": "适合省博深度参观、亲子和公寓式住宿需求，老城行程需预留通勤。",
+    "best_for": [
+      "亲子",
+      "博物馆深度游",
+      "连住"
+    ],
+    "highlights": [
+      "靠近江西省博物馆",
+      "商业餐饮配套",
+      "公寓式住宿选择"
+    ],
+    "avoid": [
+      "距离老城核心景点有一定距离",
+      "不同商业片区的实际步行距离需核算"
+    ],
+    "holiday_price_risk": "medium-high",
+    "night_noise_risk": "medium"
+  },
   "experience_layer": {
-    "source": ["游客攻略截图106", "游客攻略截图107"],
-    "confidence": {"overall": "medium", "reason": "区域适配结论较一致，但酒店供给和价格需要动态查询"},
-    "positive": [{"content": "适合把江西省博物馆作为重点的亲子或文化行程", "type": "museum_access"}, {"content": "公寓式酒店与商业配套有利于家庭连住", "type": "family"}],
-    "avoid": [{"content": "与老城核心景点并非步行串联关系", "risk": "commute", "severity": "high"}, {"content": "不能以商圈名称代替具体酒店到地铁站的实测距离", "risk": "map_assumption", "severity": "medium"}],
-    "visit_tips": ["先确定省博预约日期再评估该区权重", "使用高德计算具体酒店到省博入口和地铁站的步行路线", "家庭住宿重点检查洗衣、早餐和房型信息"],
-    "crowd_model": {"national_holiday": "medium-high", "weekend": "medium", "weekday": "medium", "peak_time": ["商场晚间", "博物馆开馆前后"]},
+    "source": [
+      "游客攻略截图106",
+      "游客攻略截图107"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "区域适配结论较一致，但酒店供给和价格需要动态查询"
+    },
+    "positive": [
+      {
+        "content": "适合把江西省博物馆作为重点的亲子或文化行程",
+        "type": "museum_access"
+      },
+      {
+        "content": "公寓式酒店与商业配套有利于家庭连住",
+        "type": "family"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "与老城核心景点并非步行串联关系",
+        "risk": "commute",
+        "severity": "high"
+      },
+      {
+        "content": "不能以商圈名称代替具体酒店到地铁站的实测距离",
+        "risk": "map_assumption",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "先确定省博预约日期再评估该区权重",
+      "使用高德计算具体酒店到省博入口和地铁站的步行路线",
+      "家庭住宿重点检查洗衣、早餐和房型信息"
+    ],
+    "crowd_model": {
+      "national_holiday": "medium-high",
+      "weekend": "medium",
+      "weekday": "medium",
+      "peak_time": [
+        "商场晚间",
+        "博物馆开馆前后"
+      ]
+    },
     "ai_note": "省博、亲子、连住偏好权重高；老城历史景点占比高时降低推荐。"
   },
-  "ai_score": {"first_visit": 3, "transit": 4, "walkability": 3, "quiet": 4, "river_view": 3, "value": 4, "holiday_price_risk": 4},
-  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_verified"},
-  "tags": ["江西省博物馆", "亲子", "公寓式酒店", "红谷滩"],
-  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
-  "sources": [{"name": "高德地图：江西省博物馆", "url": "https://ditu.amap.com/place/B0FFGY018L", "scope": ["锚点坐标", "POI ID"]}]
+  "ai_score": {
+    "first_visit": 3,
+    "transit": 4,
+    "walkability": 3,
+    "quiet": 4,
+    "river_view": 3,
+    "value": 4,
+    "holiday_price_risk": 4
+  },
+  "amap_integration": {
+    "dynamic_fields": [
+      "attraction_commute",
+      "station_transfer",
+      "hotel_poi_search"
+    ],
+    "api_status": "proxy_verified"
+  },
+  "tags": [
+    "江西省博物馆",
+    "亲子",
+    "公寓式酒店",
+    "红谷滩"
+  ],
+  "metadata": {
+    "schema_version": "2.0",
+    "content_status": "complete",
+    "verification_level": "experience_only",
+    "time_sensitivity": "medium",
+    "last_verified_at": "2026-08-24",
+    "next_review_at": null
+  },
+  "sources": [
+    {
+      "name": "高德地图：江西省博物馆",
+      "url": "https://ditu.amap.com/place/B0FFGY018L",
+      "scope": [
+        "锚点坐标",
+        "POI ID"
+      ]
+    }
+  ],
+  "aliases": [],
+  "city_id": "city_nanchang"
 }
