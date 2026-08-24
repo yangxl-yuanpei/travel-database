@@ -80,3 +80,29 @@ test("Jingdezhen publishes the first ceramic-culture node batch", async () => {
   assert.ok(places.every((place) => typeof place.location.latitude === "number" && typeof place.location.longitude === "number"));
   assert.ok(places.every((place) => place.location.coordinate_system === "GCJ-02"));
 });
+
+test("Shangrao publishes the multi-hub county travel database", async () => {
+  const data = await atlas();
+  const places = data.city_places.city_shangrao;
+  assert.ok(places.length >= 25);
+  const sanqingshan = places.find((place) => place.id === "sr_sanqingshan");
+  assert.ok(sanqingshan);
+  assert.equal(sanqingshan.metadata.data_status, "verified");
+  assert.equal(sanqingshan.location.coordinate_system, "GCJ-02");
+  assert.equal(sanqingshan.official_info.ticket.general_admission.amount, 120);
+  assert.equal(sanqingshan.reservation.required, true);
+  assert.equal(sanqingshan.holiday_reference.reference_year, 2025);
+  assert.equal(sanqingshan.children.filter((child) => child.node_type === "attraction").length, 4);
+  assert.equal(sanqingshan.children.filter((child) => child.node_type === "transport").length, 3);
+  assert.ok(sanqingshan.children.every((child) => typeof child.location.latitude === "number" && typeof child.location.longitude === "number"));
+  assert.ok(["sr_sqs_nanqingyuan", "sr_sqs_west_coast", "sr_sqs_giant_python", "sr_sqs_oriental_goddess"].every((id) => places.some((place) => place.id === id)));
+  assert.equal(sanqingshan.experience_layer.confidence.overall, "high");
+  assert.equal(sanqingshan.remote_transport_profile.remote_level, "high");
+  assert.ok(["sr_wangxiangu", "sr_wuyuan_huangling", "sr_gexian_village", "sr_yiyang_guifeng"].every((id) => places.some((place) => place.id === id)));
+  const museum = places.find((place) => place.node_type === "museum" && place.id === "sr_museum");
+  assert.ok(museum);
+  assert.equal(museum.children.filter((child) => child.node_type === "permanent_exhibition").length, 5);
+  assert.ok(places.some((place) => place.node_type === "memorial" && place.id === "sr_concentration_camp"));
+  assert.ok(places.filter((place) => place.node_type === "food").length >= 3);
+  assert.ok(places.filter((place) => place.node_type === "accommodation_area").length >= 5);
+});

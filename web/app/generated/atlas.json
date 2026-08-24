@@ -400,29 +400,77 @@
         "map_anchor": "上饶站"
       },
       "journey_role": "江西第三站",
-      "detail_status": "framework",
+      "detail_status": "active",
       "primary_station": {
         "name": "上饶站",
         "station_code": "SRG"
       },
+      "spatial_model": {
+        "type": "multi_hub_county_network",
+        "primary_hub": "sr_transport_hub_shangrao_station",
+        "secondary_hubs": [
+          "sr_transport_hub_wuyuan_station"
+        ],
+        "rule": "上饶市区、三清山、婺源、铅山与弋阳按多个县域目的地处理；景点间交通全部由高德和官方班线动态计算。"
+      },
       "child_nodes": {
-        "attractions": [],
-        "museums": [],
-        "memorials": [],
-        "food": [],
-        "accommodation_areas": [],
+        "attractions": [
+          "sr_sanqingshan",
+          "sr_sqs_nanqingyuan",
+          "sr_sqs_west_coast",
+          "sr_sqs_giant_python",
+          "sr_sqs_oriental_goddess",
+          "sr_wangxiangu",
+          "sr_wuyuan_huangling",
+          "sr_wuyuan_wunvzhou",
+          "sr_gexian_village",
+          "sr_lingshan",
+          "sr_yiyang_guifeng",
+          "sr_wuyuan_jiangwan",
+          "sr_hekou_ancient_town",
+          "sr_ehu_academy",
+          "sr_wuyuan_xiangaocheng"
+        ],
+        "museums": [
+          "sr_museum"
+        ],
+        "memorials": [
+          "sr_concentration_camp"
+        ],
+        "food": [
+          "sr_food_area_wanda",
+          "sr_food_area_jinlonggang",
+          "sr_food_area_yanshan_hekou"
+        ],
+        "accommodation_areas": [
+          "sr_stay_area_shangrao_station",
+          "sr_stay_area_wuyuan_county",
+          "sr_stay_area_sanqingshan_foothill",
+          "sr_stay_area_wangxiangu",
+          "sr_stay_area_gexian_village"
+        ],
         "transport": [
-          "transport_jingdezhen_shangrao"
+          "transport_jingdezhen_shangrao",
+          "sr_transport_hub_shangrao_station",
+          "sr_transport_hub_wuyuan_station",
+          "sr_route_station_wangxiangu",
+          "sr_route_station_sanqingshan",
+          "sr_route_station_gexian",
+          "sr_route_wuyuan_huangling"
         ]
       },
       "tags": [
         "三清山门户",
         "江西主线",
-        "待完善城市"
+        "世界自然遗产",
+        "婺源",
+        "多中心县域交通",
+        "美食区域",
+        "住宿区域"
       ],
       "metadata": {
         "schema_version": "1.0",
-        "data_status": "draft",
+        "data_status": "verified",
         "last_verified_at": "2026-08-24"
       }
     }
@@ -21611,6 +21659,4467 @@
         "children": []
       }
     ],
-    "city_shangrao": []
+    "city_shangrao": [
+      {
+        "id": "sr_sanqingshan",
+        "name": "三清山风景名胜区",
+        "short_name": "三清山",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "山岳型风景名胜区",
+          "世界自然遗产",
+          "世界地质公园",
+          "国家5A级旅游景区"
+        ],
+        "location": {
+          "address": "江西省上饶市玉山县三清乡",
+          "latitude": 28.895559,
+          "longitude": 118.06578,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0319005FP"
+        },
+        "official_info": {
+          "description": "位于江西省上饶市的花岗岩峰林型山岳景区，2008年列入《世界遗产名录》。联合国教科文组织资料强调其密集的花岗岩峰柱、森林植被与多变气象共同形成的突出景观价值。",
+          "heritage_status": [
+            {
+              "name": "世界自然遗产",
+              "year": 2008,
+              "criterion": "(vii)"
+            },
+            {
+              "name": "联合国教科文组织世界地质公园",
+              "designation_year": 2015
+            }
+          ],
+          "contact_phone": "0793-96373",
+          "opening_hours": {
+            "regular_schedule": "每日运营时段随季节、天气和客流动态调整，以景区当日公告为准",
+            "status": "dynamic_by_season_weather_and_crowd",
+            "source_url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
+            "verified_at": "2026-08-24"
+          },
+          "ticket": {
+            "general_admission": {
+              "amount": 120,
+              "currency": "CNY",
+              "unit": "成人票"
+            },
+            "half_price_admission": {
+              "amount": 60,
+              "currency": "CNY"
+            },
+            "ropeway_separate": true,
+            "status": "verified_2026_regular_policy",
+            "source_url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+            "verified_at": "2026-08-24"
+          }
+        },
+        "reservation": {
+          "required": true,
+          "real_name_required": true,
+          "channels": [
+            "“三清山旅游”官方微信公众号",
+            "景区官方授权线上平台"
+          ],
+          "advance_days": null,
+          "notes": "景区实行实名预约购票；常规提前天数及节假日限额会动态调整，线上售罄表示当日预约量已达限额。",
+          "source_url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
+          "verified_at": "2026-08-24",
+          "status": "verified_channel_dynamic_quota"
+        },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "opening_schedule": "10月1日、6日06:00-18:00；10月2日至5日05:30-18:00；10月7日、8日06:30-18:00",
+            "reservation_rule": "全员实名制预约购票；线上售罄表示当日人数达到限额",
+            "entry_rule": "徒步登山入园时间与景区、索道运营时间一致",
+            "official_channels": "三清山旅游微信公众号及官方授权平台",
+            "transfer_service": "枫林、紫湖、港首停车场设置转运线路，索道服务区之间另有定时班线"
+          },
+          "planning_inference": [
+            "2026年国庆应按高客流、早开园、分时限流的山岳景区处理",
+            "购票、索道入口和停车换乘应在出发前作为一个整体复核",
+            "不能直接套用2025年的具体运营时刻，需在2026年9月等待专项公告"
+          ],
+          "sources": [
+            {
+              "name": "三清山文化和旅游局：2025年国庆中秋开放运营公告",
+              "url": "https://jx.ifeng.com/c/8n2s34nqlKX",
+              "source_type": "official_republication"
+            }
+          ],
+          "confidence": "high",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "2025年分日运营时间、转运线路和限流安排仅用于预判2026年国庆运行模式，不是2026年执行规则。"
+        },
+        "child_nodes": {
+          "core_areas": [
+            "sr_sqs_nanqingyuan",
+            "sr_sqs_west_coast"
+          ],
+          "landmarks": [
+            "sr_sqs_giant_python",
+            "sr_sqs_oriental_goddess"
+          ],
+          "scenic_transport": [
+            "sr_sqs_jinsha_ropeway",
+            "sr_sqs_waishuangxi_ropeway",
+            "sr_sqs_gangshou_ropeway"
+          ]
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "上饶站南广场",
+            "玉山南站",
+            "婺源站"
+          ],
+          "public_transport": [
+            {
+              "from": "上饶站",
+              "mode": "景区直达班线/站点巴士",
+              "status": "dynamic_schedule",
+              "notes": "需先确认到金沙或外双溪服务区，入口不同会影响游览方向。"
+            },
+            {
+              "from": "玉山南站",
+              "mode": "客运接驳/网约车",
+              "status": "dynamic_schedule"
+            },
+            {
+              "from": "婺源",
+              "mode": "包车/拼车或季节性景区联运",
+              "status": "limited_direct_service"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "盘山路",
+              "国庆停车换乘",
+              "天气突变"
+            ]
+          },
+          "last_mile": "抵达索道服务区后依赖索道或徒步；金沙与外双溪不可视为同一入口。",
+          "return_risk": "high_if_descending_late",
+          "same_day_pairing": {
+            "recommended": [],
+            "avoid": [
+              "望仙谷",
+              "篁岭",
+              "葛仙村",
+              "龟峰"
+            ]
+          },
+          "holiday_risk": [
+            "直达车与索道排队叠加",
+            "停车场转运",
+            "索道提前停运或天气停运"
+          ],
+          "dynamic_checks": [
+            "进山入口",
+            "索道运营与排队",
+            "返程班车末班",
+            "天气和步道开放"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、159、160、170、176、178、181、182、188、202-204"
+          ],
+          "confidence": {
+            "overall": "high",
+            "reason": "多份攻略对一日独立安排、入口选择和返程风险结论一致"
+          },
+          "positive": [
+            {
+              "content": "花岗岩峰林、云海与高空栈道构成上饶最强自然景观节点之一",
+              "type": "mountain_landscape"
+            },
+            {
+              "content": "南清园核心景观对首次到访者识别度高",
+              "type": "first_visit"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "上午三清山、下午望仙谷会严重压缩游览并放大交通风险",
+              "risk": "overplanning",
+              "severity": "high"
+            },
+            {
+              "content": "不区分金沙与外双溪入口会造成路线和返程错配",
+              "risk": "wrong_gate",
+              "severity": "high"
+            },
+            {
+              "content": "游客关于‘没有电梯’的评论不适用于索道事实判断，不能写入官方层",
+              "risk": "misinformation",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "按独立一日节点安排",
+            "先决定入口与索道再选环线",
+            "雨雾和大风时同时复核步道、索道和返程",
+            "国庆提前锁定去程与返程班车"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 360,
+            "recommended_min_minutes": 480,
+            "recommended_max_minutes": 600
+          },
+          "ai_note": "自然景观和摄影偏好最高；不想排队者必须早到并接受天气不确定性，不能和远郊夜游节点硬拼同日。"
+        },
+        "related_node_ids": [
+          "city_shangrao"
+        ],
+        "tags": [
+          "花岗岩峰林",
+          "世界自然遗产",
+          "世界地质公园",
+          "山岳景区",
+          "实名预约"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24",
+          "experience_status": "integrated_2026_user_materials"
+        },
+        "sources": [
+          {
+            "name": "联合国教科文组织世界遗产中心：Mount Sanqingshan National Park",
+            "url": "https://whc.unesco.org/en/list/1292/",
+            "scope": [
+              "世界自然遗产",
+              "列入年份",
+              "突出普遍价值",
+              "遗产范围"
+            ]
+          },
+          {
+            "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+            "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+            "scope": [
+              "世界地质公园",
+              "花岗岩地貌",
+              "代表景观"
+            ]
+          },
+          {
+            "name": "三清山官网：2026年度常规优免政策",
+            "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+            "scope": [
+              "门票",
+              "索道票",
+              "优免口径"
+            ]
+          },
+          {
+            "name": "三清山官网：2026年预约与游览提示",
+            "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4941.html",
+            "scope": [
+              "实名预约",
+              "官方渠道",
+              "动态限流",
+              "停车转运"
+            ]
+          },
+          {
+            "name": "高德地图：三清山国家级旅游风景区",
+            "url": "https://www.amap.com/place/B0319005FP",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "行政区"
+            ]
+          }
+        ],
+        "map_index": "01",
+        "children": [
+          {
+            "id": "sr_sqs_nanqingyuan",
+            "name": "南清园景区",
+            "city": "上饶",
+            "node_type": "attraction",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "核心景区",
+              "花岗岩峰林",
+              "山岳环线"
+            ],
+            "location": {
+              "address": "江西省上饶市玉山县三清乡金沙街66号三清山",
+              "latitude": 28.905285,
+              "longitude": 118.070215,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFFOQI6R"
+            },
+            "official_info": {
+              "description": "位于三清山核心游览区，集中呈现花岗岩峰林地貌；东方女神、巨蟒出山等标志性景观位于该区域。",
+              "access_rule": "开放、预约、门票和索道规则继承三清山风景名胜区主节点；局部步道可能因天气和维护临时调整。"
+            },
+            "related_node_ids": [
+              "sr_sqs_giant_python",
+              "sr_sqs_oriental_goddess",
+              "sr_sqs_jinsha_ropeway"
+            ],
+            "tags": [
+              "三清山核心",
+              "峰林地貌",
+              "东方女神",
+              "巨蟒出山"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24",
+              "experience_status": "awaiting_user_materials"
+            },
+            "sources": [
+              {
+                "name": "生态中国：江西三清山",
+                "url": "https://www.eco.gov.cn/news_info/48755.html",
+                "scope": [
+                  "景区范围",
+                  "地貌特征",
+                  "核心景观"
+                ]
+              },
+              {
+                "name": "高德地图：南清园",
+                "url": "https://www.amap.com/place/B0FFFOQI6R",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "地址"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sr_sqs_west_coast",
+            "name": "西海岸景区",
+            "city": "上饶",
+            "node_type": "attraction",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "核心景区",
+              "高山栈道",
+              "峰林观景"
+            ],
+            "location": {
+              "address": "江西省上饶市玉山县三清乡金沙街66号",
+              "latitude": 28.904391,
+              "longitude": 118.06025,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFGQJIWU"
+            },
+            "official_info": {
+              "description": "三清山核心游览区域之一，以高山栈道连接花岗岩峰林观景空间；具体开放区段受天气、维护和客流调度影响。",
+              "access_rule": "开放、预约和门票规则继承三清山风景名胜区主节点。"
+            },
+            "tags": [
+              "高山栈道",
+              "峰林视野",
+              "三清山核心"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24",
+              "experience_status": "awaiting_user_materials"
+            },
+            "sources": [
+              {
+                "name": "生态中国：江西三清山",
+                "url": "https://www.eco.gov.cn/news_info/48755.html",
+                "scope": [
+                  "核心游线",
+                  "高空栈道",
+                  "景区属性"
+                ]
+              },
+              {
+                "name": "三清山景区2026年恢复开放公告",
+                "url": "https://jx.ifeng.com/c/8vTp6otkYlK",
+                "scope": [
+                  "官方核心区域名称",
+                  "开放状态动态管理"
+                ]
+              },
+              {
+                "name": "高德地图：西海岸景区",
+                "url": "https://www.amap.com/place/B0FFGQJIWU",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "地址"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sr_sqs_giant_python",
+            "name": "巨蟒出山",
+            "city": "上饶",
+            "node_type": "attraction",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "象形石景观",
+              "花岗岩石柱",
+              "标志性景观"
+            ],
+            "location": {
+              "address": "江西省上饶市玉山县三清乡金沙街66号三清山南清园景区",
+              "latitude": 28.905746,
+              "longitude": 118.069954,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B03190139E"
+            },
+            "official_info": {
+              "description": "三清山标志性花岗岩石柱，联合国教科文组织资料记载其垂直高度约128米、最细处直径约7米，形态如巨蟒破山而出。",
+              "landform_type": "花岗岩石柱",
+              "vertical_height_m": 128,
+              "narrowest_diameter_m": 7
+            },
+            "related_node_ids": [
+              "sr_sqs_oriental_goddess",
+              "sr_sqs_nanqingyuan"
+            ],
+            "tags": [
+              "三清山地标",
+              "象形石",
+              "花岗岩",
+              "南清园"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24",
+              "experience_status": "awaiting_user_materials"
+            },
+            "sources": [
+              {
+                "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+                "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+                "scope": [
+                  "代表景观",
+                  "地貌类型",
+                  "高度与直径"
+                ]
+              },
+              {
+                "name": "高德地图：巨蟒出山",
+                "url": "https://www.amap.com/place/B03190139E",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "地址"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sr_sqs_oriental_goddess",
+            "name": "东方女神",
+            "city": "上饶",
+            "node_type": "attraction",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "象形石景观",
+              "花岗岩峰柱",
+              "标志性景观"
+            ],
+            "location": {
+              "address": "江西省上饶市玉山县三清山南清园景区",
+              "latitude": 28.905645,
+              "longitude": 118.071571,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFFOKJMF"
+            },
+            "official_info": {
+              "description": "三清山代表性花岗岩象形峰，轮廓近似端坐人物。联合国教科文组织将其与巨蟒出山共同列为三清山花岗岩峰林的标志性地貌。",
+              "landform_type": "花岗岩象形峰",
+              "elevation_note": "中央纪委国家监委网站资料记载海拔1180余米"
+            },
+            "related_node_ids": [
+              "sr_sqs_giant_python",
+              "sr_sqs_nanqingyuan"
+            ],
+            "tags": [
+              "三清山地标",
+              "象形峰",
+              "花岗岩",
+              "南清园"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24",
+              "experience_status": "awaiting_user_materials"
+            },
+            "sources": [
+              {
+                "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+                "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+                "scope": [
+                  "代表景观",
+                  "地貌类型",
+                  "形态描述"
+                ]
+              },
+              {
+                "name": "中央纪委国家监委网站：锦绣山河——三清山",
+                "url": "https://www.ccdi.gov.cn/special/jtsj/jt_jtsj/201708/t20170821_104953.html",
+                "scope": [
+                  "海拔",
+                  "官方形态描述"
+                ]
+              },
+              {
+                "name": "高德地图：女神峰",
+                "url": "https://www.amap.com/place/B0FFFOKJMF",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "地址"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sr_sqs_jinsha_ropeway",
+            "name": "金沙索道",
+            "city": "上饶",
+            "node_type": "transport",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "景区索道",
+              "东部入口"
+            ],
+            "location": {
+              "address": "江西省上饶市玉山县三清山风景名胜区金沙索道站",
+              "latitude": 28.923172,
+              "longitude": 118.093636,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFFQZC4M"
+            },
+            "official_info": {
+              "description": "三清山东部主要索道入口，接近南清园、东方女神和巨蟒出山一侧。运行时间随季节、天气和客流动态调整。",
+              "ticket": {
+                "round_trip": 125,
+                "up": 70,
+                "down": 55,
+                "currency": "CNY",
+                "scope": "成人常规票价",
+                "verified_at": "2026-08-24"
+              }
+            },
+            "tags": [
+              "东部入口",
+              "南清园接驳",
+              "动态运营"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            },
+            "sources": [
+              {
+                "name": "三清山官网：2026年度常规优免政策",
+                "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+                "scope": [
+                  "往返票价",
+                  "上行票价",
+                  "下行票价"
+                ]
+              },
+              {
+                "name": "高德地图：金沙索道进站口",
+                "url": "https://www.amap.com/place/B0FFFQZC4M",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "入口位置"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sr_sqs_waishuangxi_ropeway",
+            "name": "外双溪索道",
+            "city": "上饶",
+            "node_type": "transport",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "景区索道",
+              "南部入口"
+            ],
+            "location": {
+              "address": "江西省上饶市玉山县三清山外双溪服务区",
+              "latitude": 28.879391,
+              "longitude": 118.066423,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B03190R9EG"
+            },
+            "official_info": {
+              "description": "三清山南部主要索道入口。运行时间及相关步道开放状态随季节、天气和客流动态调整。",
+              "ticket": {
+                "round_trip": 125,
+                "up": 70,
+                "down": 55,
+                "currency": "CNY",
+                "scope": "成人常规票价",
+                "verified_at": "2026-08-24"
+              }
+            },
+            "tags": [
+              "南部入口",
+              "外双溪服务区",
+              "动态运营"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            },
+            "sources": [
+              {
+                "name": "三清山官网：2026年度常规优免政策",
+                "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+                "scope": [
+                  "往返票价",
+                  "上行票价",
+                  "下行票价"
+                ]
+              },
+              {
+                "name": "高德地图：外双溪索道下站",
+                "url": "https://www.amap.com/place/B03190R9EG",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "入口位置"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sr_sqs_gangshou_ropeway",
+            "name": "港首索道",
+            "city": "上饶",
+            "node_type": "transport",
+            "parent_id": "sr_sanqingshan",
+            "category": [
+              "景区索道",
+              "西北入口"
+            ],
+            "location": {
+              "address": "江西省上饶市德兴市734县道上分水村3号",
+              "latitude": 28.927659,
+              "longitude": 118.029465,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0LGFSPLQZ"
+            },
+            "official_info": {
+              "description": "三清山西北方向索道入口，节假日可与景区其他服务区形成换乘调度。运行时间随季节、天气和客流动态调整。",
+              "ticket": {
+                "round_trip": 150,
+                "up": 85,
+                "down": 65,
+                "currency": "CNY",
+                "scope": "成人常规票价",
+                "verified_at": "2026-08-24"
+              }
+            },
+            "tags": [
+              "西北入口",
+              "港首服务区",
+              "动态运营"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            },
+            "sources": [
+              {
+                "name": "三清山官网：2026年度常规优免政策",
+                "url": "https://www.sqsfjq.com/index.php?s=%2FHome%2FNews%2Fdetail%2Fid%2F4943.html",
+                "scope": [
+                  "往返票价",
+                  "上行票价",
+                  "下行票价"
+                ]
+              },
+              {
+                "name": "高德地图：港首索道",
+                "url": "https://www.amap.com/place/B0LGFSPLQZ",
+                "scope": [
+                  "坐标",
+                  "POI ID",
+                  "入口位置"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sr_sqs_nanqingyuan",
+        "name": "南清园景区",
+        "city": "上饶",
+        "node_type": "attraction",
+        "parent_id": "sr_sanqingshan",
+        "category": [
+          "核心景区",
+          "花岗岩峰林",
+          "山岳环线"
+        ],
+        "location": {
+          "address": "江西省上饶市玉山县三清乡金沙街66号三清山",
+          "latitude": 28.905285,
+          "longitude": 118.070215,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFOQI6R"
+        },
+        "official_info": {
+          "description": "位于三清山核心游览区，集中呈现花岗岩峰林地貌；东方女神、巨蟒出山等标志性景观位于该区域。",
+          "access_rule": "开放、预约、门票和索道规则继承三清山风景名胜区主节点；局部步道可能因天气和维护临时调整。"
+        },
+        "related_node_ids": [
+          "sr_sqs_giant_python",
+          "sr_sqs_oriental_goddess",
+          "sr_sqs_jinsha_ropeway"
+        ],
+        "tags": [
+          "三清山核心",
+          "峰林地貌",
+          "东方女神",
+          "巨蟒出山"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24",
+          "experience_status": "awaiting_user_materials"
+        },
+        "sources": [
+          {
+            "name": "生态中国：江西三清山",
+            "url": "https://www.eco.gov.cn/news_info/48755.html",
+            "scope": [
+              "景区范围",
+              "地貌特征",
+              "核心景观"
+            ]
+          },
+          {
+            "name": "高德地图：南清园",
+            "url": "https://www.amap.com/place/B0FFFOQI6R",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "02",
+        "children": []
+      },
+      {
+        "id": "sr_sqs_west_coast",
+        "name": "西海岸景区",
+        "city": "上饶",
+        "node_type": "attraction",
+        "parent_id": "sr_sanqingshan",
+        "category": [
+          "核心景区",
+          "高山栈道",
+          "峰林观景"
+        ],
+        "location": {
+          "address": "江西省上饶市玉山县三清乡金沙街66号",
+          "latitude": 28.904391,
+          "longitude": 118.06025,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFGQJIWU"
+        },
+        "official_info": {
+          "description": "三清山核心游览区域之一，以高山栈道连接花岗岩峰林观景空间；具体开放区段受天气、维护和客流调度影响。",
+          "access_rule": "开放、预约和门票规则继承三清山风景名胜区主节点。"
+        },
+        "tags": [
+          "高山栈道",
+          "峰林视野",
+          "三清山核心"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24",
+          "experience_status": "awaiting_user_materials"
+        },
+        "sources": [
+          {
+            "name": "生态中国：江西三清山",
+            "url": "https://www.eco.gov.cn/news_info/48755.html",
+            "scope": [
+              "核心游线",
+              "高空栈道",
+              "景区属性"
+            ]
+          },
+          {
+            "name": "三清山景区2026年恢复开放公告",
+            "url": "https://jx.ifeng.com/c/8vTp6otkYlK",
+            "scope": [
+              "官方核心区域名称",
+              "开放状态动态管理"
+            ]
+          },
+          {
+            "name": "高德地图：西海岸景区",
+            "url": "https://www.amap.com/place/B0FFGQJIWU",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "03",
+        "children": []
+      },
+      {
+        "id": "sr_sqs_giant_python",
+        "name": "巨蟒出山",
+        "city": "上饶",
+        "node_type": "attraction",
+        "parent_id": "sr_sanqingshan",
+        "category": [
+          "象形石景观",
+          "花岗岩石柱",
+          "标志性景观"
+        ],
+        "location": {
+          "address": "江西省上饶市玉山县三清乡金沙街66号三清山南清园景区",
+          "latitude": 28.905746,
+          "longitude": 118.069954,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B03190139E"
+        },
+        "official_info": {
+          "description": "三清山标志性花岗岩石柱，联合国教科文组织资料记载其垂直高度约128米、最细处直径约7米，形态如巨蟒破山而出。",
+          "landform_type": "花岗岩石柱",
+          "vertical_height_m": 128,
+          "narrowest_diameter_m": 7
+        },
+        "related_node_ids": [
+          "sr_sqs_oriental_goddess",
+          "sr_sqs_nanqingyuan"
+        ],
+        "tags": [
+          "三清山地标",
+          "象形石",
+          "花岗岩",
+          "南清园"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24",
+          "experience_status": "awaiting_user_materials"
+        },
+        "sources": [
+          {
+            "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+            "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+            "scope": [
+              "代表景观",
+              "地貌类型",
+              "高度与直径"
+            ]
+          },
+          {
+            "name": "高德地图：巨蟒出山",
+            "url": "https://www.amap.com/place/B03190139E",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "04",
+        "children": []
+      },
+      {
+        "id": "sr_sqs_oriental_goddess",
+        "name": "东方女神",
+        "city": "上饶",
+        "node_type": "attraction",
+        "parent_id": "sr_sanqingshan",
+        "category": [
+          "象形石景观",
+          "花岗岩峰柱",
+          "标志性景观"
+        ],
+        "location": {
+          "address": "江西省上饶市玉山县三清山南清园景区",
+          "latitude": 28.905645,
+          "longitude": 118.071571,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFOKJMF"
+        },
+        "official_info": {
+          "description": "三清山代表性花岗岩象形峰，轮廓近似端坐人物。联合国教科文组织将其与巨蟒出山共同列为三清山花岗岩峰林的标志性地貌。",
+          "landform_type": "花岗岩象形峰",
+          "elevation_note": "中央纪委国家监委网站资料记载海拔1180余米"
+        },
+        "related_node_ids": [
+          "sr_sqs_giant_python",
+          "sr_sqs_nanqingyuan"
+        ],
+        "tags": [
+          "三清山地标",
+          "象形峰",
+          "花岗岩",
+          "南清园"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24",
+          "experience_status": "awaiting_user_materials"
+        },
+        "sources": [
+          {
+            "name": "联合国教科文组织：Sanqingshan UNESCO Global Geopark",
+            "url": "https://www.unesco.org/en/iggp/sanqingshan-unesco-global-geopark",
+            "scope": [
+              "代表景观",
+              "地貌类型",
+              "形态描述"
+            ]
+          },
+          {
+            "name": "中央纪委国家监委网站：锦绣山河——三清山",
+            "url": "https://www.ccdi.gov.cn/special/jtsj/jt_jtsj/201708/t20170821_104953.html",
+            "scope": [
+              "海拔",
+              "官方形态描述"
+            ]
+          },
+          {
+            "name": "高德地图：女神峰",
+            "url": "https://www.amap.com/place/B0FFFOKJMF",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "05",
+        "children": []
+      },
+      {
+        "id": "sr_wangxiangu",
+        "name": "望仙谷景区",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "峡谷型景区",
+          "夜游",
+          "国家4A级旅游景区",
+          "远郊节点"
+        ],
+        "location": {
+          "address": "江西省上饶市广信区望仙乡636县道",
+          "latitude": 28.679503,
+          "longitude": 117.819171,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFKHIMXK"
+        },
+        "official_info": {
+          "description": "位于广信区北部灵山余脉，由废弃矿区生态修复转型形成的峡谷型文旅景区，已获评国家4A级旅游景区。",
+          "opening_hours": {
+            "status": "dynamic_by_season_and_event"
+          },
+          "ticket": {
+            "status": "dynamic_official_channel"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "普通日期与节假日规则动态变化，须通过景区官方渠道复核。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "上饶站南广场旅游集散区"
+          ],
+          "public_transport": [
+            {
+              "from": "上饶站",
+              "mode": "景区直达班线/站点巴士",
+              "status": "dynamic_schedule",
+              "notes": "班次受季节和客流调整，去程与返程应同时购票或确认。"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "山区道路",
+              "节假日停车紧张",
+              "夜间返程"
+            ]
+          },
+          "last_mile": "抵达景区游客中心后以步行为主；住景区外需确认接送。",
+          "return_risk": "high_after_night_show",
+          "same_day_pairing": {
+            "recommended": [],
+            "avoid": [
+              "三清山",
+              "葛仙村",
+              "婺源篁岭"
+            ]
+          },
+          "holiday_risk": [
+            "热门时段直达车售罄",
+            "景区入口拥堵",
+            "夜游散场集中"
+          ],
+          "dynamic_checks": [
+            "官方班车发车点与末班",
+            "演出与亮灯时刻",
+            "返程车辆预约"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、159、170、176、179、181、189、199"
+          ],
+          "confidence": {
+            "overall": "high",
+            "reason": "多份攻略对夜游时段、交通风险和停留方式结论一致"
+          },
+          "positive": [
+            {
+              "content": "峡谷、瀑布、悬崖建筑与夜景组合具有很强摄影价值",
+              "type": "night_photo"
+            },
+            {
+              "content": "下午入园可同时覆盖日景与亮灯后的夜景",
+              "type": "time_strategy"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "不宜与三清山安排在同一天",
+              "risk": "overplanning",
+              "severity": "high"
+            },
+            {
+              "content": "看完夜景再临时寻找返程车辆风险高",
+              "risk": "return_transport",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "首次到访优先下午入园并预留完整夜游时段",
+            "先确认返程再进入景区",
+            "国庆不要依赖现场揽客车辆"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 240,
+            "recommended_min_minutes": 300,
+            "recommended_max_minutes": 480
+          },
+          "ai_note": "夜景与摄影权重高；拒绝拥挤、无返程方案或当天还安排山岳景区时显著降权。"
+        },
+        "ai_score": {
+          "history": 2,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 2,
+          "crowd_risk": 5,
+          "first_visit": 5
+        },
+        "tags": [
+          "望仙谷",
+          "夜游",
+          "远郊",
+          "摄影",
+          "返程风险"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "国家林业和草原局：江西上饶望仙谷从石矿经济到生态经济",
+            "url": "https://www.forestry.gov.cn/c/www/lcstly/635216.jhtml",
+            "scope": [
+              "区位",
+              "生态修复",
+              "国家4A级景区"
+            ]
+          },
+          {
+            "name": "高德地图：望仙谷景区",
+            "url": "https://www.amap.com/place/B0FFKHIMXK",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "06",
+        "children": []
+      },
+      {
+        "id": "sr_wuyuan_huangling",
+        "name": "婺源篁岭景区",
+        "short_name": "篁岭",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "古村落",
+          "乡村旅游",
+          "晒秋",
+          "国家5A级旅游景区",
+          "远郊节点"
+        ],
+        "location": {
+          "address": "江西省上饶市婺源县江湾镇346乡道",
+          "latitude": 29.319004,
+          "longitude": 118.12006,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B03190QMY3"
+        },
+        "official_info": {
+          "description": "以山地徽派村落、古建筑保护利用和‘篁岭晒秋’为核心品牌的婺源乡村旅游景区，2024年晋升国家5A级旅游景区。",
+          "opening_hours": {
+            "status": "dynamic_by_season_and_night_event"
+          },
+          "ticket": {
+            "status": "dynamic_package_with_ropeway"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "门票与索道套餐、夜游和节庆活动均需以官方渠道当日信息为准。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "婺源站",
+            "婺源县城"
+          ],
+          "public_transport": [
+            {
+              "from": "婺源站",
+              "mode": "景区班车/站点巴士",
+              "status": "dynamic_schedule",
+              "notes": "县域班次和返程收班较早，国庆需提前购票。"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "旺季入口拥堵",
+              "停车换乘",
+              "山路"
+            ]
+          },
+          "last_mile": "景区核心游览依赖索道与步行，行李不宜随身带入。",
+          "return_risk": "medium_high",
+          "same_day_pairing": {
+            "recommended": [
+              "江湾景区"
+            ],
+            "avoid": [
+              "三清山",
+              "葛仙村"
+            ]
+          },
+          "holiday_risk": [
+            "索道排队",
+            "返程班次紧张",
+            "晒秋平台拥挤"
+          ],
+          "dynamic_checks": [
+            "婺源站班车时刻",
+            "索道运营",
+            "夜游开放",
+            "停车换乘"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、154、158、170、178、181、182、195"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "晒秋平台、徽派古村与山地层次适合摄影",
+              "type": "photo"
+            },
+            {
+              "content": "并非只在油菜花季有价值，秋季晒秋和夜游也可形成完整体验",
+              "type": "seasonal_value"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "到观景台拍照后立即下山会遗漏古村与水口林等区域",
+              "risk": "shallow_visit",
+              "severity": "medium"
+            },
+            {
+              "content": "节假日索道与返程交通可能双重排队",
+              "risk": "queue_transport",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "优先早到，按索道—天街—晒秋平台—古村—水口林方向完整游览",
+            "与江湾组合时动态核算返程，不固定写死距离",
+            "国庆先确认索道与班车末班"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 240,
+            "recommended_min_minutes": 300,
+            "recommended_max_minutes": 480
+          },
+          "ai_note": "摄影、徽派村落和首次婺源偏好高；不想排队者需早入园并避开热门平台峰值。"
+        },
+        "ai_score": {
+          "history": 4,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 2,
+          "crowd_risk": 5,
+          "first_visit": 5
+        },
+        "tags": [
+          "篁岭",
+          "晒秋",
+          "徽派古村",
+          "索道",
+          "婺源"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "国家发展改革委：创造乡村旅游篁岭模式",
+            "url": "https://www.ndrc.gov.cn/xwdt/ztzl/qgxcly/202004/t20200423_1301912.html",
+            "scope": [
+              "篁岭模式",
+              "晒秋品牌",
+              "古建筑保护"
+            ]
+          },
+          {
+            "name": "上饶文旅：篁岭创建国家5A级景区",
+            "url": "https://www.aiyoujiangxi.com/bads/222902/",
+            "scope": [
+              "国家5A级景区"
+            ]
+          },
+          {
+            "name": "高德地图：婺源篁岭景区",
+            "url": "https://www.amap.com/place/B03190QMY3",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "07",
+        "children": []
+      },
+      {
+        "id": "sr_wuyuan_wunvzhou",
+        "name": "婺女洲度假区",
+        "short_name": "婺女洲",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "文化度假区",
+          "夜游",
+          "实景演艺",
+          "婺源节点"
+        ],
+        "location": {
+          "address": "江西省上饶市婺源县文公北路8号",
+          "latitude": 29.284812,
+          "longitude": 117.858482,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0I6YAU3C4"
+        },
+        "official_info": {
+          "description": "以婺源徽派文化、湖区夜游和演艺体验为核心的文化度假区。",
+          "opening_hours": {
+            "status": "dynamic_by_performance_calendar"
+          },
+          "ticket": {
+            "status": "dynamic_by_package_and_event"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "演出、烟花和游船受日期与天气影响，需在官方渠道复核。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "medium",
+          "primary_hubs": [
+            "婺源站",
+            "婺源县城"
+          ],
+          "public_transport": [
+            {
+              "from": "婺源站",
+              "mode": "公交/网约车",
+              "status": "dynamic_route"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "夜游散场拥堵"
+            ]
+          },
+          "return_risk": "medium_after_show",
+          "same_day_pairing": {
+            "recommended": [
+              "婺源县城",
+              "上饶市博物馆非同日"
+            ],
+            "avoid": [
+              "三清山深度游"
+            ]
+          },
+          "holiday_risk": [
+            "演出时段集中客流",
+            "烟花活动临时调整"
+          ],
+          "dynamic_checks": [
+            "当日演出单",
+            "烟花与游船",
+            "散场交通"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、158、170、178、181、197"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "抱玉塔、湖面倒影、徽派建筑与夜间演艺适合夜景摄影",
+              "type": "night_photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "只在上午停留半天会错过主要夜游价值",
+              "risk": "wrong_time",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "下午入园，先看建筑与湖区，晚间覆盖亮灯和核心演出",
+            "烟花并非每日固定，应以当日节目单为准"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 240,
+            "recommended_min_minutes": 300,
+            "recommended_max_minutes": 420
+          },
+          "ai_note": "夜游和亲子演艺权重高；纯历史深度游客或早睡用户降权。"
+        },
+        "ai_score": {
+          "history": 2,
+          "photo": 5,
+          "family": 5,
+          "rain_day": 2,
+          "crowd_risk": 5,
+          "first_visit": 4
+        },
+        "tags": [
+          "婺女洲",
+          "夜游",
+          "演艺",
+          "婺源"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "婺源文旅发展新闻发布：婺女洲非遗体验",
+            "url": "https://xjq.nc.gov.cn/xjqrmzf/xjbmzwdt25/202509/c411f35b32be4d2db6b7ab437947c93e.shtml",
+            "scope": [
+              "婺女洲文旅定位"
+            ]
+          },
+          {
+            "name": "高德地图：婺女洲度假区",
+            "url": "https://www.amap.com/place/B0I6YAU3C4",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "08",
+        "children": []
+      },
+      {
+        "id": "sr_gexian_village",
+        "name": "葛仙村度假区",
+        "short_name": "葛仙村",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "道文化度假区",
+          "夜游",
+          "国家4A级旅游景区关联",
+          "远郊节点"
+        ],
+        "location": {
+          "address": "江西省上饶市铅山县葛仙山镇葛仙村度假区游客中心",
+          "latitude": 28.093503,
+          "longitude": 117.692986,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031900WXO"
+        },
+        "official_info": {
+          "description": "位于铅山县葛仙山脚下，以道文化、汉唐风格街区、水竹村落和度假体验为核心；葛仙村与葛仙山索道游览应作为不同票务范围理解。",
+          "opening_hours": {
+            "status": "dynamic_by_event"
+          },
+          "ticket": {
+            "status": "village_and_mountain_ropeway_separate_or_package"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "度假区门票、葛仙山索道及节庆套餐须分别核对。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "上饶站南广场",
+            "铅山县城"
+          ],
+          "public_transport": [
+            {
+              "from": "上饶站",
+              "mode": "景区直达班线",
+              "status": "dynamic_schedule",
+              "notes": "节假日会加密，但不能将临时加班车视为常态。"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "夜游散场",
+              "山路",
+              "节假日停车"
+            ]
+          },
+          "last_mile": "住度假区内可减少夜游返程；住外部需确认接驳。",
+          "return_risk": "high_after_night_show",
+          "same_day_pairing": {
+            "recommended": [
+              "葛仙山（需另核票务与索道）"
+            ],
+            "avoid": [
+              "望仙谷",
+              "三清山",
+              "篁岭"
+            ]
+          },
+          "holiday_risk": [
+            "直达车售罄",
+            "索道与度假区票务混淆",
+            "散场拥堵"
+          ],
+          "dynamic_checks": [
+            "上饶站直达车",
+            "度假区节目单",
+            "葛仙山索道",
+            "返程末班"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、158、170、176、178、181、182、198"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "灵宝仙街、水景与夜间灯光适合慢游和汉服摄影",
+              "type": "night_photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "误以为葛仙村门票包含葛仙山索道会造成预算与时间偏差",
+              "risk": "ticket_scope",
+              "severity": "high"
+            },
+            {
+              "content": "夜游结束后再临时回上饶市区风险高",
+              "risk": "return_transport",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "村落夜游与登山祈福应分别计算时间",
+            "计划山村联游时预留完整一天并核对索道",
+            "只玩村落可下午入园并优先解决住宿或返程"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 240,
+            "recommended_min_minutes": 360,
+            "recommended_max_minutes": 600
+          },
+          "ai_note": "夜游、汉服和度假偏好高；短途过境、无夜间交通方案时降权。"
+        },
+        "ai_score": {
+          "history": 3,
+          "photo": 5,
+          "family": 4,
+          "rain_day": 2,
+          "crowd_risk": 5,
+          "first_visit": 4
+        },
+        "tags": [
+          "葛仙村",
+          "葛仙山",
+          "夜游",
+          "道文化",
+          "远郊"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "生态中国网：来葛仙村过几天神仙日子",
+            "url": "https://www.eco.gov.cn/news_info/50564.html",
+            "scope": [
+              "区位",
+              "葛仙山与葛仙村关系",
+              "文化定位"
+            ]
+          },
+          {
+            "name": "高德地图：葛仙村度假区",
+            "url": "https://www.amap.com/place/B031900WXO",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "09",
+        "children": []
+      },
+      {
+        "id": "sr_lingshan",
+        "name": "上饶灵山风景名胜区",
+        "short_name": "灵山",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "山岳景区",
+          "花岗岩地貌",
+          "国家级风景名胜区",
+          "远郊节点"
+        ],
+        "location": {
+          "address": "江西省上饶市广信区左溪村",
+          "latitude": 28.545288,
+          "longitude": 117.831819,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0319018AO"
+        },
+        "official_info": {
+          "description": "位于上饶市广信区的花岗岩山岳型风景名胜区，以峰林、栈道和云海景观为主要游览价值。",
+          "opening_hours": {
+            "status": "dynamic_by_weather_and_ropeway"
+          },
+          "ticket": {
+            "status": "dynamic_with_ropeway_separate"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "入园、索道和极端天气规则须在官方渠道动态核验。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "上饶市区",
+            "上饶站"
+          ],
+          "public_transport": [
+            {
+              "from": "上饶市区",
+              "mode": "旅游专线/县域公交",
+              "status": "dynamic_schedule"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "山路",
+              "天气变化",
+              "停车"
+            ]
+          },
+          "return_risk": "medium_high",
+          "same_day_pairing": {
+            "recommended": [],
+            "avoid": [
+              "三清山",
+              "望仙谷夜游"
+            ]
+          },
+          "holiday_risk": [
+            "索道排队",
+            "班次稀疏"
+          ],
+          "dynamic_checks": [
+            "索道运营",
+            "返程班次",
+            "天气与步道开放"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、157、179、181、188、200"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "相较三清山体量更轻，适合半日至一日山岳体验",
+              "type": "lighter_hike"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "下午过晚入园可能赶不上索道或完整环线",
+              "risk": "late_entry",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "尽量早到，先核对索道收班和步道状态",
+            "不能把游客攻略中的时间与价格当作长期规则"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "low-medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 240,
+            "recommended_min_minutes": 300,
+            "recommended_max_minutes": 480
+          },
+          "ai_note": "喜欢山岳但体力或时间不足以安排三清山时可提高权重。"
+        },
+        "ai_score": {
+          "history": 2,
+          "photo": 5,
+          "family": 3,
+          "rain_day": 1,
+          "crowd_risk": 4,
+          "first_visit": 3
+        },
+        "tags": [
+          "灵山",
+          "山岳",
+          "栈道",
+          "云海",
+          "远郊"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：上饶灵山风景名胜区",
+            "url": "https://www.amap.com/place/B0319018AO",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "10",
+        "children": []
+      },
+      {
+        "id": "sr_yiyang_guifeng",
+        "name": "弋阳龟峰景区",
+        "short_name": "龟峰",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "丹霞地貌",
+          "世界自然遗产组成地",
+          "国家5A级旅游景区",
+          "远郊节点"
+        ],
+        "location": {
+          "address": "江西省上饶市弋阳县龟峰大道旁",
+          "latitude": 28.317212,
+          "longitude": 117.423935,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B03190082U"
+        },
+        "official_info": {
+          "description": "位于弋阳县的丹霞地貌景区，是中国丹霞世界自然遗产组成地之一。",
+          "opening_hours": {
+            "status": "dynamic_by_season_weather_and_boat"
+          },
+          "ticket": {
+            "status": "dynamic_package_with_scenic_transport"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "门票、观光车、游船与节假日规则以官方渠道为准。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "弋阳站",
+            "上饶站"
+          ],
+          "public_transport": [
+            {
+              "from": "弋阳站",
+              "mode": "县域公交/网约车",
+              "status": "dynamic_schedule"
+            },
+            {
+              "from": "上饶站",
+              "mode": "高铁至弋阳站后换乘",
+              "status": "rail_plus_last_mile"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "节假日停车",
+              "雨后步道湿滑"
+            ]
+          },
+          "return_risk": "medium",
+          "same_day_pairing": {
+            "recommended": [
+              "弋阳县城"
+            ],
+            "avoid": [
+              "三清山",
+              "望仙谷"
+            ]
+          },
+          "holiday_risk": [
+            "内部交通排队",
+            "县域末班"
+          ],
+          "dynamic_checks": [
+            "弋阳站接驳",
+            "步道与游船",
+            "返程车次"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、157、171、179、181、188、200"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "丹霞峰林与步道组合适合自然地貌摄影",
+              "type": "geology_photo"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "低估步行量或穿着不防滑鞋会明显影响体验",
+              "risk": "hiking",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "从弋阳站换乘比每天返回上饶市区更符合空间结构",
+            "预留半日以上并关注天气"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "low-medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 240,
+            "recommended_min_minutes": 300,
+            "recommended_max_minutes": 420
+          },
+          "ai_note": "自然地貌和徒步偏好高；依赖上饶市内公交的用户需评估换乘。"
+        },
+        "ai_score": {
+          "history": 2,
+          "photo": 5,
+          "family": 3,
+          "rain_day": 1,
+          "crowd_risk": 4,
+          "first_visit": 3
+        },
+        "tags": [
+          "龟峰",
+          "丹霞",
+          "世界自然遗产",
+          "弋阳",
+          "远郊"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "联合国教科文组织世界遗产：中国丹霞",
+            "url": "https://whc.unesco.org/en/list/1335/",
+            "scope": [
+              "世界自然遗产",
+              "龟峰组成地"
+            ]
+          },
+          {
+            "name": "高德地图：弋阳龟峰景区",
+            "url": "https://www.amap.com/place/B03190082U",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "11",
+        "children": []
+      },
+      {
+        "id": "sr_wuyuan_jiangwan",
+        "name": "婺源江湾景区",
+        "short_name": "江湾",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "徽派古村",
+          "历史文化",
+          "国家5A级旅游景区组成节点",
+          "婺源东线"
+        ],
+        "location": {
+          "address": "江西省上饶市婺源县江湾镇云湾路",
+          "latitude": 29.368753,
+          "longitude": 118.051112,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFF0F10H"
+        },
+        "official_info": {
+          "description": "婺源东线代表性古村节点，以宗祠、古巷、徽派建筑与村落文化为核心。",
+          "opening_hours": {
+            "status": "dynamic"
+          },
+          "ticket": {
+            "status": "dynamic_single_or_wuyuan_pass"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "单点票、联票及节假日规则以婺源旅游官方渠道为准。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "婺源站",
+            "婺源县城"
+          ],
+          "public_transport": [
+            {
+              "from": "婺源县城",
+              "mode": "东线班车/旅游专线",
+              "status": "dynamic_schedule"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "古村停车",
+              "旺季东线拥堵"
+            ]
+          },
+          "return_risk": "medium_high",
+          "same_day_pairing": {
+            "recommended": [
+              "篁岭"
+            ],
+            "avoid": [
+              "三清山"
+            ]
+          },
+          "holiday_risk": [
+            "东线道路拥堵",
+            "班次与末班不稳定"
+          ],
+          "dynamic_checks": [
+            "婺源东线班车",
+            "联票范围",
+            "返程时刻"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、157、170、178、179、181、182"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "宗祠、古巷与村落生活更偏历史文化而非单纯晒秋摄影",
+              "type": "village_culture"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "只有一天婺源时间时与篁岭同等深度游可能过满",
+              "risk": "time_budget",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "历史文化偏好高可保留；纯摄影且时间有限时优先篁岭",
+            "与篁岭组合必须根据东线交通动态排程"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 120,
+            "recommended_min_minutes": 150,
+            "recommended_max_minutes": 240
+          },
+          "ai_note": "徽派村落和历史偏好高；首次婺源且只有一天时与篁岭二选一或缩短停留。"
+        },
+        "ai_score": {
+          "history": 4,
+          "photo": 4,
+          "family": 4,
+          "rain_day": 2,
+          "crowd_risk": 4,
+          "first_visit": 3
+        },
+        "tags": [
+          "江湾",
+          "徽派古村",
+          "婺源东线",
+          "宗祠"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：江湾景区",
+            "url": "https://www.amap.com/place/B0FFF0F10H",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "12",
+        "children": []
+      },
+      {
+        "id": "sr_hekou_ancient_town",
+        "name": "河口古镇",
+        "short_name": "河口老街",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "开放式古镇",
+          "历史街区",
+          "铅山节点"
+        ],
+        "location": {
+          "address": "江西省上饶市铅山县河口镇河口老街",
+          "latitude": 28.314527,
+          "longitude": 117.713717,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0LB4CHPLC",
+          "anchor_rule": "高德锚点用于空间检索，不代表开放式古镇边界"
+        },
+        "official_info": {
+          "description": "铅山县河口镇历史街区节点，保存赣东北商埠、码头与传统街巷格局。",
+          "opening_hours": {
+            "status": "open_public_street_subvenues_dynamic"
+          },
+          "ticket": {
+            "status": "public_street_no_unified_ticket_subvenues_dynamic"
+          }
+        },
+        "reservation": {
+          "required": false,
+          "notes": "开放街区无统一预约；展馆、活动与节假日管理另行核验。",
+          "status": "open_area"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "上饶站",
+            "铅山县城"
+          ],
+          "public_transport": [
+            {
+              "from": "上饶站",
+              "mode": "县际客运/网约车",
+              "status": "dynamic_schedule"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "老街停车空间有限"
+            ]
+          },
+          "return_risk": "medium",
+          "same_day_pairing": {
+            "recommended": [
+              "鹅湖书院"
+            ],
+            "avoid": [
+              "望仙谷夜游后临时串联"
+            ]
+          },
+          "holiday_risk": [
+            "县际班次稀疏",
+            "古街停车"
+          ],
+          "dynamic_checks": [
+            "上饶至铅山客运",
+            "鹅湖书院开放",
+            "返程班次"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、156、179、196"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "适合建筑、历史和慢游，能与鹅湖书院形成铅山文化半日线",
+              "type": "historic_walk"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "若期待全天高密度商业演艺可能产生落差",
+              "risk": "expectation",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "优先与鹅湖书院组合",
+            "古街是开放式空间，夜游和活动时刻不要写死"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "low-medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 240
+          },
+          "ai_note": "历史街区与慢游偏好高；仅追求大景区刺激体验时降权。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 4,
+          "family": 3,
+          "rain_day": 2,
+          "crowd_risk": 3,
+          "first_visit": 3
+        },
+        "tags": [
+          "河口古镇",
+          "河口老街",
+          "铅山",
+          "历史街区"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "third_party_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "高德地图：河口镇古镇锚点",
+            "url": "https://www.amap.com/place/B0LB4CHPLC",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址锚点"
+            ]
+          }
+        ],
+        "map_index": "13",
+        "children": []
+      },
+      {
+        "id": "sr_ehu_academy",
+        "name": "鹅湖书院",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "古代书院",
+          "理学文化",
+          "全国重点文物保护单位",
+          "铅山节点"
+        ],
+        "location": {
+          "address": "江西省上饶市铅山县河口镇城东街鹅湖大道",
+          "latitude": 28.255466,
+          "longitude": 117.819849,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0319006PQ"
+        },
+        "official_info": {
+          "description": "坐落于鹅湖山北麓，是鹅湖之会、朱陆之辩及书院文化的重要实物节点，现存头门、牌坊、讲堂、御书楼等建筑。",
+          "opening_hours": {
+            "status": "dynamic"
+          },
+          "ticket": {
+            "status": "dynamic"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "开放与购票规则以管理方当日公告为准。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "high",
+          "primary_hubs": [
+            "上饶站",
+            "铅山县城"
+          ],
+          "public_transport": [
+            {
+              "from": "铅山县城",
+              "mode": "县域公交/网约车",
+              "status": "dynamic_schedule"
+            }
+          ],
+          "self_drive": {
+            "suitable": true,
+            "risk": [
+              "返程班次少"
+            ]
+          },
+          "return_risk": "medium_high",
+          "same_day_pairing": {
+            "recommended": [
+              "河口古镇"
+            ],
+            "avoid": [
+              "三清山"
+            ]
+          },
+          "holiday_risk": [
+            "县域换乘等待",
+            "临时闭馆或活动"
+          ],
+          "dynamic_checks": [
+            "开放时间",
+            "县域公交",
+            "返程"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、156、179"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "适合理学、书院史和传统建筑爱好者深度参观",
+              "type": "intellectual_history"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "只作快速拍照点会低估文化价值",
+              "risk": "shallow_visit",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "先了解鹅湖之会再参观",
+            "与河口古镇组合为半日至一日文化节点"
+          ],
+          "crowd_model": {
+            "national_holiday": "medium-high",
+            "weekend": "medium",
+            "weekday": "low"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "历史、哲学和书院建筑偏好高；亲子低龄和纯夜景偏好降权。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 4,
+          "family": 3,
+          "rain_day": 3,
+          "crowd_risk": 2,
+          "first_visit": 3
+        },
+        "tags": [
+          "鹅湖书院",
+          "朱陆之辩",
+          "理学",
+          "铅山"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "中央纪委国家监委转载：鹅湖书院朱陆之讲席犹存",
+            "url": "https://www.srlz.gov.cn/m/view.php?aid=5447",
+            "scope": [
+              "位置",
+              "历史",
+              "主要建筑"
+            ]
+          },
+          {
+            "name": "高德地图：鹅湖书院",
+            "url": "https://www.amap.com/place/B0319006PQ",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "14",
+        "children": []
+      },
+      {
+        "id": "sr_wuyuan_xiangaocheng",
+        "name": "婺源弦高城",
+        "short_name": "弦高城",
+        "city": "上饶",
+        "node_type": "attraction",
+        "category": [
+          "新兴文旅街区",
+          "夜游",
+          "婺源节点",
+          "动态维护节点"
+        ],
+        "location": {
+          "address": "江西省上饶市婺源县",
+          "latitude": null,
+          "longitude": null,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": null
+        },
+        "official_info": {
+          "description": "婺源县近年来新增的文旅街区与夜游产品，当前仍处于业态持续更新阶段。",
+          "opening_hours": {
+            "status": "dynamic_new_project"
+          },
+          "ticket": {
+            "status": "dynamic_by_zone_and_event"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "主景区、分区及活动票务边界须逐项核对，不采用截图中的固定金额。",
+          "status": "dynamic"
+        },
+        "remote_transport_profile": {
+          "remote_level": "medium",
+          "primary_hubs": [
+            "婺源站",
+            "婺源县城"
+          ],
+          "public_transport": [
+            {
+              "from": "婺源站",
+              "mode": "公交/网约车",
+              "status": "needs_poi_verification"
+            }
+          ],
+          "return_risk": "medium_after_night_event",
+          "holiday_risk": [
+            "新项目规则变化快",
+            "分区票务易混淆"
+          ],
+          "dynamic_checks": [
+            "高德正式POI",
+            "官方票务分区",
+            "开放区域",
+            "节目单"
+          ]
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、154、158、196"
+          ],
+          "confidence": {
+            "overall": "low-medium",
+            "reason": "游客资料集中于新开阶段，官方稳定运营信息不足"
+          },
+          "positive": [
+            {
+              "content": "徽派街巷和夜游活动具有新鲜感",
+              "type": "new_night_product"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "新项目票务、分区和开放范围变化快",
+              "risk": "time_sensitive",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "仅作为候选节点，不应自动排入路线",
+            "出发前以官方票务页和高德正式POI双重核验"
+          ],
+          "crowd_model": {
+            "national_holiday": "unknown_high_risk",
+            "weekend": "unknown",
+            "weekday": "unknown"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 120,
+            "recommended_min_minutes": 180,
+            "recommended_max_minutes": 300
+          },
+          "ai_note": "在坐标和正式运营规则核验前保持低权重。"
+        },
+        "ai_score": {
+          "history": 2,
+          "photo": 4,
+          "family": 3,
+          "rain_day": 2,
+          "crowd_risk": 5,
+          "first_visit": 2
+        },
+        "tags": [
+          "弦高城",
+          "婺源",
+          "夜游",
+          "待核验"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "needs_update",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "婺源文旅发展新闻发布：弦高城文旅新场景",
+            "url": "https://xjq.nc.gov.cn/xjqrmzf/xjbmzwdt25/202509/c411f35b32be4d2db6b7ab437947c93e.shtml",
+            "scope": [
+              "项目存在",
+              "文旅定位"
+            ]
+          }
+        ],
+        "map_index": "15",
+        "children": []
+      },
+      {
+        "id": "sr_museum",
+        "name": "上饶市博物馆",
+        "city": "上饶",
+        "node_type": "museum",
+        "category": [
+          "综合性博物馆",
+          "国家一级博物馆",
+          "上饶历史文化入口"
+        ],
+        "location": {
+          "address": "江西省上饶市信州区广信大道19号",
+          "latitude": 28.449925,
+          "longitude": 117.947464,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFHVWT03"
+        },
+        "official_info": {
+          "description": "地方综合性博物馆，集中展示上饶革命历史、自然与历史、人文、物质文明和民俗文化。",
+          "level": "国家一级博物馆",
+          "ticket": {
+            "price": "免费",
+            "status": "verified_regular_policy"
+          },
+          "opening_hours": {
+            "regular": "09:00-17:00，16:30停止入馆；周一、除夕和正月初一闭馆，周一逢国家法定节假日通常正常开放",
+            "status": "verified_regular_schedule_dynamic_holiday"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "channels": [
+            "上饶市博物馆官方渠道"
+          ],
+          "notes": "普通个人、团队、讲解及节假日规则需在官网或微信公众号复核。",
+          "status": "dynamic"
+        },
+        "child_nodes": {
+          "permanent_exhibitions": [
+            "sr_museum_exhibition_blood_monument",
+            "sr_museum_exhibition_zhongling_yuxiu",
+            "sr_museum_exhibition_wenmai_mianchang",
+            "sr_museum_exhibition_wuhua_tianbao",
+            "sr_museum_exhibition_folk_customs"
+          ],
+          "temporary_exhibitions": [],
+          "artifacts": [],
+          "collection_groups": []
+        },
+        "temporary_exhibitions": {
+          "status": "dynamic_maintain",
+          "fields": [
+            "展览名称",
+            "展期",
+            "展厅",
+            "主办方",
+            "状态",
+            "官方链接"
+          ]
+        },
+        "representative_collections": [
+          {
+            "name": "商代兽面云雷纹四足圆鼎",
+            "category": "青铜器",
+            "importance": 5,
+            "display_status": "dynamic_verify"
+          },
+          {
+            "name": "宋代歙砚作坊遗址出土文物",
+            "category": "砚与制砚遗存",
+            "importance": 5,
+            "display_status": "dynamic_verify"
+          },
+          {
+            "name": "宋代饶州镜收藏",
+            "category": "铜镜",
+            "importance": 5,
+            "display_status": "dynamic_verify"
+          }
+        ],
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、176、188、189"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "适合作为进入上饶各县景点前的区域历史总览",
+              "type": "city_context"
+            },
+            {
+              "content": "室内免费节点可作为炎热或雨天备选",
+              "type": "weather_backup"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "周一闭馆及节假日调整可能影响行程",
+              "risk": "closure",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "优先按五个常设陈列选择主题，不必平均分配时间",
+            "临展与代表文物展出状态到馆前复核"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "low-medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 180
+          },
+          "ai_note": "历史、亲子和雨天偏好高；远郊换乘日可作为上饶市区缓冲节点。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 3,
+          "family": 5,
+          "rain_day": 5,
+          "crowd_risk": 3,
+          "first_visit": 4
+        },
+        "tags": [
+          "上饶市博物馆",
+          "国家一级博物馆",
+          "雨天",
+          "市区"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "China Daily政府平台：Shangrao Museum",
+            "url": "https://govt.chinadaily.com.cn/s/202507/17/WS6878b2ed498edec913cde4b3/shangrao-museum.html",
+            "scope": [
+              "地址",
+              "开放时间",
+              "免费",
+              "五个常设展览"
+            ]
+          },
+          {
+            "name": "上饶文旅：上饶市博物馆获评国家一级博物馆",
+            "url": "https://www.aiyoujiangxi.com/bads/222902/",
+            "scope": [
+              "国家一级博物馆"
+            ]
+          },
+          {
+            "name": "高德地图：上饶市博物馆",
+            "url": "https://www.amap.com/place/B0FFHVWT03",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "16",
+        "children": [
+          {
+            "id": "sr_museum_exhibition_blood_monument",
+            "name": "热血丰碑",
+            "city": "上饶",
+            "node_type": "permanent_exhibition",
+            "parent_id": "sr_museum",
+            "theme": "上饶革命历史与红色文化",
+            "importance": 5,
+            "official_info": {
+              "status": "permanent_exhibition",
+              "description": "展示闽浙赣革命根据地、上饶集中营及上饶解放等区域革命历史。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶市博物馆公开展陈资料"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "适合建立上饶红色历史框架",
+                  "type": "history_context"
+                }
+              ],
+              "avoid": [],
+              "visit_tips": [
+                "可与上饶集中营名胜区形成先总览后实地的知识链"
+              ],
+              "crowd_model": {
+                "national_holiday": "medium-high",
+                "weekday": "low"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 20,
+                "recommended_min_minutes": 30,
+                "recommended_max_minutes": 45
+              },
+              "ai_note": "红色历史偏好高。"
+            },
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_museum_exhibition_zhongling_yuxiu",
+            "name": "钟灵毓秀",
+            "city": "上饶",
+            "node_type": "permanent_exhibition",
+            "parent_id": "sr_museum",
+            "theme": "上饶自然地理与历史序列",
+            "importance": 5,
+            "official_info": {
+              "status": "permanent_exhibition",
+              "description": "以时间线索与区域环境展示上饶历史发展。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶市博物馆公开展陈资料"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "适合作为三清山、龟峰等自然节点的人文背景入口",
+                  "type": "regional_context"
+                }
+              ],
+              "avoid": [],
+              "visit_tips": [
+                "首次到上饶优先参观"
+              ],
+              "crowd_model": {
+                "national_holiday": "medium-high",
+                "weekday": "low"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 20,
+                "recommended_min_minutes": 30,
+                "recommended_max_minutes": 45
+              },
+              "ai_note": "第一次到访权重高。"
+            },
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_museum_exhibition_wenmai_mianchang",
+            "name": "文脉绵长",
+            "city": "上饶",
+            "node_type": "permanent_exhibition",
+            "parent_id": "sr_museum",
+            "theme": "上饶人文、理学、书院与名人文化",
+            "importance": 5,
+            "official_info": {
+              "status": "permanent_exhibition",
+              "description": "展示上饶理学、书院、宗教与历史名人相关文化。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶市博物馆公开展陈资料"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "可为鹅湖书院和婺源文化节点提供背景",
+                  "type": "intellectual_history"
+                }
+              ],
+              "avoid": [],
+              "visit_tips": [
+                "计划鹅湖书院前优先参观"
+              ],
+              "crowd_model": {
+                "national_holiday": "medium",
+                "weekday": "low"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 20,
+                "recommended_min_minutes": 30,
+                "recommended_max_minutes": 45
+              },
+              "ai_note": "历史和书院偏好高。"
+            },
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_museum_exhibition_wuhua_tianbao",
+            "name": "物华天宝",
+            "city": "上饶",
+            "node_type": "permanent_exhibition",
+            "parent_id": "sr_museum",
+            "theme": "上饶物质文明与工艺",
+            "importance": 5,
+            "official_info": {
+              "status": "permanent_exhibition",
+              "description": "展示矿冶、歙砚、茶文化、古代刻书等区域物质文明。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶市博物馆公开展陈资料"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "歙砚、制砚遗存和区域工艺辨识度高",
+                  "type": "material_culture"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "代表文物可能轮换展出",
+                  "risk": "display_rotation",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "到馆确认重点文物当日展出状态"
+              ],
+              "crowd_model": {
+                "national_holiday": "medium",
+                "weekday": "low"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 20,
+                "recommended_min_minutes": 30,
+                "recommended_max_minutes": 45
+              },
+              "ai_note": "工艺与地方物产偏好高。"
+            },
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_museum_exhibition_folk_customs",
+            "name": "民俗风情",
+            "city": "上饶",
+            "node_type": "permanent_exhibition",
+            "parent_id": "sr_museum",
+            "theme": "上饶非物质文化遗产与民俗生活",
+            "importance": 4,
+            "official_info": {
+              "status": "permanent_exhibition",
+              "description": "展示上饶地区民俗、非遗与传统生活文化。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶市博物馆公开展陈资料"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "适合亲子和非遗兴趣游客",
+                  "type": "folk_culture"
+                }
+              ],
+              "avoid": [],
+              "visit_tips": [
+                "可与篁岭、婺女洲等活态文旅节点对照理解"
+              ],
+              "crowd_model": {
+                "national_holiday": "medium",
+                "weekday": "low"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 15,
+                "recommended_min_minutes": 25,
+                "recommended_max_minutes": 40
+              },
+              "ai_note": "亲子与民俗偏好高。"
+            },
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "verified",
+              "last_verified_at": "2026-08-24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr_concentration_camp",
+        "name": "上饶集中营名胜区",
+        "city": "上饶",
+        "node_type": "memorial",
+        "category": [
+          "革命纪念地",
+          "爱国主义教育",
+          "红色文化节点"
+        ],
+        "location": {
+          "address": "江西省上饶市信州区陵园路66号",
+          "latitude": 28.414574,
+          "longitude": 117.961764,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0319047U1"
+        },
+        "official_info": {
+          "description": "以1941年皖南事变后被囚禁革命志士的历史及其斗争为主题，包含革命烈士纪念馆、茅家岭监狱旧址等组成节点。",
+          "ticket": {
+            "price": "免费",
+            "status": "public_memorial_dynamic_entry_rule"
+          },
+          "opening_hours": {
+            "status": "dynamic_by_venue"
+          }
+        },
+        "reservation": {
+          "required": null,
+          "notes": "个人与团队预约、讲解和节假日开放以官方渠道为准。",
+          "status": "dynamic"
+        },
+        "history_event": {
+          "name": "上饶集中营革命斗争",
+          "period": "1941-1942",
+          "importance": "皖南事变后革命志士被囚禁并坚持斗争的重要历史见证"
+        },
+        "historic_sites": [
+          {
+            "name": "上饶集中营革命烈士纪念馆",
+            "type": "纪念馆",
+            "importance": 5
+          },
+          {
+            "name": "茅家岭监狱旧址",
+            "type": "革命旧址",
+            "importance": 5
+          }
+        ],
+        "exhibitions": {
+          "permanent": [
+            {
+              "name": "上饶集中营革命斗争主题陈列",
+              "theme": "通过史料、照片与革命文物展示被囚革命志士的斗争",
+              "importance": 5
+            }
+          ],
+          "temporary": {
+            "status": "dynamic_maintain"
+          }
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图154、156、179、188"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "适合红色历史、研学与亲子历史教育",
+              "type": "history_education"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "纪念馆与旧址可能存在分区和交通安排，不应按单一室内馆估时",
+              "risk": "scope",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "先确认纪念馆与茅家岭旧址的当日开放",
+            "保持肃穆并避免娱乐化拍摄"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium",
+            "weekday": "low-medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 90,
+            "recommended_min_minutes": 120,
+            "recommended_max_minutes": 240
+          },
+          "ai_note": "红色历史偏好高，雨天可作为备选但旧址间移动仍受天气影响。"
+        },
+        "ai_score": {
+          "history": 5,
+          "photo": 2,
+          "family": 4,
+          "rain_day": 4,
+          "crowd_risk": 3,
+          "first_visit": 3
+        },
+        "tags": [
+          "上饶集中营",
+          "红色历史",
+          "纪念馆",
+          "革命旧址"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "sources": [
+          {
+            "name": "财政部江西监管局：赴上饶集中营接受红色教育",
+            "url": "https://jx.mof.gov.cn/gzdt/caizhengjiancha/201809/t20180911_3014167.htm",
+            "scope": [
+              "历史事件",
+              "纪念馆",
+              "茅家岭监狱旧址"
+            ]
+          },
+          {
+            "name": "高德地图：上饶集中营名胜区",
+            "url": "https://www.amap.com/place/B0319047U1",
+            "scope": [
+              "坐标",
+              "POI ID",
+              "地址"
+            ]
+          }
+        ],
+        "map_index": "17",
+        "children": []
+      },
+      {
+        "id": "sr_food_area_wanda",
+        "name": "上饶万达与滨江西路美食区",
+        "short_name": "万达/滨江",
+        "city": "上饶",
+        "node_type": "food",
+        "food_scope": "area",
+        "category": [
+          "商圈餐饮",
+          "市区补给"
+        ],
+        "location": {
+          "address": "江西省上饶市信州区滨江西路66号周边",
+          "latitude": 28.444286,
+          "longitude": 117.955765,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFD1NWE",
+          "map_anchor": "万达广场(上饶信州店)"
+        },
+        "child_nodes": {
+          "restaurants": [
+            "sr_food_rest_chunjiao",
+            "sr_food_rest_zhangji_qiaomaiguo"
+          ]
+        },
+        "nearby_attraction_ids": [
+          "sr_museum",
+          "sr_concentration_camp"
+        ],
+        "official_info": {
+          "status": "commercial_area_anchor",
+          "description": "适合市区换乘、博物馆参观前后集中解决正餐与补给。"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图162-169、183-186、191-194"
+          ],
+          "confidence": {
+            "overall": "medium-high"
+          },
+          "positive": [
+            {
+              "content": "餐饮选择集中，适合不熟悉上饶的首次游客",
+              "type": "variety"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "商场热门店国庆排队明显",
+              "risk": "queue",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "把景点位置作为浅色参考点，不与餐馆标记混淆",
+            "热门正餐错峰或提前取号"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 45,
+            "recommended_min_minutes": 75,
+            "recommended_max_minutes": 120
+          },
+          "ai_note": "市区换乘和亲子便利度高，地方烟火感低于老街区域。"
+        },
+        "tags": [
+          "万达",
+          "滨江西路",
+          "正餐",
+          "市区"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "18",
+        "children": [
+          {
+            "id": "sr_food_rest_chunjiao",
+            "name": "椿椒·江西风味",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_wanda",
+            "category": [
+              "江西菜",
+              "商场正餐"
+            ],
+            "location": {
+              "address": "上饶市信州区滨江西路66号万达广场F3层",
+              "latitude": 28.443818,
+              "longitude": 117.955574,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0LK7H4BW3"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图168-169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "medium-high"
+              },
+              "positive": [
+                {
+                  "content": "适合首次游客集中体验江西风味正餐",
+                  "type": "local_cuisine"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "国庆商场热门时段可能排队",
+                  "risk": "queue",
+                  "severity": "high"
+                }
+              ],
+              "visit_tips": [
+                "营业与排队只从高德实时查询",
+                "主动确认辣度"
+              ],
+              "crowd_model": {
+                "national_holiday": "very-high",
+                "weekend": "high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 60,
+                "recommended_min_minutes": 90,
+                "recommended_max_minutes": 120
+              },
+              "ai_note": "多人正餐与商圈便利度高。"
+            },
+            "tags": [
+              "江西菜",
+              "万达",
+              "正餐"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_rest_zhangji_qiaomaiguo",
+            "name": "张记荞麦粿",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "荞麦粿",
+              "地方小吃"
+            ],
+            "location": {
+              "address": "上饶市信州区万力时代广场负一层",
+              "latitude": 28.44809,
+              "longitude": 117.984283,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFHM7K9Y"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图163、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "游客素材中对现蒸荞麦外皮与辣味肉馅评价集中",
+                  "type": "signature_snack"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "高峰可能售罄或等待",
+                  "risk": "availability",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "先少量购买",
+                "不为单店跨城绕行"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 10,
+                "recommended_min_minutes": 20,
+                "recommended_max_minutes": 40
+              },
+              "ai_note": "地方小吃打卡权重高。"
+            },
+            "tags": [
+              "荞麦粿",
+              "万力时代",
+              "小吃"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr_food_area_jinlonggang",
+        "name": "金龙岗与马皇庙本地餐饮区",
+        "short_name": "金龙岗/马皇庙",
+        "city": "上饶",
+        "node_type": "food",
+        "food_scope": "area",
+        "category": [
+          "本地餐饮街区",
+          "夜间餐饮",
+          "市区烟火"
+        ],
+        "location": {
+          "address": "江西省上饶市信州区金龙岗路与马皇庙巷周边",
+          "latitude": 28.444283,
+          "longitude": 117.972323,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0KA6Z95HO",
+          "map_anchor": "金龙岗青年艺术街区"
+        },
+        "child_nodes": {
+          "restaurants": [
+            "sr_food_rest_huishen",
+            "sr_food_rest_siji",
+            "sr_food_rest_jiubazhuo",
+            "sr_food_rest_tiexiaoyi",
+            "sr_food_rest_dijing",
+            "sr_food_rest_zhangji_qiaomaiguo"
+          ]
+        },
+        "nearby_attraction_ids": [
+          "sr_museum",
+          "sr_concentration_camp"
+        ],
+        "official_info": {
+          "status": "experience_area_anchor",
+          "description": "游客素材中本地小吃、家常菜、米粉与夜间餐饮出现最集中的市区片区。"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图162-169、183-186、191-194"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "可在较小范围内覆盖米粉、荞麦粿、家常菜和火锅",
+              "type": "local_variety"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "整体口味可能偏辣，热门小店座位有限",
+              "risk": "spice_and_queue",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "主动说明辣度",
+            "按高德实时营业状态筛选，不固定写营业时间",
+            "把市区景点作为选餐参考而非路线承诺"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium-high"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 60,
+            "recommended_min_minutes": 90,
+            "recommended_max_minutes": 150
+          },
+          "ai_note": "地方饮食与烟火气偏好高；清淡饮食用户需过滤辣味节点。"
+        },
+        "tags": [
+          "金龙岗",
+          "马皇庙",
+          "本地菜",
+          "小吃"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "19",
+        "children": [
+          {
+            "id": "sr_food_rest_huishen",
+            "name": "辉婶饭堂",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "家常菜",
+              "江西菜"
+            ],
+            "location": {
+              "address": "上饶市信州区马皇庙巷88-11",
+              "latitude": 28.445083,
+              "longitude": 117.971023,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0LBZROYTD"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图166、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "medium-high"
+              },
+              "positive": [
+                {
+                  "content": "适合体验本地家常菜与下饭口味",
+                  "type": "home_style"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "热门时段可能等位且整体偏辣",
+                  "risk": "queue_and_spice",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "多人分菜更合适",
+                "营业状态由高德实时核验"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 60,
+                "recommended_min_minutes": 90,
+                "recommended_max_minutes": 120
+              },
+              "ai_note": "家常正餐偏好高。"
+            },
+            "tags": [
+              "马皇庙",
+              "家常菜",
+              "江西菜"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_rest_siji",
+            "name": "肆季·teahouse",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "茶馆",
+              "庭院餐饮",
+              "下午茶"
+            ],
+            "location": {
+              "address": "上饶市信州区茶厂路9号",
+              "latitude": 28.445127,
+              "longitude": 117.975027,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0LDX79GVM"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图164、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "medium-high"
+              },
+              "positive": [
+                {
+                  "content": "中式庭院环境适合行程中休息和下午茶",
+                  "type": "rest_stop"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "环境型消费不等于地方小吃代表",
+                  "risk": "expectation",
+                  "severity": "low"
+                }
+              ],
+              "visit_tips": [
+                "作为市区缓冲点而非必吃地方菜",
+                "高德核验预约和营业"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 45,
+                "recommended_min_minutes": 75,
+                "recommended_max_minutes": 120
+              },
+              "ai_note": "休息、环境和拍照偏好高。"
+            },
+            "tags": [
+              "茶馆",
+              "庭院",
+              "金龙岗"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_rest_jiubazhuo",
+            "name": "就八桌火锅（金龙岗店）",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "火锅",
+              "正餐"
+            ],
+            "location": {
+              "address": "上饶市信州区金龙岗路地委大院底层1-8",
+              "latitude": 28.44514,
+              "longitude": 117.9761,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0JD4ML0SE"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图162、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "medium-high"
+              },
+              "positive": [
+                {
+                  "content": "适合多人晚餐与牛肉火锅偏好",
+                  "type": "group_dinner"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "单人旅行性价比与等位体验较弱",
+                  "risk": "group_size",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "多人提前取号",
+                "营业与排队由高德实时核验"
+              ],
+              "crowd_model": {
+                "national_holiday": "very-high",
+                "weekend": "high",
+                "weekday": "medium-high"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 75,
+                "recommended_min_minutes": 105,
+                "recommended_max_minutes": 150
+              },
+              "ai_note": "多人晚餐和火锅偏好高。"
+            },
+            "tags": [
+              "火锅",
+              "金龙岗",
+              "多人正餐"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_rest_tiexiaoyi",
+            "name": "铁小阿姨麻辣烫",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "麻辣烫",
+              "小吃"
+            ],
+            "location": {
+              "address": "上饶市信州区明珠广场附近",
+              "latitude": 28.449816,
+              "longitude": 117.966818,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFLHG2FC"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_name_differs_from_screenshot",
+              "warning": "攻略写作‘铁小姨’，高德正式POI为‘铁小阿姨’，下单导航以高德为准。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图167、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "medium"
+              },
+              "positive": [
+                {
+                  "content": "游客素材强调老式酸甜辣风格",
+                  "type": "flavor"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "名称存在俗称差异且口味偏辣",
+                  "risk": "name_and_spice",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "导航以POI ID为准",
+                "清淡饮食用户谨慎"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 30,
+                "recommended_min_minutes": 45,
+                "recommended_max_minutes": 75
+              },
+              "ai_note": "麻辣烫偏好高。"
+            },
+            "tags": [
+              "麻辣烫",
+              "酸甜辣",
+              "小吃"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_rest_dijing",
+            "name": "帝景米粉（东方帝景店）",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "米粉",
+              "早餐",
+              "快餐"
+            ],
+            "location": {
+              "address": "上饶市信州区东方帝景12楼1楼9号",
+              "latitude": 28.452977,
+              "longitude": 117.984713,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFG089B6"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图165、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "medium-high"
+              },
+              "positive": [
+                {
+                  "content": "适合快速体验本地米粉和内脏浇头",
+                  "type": "quick_local_meal"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "内脏和辣度接受度因人而异",
+                  "risk": "dietary_preference",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "先确认浇头与辣度",
+                "到店前看高德实时营业"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "medium-high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 20,
+                "recommended_min_minutes": 35,
+                "recommended_max_minutes": 60
+              },
+              "ai_note": "早餐和米粉偏好高。"
+            },
+            "tags": [
+              "米粉",
+              "早餐",
+              "东方帝景"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_rest_zhangji_qiaomaiguo",
+            "name": "张记荞麦粿",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "restaurant",
+            "parent_id": "sr_food_area_jinlonggang",
+            "category": [
+              "荞麦粿",
+              "地方小吃"
+            ],
+            "location": {
+              "address": "上饶市信州区万力时代广场负一层",
+              "latitude": 28.44809,
+              "longitude": 117.984283,
+              "coordinate_system": "GCJ-02",
+              "amap_poi_id": "B0FFHM7K9Y"
+            },
+            "official_info": {
+              "status": "amap_poi_verified_business_dynamic"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图163、169",
+                "高德POI核验"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "游客素材中对现蒸荞麦外皮与辣味肉馅评价集中",
+                  "type": "signature_snack"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "高峰可能售罄或等待",
+                  "risk": "availability",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "先少量购买",
+                "不为单店跨城绕行"
+              ],
+              "crowd_model": {
+                "national_holiday": "high",
+                "weekend": "high",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 10,
+                "recommended_min_minutes": 20,
+                "recommended_max_minutes": 40
+              },
+              "ai_note": "地方小吃打卡权重高。"
+            },
+            "tags": [
+              "荞麦粿",
+              "万力时代",
+              "小吃"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "third_party_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr_food_area_yanshan_hekou",
+        "name": "铅山河口古镇地方小吃区",
+        "short_name": "铅山河口",
+        "city": "上饶",
+        "node_type": "food",
+        "food_scope": "area",
+        "category": [
+          "县域小吃",
+          "古镇餐饮"
+        ],
+        "location": {
+          "address": "江西省上饶市铅山县河口镇河口老街周边",
+          "latitude": 28.314527,
+          "longitude": 117.713717,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0LB4CHPLC",
+          "map_anchor": "河口古镇"
+        },
+        "child_nodes": {
+          "dishes": [
+            "sr_food_dish_yanshan_rice_noodles",
+            "sr_food_dish_dengzhan_guo"
+          ]
+        },
+        "nearby_attraction_ids": [
+          "sr_hekou_ancient_town",
+          "sr_ehu_academy"
+        ],
+        "official_info": {
+          "status": "regional_food_profile",
+          "description": "适合与河口古镇、鹅湖书院组合品尝铅山烫粉和灯盏粿。"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图155、156、170、183、191"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "铅山烫粉与灯盏粿在多份素材中反复出现",
+              "type": "repeat_mention"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "县域店铺营业时间和辣度差异大",
+              "risk": "availability",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "早餐优先安排烫粉",
+            "灯盏粿先少量尝试",
+            "不要为单一网红店长距离绕行"
+          ],
+          "crowd_model": {
+            "national_holiday": "high",
+            "weekend": "medium-high",
+            "weekday": "medium"
+          },
+          "recommended_duration": {
+            "minimum_minutes": 45,
+            "recommended_min_minutes": 75,
+            "recommended_max_minutes": 120
+          },
+          "ai_note": "与铅山文化节点联动时提高权重。"
+        },
+        "tags": [
+          "铅山烫粉",
+          "灯盏粿",
+          "河口古镇",
+          "县域小吃"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "20",
+        "children": [
+          {
+            "id": "sr_food_dish_yanshan_rice_noodles",
+            "name": "铅山烫粉",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "dish",
+            "category": [
+              "地方早餐",
+              "米粉"
+            ],
+            "official_info": {
+              "status": "regional_dish_candidate",
+              "description": "铅山县高频地方早餐，以米粉、汤底和多种浇头形成不同店铺风格。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图155、170、171、183、191、200"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "适合作为铅山行程早餐入口",
+                  "type": "breakfast"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "辣度与汤底差异大",
+                  "risk": "spice",
+                  "severity": "medium"
+                }
+              ],
+              "visit_tips": [
+                "主动说明辣度",
+                "可搭配油条或灯盏粿但避免一次点太多"
+              ],
+              "crowd_model": {
+                "national_holiday": "high_at_popular_shops",
+                "weekday": "medium"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 15,
+                "recommended_min_minutes": 30,
+                "recommended_max_minutes": 60
+              },
+              "ai_note": "地方早餐偏好高。"
+            },
+            "related_node_ids": [
+              "sr_food_area_yanshan_hekou"
+            ],
+            "tags": [
+              "铅山烫粉",
+              "早餐",
+              "铅山"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "experience_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          },
+          {
+            "id": "sr_food_dish_dengzhan_guo",
+            "name": "灯盏粿",
+            "city": "上饶",
+            "node_type": "food",
+            "food_scope": "dish",
+            "category": [
+              "地方小吃",
+              "米制品"
+            ],
+            "official_info": {
+              "status": "regional_dish_candidate",
+              "description": "以米制外皮和蔬菜、豆制品或肉类馅料组合的铅山地方小吃。"
+            },
+            "experience_layer": {
+              "source": [
+                "上饶攻略截图155、170、171、191"
+              ],
+              "confidence": {
+                "overall": "high"
+              },
+              "positive": [
+                {
+                  "content": "软糯外皮与咸香馅料具有地方辨识度",
+                  "type": "local_snack"
+                }
+              ],
+              "avoid": [
+                {
+                  "content": "馅料和辣度差异大",
+                  "risk": "variation",
+                  "severity": "low"
+                }
+              ],
+              "visit_tips": [
+                "第一次先买一个试口味"
+              ],
+              "crowd_model": {
+                "national_holiday": "varies",
+                "weekday": "varies"
+              },
+              "recommended_duration": {
+                "minimum_minutes": 10,
+                "recommended_min_minutes": 20,
+                "recommended_max_minutes": 40
+              },
+              "ai_note": "地方小吃偏好高。"
+            },
+            "related_node_ids": [
+              "sr_food_area_yanshan_hekou"
+            ],
+            "tags": [
+              "灯盏粿",
+              "铅山",
+              "小吃"
+            ],
+            "metadata": {
+              "schema_version": "1.0",
+              "data_status": "experience_verified",
+              "last_verified_at": "2026-08-24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr_stay_area_shangrao_station",
+        "name": "上饶站与信州区换乘住宿区",
+        "short_name": "上饶站/信州区",
+        "city": "上饶",
+        "node_type": "accommodation_area",
+        "category": [
+          "交通枢纽住宿区",
+          "市区中转"
+        ],
+        "location": {
+          "address": "江西省上饶市信州区上饶站周边",
+          "latitude": 28.490464,
+          "longitude": 118.006797,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B03190PXQN",
+          "map_anchor": "上饶站",
+          "anchor_rule": "坐标为酒店检索锚点，不代表住宿区边界"
+        },
+        "spatial_layer": {
+          "boundary_status": "conceptual_area",
+          "related_node_ids": [
+            "sr_transport_hub_shangrao_station",
+            "sr_museum"
+          ],
+          "hotel_search_radius_m": 4000,
+          "hotel_search_keywords": [
+            "酒店",
+            "民宿"
+          ]
+        },
+        "suitable_for": [
+          "跨县换乘",
+          "首次到访",
+          "两晚不搬行李",
+          "依赖公共交通"
+        ],
+        "transit_profile": {
+          "rail_station_access": "最强",
+          "public_transport": "可衔接重点景区直达车，但必须确认南广场具体上车点",
+          "walkability": "站区生活配套与市中心体验并非同一范围",
+          "dynamic_note": "通过高德分别计算酒店到上饶站南广场、博物馆和万达的通勤"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图160、172、173、177、181、202-203"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "减少跨县游时反复搬运行李和误车风险",
+              "type": "hub_stay"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "若酒店离南广场发车点较远，名义上的‘站边’不等于步行可达",
+              "risk": "false_proximity",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "用高德核对步行入口而非只看直线距离",
+            "早班景区车前一晚优先住此区",
+            "希望夜生活可把检索中心移向万达/金龙岗"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "ai_note": "跨县交通权重最高，景区沉浸感较低。"
+        },
+        "ai_score": {
+          "first_visit": 5,
+          "transit": 5,
+          "walkability": 3,
+          "quiet": 3,
+          "value": 4,
+          "holiday_price_risk": 4
+        },
+        "tags": [
+          "上饶站",
+          "信州区",
+          "换乘",
+          "住宿"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "21",
+        "children": []
+      },
+      {
+        "id": "sr_stay_area_wuyuan_county",
+        "name": "婺源县城与婺源站住宿区",
+        "short_name": "婺源县城",
+        "city": "上饶",
+        "node_type": "accommodation_area",
+        "category": [
+          "县域枢纽住宿区",
+          "婺源多日游"
+        ],
+        "location": {
+          "address": "江西省上饶市婺源县紫阳镇及婺源站周边",
+          "latitude": 29.23928,
+          "longitude": 117.877037,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFH8ZPK",
+          "map_anchor": "婺源站",
+          "anchor_rule": "坐标为县域住宿检索锚点"
+        },
+        "spatial_layer": {
+          "boundary_status": "conceptual_area",
+          "related_node_ids": [
+            "sr_transport_hub_wuyuan_station",
+            "sr_wuyuan_huangling",
+            "sr_wuyuan_jiangwan",
+            "sr_wuyuan_wunvzhou"
+          ],
+          "hotel_search_radius_m": 6000,
+          "hotel_search_keywords": [
+            "酒店",
+            "民宿",
+            "客栈"
+          ]
+        },
+        "suitable_for": [
+          "婺源两日以上",
+          "东线北线换乘",
+          "公共交通",
+          "餐饮便利"
+        ],
+        "transit_profile": {
+          "rail_station_access": "强",
+          "public_transport": "县域班车与拼车资源集中，但末班需动态核验",
+          "walkability": "县城生活便利，景区仍需乘车",
+          "dynamic_note": "分别计算到婺女洲、篁岭和江湾的实际路线"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图160、170、172、177、181、202-203"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "多日婺源行程比住上饶市区更省跨县往返",
+              "type": "county_base"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "酒店到婺源站或班车点可能仍需网约车",
+              "risk": "last_mile",
+              "severity": "medium"
+            }
+          ],
+          "visit_tips": [
+            "东线与北线行程优先在县城做基点",
+            "国庆检查酒店取消政策和班车发车点"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "ai_note": "婺源两日以上默认优先；只去三清山或龟峰时降权。"
+        },
+        "ai_score": {
+          "first_visit": 4,
+          "transit": 5,
+          "walkability": 4,
+          "quiet": 3,
+          "value": 4,
+          "holiday_price_risk": 5
+        },
+        "tags": [
+          "婺源县城",
+          "婺源站",
+          "东线",
+          "住宿"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "22",
+        "children": []
+      },
+      {
+        "id": "sr_stay_area_sanqingshan_foothill",
+        "name": "三清山金沙/外双溪山脚住宿区",
+        "short_name": "三清山山脚",
+        "city": "上饶",
+        "node_type": "accommodation_area",
+        "category": [
+          "山脚住宿区",
+          "早登山"
+        ],
+        "location": {
+          "address": "江西省上饶市玉山县三清山金沙索道服务区",
+          "latitude": 28.923172,
+          "longitude": 118.093636,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFFQZC4M",
+          "map_anchor": "金沙索道进站口",
+          "anchor_rule": "金沙仅为默认锚点；外双溪需单独检索"
+        },
+        "spatial_layer": {
+          "boundary_status": "two_gate_area",
+          "related_node_ids": [
+            "sr_sanqingshan",
+            "sr_sqs_jinsha_ropeway",
+            "sr_sqs_waishuangxi_ropeway"
+          ],
+          "hotel_search_radius_m": 4000,
+          "hotel_search_keywords": [
+            "酒店",
+            "民宿",
+            "客栈"
+          ]
+        },
+        "suitable_for": [
+          "早登山",
+          "避开市区往返",
+          "看日出前后",
+          "深度山岳游"
+        ],
+        "transit_profile": {
+          "rail_station_access": "弱，不适合作为返程高铁前夜默认区域",
+          "public_transport": "依赖景区班线且必须匹配金沙或外双溪入口",
+          "walkability": "选对入口后可步行到索道，选错入口则不可替代",
+          "dynamic_note": "酒店搜索必须带索道入口关键词"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图160、172、177、202-203"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "可在早晨索道开放前抵达，降低市区往返压力",
+              "type": "early_access"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "误订到另一索道入口会造成交通错配",
+              "risk": "wrong_gate_stay",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "先定游览入口再订住宿",
+            "确认酒店是否提供班车接送和行李寄存",
+            "返程日不要安排过早高铁"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "ai_note": "三清山深度游和早登山高权重；公共交通过境游客需谨慎。"
+        },
+        "ai_score": {
+          "first_visit": 4,
+          "transit": 2,
+          "walkability": 5,
+          "quiet": 4,
+          "value": 3,
+          "holiday_price_risk": 5
+        },
+        "tags": [
+          "三清山",
+          "金沙",
+          "外双溪",
+          "山脚住宿"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "23",
+        "children": []
+      },
+      {
+        "id": "sr_stay_area_wangxiangu",
+        "name": "望仙谷景区内外住宿区",
+        "short_name": "望仙谷住宿",
+        "city": "上饶",
+        "node_type": "accommodation_area",
+        "category": [
+          "夜游住宿区",
+          "景区民宿"
+        ],
+        "location": {
+          "address": "江西省上饶市广信区望仙谷景区周边",
+          "latitude": 28.679503,
+          "longitude": 117.819171,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B0FFKHIMXK",
+          "map_anchor": "望仙谷景区",
+          "anchor_rule": "景区内与景区外民宿体验、门票和接送条件必须分开比较"
+        },
+        "spatial_layer": {
+          "boundary_status": "conceptual_area",
+          "related_node_ids": [
+            "sr_wangxiangu"
+          ],
+          "hotel_search_radius_m": 5000,
+          "hotel_search_keywords": [
+            "景区内酒店",
+            "民宿",
+            "客栈"
+          ]
+        },
+        "suitable_for": [
+          "完整夜游",
+          "摄影",
+          "不想赶末班车",
+          "度假"
+        ],
+        "transit_profile": {
+          "rail_station_access": "弱",
+          "public_transport": "进出依赖景区直达车、接送或包车",
+          "walkability": "景区内住宿较强，景区外取决于接送",
+          "dynamic_note": "用高德和酒店确认实际入口、接驳与行李搬运"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图160、170、172、177、181"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "避免夜游后集中返程，可获得清晨和深夜的景区氛围",
+              "type": "night_stay"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "节假日价格波动大，景区外‘附近’不等于步行可达",
+              "risk": "price_and_access",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "确认住宿是否含门票、接送和行李服务",
+            "不要把截图中的历史房价写入长期数据",
+            "退房日预留回上饶站的交通缓冲"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "ai_note": "夜景和摄影权重高；预算敏感或赶早车用户降权。"
+        },
+        "ai_score": {
+          "first_visit": 4,
+          "transit": 2,
+          "walkability": 4,
+          "quiet": 3,
+          "value": 2,
+          "holiday_price_risk": 5
+        },
+        "tags": [
+          "望仙谷",
+          "夜游",
+          "民宿",
+          "住宿"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "24",
+        "children": []
+      },
+      {
+        "id": "sr_stay_area_gexian_village",
+        "name": "葛仙村度假住宿区",
+        "short_name": "葛仙村住宿",
+        "city": "上饶",
+        "node_type": "accommodation_area",
+        "category": [
+          "度假区住宿",
+          "夜游住宿"
+        ],
+        "location": {
+          "address": "江西省上饶市铅山县葛仙村度假区周边",
+          "latitude": 28.093503,
+          "longitude": 117.692986,
+          "coordinate_system": "GCJ-02",
+          "amap_poi_id": "B031900WXO",
+          "map_anchor": "葛仙村度假区"
+        },
+        "spatial_layer": {
+          "boundary_status": "conceptual_area",
+          "related_node_ids": [
+            "sr_gexian_village"
+          ],
+          "hotel_search_radius_m": 4000,
+          "hotel_search_keywords": [
+            "酒店",
+            "民宿",
+            "客栈"
+          ]
+        },
+        "suitable_for": [
+          "夜游",
+          "葛仙山联游",
+          "道文化度假",
+          "不赶末班"
+        ],
+        "transit_profile": {
+          "rail_station_access": "弱",
+          "public_transport": "依赖景区直达班线或接送",
+          "walkability": "度假区内强，外部住宿需确认接驳",
+          "dynamic_note": "核对酒店到游客中心和返程上车点"
+        },
+        "experience_layer": {
+          "source": [
+            "上饶攻略截图153、158、160、170、172、177、181、198"
+          ],
+          "confidence": {
+            "overall": "high"
+          },
+          "positive": [
+            {
+              "content": "适合把村落夜游和葛仙山分开安排，减少当天往返压力",
+              "type": "deep_stay"
+            }
+          ],
+          "avoid": [
+            {
+              "content": "景区门票、索道和住宿套餐边界复杂",
+              "risk": "package_scope",
+              "severity": "high"
+            }
+          ],
+          "visit_tips": [
+            "确认套餐是否含村落门票或索道",
+            "第二天赶高铁需预留较长接驳时间"
+          ],
+          "crowd_model": {
+            "national_holiday": "very-high",
+            "weekend": "high",
+            "weekday": "medium"
+          },
+          "ai_note": "葛仙村夜游与登山联游高权重；短住和预算敏感用户降权。"
+        },
+        "ai_score": {
+          "first_visit": 3,
+          "transit": 2,
+          "walkability": 4,
+          "quiet": 4,
+          "value": 3,
+          "holiday_price_risk": 5
+        },
+        "tags": [
+          "葛仙村",
+          "夜游",
+          "度假",
+          "住宿"
+        ],
+        "metadata": {
+          "schema_version": "1.0",
+          "data_status": "experience_verified",
+          "last_verified_at": "2026-08-24"
+        },
+        "map_index": "25",
+        "children": []
+      }
+    ]
   }
 }

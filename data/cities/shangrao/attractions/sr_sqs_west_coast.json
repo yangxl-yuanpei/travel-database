@@ -1,0 +1,20 @@
+{
+  "id": "sr_sqs_west_coast",
+  "name": "西海岸景区",
+  "city": "上饶",
+  "node_type": "attraction",
+  "parent_id": "sr_sanqingshan",
+  "category": ["核心景区", "高山栈道", "峰林观景"],
+  "location": {"address": "江西省上饶市玉山县三清乡金沙街66号", "latitude": 28.904391, "longitude": 118.06025, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFGQJIWU"},
+  "official_info": {
+    "description": "三清山核心游览区域之一，以高山栈道连接花岗岩峰林观景空间；具体开放区段受天气、维护和客流调度影响。",
+    "access_rule": "开放、预约和门票规则继承三清山风景名胜区主节点。"
+  },
+  "tags": ["高山栈道", "峰林视野", "三清山核心"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24", "experience_status": "awaiting_user_materials"},
+  "sources": [
+    {"name": "生态中国：江西三清山", "url": "https://www.eco.gov.cn/news_info/48755.html", "scope": ["核心游线", "高空栈道", "景区属性"]},
+    {"name": "三清山景区2026年恢复开放公告", "url": "https://jx.ifeng.com/c/8vTp6otkYlK", "scope": ["官方核心区域名称", "开放状态动态管理"]},
+    {"name": "高德地图：西海岸景区", "url": "https://www.amap.com/place/B0FFGQJIWU", "scope": ["坐标", "POI ID", "地址"]}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sr_museum", "name": "上饶市博物馆", "city": "上饶", "node_type": "museum",
+  "category": ["综合性博物馆", "国家一级博物馆", "上饶历史文化入口"],
+  "location": {"address": "江西省上饶市信州区广信大道19号", "latitude": 28.449925, "longitude": 117.947464, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFHVWT03"},
+  "official_info": {"description": "地方综合性博物馆，集中展示上饶革命历史、自然与历史、人文、物质文明和民俗文化。", "level": "国家一级博物馆", "ticket": {"price": "免费", "status": "verified_regular_policy"}, "opening_hours": {"regular": "09:00-17:00，16:30停止入馆；周一、除夕和正月初一闭馆，周一逢国家法定节假日通常正常开放", "status": "verified_regular_schedule_dynamic_holiday"}},
+  "reservation": {"required": null, "channels": ["上饶市博物馆官方渠道"], "notes": "普通个人、团队、讲解及节假日规则需在官网或微信公众号复核。", "status": "dynamic"},
+  "child_nodes": {"permanent_exhibitions": ["sr_museum_exhibition_blood_monument", "sr_museum_exhibition_zhongling_yuxiu", "sr_museum_exhibition_wenmai_mianchang", "sr_museum_exhibition_wuhua_tianbao", "sr_museum_exhibition_folk_customs"], "temporary_exhibitions": [], "artifacts": [], "collection_groups": []},
+  "temporary_exhibitions": {"status": "dynamic_maintain", "fields": ["展览名称", "展期", "展厅", "主办方", "状态", "官方链接"]},
+  "representative_collections": [{"name": "商代兽面云雷纹四足圆鼎", "category": "青铜器", "importance": 5, "display_status": "dynamic_verify"}, {"name": "宋代歙砚作坊遗址出土文物", "category": "砚与制砚遗存", "importance": 5, "display_status": "dynamic_verify"}, {"name": "宋代饶州镜收藏", "category": "铜镜", "importance": 5, "display_status": "dynamic_verify"}],
+  "experience_layer": {"source": ["上饶攻略截图154、176、188、189"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "适合作为进入上饶各县景点前的区域历史总览", "type": "city_context"}, {"content": "室内免费节点可作为炎热或雨天备选", "type": "weather_backup"}], "avoid": [{"content": "周一闭馆及节假日调整可能影响行程", "risk": "closure", "severity": "high"}], "visit_tips": ["优先按五个常设陈列选择主题，不必平均分配时间", "临展与代表文物展出状态到馆前复核"], "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "low-medium"}, "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180}, "ai_note": "历史、亲子和雨天偏好高；远郊换乘日可作为上饶市区缓冲节点。"},
+  "ai_score": {"history": 5, "photo": 3, "family": 5, "rain_day": 5, "crowd_risk": 3, "first_visit": 4}, "tags": ["上饶市博物馆", "国家一级博物馆", "雨天", "市区"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "China Daily政府平台：Shangrao Museum", "url": "https://govt.chinadaily.com.cn/s/202507/17/WS6878b2ed498edec913cde4b3/shangrao-museum.html", "scope": ["地址", "开放时间", "免费", "五个常设展览"]}, {"name": "上饶文旅：上饶市博物馆获评国家一级博物馆", "url": "https://www.aiyoujiangxi.com/bads/222902/", "scope": ["国家一级博物馆"]}, {"name": "高德地图：上饶市博物馆", "url": "https://www.amap.com/place/B0FFHVWT03", "scope": ["坐标", "POI ID", "地址"]}]
+}

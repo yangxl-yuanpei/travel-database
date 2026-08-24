@@ -1,0 +1,8 @@
+{
+  "id":"sr_stay_area_gexian_village","name":"葛仙村度假住宿区","short_name":"葛仙村住宿","city":"上饶","node_type":"accommodation_area","category":["度假区住宿","夜游住宿"],
+  "location":{"address":"江西省上饶市铅山县葛仙村度假区周边","latitude":28.093503,"longitude":117.692986,"coordinate_system":"GCJ-02","amap_poi_id":"B031900WXO","map_anchor":"葛仙村度假区"},
+  "spatial_layer":{"boundary_status":"conceptual_area","related_node_ids":["sr_gexian_village"],"hotel_search_radius_m":4000,"hotel_search_keywords":["酒店","民宿","客栈"]},
+  "suitable_for":["夜游","葛仙山联游","道文化度假","不赶末班"],"transit_profile":{"rail_station_access":"弱","public_transport":"依赖景区直达班线或接送","walkability":"度假区内强，外部住宿需确认接驳","dynamic_note":"核对酒店到游客中心和返程上车点"},
+  "experience_layer":{"source":["上饶攻略截图153、158、160、170、172、177、181、198"],"confidence":{"overall":"high"},"positive":[{"content":"适合把村落夜游和葛仙山分开安排，减少当天往返压力","type":"deep_stay"}],"avoid":[{"content":"景区门票、索道和住宿套餐边界复杂","risk":"package_scope","severity":"high"}],"visit_tips":["确认套餐是否含村落门票或索道","第二天赶高铁需预留较长接驳时间"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"ai_note":"葛仙村夜游与登山联游高权重；短住和预算敏感用户降权。"},
+  "ai_score":{"first_visit":3,"transit":2,"walkability":4,"quiet":4,"value":3,"holiday_price_risk":5},"tags":["葛仙村","夜游","度假","住宿"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}
+}

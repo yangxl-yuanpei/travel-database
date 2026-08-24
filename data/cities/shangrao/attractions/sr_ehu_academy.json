@@ -1,0 +1,12 @@
+{
+  "id": "sr_ehu_academy", "name": "鹅湖书院", "city": "上饶", "node_type": "attraction",
+  "category": ["古代书院", "理学文化", "全国重点文物保护单位", "铅山节点"],
+  "location": {"address": "江西省上饶市铅山县河口镇城东街鹅湖大道", "latitude": 28.255466, "longitude": 117.819849, "coordinate_system": "GCJ-02", "amap_poi_id": "B0319006PQ"},
+  "official_info": {"description": "坐落于鹅湖山北麓，是鹅湖之会、朱陆之辩及书院文化的重要实物节点，现存头门、牌坊、讲堂、御书楼等建筑。", "opening_hours": {"status": "dynamic"}, "ticket": {"status": "dynamic"}},
+  "reservation": {"required": null, "notes": "开放与购票规则以管理方当日公告为准。", "status": "dynamic"},
+  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["上饶站", "铅山县城"], "public_transport": [{"from": "铅山县城", "mode": "县域公交/网约车", "status": "dynamic_schedule"}], "self_drive": {"suitable": true, "risk": ["返程班次少"]}, "return_risk": "medium_high", "same_day_pairing": {"recommended": ["河口古镇"], "avoid": ["三清山"]}, "holiday_risk": ["县域换乘等待", "临时闭馆或活动"] , "dynamic_checks": ["开放时间", "县域公交", "返程"]},
+  "experience_layer": {"source": ["上饶攻略截图154、156、179"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "适合理学、书院史和传统建筑爱好者深度参观", "type": "intellectual_history"}], "avoid": [{"content": "只作快速拍照点会低估文化价值", "risk": "shallow_visit", "severity": "medium"}], "visit_tips": ["先了解鹅湖之会再参观", "与河口古镇组合为半日至一日文化节点"], "crowd_model": {"national_holiday": "medium-high", "weekend": "medium", "weekday": "low"}, "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 180}, "ai_note": "历史、哲学和书院建筑偏好高；亲子低龄和纯夜景偏好降权。"},
+  "ai_score": {"history": 5, "photo": 4, "family": 3, "rain_day": 3, "crowd_risk": 2, "first_visit": 3}, "tags": ["鹅湖书院", "朱陆之辩", "理学", "铅山"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "中央纪委国家监委转载：鹅湖书院朱陆之讲席犹存", "url": "https://www.srlz.gov.cn/m/view.php?aid=5447", "scope": ["位置", "历史", "主要建筑"]}, {"name": "高德地图：鹅湖书院", "url": "https://www.amap.com/place/B0319006PQ", "scope": ["坐标", "POI ID", "地址"]}]
+}

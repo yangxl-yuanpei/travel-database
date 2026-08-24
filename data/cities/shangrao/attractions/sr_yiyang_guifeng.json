@@ -1,0 +1,12 @@
+{
+  "id": "sr_yiyang_guifeng", "name": "弋阳龟峰景区", "short_name": "龟峰", "city": "上饶", "node_type": "attraction",
+  "category": ["丹霞地貌", "世界自然遗产组成地", "国家5A级旅游景区", "远郊节点"],
+  "location": {"address": "江西省上饶市弋阳县龟峰大道旁", "latitude": 28.317212, "longitude": 117.423935, "coordinate_system": "GCJ-02", "amap_poi_id": "B03190082U"},
+  "official_info": {"description": "位于弋阳县的丹霞地貌景区，是中国丹霞世界自然遗产组成地之一。", "opening_hours": {"status": "dynamic_by_season_weather_and_boat"}, "ticket": {"status": "dynamic_package_with_scenic_transport"}},
+  "reservation": {"required": null, "notes": "门票、观光车、游船与节假日规则以官方渠道为准。", "status": "dynamic"},
+  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["弋阳站", "上饶站"], "public_transport": [{"from": "弋阳站", "mode": "县域公交/网约车", "status": "dynamic_schedule"}, {"from": "上饶站", "mode": "高铁至弋阳站后换乘", "status": "rail_plus_last_mile"}], "self_drive": {"suitable": true, "risk": ["节假日停车", "雨后步道湿滑"]}, "return_risk": "medium", "same_day_pairing": {"recommended": ["弋阳县城"], "avoid": ["三清山", "望仙谷"]}, "holiday_risk": ["内部交通排队", "县域末班"] , "dynamic_checks": ["弋阳站接驳", "步道与游船", "返程车次"]},
+  "experience_layer": {"source": ["上饶攻略截图154、157、171、179、181、188、200"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "丹霞峰林与步道组合适合自然地貌摄影", "type": "geology_photo"}], "avoid": [{"content": "低估步行量或穿着不防滑鞋会明显影响体验", "risk": "hiking", "severity": "medium"}], "visit_tips": ["从弋阳站换乘比每天返回上饶市区更符合空间结构", "预留半日以上并关注天气"], "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "low-medium"}, "recommended_duration": {"minimum_minutes": 240, "recommended_min_minutes": 300, "recommended_max_minutes": 420}, "ai_note": "自然地貌和徒步偏好高；依赖上饶市内公交的用户需评估换乘。"},
+  "ai_score": {"history": 2, "photo": 5, "family": 3, "rain_day": 1, "crowd_risk": 4, "first_visit": 3}, "tags": ["龟峰", "丹霞", "世界自然遗产", "弋阳", "远郊"],
+  "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "联合国教科文组织世界遗产：中国丹霞", "url": "https://whc.unesco.org/en/list/1335/", "scope": ["世界自然遗产", "龟峰组成地"]}, {"name": "高德地图：弋阳龟峰景区", "url": "https://www.amap.com/place/B03190082U", "scope": ["坐标", "POI ID", "地址"]}]
+}

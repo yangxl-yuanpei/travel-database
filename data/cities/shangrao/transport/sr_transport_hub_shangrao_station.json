@@ -1,0 +1,9 @@
+{
+  "id": "sr_transport_hub_shangrao_station", "name": "上饶站旅游换乘枢纽", "city": "上饶", "node_type": "transport", "category": ["高铁站", "景区直达车枢纽", "多中心换乘"],
+  "location": {"address": "江西省上饶市信州区站前大道666号", "latitude": 28.490464, "longitude": 118.006797, "coordinate_system": "GCJ-02", "amap_poi_id": "B03190PXQN"},
+  "transport_role": {"level": "primary_hub", "serves": ["上饶市区", "三清山", "望仙谷", "葛仙村", "婺源方向", "弋阳龟峰方向"], "boarding_note": "景区直达车常从南广场或旅游客运集散点发车，不能只写‘上饶站’而省略具体上车点。"},
+  "dynamic_fields": ["发车点", "班次", "票价", "检票规则", "加班车", "末班", "行李托运"],
+  "experience_layer": {"source": ["上饶攻略截图153、160、173、176、181、188、189、200-203"], "confidence": {"overall": "high"}, "positive": [{"content": "是串联上饶多个县域景区最重要的外部抵达和换乘锚点", "type": "hub"}], "avoid": [{"content": "到站后跟随揽客人员乘坐非正规车辆存在风险", "risk": "unlicensed_transport", "severity": "high"}, {"content": "国庆早晚热门时段直达车可能售罄", "risk": "sellout", "severity": "high"}], "visit_tips": ["明确南广场、汽车东站或具体旅游集散点", "去程和返程同时确认", "至少预留30分钟站内换乘缓冲", "优先官方站点巴士、景区直达车或正规网约车"], "crowd_model": {"national_holiday": "very-high", "weekend": "high", "weekday": "medium"}, "recommended_duration": {"minimum_minutes": 30, "recommended_min_minutes": 45, "recommended_max_minutes": 90}, "ai_note": "所有跨县节点默认从这里或相应县级高铁站重新计算，不使用固定景点间距离。"},
+  "tags": ["上饶站", "南广场", "景区直达车", "换乘"], "metadata": {"schema_version": "1.0", "data_status": "verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "国家统计局《中国信息报》：上饶加密重点景区直达旅游班线", "url": "https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202605/P020260513314346779785.pdf", "scope": ["上饶站至葛仙山、三清山、望仙谷直达班线", "景区间联运"]}, {"name": "高德地图：上饶站", "url": "https://www.amap.com/place/B03190PXQN", "scope": ["坐标", "POI ID", "地址"]}]
+}

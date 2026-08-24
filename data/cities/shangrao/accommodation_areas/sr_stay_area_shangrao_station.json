@@ -1,0 +1,8 @@
+{
+  "id":"sr_stay_area_shangrao_station","name":"上饶站与信州区换乘住宿区","short_name":"上饶站/信州区","city":"上饶","node_type":"accommodation_area","category":["交通枢纽住宿区","市区中转"],
+  "location":{"address":"江西省上饶市信州区上饶站周边","latitude":28.490464,"longitude":118.006797,"coordinate_system":"GCJ-02","amap_poi_id":"B03190PXQN","map_anchor":"上饶站","anchor_rule":"坐标为酒店检索锚点，不代表住宿区边界"},
+  "spatial_layer":{"boundary_status":"conceptual_area","related_node_ids":["sr_transport_hub_shangrao_station","sr_museum"],"hotel_search_radius_m":4000,"hotel_search_keywords":["酒店","民宿"]},
+  "suitable_for":["跨县换乘","首次到访","两晚不搬行李","依赖公共交通"],"transit_profile":{"rail_station_access":"最强","public_transport":"可衔接重点景区直达车，但必须确认南广场具体上车点","walkability":"站区生活配套与市中心体验并非同一范围","dynamic_note":"通过高德分别计算酒店到上饶站南广场、博物馆和万达的通勤"},
+  "experience_layer":{"source":["上饶攻略截图160、172、173、177、181、202-203"],"confidence":{"overall":"high"},"positive":[{"content":"减少跨县游时反复搬运行李和误车风险","type":"hub_stay"}],"avoid":[{"content":"若酒店离南广场发车点较远，名义上的‘站边’不等于步行可达","risk":"false_proximity","severity":"medium"}],"visit_tips":["用高德核对步行入口而非只看直线距离","早班景区车前一晚优先住此区","希望夜生活可把检索中心移向万达/金龙岗"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"ai_note":"跨县交通权重最高，景区沉浸感较低。"},
+  "ai_score":{"first_visit":5,"transit":5,"walkability":3,"quiet":3,"value":4,"holiday_price_risk":4},"tags":["上饶站","信州区","换乘","住宿"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}
+}

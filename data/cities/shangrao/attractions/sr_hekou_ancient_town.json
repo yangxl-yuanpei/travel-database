@@ -1,0 +1,12 @@
+{
+  "id": "sr_hekou_ancient_town", "name": "河口古镇", "short_name": "河口老街", "city": "上饶", "node_type": "attraction",
+  "category": ["开放式古镇", "历史街区", "铅山节点"],
+  "location": {"address": "江西省上饶市铅山县河口镇河口老街", "latitude": 28.314527, "longitude": 117.713717, "coordinate_system": "GCJ-02", "amap_poi_id": "B0LB4CHPLC", "anchor_rule": "高德锚点用于空间检索，不代表开放式古镇边界"},
+  "official_info": {"description": "铅山县河口镇历史街区节点，保存赣东北商埠、码头与传统街巷格局。", "opening_hours": {"status": "open_public_street_subvenues_dynamic"}, "ticket": {"status": "public_street_no_unified_ticket_subvenues_dynamic"}},
+  "reservation": {"required": false, "notes": "开放街区无统一预约；展馆、活动与节假日管理另行核验。", "status": "open_area"},
+  "remote_transport_profile": {"remote_level": "high", "primary_hubs": ["上饶站", "铅山县城"], "public_transport": [{"from": "上饶站", "mode": "县际客运/网约车", "status": "dynamic_schedule"}], "self_drive": {"suitable": true, "risk": ["老街停车空间有限"]}, "return_risk": "medium", "same_day_pairing": {"recommended": ["鹅湖书院"], "avoid": ["望仙谷夜游后临时串联"]}, "holiday_risk": ["县际班次稀疏", "古街停车"] , "dynamic_checks": ["上饶至铅山客运", "鹅湖书院开放", "返程班次"]},
+  "experience_layer": {"source": ["上饶攻略截图154、156、179、196"], "confidence": {"overall": "medium-high"}, "positive": [{"content": "适合建筑、历史和慢游，能与鹅湖书院形成铅山文化半日线", "type": "historic_walk"}], "avoid": [{"content": "若期待全天高密度商业演艺可能产生落差", "risk": "expectation", "severity": "medium"}], "visit_tips": ["优先与鹅湖书院组合", "古街是开放式空间，夜游和活动时刻不要写死"], "crowd_model": {"national_holiday": "high", "weekend": "medium-high", "weekday": "low-medium"}, "recommended_duration": {"minimum_minutes": 90, "recommended_min_minutes": 120, "recommended_max_minutes": 240}, "ai_note": "历史街区与慢游偏好高；仅追求大景区刺激体验时降权。"},
+  "ai_score": {"history": 5, "photo": 4, "family": 3, "rain_day": 2, "crowd_risk": 3, "first_visit": 3}, "tags": ["河口古镇", "河口老街", "铅山", "历史街区"],
+  "metadata": {"schema_version": "1.0", "data_status": "third_party_verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：河口镇古镇锚点", "url": "https://www.amap.com/place/B0LB4CHPLC", "scope": ["坐标", "POI ID", "地址锚点"]}]
+}

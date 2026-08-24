@@ -13,6 +13,7 @@ type TravelNode = {
   experience?: JsonObject; experience_layer?: JsonObject; holiday_reference?: JsonObject; ai_score?: Record<string, number | null>;
   food_scope?: "area" | "restaurant" | "dish"; meal_periods?: string[]; menu_profile?: JsonObject; price_range_cny?: JsonObject;
   suitable_for?: string[]; transit_profile?: JsonObject; spatial_layer?: JsonObject; amap_integration?: JsonObject;
+  remote_transport_profile?: JsonObject; route_profile?: JsonObject;
   duration?: { recommended_minutes?: number; minimum_minutes?: number; maximum_minutes?: number };
   children?: TravelNode[]; sources?: Source[]; metadata?: JsonObject;
 };
@@ -28,7 +29,7 @@ type MapPoint = { city: City; x: number; y: number };
 
 const atlas = atlasData as unknown as Atlas;
 const scoreLabels: Record<string, string> = { history: "历史", photo: "拍照", family: "亲子", rain_day: "雨天", crowd_risk: "拥挤风险", queue_risk: "排队风险", first_visit: "首次到访", night: "夜景", local_character: "本地特色", value: "性价比", late_night: "夜宵适配", transit: "交通便利", walkability: "步行串联", quiet: "安静度", river_view: "江景", holiday_price_risk: "假日涨价风险" };
-const sectionLabels: Record<string, string> = { permanent_exhibition: "常设展陈", temporary_exhibition: "临时展览", artifact: "精品文物", collection_group: "藏品专题", history_event: "历史事件", historic_site: "关联旧址", archaeological_site: "考古遗址", food_restaurant: "候选店铺", food_dish: "候选菜品" };
+const sectionLabels: Record<string, string> = { permanent_exhibition: "常设展陈", temporary_exhibition: "临时展览", artifact: "精品文物", collection_group: "藏品专题", history_event: "历史事件", historic_site: "关联旧址", archaeological_site: "考古遗址", attraction: "核心景区与景观", transport: "景区交通", food_restaurant: "候选店铺", food_dish: "候选菜品" };
 const mealLabels: Record<string, string> = { breakfast: "早餐", lunch: "午餐", dinner: "晚餐", late_night: "夜宵", afternoon: "下午茶", evening: "晚间", anytime: "随时" };
 
 function object(value: unknown): JsonObject { return value && typeof value === "object" && !Array.isArray(value) ? value as JsonObject : {}; }
@@ -38,11 +39,11 @@ function strings(value: unknown): string[] { return Array.isArray(value) ? value
 function contents(value: unknown): string[] { return Array.isArray(value) ? value.map((item) => string(object(item).content)).filter((item): item is string => Boolean(item)) : []; }
 function formatMinutes(value: number) { const h = Math.floor(value / 60); const m = value % 60; return `${h ? `${h}小时` : ""}${m ? `${m}分` : ""}`; }
 function range(min: number, max: number, formatter: (value: number) => string) { return min === max ? formatter(min) : `${formatter(min)}–${formatter(max)}`; }
-function duration(place: TravelNode): string { const min = place.duration?.minimum_minutes; const max = place.duration?.maximum_minutes; return min && max ? range(min, max, formatMinutes) : "时长待补充"; }
+function duration(place: TravelNode): string { const layerDuration = object(object(place.experience_layer).recommended_duration); const min = place.duration?.minimum_minutes ?? number(layerDuration.minimum_minutes) ?? undefined; const max = place.duration?.maximum_minutes ?? number(layerDuration.recommended_max_minutes) ?? undefined; return min && max ? range(min, max, formatMinutes) : "时长待补充"; }
 function placeType(place: TravelNode): string { if (place.node_type === "museum") return "博物馆"; if (place.node_type === "memorial") return "纪念馆"; if (place.node_type === "food") return "美食节点"; if (place.node_type === "accommodation_area") return "住宿区域"; return place.category?.[0] ?? "城市景点"; }
 function lead(place: TravelNode): string { const official = object(place.official_info), experience = object(place.experience); return string(official.description) ?? string(official.positioning) ?? string(experience.summary) ?? strings(experience.highlights).join("、"); }
-function openingText(place: TravelNode): string { return string(object(object(place.official_info).opening_hours).regular_schedule) ?? "开放时间等待官方核验"; }
-function ticketText(place: TravelNode): string { const ticket = object(object(place.official_info).ticket); const amount = number(object(ticket.general_admission).amount) ?? number(ticket.price); return amount === 0 ? "免费开放" : amount ? `¥${amount}` : "票价动态维护"; }
+function openingText(place: TravelNode): string { const hours = object(object(place.official_info).opening_hours); return string(hours.regular_schedule) ?? string(hours.regular) ?? "开放时间等待官方核验"; }
+function ticketText(place: TravelNode): string { const ticket = object(object(place.official_info).ticket); const amount = number(object(ticket.general_admission).amount) ?? number(ticket.price); const textPrice = string(ticket.price); return amount === 0 || textPrice === "免费" ? "免费开放" : amount ? `¥${amount}` : "票价动态维护"; }
 function reservationText(place: TravelNode): string { if (!place.reservation) return "以官方公告为准"; const required = place.reservation.required === true ? "须实名预约" : place.reservation.required === false ? "无需预约" : "预约规则待核验"; const days = number(place.reservation.advance_days); return days ? `${required} · 提前 ${days} 天` : required; }
 function foodPeriods(place: TravelNode): string { return (place.meal_periods ?? []).map((item) => mealLabels[item] ?? item).join("、") || "适合时段待核验"; }
 function foodPrice(place: TravelNode): string {
@@ -218,7 +219,7 @@ const cityLayers: Array<{ id: CityLayer; label: string; en: string }> = [
   { id: "accommodation", label: "住宿", en: "STAY" },
 ];
 
-const cityCodeByName: Record<string, string> = { "南昌": "0791", "景德镇": "0798" };
+const cityCodeByName: Record<string, string> = { "南昌": "0791", "景德镇": "0798", "上饶": "0793" };
 
 function DetailedCityPage({ city }: { city: City }) {
   const allPlaces = atlas.city_places[city.id] ?? [];
@@ -378,6 +379,7 @@ function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName:
     <section className="quick-grid">{isFood ? <><Fact label="建议停留" value={duration(place)} /><Fact label="适合时段" value={foodPeriods(place)} /><Fact label="价格参考" value={foodPrice(place)} /><Fact label="候选子节点" value={`${place.children?.length ?? 0} 个`} /></> : isStay ? <><Fact label="地图锚点" value={place.location?.map_anchor ?? "待核验"} /><Fact label="适合" value={stayFit(place)} /><Fact label="公共交通" value={string(object(place.transit_profile).public_transport) ?? "待核验"} /><Fact label="假日涨价风险" value={stayRisk(experience.holiday_price_risk)} /></> : <><Fact label="建议时长" value={duration(place)} /><Fact label="开放时间" value={openingText(place)} /><Fact label="门票" value={ticketText(place)} /><Fact label="预约" value={reservationText(place)} /></>}</section>
     <section className="notice"><b>{isFood || isStay ? "数据提示" : "国庆提示"}</b><span>{isFood ? "店铺、价格和推荐菜来自游客截图与第三方目录快照，尚未完成逐店人工核验；营业状态和排队情况请通过高德动态确认。" : isStay ? "住宿区是旅行决策范围，不是行政边界；具体酒店库存、房价、房型与真实通勤必须在预订时动态核验。" : Object.keys(holidayReference).length ? "2026 年专项公告尚未发布；下方 2025 年资料只用于预估预约、客流和开放趋势，不能视为 2026 执行规则。" : "2026 年国庆专项开放、限流及放票安排尚未发布；出发前需再次查询官方公告。"}</span></section>
     {!isFood && !isStay && Object.keys(holidayReference).length > 0 && <HolidayReference reference={holidayReference} />}
+    {!isFood && !isStay && Object.keys(object(place.remote_transport_profile)).length > 0 && <RemoteTransport profile={object(place.remote_transport_profile)} />}
     <section className="content-grid"><div className="content-block official-block"><p className="section-kicker">{isFood || isStay ? "LOCATION LAYER" : "OFFICIAL LAYER"}</p><h2>{isFood ? "位置与目录信息" : isStay ? "空间锚点与交通" : "官方信息"}</h2><dl><div><dt>{isStay ? "检索范围" : "地址"}</dt><dd>{place.location?.address ?? "地址待核验"}</dd></div><div><dt>坐标</dt><dd>{place.location?.latitude}, {place.location?.longitude} · {place.location?.coordinate_system}</dd></div>{place.location?.amap_poi_id && <div><dt>高德 POI</dt><dd><a href={`https://ditu.amap.com/place/${place.location.amap_poi_id}`} target="_blank" rel="noreferrer">{place.location.amap_poi_id} ↗</a></dd></div>}<div><dt>{isFood ? "资料状态" : isStay ? "车站接驳" : "预约渠道"}</dt><dd>{isFood ? string(official.status) ?? "待核验" : isStay ? string(object(place.transit_profile).rail_station_access) ?? "动态核验" : strings(place.reservation?.channels).join("、") || "以官方公告为准"}</dd></div>{isStay && <div><dt>步行特征</dt><dd>{string(object(place.transit_profile).walkability) ?? "动态核验"}</dd></div>}</dl></div>
       <div className="content-block experience-block"><p className="section-kicker">EXPERIENCE LAYER</p><h2>{isStay ? "住宿决策经验" : "实际体验"}</h2><div className="experience-provenance"><b>游客经验 · {stayRisk(confidence.overall)}</b><span>{strings(experienceLayer.source).join(" · ")}</span></div>{highlights.length > 0 && <InfoList title="高频正向反馈" items={highlights} />}{bestFor.length > 0 && <InfoList title={isStay ? "适合人群" : "适合谁 / 何时去"} items={bestFor} />}{visitTips.length > 0 && <InfoList title={isStay ? "订房与选址建议" : "参观建议"} items={visitTips} />}{photoScenes.length > 0 && <InfoList title="推荐拍摄场景" items={photoScenes} />}<InfoList title={isStay ? "区域客流模型" : "人流模型"} items={[`工作日：${stayRisk(crowd.weekday ?? crowd.normal)}`, `周末：${stayRisk(crowd.weekend)}`, `国庆：${stayRisk(crowd.national_holiday ?? crowd.holiday)}`]} />{avoids.length > 0 && <InfoList title="避坑" items={avoids} warning />}</div></section>
     <section className="score-section"><div><p className="section-kicker">AI SCORE · 1—5</p><h2>这处节点适合什么需求？</h2></div><div className="score-grid">{Object.entries(place.ai_score ?? {}).map(([key, value]) => <Score key={key} label={scoreLabels[key] ?? key} value={value} />)}</div></section>
@@ -395,5 +397,16 @@ function HolidayReference({ reference }: { reference: JsonObject }) {
   return <section className="holiday-reference"><div className="holiday-reference-head"><div><p className="section-kicker">HISTORICAL HOLIDAY REFERENCE</p><h2>{year} 年国庆参考</h2></div><span>仅辅助 {target} 年规划</span></div>
     <div className="holiday-reference-grid"><div><h3>往年已确认事实</h3><dl>{Object.entries(facts).map(([key, value]) => <div key={key}><dt>{holidayFactLabels[key] ?? key}</dt><dd>{holidayFactValue(value)}</dd></div>)}</dl></div><div><h3>规划器可采用的推断</h3><ul>{planning.map((item) => <li key={item}>{item}</li>)}</ul><p className="holiday-warning">{string(reference.warning)}</p></div></div>
     <div className="holiday-reference-sources">{sources.map((source) => <a key={string(source.url)} href={string(source.url) ?? "#"} target="_blank" rel="noreferrer">{string(source.name)} ↗</a>)}</div>
+  </section>;
+}
+
+function RemoteTransport({ profile }: { profile: JsonObject }) {
+  const services = Array.isArray(profile.public_transport) ? profile.public_transport.map(object) : [];
+  const pairing = object(profile.same_day_pairing), selfDrive = object(profile.self_drive);
+  const serviceLines = services.map((service) => [string(service.from), string(service.mode), string(service.notes)].filter(Boolean).join(" · ")).filter(Boolean);
+  const riskItems = [...strings(profile.holiday_risk), ...strings(selfDrive.risk)];
+  return <section className="holiday-reference remote-transport"><div className="holiday-reference-head"><div><p className="section-kicker">REMOTE TRANSPORT PROFILE</p><h2>偏远景点交通画像</h2></div><span>实时算路 + 经验约束</span></div>
+    <div className="holiday-reference-grid"><div><h3>如何抵达</h3><InfoList title="主要枢纽" items={strings(profile.primary_hubs)} />{serviceLines.length > 0 && <InfoList title="公共交通" items={serviceLines} />}<InfoList title="末端与返程" items={[string(profile.last_mile), string(profile.return_risk) ? `返程风险：${string(profile.return_risk)}` : null].filter((item): item is string => Boolean(item))} /></div>
+      <div><h3>排程约束</h3>{strings(pairing.recommended).length > 0 && <InfoList title="可考虑同日" items={strings(pairing.recommended)} />}{strings(pairing.avoid).length > 0 && <InfoList title="不建议同日" items={strings(pairing.avoid)} warning />}{riskItems.length > 0 && <InfoList title="节假日与自驾风险" items={riskItems} warning />}<InfoList title="出发前动态复核" items={strings(profile.dynamic_checks)} /></div></div>
   </section>;
 }

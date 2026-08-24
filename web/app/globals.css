@@ -72,6 +72,10 @@ h1 { margin:0; font-family:"Noto Serif SC","STSong",serif; font-size:clamp(52px,
 .notice { margin:38px 0 0; padding:18px 20px; display:flex; gap:18px; background:#ead9ce; border-left:3px solid var(--red); font-size:13px; line-height:1.65; }
 .notice b { flex:0 0 auto; }
 .holiday-reference { margin:26px 0 70px; padding:clamp(26px,4vw,48px); border:1px solid #c9a987; background:#f2e8d8; }
+.remote-transport { border-color:#9eb4aa; background:#e8efeb; }
+.remote-transport .holiday-reference-head>span { border-color:rgba(45,91,72,.35); color:#2d5b48; }
+.remote-transport .info-list { margin-top:18px; }
+.remote-transport .info-list h3 { margin-bottom:8px; font-size:12px; }
 .holiday-reference-head { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
 .holiday-reference-head h2 { margin:0; font:clamp(27px,3vw,40px)/1.25 "Noto Serif SC",serif; }
 .holiday-reference-head>span { padding:7px 10px; border:1px solid rgba(168,58,41,.35); color:var(--red); font-size:10px; font-weight:800; letter-spacing:.08em; }

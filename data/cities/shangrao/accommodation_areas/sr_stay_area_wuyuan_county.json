@@ -1,0 +1,8 @@
+{
+  "id":"sr_stay_area_wuyuan_county","name":"婺源县城与婺源站住宿区","short_name":"婺源县城","city":"上饶","node_type":"accommodation_area","category":["县域枢纽住宿区","婺源多日游"],
+  "location":{"address":"江西省上饶市婺源县紫阳镇及婺源站周边","latitude":29.23928,"longitude":117.877037,"coordinate_system":"GCJ-02","amap_poi_id":"B0FFFH8ZPK","map_anchor":"婺源站","anchor_rule":"坐标为县域住宿检索锚点"},
+  "spatial_layer":{"boundary_status":"conceptual_area","related_node_ids":["sr_transport_hub_wuyuan_station","sr_wuyuan_huangling","sr_wuyuan_jiangwan","sr_wuyuan_wunvzhou"],"hotel_search_radius_m":6000,"hotel_search_keywords":["酒店","民宿","客栈"]},
+  "suitable_for":["婺源两日以上","东线北线换乘","公共交通","餐饮便利"],"transit_profile":{"rail_station_access":"强","public_transport":"县域班车与拼车资源集中，但末班需动态核验","walkability":"县城生活便利，景区仍需乘车","dynamic_note":"分别计算到婺女洲、篁岭和江湾的实际路线"},
+  "experience_layer":{"source":["上饶攻略截图160、170、172、177、181、202-203"],"confidence":{"overall":"high"},"positive":[{"content":"多日婺源行程比住上饶市区更省跨县往返","type":"county_base"}],"avoid":[{"content":"酒店到婺源站或班车点可能仍需网约车","risk":"last_mile","severity":"medium"}],"visit_tips":["东线与北线行程优先在县城做基点","国庆检查酒店取消政策和班车发车点"],"crowd_model":{"national_holiday":"very-high","weekend":"high","weekday":"medium"},"ai_note":"婺源两日以上默认优先；只去三清山或龟峰时降权。"},
+  "ai_score":{"first_visit":4,"transit":5,"walkability":4,"quiet":3,"value":4,"holiday_price_risk":5},"tags":["婺源县城","婺源站","东线","住宿"],"metadata":{"schema_version":"1.0","data_status":"experience_verified","last_verified_at":"2026-08-24"}
+}
