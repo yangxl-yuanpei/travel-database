@@ -38,6 +38,43 @@
         "notes": "官方购票说明确认实名分时购票；价格和场次以购买日官方页面为准。"
       }
     },
+    "holiday_reference": {
+      "target_year": 2026,
+      "status": "historical_reference_only",
+      "reference_year": 2025,
+      "period": {
+        "start": "2025-10-01",
+        "end": "2025-10-08"
+      },
+      "observed_facts": {
+        "reservation_rule": "2025年双节实行实名制分时预约购票",
+        "advance_window": "提前1至7天预约",
+        "channels": [
+          "滕王阁旅游区官方微信公众号",
+          "美团",
+          "携程"
+        ],
+        "entry_rule": "按预约时段凭购票二维码或本人有效身份证核验入园；错过预约时段需重新预约"
+      },
+      "planning_inference": [
+        "2026年规划时应优先预留提前预约动作，不建议现场临时购票",
+        "傍晚和夜景时段可能同时叠加分时入园与高客流，应准备备选时段"
+      ],
+      "sources": [
+        {
+          "name": "江西文化旅游网：双节游南昌注意景区新规",
+          "url": "https://tour.jxcn.cn/system/2025/09/26/020994030.shtml",
+          "source_type": "official_republication"
+        }
+      ],
+      "confidence": "medium-high",
+      "recheck_required": true,
+      "recheck_window": [
+        "2026-09-15",
+        "2026-09-30"
+      ],
+      "warning": "仅为2025年国庆中秋安排的历史参考，不代表2026年预约窗口、开放时段或入园规则。"
+    },
     "experience": {
       "recommendation_score": 5,
       "best_time": [
@@ -821,6 +858,48 @@
       "verified_at": "2026-08-24",
       "status": "verified"
     },
+    "holiday_reference": {
+      "target_year": 2026,
+      "status": "historical_reference_only",
+      "reference_year": 2025,
+      "period": {
+        "start": "2025-10-01",
+        "end": "2025-10-08"
+      },
+      "observed_facts": {
+        "opening_schedule": "10月1日至8日09:00-18:00，17:00停止入馆",
+        "special_night_session": "10月2日09:00-20:00，19:00停止入馆",
+        "reservation_rule": "实名制免费预约",
+        "advance_days": 7,
+        "official_channels": [
+          "江西省博物馆微信公众号江博预约",
+          "江西省博物馆官网团队预约"
+        ]
+      },
+      "planning_inference": [
+        "2026年可先按延时开放存在的可能性规划，但不能提前承诺夜场",
+        "国庆仍应按热门预约型博物馆处理，优先锁定门票后再安排同日路线"
+      ],
+      "sources": [
+        {
+          "name": "江西新闻网：江西省博物馆等场馆开放时间将调整",
+          "url": "https://jiangxi.jxnews.com.cn/system/2025/09/28/020995077.shtml",
+          "source_type": "official_republication"
+        },
+        {
+          "name": "江西省博物馆2025年双节公告转载",
+          "url": "https://m.sohu.com/a/938191797_121107011/",
+          "source_type": "official_republication"
+        }
+      ],
+      "confidence": "high",
+      "recheck_required": true,
+      "recheck_window": [
+        "2026-09-15",
+        "2026-09-30"
+      ],
+      "warning": "2025年的延时和夜场安排不能直接继承为2026事实，预约提前天数也需以2026公告为准。"
+    },
     "child_nodes": {
       "permanent_exhibitions": [
         "nc_jx_museum_exh_ancient_history",
@@ -1297,6 +1376,44 @@
         "nc_haihunhou_group_jade",
         "nc_haihunhou_group_lacquerware"
       ]
+    },
+    "holiday_reference": {
+      "target_year": 2026,
+      "status": "historical_reference_only",
+      "reference_year": 2025,
+      "period": {
+        "start": "2025-10-01",
+        "end": "2025-10-08"
+      },
+      "observed_facts": {
+        "opening_schedule": "08:30-17:30，16:30停止检票入园，较常态延长1小时",
+        "reservation_advice": "官方要求尽早预约并合理避开参观高峰",
+        "refund_advice": "行程变化尽量在参观日前一天23:00前线上退票",
+        "holiday_visitors": "2025年国庆中秋8天接待30.62万人次，为江西同期最热门博物馆"
+      },
+      "planning_inference": [
+        "2026年仍应按极高客流的半日节点处理，预约与远郊交通必须同时锁定",
+        "建议选择早场，并为入园核验、园区接驳和返程预留额外缓冲"
+      ],
+      "sources": [
+        {
+          "name": "江西新闻网：2025年双节场馆开放公告汇总",
+          "url": "https://jiangxi.jxnews.com.cn/system/2025/09/28/020995077.shtml",
+          "source_type": "official_republication"
+        },
+        {
+          "name": "江西新闻网：2025年国庆中秋江西文旅数据",
+          "url": "https://jiangxi.jxnews.com.cn/system/2025/10/09/021001007.shtml",
+          "source_type": "official_statistics"
+        }
+      ],
+      "confidence": "high",
+      "recheck_required": true,
+      "recheck_window": [
+        "2026-09-15",
+        "2026-09-30"
+      ],
+      "warning": "2025年开放时间和客流仅用于预测2026拥挤风险，票价、名额和交通必须重新核验。"
     },
     "experience": {
       "recommendation_score": 5,
@@ -1990,6 +2107,40 @@
       "source_url": "https://www.81-china.com/",
       "verified_at": "2026-08-24",
       "status": "official_channel_verified_dynamic_quota"
+    },
+    "holiday_reference": {
+      "target_year": 2026,
+      "status": "historical_reference_only",
+      "reference_year": 2025,
+      "period": {
+        "start": "2025-10-01",
+        "end": "2025-10-08"
+      },
+      "observed_facts": {
+        "opening_schedule": "09:00-21:00，20:30停止入馆",
+        "late_open_area": "17:00后仅开放陈列大楼，其余旧址不开放",
+        "reservation_rule": "全员实名分时预约",
+        "extra_quota": "每日09:00、13:00、17:00三个时段各增发1000个预约名额，按实际预约情况调整",
+        "document_rule": "凭预约时使用的有效身份证件核验入馆"
+      },
+      "planning_inference": [
+        "若2026再次延时，晚间可能只适合看陈列大楼，完整旧址参观应安排在17:00前",
+        "不能依赖临时增发票额，应先完成正式预约并保留错峰方案"
+      ],
+      "sources": [
+        {
+          "name": "南昌八一起义纪念馆2025年双节公告转载",
+          "url": "https://m.nc.bendibao.com/xiuxian/97591.shtm",
+          "source_type": "official_republication"
+        }
+      ],
+      "confidence": "medium-high",
+      "recheck_required": true,
+      "recheck_window": [
+        "2026-09-15",
+        "2026-09-30"
+      ],
+      "warning": "2025年的延时开放、旧址开放范围和增发名额仅作排程参考，2026年可能调整。"
     },
     "child_nodes": {
       "history_events": [

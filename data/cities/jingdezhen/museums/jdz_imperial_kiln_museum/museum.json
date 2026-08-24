@@ -25,6 +25,32 @@
     "verified_at": "2026-08-24",
     "status": "verified_channel_dynamic_rule"
   },
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "holiday_visitors": "2025年国庆中秋8天接待约14万人",
+      "crowd_observation": "官方总结称双节期间博物馆展馆持续处于高客流状态",
+      "parent_area": "与陶阳里历史文化旅游区共享主要到访空间和客流"
+    },
+    "planning_inference": [
+      "2026年应按高客流节点处理，并与陶阳里统一安排预约、入园与交通",
+      "夜景时段不等于低客流，建议同时准备白天早场与晚间备选方案"
+    ],
+    "sources": [
+      {
+        "name": "景德镇市文旅局：2025年国庆中秋文旅统计",
+        "url": "https://wgxl.jdz.gov.cn/zwzx/gzdt/t1054712.shtml",
+        "source_type": "official_statistics"
+      }
+    ],
+    "confidence": "medium",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "官方资料仅支持2025年客流判断，不能据此推定2026年开放时间、预约提前天数或现场预约规则。"
+  },
   "child_nodes": {
     "permanent_exhibitions": ["jdz_ikm_exh_pearl_of_porcelain", "jdz_ikm_exh_imperial_kiln_history"],
     "temporary_exhibitions": ["jdz_ikm_exh_civilization_interaction"],

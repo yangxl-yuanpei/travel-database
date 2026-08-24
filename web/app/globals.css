@@ -71,6 +71,19 @@ h1 { margin:0; font-family:"Noto Serif SC","STSong",serif; font-size:clamp(52px,
 .fact b { font:16px/1.65 "Noto Serif SC",serif; }
 .notice { margin:38px 0 0; padding:18px 20px; display:flex; gap:18px; background:#ead9ce; border-left:3px solid var(--red); font-size:13px; line-height:1.65; }
 .notice b { flex:0 0 auto; }
+.holiday-reference { margin:26px 0 70px; padding:clamp(26px,4vw,48px); border:1px solid #c9a987; background:#f2e8d8; }
+.holiday-reference-head { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
+.holiday-reference-head h2 { margin:0; font:clamp(27px,3vw,40px)/1.25 "Noto Serif SC",serif; }
+.holiday-reference-head>span { padding:7px 10px; border:1px solid rgba(168,58,41,.35); color:var(--red); font-size:10px; font-weight:800; letter-spacing:.08em; }
+.holiday-reference-grid { display:grid; grid-template-columns:1fr 1fr; gap:42px; margin-top:34px; }
+.holiday-reference-grid h3 { margin:0 0 18px; font:19px "Noto Serif SC",serif; }
+.holiday-reference-grid dl { margin:0; }
+.holiday-reference-grid dl div { display:grid; grid-template-columns:100px 1fr; gap:18px; padding:10px 0; border-top:1px solid rgba(23,27,24,.12); }
+.holiday-reference-grid dt { font-size:11px; font-weight:800; opacity:.62; }.holiday-reference-grid dd { margin:0; font-size:12px; line-height:1.7; }
+.holiday-reference-grid ul { margin:0; padding-left:18px; }.holiday-reference-grid li { margin:0 0 12px; font-size:12px; line-height:1.7; }
+.holiday-warning { margin:22px 0 0; padding:12px 14px; border-left:3px solid var(--red); background:rgba(255,255,255,.42); font-size:11px; line-height:1.7; }
+.holiday-reference-sources { display:flex; flex-wrap:wrap; gap:10px 20px; margin-top:26px; padding-top:18px; border-top:1px solid rgba(23,27,24,.14); }
+.holiday-reference-sources a { color:var(--red); font-size:10px; text-decoration:none; }
 .content-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px; margin:70px 0; background:var(--line); border:1px solid var(--line); }
 .content-block { padding:clamp(28px,4vw,54px); background:var(--paper); }
 .section-kicker { margin:0 0 12px; color:var(--red); font-size:10px; font-weight:900; letter-spacing:.18em; }
@@ -133,6 +146,7 @@ h1 { margin:0; font-family:"Noto Serif SC","STSong",serif; font-size:clamp(52px,
   .quick-grid,.score-grid,.child-grid { grid-template-columns:1fr; }
   .fact { border-right:0; }
   .notice { align-items:flex-start; flex-direction:column; gap:6px; }
+  .holiday-reference-head { flex-direction:column; }.holiday-reference-grid { grid-template-columns:1fr; gap:28px; }.holiday-reference-grid dl div { grid-template-columns:82px 1fr; }
   .sources-section a { grid-template-columns:1fr auto; }
   .ai-note { grid-template-columns:1fr; }
   .sources-section a span { grid-column:1/-1; grid-row:2; }

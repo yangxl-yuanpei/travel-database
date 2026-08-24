@@ -61,6 +61,67 @@
         "maximum": 5
       }
     },
+    "holiday_reference": {
+      "type": "object",
+      "required": [
+        "target_year",
+        "status",
+        "reference_year",
+        "period",
+        "observed_facts",
+        "planning_inference",
+        "sources",
+        "confidence",
+        "recheck_required"
+      ],
+      "properties": {
+        "target_year": {"type": "integer"},
+        "status": {"const": "historical_reference_only"},
+        "reference_year": {"type": "integer"},
+        "period": {
+          "type": "object",
+          "required": ["start", "end"],
+          "properties": {
+            "start": {"type": "string", "format": "date"},
+            "end": {"type": "string", "format": "date"}
+          }
+        },
+        "observed_facts": {"type": "object"},
+        "planning_inference": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "url", "source_type"],
+            "properties": {
+              "name": {"type": "string"},
+              "url": {"type": "string"},
+              "source_type": {
+                "enum": ["official", "official_republication", "official_statistics"]
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "confidence": {
+          "enum": ["low", "low-medium", "medium", "medium-high", "high"]
+        },
+        "recheck_required": {"const": true},
+        "recheck_window": {
+          "type": "array",
+          "items": {"type": "string", "format": "date"},
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "warning": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
     "experience_layer": {
       "type": "object",
       "required": [

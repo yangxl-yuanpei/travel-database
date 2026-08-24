@@ -43,6 +43,34 @@
     "verified_at": "2026-08-24",
     "status": "official_channel_verified_dynamic_quota"
   },
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "opening_schedule": "09:00-21:00，20:30停止入馆",
+      "late_open_area": "17:00后仅开放陈列大楼，其余旧址不开放",
+      "reservation_rule": "全员实名分时预约",
+      "extra_quota": "每日09:00、13:00、17:00三个时段各增发1000个预约名额，按实际预约情况调整",
+      "document_rule": "凭预约时使用的有效身份证件核验入馆"
+    },
+    "planning_inference": [
+      "若2026再次延时，晚间可能只适合看陈列大楼，完整旧址参观应安排在17:00前",
+      "不能依赖临时增发票额，应先完成正式预约并保留错峰方案"
+    ],
+    "sources": [
+      {
+        "name": "南昌八一起义纪念馆2025年双节公告转载",
+        "url": "https://m.nc.bendibao.com/xiuxian/97591.shtm",
+        "source_type": "official_republication"
+      }
+    ],
+    "confidence": "medium-high",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "2025年的延时开放、旧址开放范围和增发名额仅作排程参考，2026年可能调整。"
+  },
   "child_nodes": {
     "history_events": ["nc_bayi_event_nanchang_uprising"],
     "historic_sites": [

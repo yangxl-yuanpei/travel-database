@@ -10,7 +10,7 @@ type Location = { address?: string; latitude?: number; longitude?: number; coord
 type TravelNode = {
   id: string; name: string; short_name?: string; city?: string; node_type: string; map_index?: string;
   category?: string[]; tags?: string[]; location?: Location; official_info?: JsonObject; reservation?: JsonObject;
-  experience?: JsonObject; experience_layer?: JsonObject; ai_score?: Record<string, number | null>;
+  experience?: JsonObject; experience_layer?: JsonObject; holiday_reference?: JsonObject; ai_score?: Record<string, number | null>;
   food_scope?: "area" | "restaurant" | "dish"; meal_periods?: string[]; menu_profile?: JsonObject; price_range_cny?: JsonObject;
   suitable_for?: string[]; transit_profile?: JsonObject; spatial_layer?: JsonObject; amap_integration?: JsonObject;
   duration?: { recommended_minutes?: number; minimum_minutes?: number; maximum_minutes?: number };
@@ -53,6 +53,13 @@ function foodPrice(place: TravelNode): string {
 }
 function stayFit(place: TravelNode): string { return (place.suitable_for ?? []).slice(0, 2).join("、") || "适合人群待补充"; }
 function stayRisk(value: unknown): string { const labels: Record<string, string> = { low: "低", "low-medium": "中低", medium: "中", "medium-high": "中高", high: "高" }; return labels[string(value) ?? ""] ?? string(value) ?? "待核验"; }
+const holidayFactLabels: Record<string, string> = {
+  opening_schedule: "开放时间", special_night_session: "特别夜场", reservation_rule: "预约规则", advance_window: "预约窗口",
+  advance_days: "提前天数", channels: "预约渠道", official_channels: "官方渠道", entry_rule: "入园核验", late_open_area: "晚间开放范围",
+  extra_quota: "增发名额", document_rule: "证件核验", release_times: "放票时段", order_limit: "单账号限制",
+  reservation_advice: "预约提示", refund_advice: "退票提示", holiday_visitors: "历史客流", crowd_observation: "客流观察", parent_area: "空间关系"
+};
+function holidayFactValue(value: unknown): string { if (Array.isArray(value)) return value.join("、"); if (typeof value === "number") return String(value); return string(value) ?? "待核验"; }
 function childDescription(child: TravelNode): string {
   if (child.node_type === "food") {
     const dishes = strings(object(child.menu_profile).recommended_dishes);
@@ -359,7 +366,7 @@ function CityFramework({ city }: { city: City }) {
 }
 
 function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName: string; onBack: () => void }) {
-  const official = object(place.official_info), experience = object(place.experience), experienceLayer = object(place.experience_layer);
+  const official = object(place.official_info), experience = object(place.experience), experienceLayer = object(place.experience_layer), holidayReference = object(place.holiday_reference);
   const isFood = place.node_type === "food";
   const isStay = place.node_type === "accommodation_area";
   const groupedChildren = new Map<string, TravelNode[]>(); for (const child of place.children ?? []) { const group = child.node_type === "food" ? `food_${child.food_scope ?? "restaurant"}` : child.node_type; groupedChildren.set(group, [...(groupedChildren.get(group) ?? []), child]); }
@@ -369,7 +376,8 @@ function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName:
   return <main className="detail-page"><header className="detail-nav"><button type="button" onClick={onBack}>← 返回{cityName}地图</button><span>{place.map_index} · {placeType(place)}</span></header><article>
     <section className="detail-hero"><p className="eyebrow">{place.city} · {place.category?.join(" / ")}</p><h1>{place.name}</h1><p className="detail-lead">{lead(place)}</p><div className="tag-row">{place.tags?.map((tag) => <span key={tag}>{tag}</span>)}</div></section>
     <section className="quick-grid">{isFood ? <><Fact label="建议停留" value={duration(place)} /><Fact label="适合时段" value={foodPeriods(place)} /><Fact label="价格参考" value={foodPrice(place)} /><Fact label="候选子节点" value={`${place.children?.length ?? 0} 个`} /></> : isStay ? <><Fact label="地图锚点" value={place.location?.map_anchor ?? "待核验"} /><Fact label="适合" value={stayFit(place)} /><Fact label="公共交通" value={string(object(place.transit_profile).public_transport) ?? "待核验"} /><Fact label="假日涨价风险" value={stayRisk(experience.holiday_price_risk)} /></> : <><Fact label="建议时长" value={duration(place)} /><Fact label="开放时间" value={openingText(place)} /><Fact label="门票" value={ticketText(place)} /><Fact label="预约" value={reservationText(place)} /></>}</section>
-    <section className="notice"><b>{isFood || isStay ? "数据提示" : "国庆提示"}</b><span>{isFood ? "店铺、价格和推荐菜来自游客截图与第三方目录快照，尚未完成逐店人工核验；营业状态和排队情况请通过高德动态确认。" : isStay ? "住宿区是旅行决策范围，不是行政边界；具体酒店库存、房价、房型与真实通勤必须在预订时动态核验。" : "2026 年国庆专项开放、限流及放票安排尚未发布；出发前需再次查询官方公告。"}</span></section>
+    <section className="notice"><b>{isFood || isStay ? "数据提示" : "国庆提示"}</b><span>{isFood ? "店铺、价格和推荐菜来自游客截图与第三方目录快照，尚未完成逐店人工核验；营业状态和排队情况请通过高德动态确认。" : isStay ? "住宿区是旅行决策范围，不是行政边界；具体酒店库存、房价、房型与真实通勤必须在预订时动态核验。" : Object.keys(holidayReference).length ? "2026 年专项公告尚未发布；下方 2025 年资料只用于预估预约、客流和开放趋势，不能视为 2026 执行规则。" : "2026 年国庆专项开放、限流及放票安排尚未发布；出发前需再次查询官方公告。"}</span></section>
+    {!isFood && !isStay && Object.keys(holidayReference).length > 0 && <HolidayReference reference={holidayReference} />}
     <section className="content-grid"><div className="content-block official-block"><p className="section-kicker">{isFood || isStay ? "LOCATION LAYER" : "OFFICIAL LAYER"}</p><h2>{isFood ? "位置与目录信息" : isStay ? "空间锚点与交通" : "官方信息"}</h2><dl><div><dt>{isStay ? "检索范围" : "地址"}</dt><dd>{place.location?.address ?? "地址待核验"}</dd></div><div><dt>坐标</dt><dd>{place.location?.latitude}, {place.location?.longitude} · {place.location?.coordinate_system}</dd></div>{place.location?.amap_poi_id && <div><dt>高德 POI</dt><dd><a href={`https://ditu.amap.com/place/${place.location.amap_poi_id}`} target="_blank" rel="noreferrer">{place.location.amap_poi_id} ↗</a></dd></div>}<div><dt>{isFood ? "资料状态" : isStay ? "车站接驳" : "预约渠道"}</dt><dd>{isFood ? string(official.status) ?? "待核验" : isStay ? string(object(place.transit_profile).rail_station_access) ?? "动态核验" : strings(place.reservation?.channels).join("、") || "以官方公告为准"}</dd></div>{isStay && <div><dt>步行特征</dt><dd>{string(object(place.transit_profile).walkability) ?? "动态核验"}</dd></div>}</dl></div>
       <div className="content-block experience-block"><p className="section-kicker">EXPERIENCE LAYER</p><h2>{isStay ? "住宿决策经验" : "实际体验"}</h2><div className="experience-provenance"><b>游客经验 · {stayRisk(confidence.overall)}</b><span>{strings(experienceLayer.source).join(" · ")}</span></div>{highlights.length > 0 && <InfoList title="高频正向反馈" items={highlights} />}{bestFor.length > 0 && <InfoList title={isStay ? "适合人群" : "适合谁 / 何时去"} items={bestFor} />}{visitTips.length > 0 && <InfoList title={isStay ? "订房与选址建议" : "参观建议"} items={visitTips} />}{photoScenes.length > 0 && <InfoList title="推荐拍摄场景" items={photoScenes} />}<InfoList title={isStay ? "区域客流模型" : "人流模型"} items={[`工作日：${stayRisk(crowd.weekday ?? crowd.normal)}`, `周末：${stayRisk(crowd.weekend)}`, `国庆：${stayRisk(crowd.national_holiday ?? crowd.holiday)}`]} />{avoids.length > 0 && <InfoList title="避坑" items={avoids} warning />}</div></section>
     <section className="score-section"><div><p className="section-kicker">AI SCORE · 1—5</p><h2>这处节点适合什么需求？</h2></div><div className="score-grid">{Object.entries(place.ai_score ?? {}).map(([key, value]) => <Score key={key} label={scoreLabels[key] ?? key} value={value} />)}</div></section>
@@ -381,3 +389,11 @@ function PlaceDetail({ place, cityName, onBack }: { place: TravelNode; cityName:
 function Fact({ label, value }: { label: string; value: string }) { return <div className="fact"><small>{label}</small><b>{value}</b></div>; }
 function InfoList({ title, items, warning = false }: { title: string; items: string[]; warning?: boolean }) { return <div className={warning ? "info-list warning" : "info-list"}><h3>{title}</h3><ul>{items.map((item) => <li key={item}>{item}</li>)}</ul></div>; }
 function Score({ label, value }: { label: string; value: number | null }) { return <div className="score"><div><span>{label}</span><b>{value ?? "—"}</b></div><i><em style={{ width: `${(value ?? 0) * 20}%` }} /></i></div>; }
+function HolidayReference({ reference }: { reference: JsonObject }) {
+  const facts = object(reference.observed_facts), planning = strings(reference.planning_inference), sources = Array.isArray(reference.sources) ? reference.sources.map(object) : [];
+  const year = number(reference.reference_year) ?? 2025, target = number(reference.target_year) ?? 2026;
+  return <section className="holiday-reference"><div className="holiday-reference-head"><div><p className="section-kicker">HISTORICAL HOLIDAY REFERENCE</p><h2>{year} 年国庆参考</h2></div><span>仅辅助 {target} 年规划</span></div>
+    <div className="holiday-reference-grid"><div><h3>往年已确认事实</h3><dl>{Object.entries(facts).map(([key, value]) => <div key={key}><dt>{holidayFactLabels[key] ?? key}</dt><dd>{holidayFactValue(value)}</dd></div>)}</dl></div><div><h3>规划器可采用的推断</h3><ul>{planning.map((item) => <li key={item}>{item}</li>)}</ul><p className="holiday-warning">{string(reference.warning)}</p></div></div>
+    <div className="holiday-reference-sources">{sources.map((source) => <a key={string(source.url)} href={string(source.url) ?? "#"} target="_blank" rel="noreferrer">{string(source.name)} ↗</a>)}</div>
+  </section>;
+}

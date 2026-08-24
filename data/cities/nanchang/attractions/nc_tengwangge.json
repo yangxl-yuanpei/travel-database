@@ -37,6 +37,33 @@
       "notes": "官方购票说明确认实名分时购票；价格和场次以购买日官方页面为准。"
     }
   },
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "reservation_rule": "2025年双节实行实名制分时预约购票",
+      "advance_window": "提前1至7天预约",
+      "channels": ["滕王阁旅游区官方微信公众号", "美团", "携程"],
+      "entry_rule": "按预约时段凭购票二维码或本人有效身份证核验入园；错过预约时段需重新预约"
+    },
+    "planning_inference": [
+      "2026年规划时应优先预留提前预约动作，不建议现场临时购票",
+      "傍晚和夜景时段可能同时叠加分时入园与高客流，应准备备选时段"
+    ],
+    "sources": [
+      {
+        "name": "江西文化旅游网：双节游南昌注意景区新规",
+        "url": "https://tour.jxcn.cn/system/2025/09/26/020994030.shtml",
+        "source_type": "official_republication"
+      }
+    ],
+    "confidence": "medium-high",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "仅为2025年国庆中秋安排的历史参考，不代表2026年预约窗口、开放时段或入园规则。"
+  },
   "experience": {
     "recommendation_score": 5,
     "best_time": [

@@ -204,6 +204,45 @@
       },
       "journey_role": "三地会合城市",
       "detail_status": "active",
+      "holiday_reference": {
+        "target_year": 2026,
+        "status": "historical_reference_only",
+        "reference_year": 2025,
+        "period": {
+          "start": "2025-10-01",
+          "end": "2025-10-08"
+        },
+        "observed_facts": {
+          "traffic_peak_window": "重点景区商圈周边每日09:00-20:00易出现车多缓行",
+          "high_risk_areas": [
+            "滕王阁",
+            "中山路",
+            "八一广场",
+            "万寿宫",
+            "秋水广场",
+            "南昌之星"
+          ],
+          "official_advice": "错峰出行并优先选择公交、地铁"
+        },
+        "planning_inference": [
+          "2026年城市日程应减少老城核心区自驾，并把地铁作为默认交通方式",
+          "09:00-20:00不使用常态驾车时间直接排程，需调用高德实时路线并增加缓冲"
+        ],
+        "sources": [
+          {
+            "name": "南昌市公安局交通管理局：2025年双节交通提示",
+            "url": "https://ncjj.nc.gov.cn/ncjtglj/jgdt/202509/cb949061be3b4e8a8dd9f973cd6d3b7d.shtml",
+            "source_type": "official"
+          }
+        ],
+        "confidence": "high",
+        "recheck_required": true,
+        "recheck_window": [
+          "2026-09-15",
+          "2026-09-30"
+        ],
+        "warning": "2025年拥堵时段用于2026风险预估，实际交通管制和实时耗时必须重新查询。"
+      },
       "child_nodes": {
         "attractions": [
           "nc_tengwangge",
@@ -247,7 +286,7 @@
       "metadata": {
         "schema_version": "1.0",
         "data_status": "draft",
-        "last_verified_at": null
+        "last_verified_at": "2026-08-24"
       }
     },
     {
@@ -267,6 +306,39 @@
       "primary_station": {
         "name": "景德镇北站",
         "station_code": "JDG"
+      },
+      "holiday_reference": {
+        "target_year": 2026,
+        "status": "historical_reference_only",
+        "reference_year": 2025,
+        "period": {
+          "start": "2025-10-01",
+          "end": "2025-10-08"
+        },
+        "observed_facts": {
+          "tourist_loops": "景德镇北站北广场开行101内环和102外环，连接陶溪川、雕塑瓷厂与三宝，09:30-18:30，约30分钟一班",
+          "museum_shuttle": "高铁北站至中国陶瓷博物馆、科技馆专线09:30-16:30，约30分钟一班",
+          "sanbao_shuttle": "陶源谷换乘中心至乘客服务中心接驳线08:30-17:30，约10分钟一班",
+          "fare": "上述旅游专线和三宝接驳线2025年票价均为2元/人"
+        },
+        "planning_inference": [
+          "2026年可以预留景德镇北站旅游环线与三宝接驳的交通角色，但不能固化班次和票价",
+          "到达日若赶不上末班专线，应准备高德公交或网约车备选"
+        ],
+        "sources": [
+          {
+            "name": "景德镇市人民政府：2025年双节旅游专线运营方案",
+            "url": "https://jdz.gov.cn/zwzx/ztbd/ggqsydw/gzdt/t1049368.shtml",
+            "source_type": "official"
+          }
+        ],
+        "confidence": "high",
+        "recheck_required": true,
+        "recheck_window": [
+          "2026-09-15",
+          "2026-09-30"
+        ],
+        "warning": "2025年线路、发车时间、间隔和票价仅作结构参考，2026年需等待公交公司新方案。"
       },
       "child_nodes": {
         "attractions": [
@@ -774,6 +846,43 @@
             "status": "dynamic_price_check_official_channel",
             "notes": "官方购票说明确认实名分时购票；价格和场次以购买日官方页面为准。"
           }
+        },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "reservation_rule": "2025年双节实行实名制分时预约购票",
+            "advance_window": "提前1至7天预约",
+            "channels": [
+              "滕王阁旅游区官方微信公众号",
+              "美团",
+              "携程"
+            ],
+            "entry_rule": "按预约时段凭购票二维码或本人有效身份证核验入园；错过预约时段需重新预约"
+          },
+          "planning_inference": [
+            "2026年规划时应优先预留提前预约动作，不建议现场临时购票",
+            "傍晚和夜景时段可能同时叠加分时入园与高客流，应准备备选时段"
+          ],
+          "sources": [
+            {
+              "name": "江西文化旅游网：双节游南昌注意景区新规",
+              "url": "https://tour.jxcn.cn/system/2025/09/26/020994030.shtml",
+              "source_type": "official_republication"
+            }
+          ],
+          "confidence": "medium-high",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "仅为2025年国庆中秋安排的历史参考，不代表2026年预约窗口、开放时段或入园规则。"
         },
         "experience": {
           "recommendation_score": 5,
@@ -1558,6 +1667,48 @@
           "verified_at": "2026-08-24",
           "status": "verified"
         },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "opening_schedule": "10月1日至8日09:00-18:00，17:00停止入馆",
+            "special_night_session": "10月2日09:00-20:00，19:00停止入馆",
+            "reservation_rule": "实名制免费预约",
+            "advance_days": 7,
+            "official_channels": [
+              "江西省博物馆微信公众号江博预约",
+              "江西省博物馆官网团队预约"
+            ]
+          },
+          "planning_inference": [
+            "2026年可先按延时开放存在的可能性规划，但不能提前承诺夜场",
+            "国庆仍应按热门预约型博物馆处理，优先锁定门票后再安排同日路线"
+          ],
+          "sources": [
+            {
+              "name": "江西新闻网：江西省博物馆等场馆开放时间将调整",
+              "url": "https://jiangxi.jxnews.com.cn/system/2025/09/28/020995077.shtml",
+              "source_type": "official_republication"
+            },
+            {
+              "name": "江西省博物馆2025年双节公告转载",
+              "url": "https://m.sohu.com/a/938191797_121107011/",
+              "source_type": "official_republication"
+            }
+          ],
+          "confidence": "high",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "2025年的延时和夜场安排不能直接继承为2026事实，预约提前天数也需以2026公告为准。"
+        },
         "child_nodes": {
           "permanent_exhibitions": [
             "nc_jx_museum_exh_ancient_history",
@@ -2034,6 +2185,44 @@
             "nc_haihunhou_group_jade",
             "nc_haihunhou_group_lacquerware"
           ]
+        },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "opening_schedule": "08:30-17:30，16:30停止检票入园，较常态延长1小时",
+            "reservation_advice": "官方要求尽早预约并合理避开参观高峰",
+            "refund_advice": "行程变化尽量在参观日前一天23:00前线上退票",
+            "holiday_visitors": "2025年国庆中秋8天接待30.62万人次，为江西同期最热门博物馆"
+          },
+          "planning_inference": [
+            "2026年仍应按极高客流的半日节点处理，预约与远郊交通必须同时锁定",
+            "建议选择早场，并为入园核验、园区接驳和返程预留额外缓冲"
+          ],
+          "sources": [
+            {
+              "name": "江西新闻网：2025年双节场馆开放公告汇总",
+              "url": "https://jiangxi.jxnews.com.cn/system/2025/09/28/020995077.shtml",
+              "source_type": "official_republication"
+            },
+            {
+              "name": "江西新闻网：2025年国庆中秋江西文旅数据",
+              "url": "https://jiangxi.jxnews.com.cn/system/2025/10/09/021001007.shtml",
+              "source_type": "official_statistics"
+            }
+          ],
+          "confidence": "high",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "2025年开放时间和客流仅用于预测2026拥挤风险，票价、名额和交通必须重新核验。"
         },
         "experience": {
           "recommendation_score": 5,
@@ -2727,6 +2916,40 @@
           "source_url": "https://www.81-china.com/",
           "verified_at": "2026-08-24",
           "status": "official_channel_verified_dynamic_quota"
+        },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "opening_schedule": "09:00-21:00，20:30停止入馆",
+            "late_open_area": "17:00后仅开放陈列大楼，其余旧址不开放",
+            "reservation_rule": "全员实名分时预约",
+            "extra_quota": "每日09:00、13:00、17:00三个时段各增发1000个预约名额，按实际预约情况调整",
+            "document_rule": "凭预约时使用的有效身份证件核验入馆"
+          },
+          "planning_inference": [
+            "若2026再次延时，晚间可能只适合看陈列大楼，完整旧址参观应安排在17:00前",
+            "不能依赖临时增发票额，应先完成正式预约并保留错峰方案"
+          ],
+          "sources": [
+            {
+              "name": "南昌八一起义纪念馆2025年双节公告转载",
+              "url": "https://m.nc.bendibao.com/xiuxian/97591.shtm",
+              "source_type": "official_republication"
+            }
+          ],
+          "confidence": "medium-high",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "2025年的延时开放、旧址开放范围和增发名额仅作排程参考，2026年可能调整。"
         },
         "child_nodes": {
           "history_events": [
@@ -15499,6 +15722,38 @@
               "verified_at": "2026-08-24",
               "status": "verified_channel_dynamic_rule"
             },
+            "holiday_reference": {
+              "target_year": 2026,
+              "status": "historical_reference_only",
+              "reference_year": 2025,
+              "period": {
+                "start": "2025-10-01",
+                "end": "2025-10-08"
+              },
+              "observed_facts": {
+                "holiday_visitors": "2025年国庆中秋8天接待约14万人",
+                "crowd_observation": "官方总结称双节期间博物馆展馆持续处于高客流状态",
+                "parent_area": "与陶阳里历史文化旅游区共享主要到访空间和客流"
+              },
+              "planning_inference": [
+                "2026年应按高客流节点处理，并与陶阳里统一安排预约、入园与交通",
+                "夜景时段不等于低客流，建议同时准备白天早场与晚间备选方案"
+              ],
+              "sources": [
+                {
+                  "name": "景德镇市文旅局：2025年国庆中秋文旅统计",
+                  "url": "https://wgxl.jdz.gov.cn/zwzx/gzdt/t1054712.shtml",
+                  "source_type": "official_statistics"
+                }
+              ],
+              "confidence": "medium",
+              "recheck_required": true,
+              "recheck_window": [
+                "2026-09-15",
+                "2026-09-30"
+              ],
+              "warning": "官方资料仅支持2025年客流判断，不能据此推定2026年开放时间、预约提前天数或现场预约规则。"
+            },
             "child_nodes": {
               "permanent_exhibitions": [
                 "jdz_ikm_exh_pearl_of_porcelain",
@@ -16522,6 +16777,51 @@
           "verified_at": "2026-08-24",
           "status": "verified_regular_rule_dynamic_holiday_check"
         },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "opening_schedule": "09:00-18:00，17:30停止入馆",
+            "reservation_rule": "唯一官方渠道为畅游景德镇小程序，实名预约",
+            "advance_days": 5,
+            "release_times": [
+              "08:00",
+              "12:00",
+              "20:00"
+            ],
+            "order_limit": "一个账号最多预约5人",
+            "document_rule": "有效证件与小程序订单记录双向核验",
+            "holiday_visitors": "2025年双节8天接待14.4万人，10月4日单日突破2.69万人"
+          },
+          "planning_inference": [
+            "2026年仍应按高竞争预约节点处理，优先关注多时段放票公告",
+            "热门展品与入馆核验可能形成双重排队，建议选择最早可预约时段"
+          ],
+          "sources": [
+            {
+              "name": "景德镇市人民政府发布：2025年双节开放公告转载",
+              "url": "https://www.sohu.com/a/938701237_121106994",
+              "source_type": "official_republication"
+            },
+            {
+              "name": "景德镇市文旅局：2025年国庆中秋文旅统计",
+              "url": "https://wgxl.jdz.gov.cn/zwzx/gzdt/t1054712.shtml",
+              "source_type": "official_statistics"
+            }
+          ],
+          "confidence": "high",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "2025年的延时开放、分批放票、证件范围和名额仅作2026规划参考。"
+        },
         "child_nodes": {
           "permanent_exhibitions": [
             "jdz_ccm_exh_ceramic_history"
@@ -17076,6 +17376,38 @@
           "source_url": "https://jdz.gov.cn/zwzx/jrcd/t1051135.shtml",
           "verified_at": "2026-08-24",
           "status": "verified_channel_dynamic_rule"
+        },
+        "holiday_reference": {
+          "target_year": 2026,
+          "status": "historical_reference_only",
+          "reference_year": 2025,
+          "period": {
+            "start": "2025-10-01",
+            "end": "2025-10-08"
+          },
+          "observed_facts": {
+            "holiday_visitors": "2025年国庆中秋8天接待约14万人",
+            "crowd_observation": "官方总结称双节期间博物馆展馆持续处于高客流状态",
+            "parent_area": "与陶阳里历史文化旅游区共享主要到访空间和客流"
+          },
+          "planning_inference": [
+            "2026年应按高客流节点处理，并与陶阳里统一安排预约、入园与交通",
+            "夜景时段不等于低客流，建议同时准备白天早场与晚间备选方案"
+          ],
+          "sources": [
+            {
+              "name": "景德镇市文旅局：2025年国庆中秋文旅统计",
+              "url": "https://wgxl.jdz.gov.cn/zwzx/gzdt/t1054712.shtml",
+              "source_type": "official_statistics"
+            }
+          ],
+          "confidence": "medium",
+          "recheck_required": true,
+          "recheck_window": [
+            "2026-09-15",
+            "2026-09-30"
+          ],
+          "warning": "官方资料仅支持2025年客流判断，不能据此推定2026年开放时间、预约提前天数或现场预约规则。"
         },
         "child_nodes": {
           "permanent_exhibitions": [

@@ -52,6 +52,39 @@
     "verified_at": "2026-08-24",
     "status": "verified"
   },
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "opening_schedule": "10月1日至8日09:00-18:00，17:00停止入馆",
+      "special_night_session": "10月2日09:00-20:00，19:00停止入馆",
+      "reservation_rule": "实名制免费预约",
+      "advance_days": 7,
+      "official_channels": ["江西省博物馆微信公众号江博预约", "江西省博物馆官网团队预约"]
+    },
+    "planning_inference": [
+      "2026年可先按延时开放存在的可能性规划，但不能提前承诺夜场",
+      "国庆仍应按热门预约型博物馆处理，优先锁定门票后再安排同日路线"
+    ],
+    "sources": [
+      {
+        "name": "江西新闻网：江西省博物馆等场馆开放时间将调整",
+        "url": "https://jiangxi.jxnews.com.cn/system/2025/09/28/020995077.shtml",
+        "source_type": "official_republication"
+      },
+      {
+        "name": "江西省博物馆2025年双节公告转载",
+        "url": "https://m.sohu.com/a/938191797_121107011/",
+        "source_type": "official_republication"
+      }
+    ],
+    "confidence": "high",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "2025年的延时和夜场安排不能直接继承为2026事实，预约提前天数也需以2026公告为准。"
+  },
   "child_nodes": {
     "permanent_exhibitions": [
       "nc_jx_museum_exh_ancient_history",

@@ -71,6 +71,38 @@
       "nc_haihunhou_group_lacquerware"
     ]
   },
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "opening_schedule": "08:30-17:30，16:30停止检票入园，较常态延长1小时",
+      "reservation_advice": "官方要求尽早预约并合理避开参观高峰",
+      "refund_advice": "行程变化尽量在参观日前一天23:00前线上退票",
+      "holiday_visitors": "2025年国庆中秋8天接待30.62万人次，为江西同期最热门博物馆"
+    },
+    "planning_inference": [
+      "2026年仍应按极高客流的半日节点处理，预约与远郊交通必须同时锁定",
+      "建议选择早场，并为入园核验、园区接驳和返程预留额外缓冲"
+    ],
+    "sources": [
+      {
+        "name": "江西新闻网：2025年双节场馆开放公告汇总",
+        "url": "https://jiangxi.jxnews.com.cn/system/2025/09/28/020995077.shtml",
+        "source_type": "official_republication"
+      },
+      {
+        "name": "江西新闻网：2025年国庆中秋江西文旅数据",
+        "url": "https://jiangxi.jxnews.com.cn/system/2025/10/09/021001007.shtml",
+        "source_type": "official_statistics"
+      }
+    ],
+    "confidence": "high",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "2025年开放时间和客流仅用于预测2026拥挤风险，票价、名额和交通必须重新核验。"
+  },
   "experience": {
     "recommendation_score": 5,
     "best_for": ["汉代历史爱好者", "考古爱好者", "亲子研学", "深度文化游客"],

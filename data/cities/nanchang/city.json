@@ -12,6 +12,32 @@
   },
   "journey_role": "三地会合城市",
   "detail_status": "active",
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "traffic_peak_window": "重点景区商圈周边每日09:00-20:00易出现车多缓行",
+      "high_risk_areas": ["滕王阁", "中山路", "八一广场", "万寿宫", "秋水广场", "南昌之星"],
+      "official_advice": "错峰出行并优先选择公交、地铁"
+    },
+    "planning_inference": [
+      "2026年城市日程应减少老城核心区自驾，并把地铁作为默认交通方式",
+      "09:00-20:00不使用常态驾车时间直接排程，需调用高德实时路线并增加缓冲"
+    ],
+    "sources": [
+      {
+        "name": "南昌市公安局交通管理局：2025年双节交通提示",
+        "url": "https://ncjj.nc.gov.cn/ncjtglj/jgdt/202509/cb949061be3b4e8a8dd9f973cd6d3b7d.shtml",
+        "source_type": "official"
+      }
+    ],
+    "confidence": "high",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "2025年拥堵时段用于2026风险预估，实际交通管制和实时耗时必须重新查询。"
+  },
   "child_nodes": {
     "attractions": [
       "nc_tengwangge",
@@ -55,6 +81,6 @@
   "metadata": {
     "schema_version": "1.0",
     "data_status": "draft",
-    "last_verified_at": null
+    "last_verified_at": "2026-08-24"
   }
 }

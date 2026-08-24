@@ -24,6 +24,41 @@
     "verified_at": "2026-08-24",
     "status": "verified_regular_rule_dynamic_holiday_check"
   },
+  "holiday_reference": {
+    "target_year": 2026,
+    "status": "historical_reference_only",
+    "reference_year": 2025,
+    "period": {"start": "2025-10-01", "end": "2025-10-08"},
+    "observed_facts": {
+      "opening_schedule": "09:00-18:00，17:30停止入馆",
+      "reservation_rule": "唯一官方渠道为畅游景德镇小程序，实名预约",
+      "advance_days": 5,
+      "release_times": ["08:00", "12:00", "20:00"],
+      "order_limit": "一个账号最多预约5人",
+      "document_rule": "有效证件与小程序订单记录双向核验",
+      "holiday_visitors": "2025年双节8天接待14.4万人，10月4日单日突破2.69万人"
+    },
+    "planning_inference": [
+      "2026年仍应按高竞争预约节点处理，优先关注多时段放票公告",
+      "热门展品与入馆核验可能形成双重排队，建议选择最早可预约时段"
+    ],
+    "sources": [
+      {
+        "name": "景德镇市人民政府发布：2025年双节开放公告转载",
+        "url": "https://www.sohu.com/a/938701237_121106994",
+        "source_type": "official_republication"
+      },
+      {
+        "name": "景德镇市文旅局：2025年国庆中秋文旅统计",
+        "url": "https://wgxl.jdz.gov.cn/zwzx/gzdt/t1054712.shtml",
+        "source_type": "official_statistics"
+      }
+    ],
+    "confidence": "high",
+    "recheck_required": true,
+    "recheck_window": ["2026-09-15", "2026-09-30"],
+    "warning": "2025年的延时开放、分批放票、证件范围和名额仅作2026规划参考。"
+  },
   "child_nodes": {
     "permanent_exhibitions": ["jdz_ccm_exh_ceramic_history"],
     "temporary_exhibitions": ["jdz_ccm_exh_sculpture_century", "jdz_ccm_exh_jingci_zhonghua"],
