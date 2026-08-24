@@ -1,0 +1,116 @@
+{
+  "id": "nc_food_rest_b0ffhsl1et",
+  "name": "记小炒",
+  "short_name": "记小炒",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "nc_food_area_yangzixiang",
+  "branch": null,
+  "category": [
+    "赣菜",
+    "正餐"
+  ],
+  "category_codes": [
+    "jiangxi_cuisine",
+    "full_meal"
+  ],
+  "official_info": {
+    "status": "not_officially_verified",
+    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+    "directory_name": "胡记小炒",
+    "directory_district": "西湖区"
+  },
+  "location": {
+    "address": "羊子街263号",
+    "latitude": 28.674702,
+    "longitude": 115.896701,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFHSL1ET",
+    "status": "found"
+  },
+  "meal_periods": [
+    "lunch",
+    "dinner"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [],
+    "source_type": "visitor_experience"
+  },
+  "price_range_cny": {
+    "average_reference": null,
+    "raw_reference": null,
+    "status": "unknown"
+  },
+  "duration": {
+    "minimum_minutes": 40,
+    "recommended_minutes": 60,
+    "maximum_minutes": 120
+  },
+  "experience_layer": {
+    "source": [
+      "游客截图:image_001"
+    ],
+    "confidence": {
+      "overall": "low-medium",
+      "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
+    },
+    "positive": [],
+    "avoid": [],
+    "visit_tips": [
+      "出发前通过高德或电话渠道复核营业状态与具体分店。"
+    ],
+    "crowd_model": {
+      "weekday": "待核验",
+      "weekend": "热门店铺可能增加",
+      "national_holiday": "预计高于平日，需动态查询"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 40,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+  },
+  "third_party_review_snapshot": {
+    "score": null,
+    "average_price": null,
+    "review_count": null,
+    "rank": null,
+    "sentiment": "无评语数据",
+    "score_source": "无数据",
+    "review_excerpts_stored": false
+  },
+  "source_trace": {
+    "platform": "小红书",
+    "image_ids": [
+      "image_001"
+    ],
+    "raw_verification_status": "unverified",
+    "raw_location_status": "found",
+    "location_note": null,
+    "name_status": "uncertain",
+    "note": "OCR 识别为'记小炒'，疑为全名截断，待人工确认"
+  },
+  "ai_score": {
+    "local_character": 4,
+    "value": null,
+    "queue_risk": null,
+    "family": null,
+    "late_night": 3,
+    "photo": null
+  },
+  "tags": [
+    "赣菜",
+    "正餐",
+    "羊子巷",
+    "南昌美食候选",
+    "待人工核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

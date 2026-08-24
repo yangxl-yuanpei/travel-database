@@ -1,0 +1,123 @@
+{
+  "id": "nc_food_area_honggutan",
+  "name": "红谷滩中心美食区",
+  "short_name": "红谷滩",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "area",
+  "category": [
+    "美食区域",
+    "正餐",
+    "夜宵",
+    "水煮",
+    "甜品",
+    "饮品"
+  ],
+  "official_info": {
+    "status": "ai_aggregated_area",
+    "description": "覆盖万达金街及红谷滩中心商圈，餐饮类型较综合。",
+    "boundary_rule": "候选店铺空间聚合，不是官方商圈边界"
+  },
+  "location": {
+    "address": "红谷滩片区中心锚点",
+    "latitude": 28.6905,
+    "longitude": 115.8538,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": null,
+    "map_anchor": "红谷滩"
+  },
+  "meal_periods": [
+    "lunch",
+    "dinner",
+    "late_night",
+    "afternoon",
+    "evening"
+  ],
+  "price_range_cny": {
+    "minimum": 16,
+    "maximum": 70,
+    "status": "third_party_snapshot"
+  },
+  "duration": {
+    "minimum_minutes": 30,
+    "recommended_minutes": 90,
+    "maximum_minutes": 180
+  },
+  "child_nodes": {
+    "dishes": [],
+    "restaurants": [
+      "nc_food_rest_b0ffl7brdv",
+      "nc_food_rest_b0gum19vjc",
+      "nc_food_rest_b0j1d5uefe",
+      "nc_food_rest_b0ma56ngbu",
+      "nc_food_rest_b0l35cf1if",
+      "nc_food_rest_b0lryavq9r"
+    ]
+  },
+  "related_node_ids": [
+    "nc_jx_museum",
+    "nc_qiushui_square"
+  ],
+  "experience_layer": {
+    "source": [
+      "南昌美食候选数据库:41张游客截图",
+      "高德POI空间聚合",
+      "第三方点评摘要"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "区域边界由候选店铺坐标与传统片区名称聚合，适合旅行决策，但不代表行政或官方商圈边界。"
+    },
+    "positive": [
+      {
+        "content": "收录6个候选子节点，其中6个带可用坐标。",
+        "type": "data_coverage"
+      },
+      {
+        "content": "覆盖万达金街及红谷滩中心商圈，餐饮类型较综合。",
+        "type": "area_character"
+      }
+    ],
+    "avoid": [
+      {
+        "content": "有2家候选节点存在较高排队信号，国庆需错峰。",
+        "risk": "food_queue",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "先结合附近景点选择片区，再进入代表店铺与推荐菜。",
+      "营业时间、排队和临时闭店应通过高德动态复核。"
+    ],
+    "crowd_model": {
+      "weekday": "分店差异较大",
+      "weekend": "热门店铺客流上升",
+      "national_holiday": "核心片区排队风险高"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 30,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 180
+    },
+    "ai_note": "区域节点只承担地图选择与检索入口；店铺间距离和通勤不写入数据库，由高德 API 动态计算。"
+  },
+  "ai_score": {
+    "local_character": 5,
+    "value": 4,
+    "queue_risk": 5,
+    "family": null,
+    "late_night": 5
+  },
+  "tags": [
+    "南昌美食",
+    "美食区域",
+    "红谷滩",
+    "国庆错峰"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

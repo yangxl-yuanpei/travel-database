@@ -1,0 +1,119 @@
+{
+  "id": "nc_food_rest_b0ffl7ee07",
+  "name": "奇之味卤肉卷",
+  "short_name": "奇之味卤肉卷",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": null,
+  "branch": null,
+  "category": [
+    "小吃"
+  ],
+  "category_codes": [
+    "snacks"
+  ],
+  "official_info": {
+    "status": "not_officially_verified",
+    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+    "directory_name": "奇之味卤肉卷",
+    "directory_district": "青山湖区"
+  },
+  "location": {
+    "address": "南京东路238号A栋4单元底层雪贝尔面包店旁边",
+    "latitude": 28.681538,
+    "longitude": 115.93865,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0FFL7EE07",
+    "status": "found"
+  },
+  "meal_periods": [
+    "anytime"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [
+      "千张卤肉卷",
+      "牛肚卷",
+      "鸡柳豆皮卷",
+      "孜然火腿卤肉卷"
+    ],
+    "source_type": "visitor_experience"
+  },
+  "price_range_cny": {
+    "average_reference": null,
+    "raw_reference": null,
+    "status": "unknown"
+  },
+  "duration": {
+    "minimum_minutes": 10,
+    "recommended_minutes": 20,
+    "maximum_minutes": 45
+  },
+  "experience_layer": {
+    "source": [
+      "游客截图:image_001",
+      "游客截图:image_015"
+    ],
+    "confidence": {
+      "overall": "medium-high",
+      "reason": "高德位置较明确，且有多张游客截图或第三方点评数据交叉支持；尚未人工实地核验。"
+    },
+    "positive": [],
+    "avoid": [],
+    "visit_tips": [
+      "优先从候选推荐菜中选择：千张卤肉卷、牛肚卷、鸡柳豆皮卷、孜然火腿卤肉卷",
+      "出发前通过高德或电话渠道复核营业状态与具体分店。"
+    ],
+    "crowd_model": {
+      "weekday": "待核验",
+      "weekend": "热门店铺可能增加",
+      "national_holiday": "预计高于平日，需动态查询"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 10,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+  },
+  "third_party_review_snapshot": {
+    "score": 3.5,
+    "average_price": null,
+    "review_count": null,
+    "rank": null,
+    "sentiment": "好评为主",
+    "score_source": "dianping官方评分",
+    "review_excerpts_stored": false
+  },
+  "source_trace": {
+    "platform": "抖音",
+    "image_ids": [
+      "image_001",
+      "image_015"
+    ],
+    "raw_verification_status": "unverified",
+    "raw_location_status": "found",
+    "location_note": null,
+    "name_status": null,
+    "note": null
+  },
+  "ai_score": {
+    "local_character": 4,
+    "value": null,
+    "queue_risk": null,
+    "family": null,
+    "late_night": null,
+    "photo": null
+  },
+  "tags": [
+    "小吃",
+    "南昌美食候选",
+    "待人工核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "nc_food_rest_b0ma56ngbu",
+  "name": "小欧水煮",
+  "short_name": "小欧水煮",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "nc_food_area_honggutan",
+  "branch": null,
+  "category": [
+    "水煮"
+  ],
+  "category_codes": [
+    "shuizhu_snacks"
+  ],
+  "official_info": {
+    "status": "not_officially_verified",
+    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+    "directory_name": "小欧水煮",
+    "directory_district": "新建区"
+  },
+  "location": {
+    "address": "育才路与长征路交叉口西20米",
+    "latitude": 28.683572,
+    "longitude": 115.83065,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0MA56NGBU",
+    "status": "found"
+  },
+  "meal_periods": [
+    "lunch",
+    "dinner",
+    "late_night"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [
+      "藕丸",
+      "萝卜丸",
+      "脆角板",
+      "藕片",
+      "鸡爪"
+    ],
+    "source_type": "visitor_experience"
+  },
+  "price_range_cny": {
+    "average_reference": 16,
+    "raw_reference": "¥16",
+    "status": "third_party_snapshot"
+  },
+  "duration": {
+    "minimum_minutes": 10,
+    "recommended_minutes": 20,
+    "maximum_minutes": 45
+  },
+  "experience_layer": {
+    "source": [
+      "游客截图:image_008",
+      "游客截图:image_031"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "高德位置匹配较明确，但游客经验与营业状态仍需人工复核。"
+    },
+    "positive": [
+      {
+        "content": "性价比很高",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "两个人不到五十",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "性价比很高！两个人都吃不到五十",
+        "type": "visitor_keyword"
+      }
+    ],
+    "avoid": [],
+    "visit_tips": [
+      "优先从候选推荐菜中选择：藕丸、萝卜丸、脆角板、藕片、鸡爪",
+      "出发前通过高德或电话渠道复核营业状态与具体分店。"
+    ],
+    "crowd_model": {
+      "weekday": "待核验",
+      "weekend": "热门店铺可能增加",
+      "national_holiday": "预计高于平日，需动态查询"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 10,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+  },
+  "third_party_review_snapshot": {
+    "score": null,
+    "average_price": "¥16",
+    "review_count": null,
+    "rank": "准五星商户",
+    "sentiment": "褒贬相当",
+    "score_source": "评语情感推断",
+    "review_excerpts_stored": false
+  },
+  "source_trace": {
+    "platform": "小红书",
+    "image_ids": [
+      "image_008",
+      "image_031"
+    ],
+    "raw_verification_status": "unverified",
+    "raw_location_status": "found",
+    "location_note": null,
+    "name_status": null,
+    "note": null
+  },
+  "ai_score": {
+    "local_character": 4,
+    "value": 5,
+    "queue_risk": 5,
+    "family": null,
+    "late_night": null,
+    "photo": null
+  },
+  "tags": [
+    "水煮",
+    "红谷滩",
+    "南昌美食候选",
+    "待人工核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

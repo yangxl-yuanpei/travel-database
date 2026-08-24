@@ -1,0 +1,27 @@
+{
+  "id": "nc_stay_area_qiushui_honggutan",
+  "name": "秋水广场—红谷滩中心住宿区",
+  "short_name": "秋水—红谷滩",
+  "city": "南昌",
+  "node_type": "accommodation_area",
+  "category": ["新城品质住宿区", "赣江景观区", "夜景住宿区"],
+  "location": {"address": "江西省南昌市红谷滩区秋水广场周边", "latitude": 28.682634, "longitude": 115.86273, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFFGV6PM", "map_anchor": "秋水广场音乐喷泉", "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"},
+  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["nc_qiushui_square", "nc_tengwangge"], "hotel_search_radius_m": 2200, "hotel_search_keywords": ["酒店", "江景酒店", "公寓式酒店"]},
+  "suitable_for": ["情侣", "江景与夜景偏好", "住宿品质优先", "商务与休闲结合"],
+  "transit_profile": {"rail_station_access": "前往南昌西站相对便利", "public_transport": "可通过地铁前往老城区", "walkability": "区域内部商业和滨江步行体验较好，老城景点需跨江", "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"},
+  "experience": {"summary": "现代、整洁、江景突出，但老城烟火气与步行串景能力较弱。", "best_for": ["情侣", "品质住宿", "夜景"], "highlights": ["赣江夜景", "现代商业配套", "住宿环境相对整洁"], "avoid": ["前往老城核心景点通常需要跨江", "江景房与旺季价格风险较高"], "holiday_price_risk": "high", "night_noise_risk": "medium"},
+  "experience_layer": {
+    "source": ["游客攻略截图106", "游客攻略截图109"],
+    "confidence": {"overall": "medium", "reason": "游客攻略对江景、品质与跨江通勤的判断基本一致"},
+    "positive": [{"content": "城市环境现代，适合重视住宿品质和江景的游客", "type": "quality"}, {"content": "秋水广场及滨江夜景适合晚间活动", "type": "night_view"}],
+    "avoid": [{"content": "若行程集中在老城，每日跨江会增加通勤", "risk": "commute", "severity": "high"}, {"content": "国庆江景房价格可能上升", "risk": "holiday_price", "severity": "high"}],
+    "visit_tips": ["订房时区分实际江景与宣传中的侧江景", "用高德分别计算到滕王阁、八一起义纪念馆和抵离车站的通勤", "希望体验本地市井生活者不宜只看酒店硬件"],
+    "crowd_model": {"national_holiday": "medium-high", "weekend": "medium-high", "weekday": "medium", "peak_time": ["夜景时段", "大型活动时段"]},
+    "ai_note": "江景、情侣和品质偏好权重高；老城历史节点密集型行程需加入跨江通勤惩罚。"
+  },
+  "ai_score": {"first_visit": 4, "transit": 4, "walkability": 3, "quiet": 4, "river_view": 5, "value": 3, "holiday_price_risk": 5},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "tags": ["红谷滩", "江景", "夜景", "品质住宿"],
+  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：秋水广场音乐喷泉", "url": "https://ditu.amap.com/place/B0FFFGV6PM", "scope": ["锚点坐标", "POI ID"]}]
+}

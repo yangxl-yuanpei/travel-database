@@ -1,0 +1,155 @@
+{
+  "id": "nc_food_rest_b0luuci4ww",
+  "name": "雪三娘南昌拌粉",
+  "short_name": "雪三娘南昌拌粉",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "nc_food_area_bayi",
+  "branch": "八一广场店",
+  "category": [
+    "拌粉",
+    "早餐",
+    "夜宵"
+  ],
+  "category_codes": [
+    "mixed_rice_noodles",
+    "breakfast",
+    "late_night"
+  ],
+  "official_info": {
+    "status": "not_officially_verified",
+    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+    "directory_name": "雪三娘南昌拌粉·瓦罐汤(八一广场店)",
+    "directory_district": "西湖区"
+  },
+  "location": {
+    "address": "广场东路127号",
+    "latitude": 28.67165,
+    "longitude": 115.908675,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0LUUCI4WW",
+    "status": "found"
+  },
+  "meal_periods": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "late_night"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [
+      "三蛋汤粉（咸鸭蛋+皮蛋+鸡蛋）",
+      "炒粉",
+      "瓦罐汤",
+      "藕片",
+      "酒糟鱼"
+    ],
+    "source_type": "visitor_experience"
+  },
+  "price_range_cny": {
+    "average_reference": null,
+    "raw_reference": null,
+    "status": "unknown"
+  },
+  "duration": {
+    "minimum_minutes": 40,
+    "recommended_minutes": 60,
+    "maximum_minutes": 120
+  },
+  "experience_layer": {
+    "source": [
+      "游客截图:image_040",
+      "游客截图:image_041"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "高德位置匹配较明确，但游客经验与营业状态仍需人工复核。"
+    },
+    "positive": [
+      {
+        "content": "24小时营业",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "三蛋汤粉鲜到上头",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "炒粉弹牙",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "瓦罐汤醇厚",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "24小时营业太友好",
+        "type": "visitor_keyword"
+      },
+      {
+        "content": "早餐夜宵都能冲",
+        "type": "visitor_keyword"
+      }
+    ],
+    "avoid": [],
+    "visit_tips": [
+      "优先从候选推荐菜中选择：三蛋汤粉（咸鸭蛋+皮蛋+鸡蛋）、炒粉、瓦罐汤、藕片、酒糟鱼",
+      "出发前通过高德或电话渠道复核营业状态与具体分店。"
+    ],
+    "crowd_model": {
+      "weekday": "待核验",
+      "weekend": "热门店铺可能增加",
+      "national_holiday": "预计高于平日，需动态查询"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 40,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 120
+    },
+    "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+  },
+  "third_party_review_snapshot": {
+    "score": null,
+    "average_price": null,
+    "review_count": null,
+    "rank": null,
+    "sentiment": "无评语数据",
+    "score_source": "无数据",
+    "review_excerpts_stored": false
+  },
+  "source_trace": {
+    "platform": "抖音",
+    "image_ids": [
+      "image_040",
+      "image_041"
+    ],
+    "raw_verification_status": "unverified",
+    "raw_location_status": "found",
+    "location_note": null,
+    "name_status": null,
+    "note": null
+  },
+  "ai_score": {
+    "local_character": 5,
+    "value": null,
+    "queue_risk": null,
+    "family": null,
+    "late_night": 5,
+    "photo": null
+  },
+  "tags": [
+    "拌粉",
+    "早餐",
+    "夜宵",
+    "八一广场",
+    "南昌美食候选",
+    "待人工核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

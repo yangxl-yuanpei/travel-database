@@ -96,9 +96,10 @@ def main() -> int:
                 "avoid",
                 "visit_tips",
                 "crowd_model",
-                "recommended_duration",
                 "ai_note",
             }
+            if node.get("node_type") != "accommodation_area":
+                required_experience_fields.add("recommended_duration")
             if not isinstance(experience_layer, dict):
                 errors.append(f"{path.relative_to(ROOT)}: experience_layer must be an object")
             else:
@@ -115,14 +116,14 @@ def main() -> int:
                     errors.append(
                         f"{path.relative_to(ROOT)}: experience_layer.source must be a non-empty list"
                     )
-                duration = experience_layer.get("recommended_duration", {})
+                duration = experience_layer.get("recommended_duration")
                 minute_keys = (
                     "minimum_minutes",
                     "recommended_min_minutes",
                     "recommended_max_minutes",
                 )
                 minute_values = [duration.get(key) for key in minute_keys] if isinstance(duration, dict) else []
-                if (
+                if duration is not None and (
                     len(minute_values) != 3
                     or any(not isinstance(value, int) or value <= 0 for value in minute_values)
                     or minute_values != sorted(minute_values)

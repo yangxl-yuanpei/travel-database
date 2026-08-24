@@ -1,0 +1,116 @@
+{
+  "id": "nc_food_rest_b0iafxck88",
+  "name": "切糕子",
+  "short_name": "切糕子",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "nc_food_area_wanshougong",
+  "branch": null,
+  "category": [
+    "糕点",
+    "小吃"
+  ],
+  "category_codes": [
+    "pastry",
+    "snacks"
+  ],
+  "official_info": {
+    "status": "not_officially_verified",
+    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+    "directory_name": "胖子切糕店",
+    "directory_district": "西湖区"
+  },
+  "location": {
+    "address": "马家园住宅小区东门北110米",
+    "latitude": 28.672974,
+    "longitude": 115.890293,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0IAFXCK88",
+    "status": "found_partial"
+  },
+  "meal_periods": [
+    "anytime"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [],
+    "source_type": "visitor_experience"
+  },
+  "price_range_cny": {
+    "average_reference": null,
+    "raw_reference": null,
+    "status": "unknown"
+  },
+  "duration": {
+    "minimum_minutes": 10,
+    "recommended_minutes": 20,
+    "maximum_minutes": 45
+  },
+  "experience_layer": {
+    "source": [
+      "游客截图:image_001"
+    ],
+    "confidence": {
+      "overall": "low-medium",
+      "reason": "名称或位置存在近似匹配，适合作为候选，不应直接视为已核验推荐。"
+    },
+    "positive": [],
+    "avoid": [],
+    "visit_tips": [
+      "出发前通过高德或电话渠道复核营业状态与具体分店。",
+      "该店名称或位置为近似匹配，到店前需再次确认。"
+    ],
+    "crowd_model": {
+      "weekday": "待核验",
+      "weekend": "热门店铺可能增加",
+      "national_holiday": "预计高于平日，需动态查询"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 10,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+  },
+  "third_party_review_snapshot": {
+    "score": 3.5,
+    "average_price": null,
+    "review_count": null,
+    "rank": null,
+    "sentiment": "好评为主",
+    "score_source": "dianping官方评分",
+    "review_excerpts_stored": false
+  },
+  "source_trace": {
+    "platform": "小红书",
+    "image_ids": [
+      "image_001"
+    ],
+    "raw_verification_status": "unverified",
+    "raw_location_status": "found_partial",
+    "location_note": "高德名称\"胖子切糕店\"，可能为单品名，待核实",
+    "name_status": "uncertain",
+    "note": "OCR 识别'切糕子'，可能为单品或店名，待人工确认"
+  },
+  "ai_score": {
+    "local_character": 5,
+    "value": null,
+    "queue_risk": null,
+    "family": null,
+    "late_night": null,
+    "photo": null
+  },
+  "tags": [
+    "糕点",
+    "小吃",
+    "万寿宫",
+    "南昌美食候选",
+    "待人工核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

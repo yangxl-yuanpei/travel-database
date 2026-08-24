@@ -1,0 +1,30 @@
+{
+  "id": "nc_stay_area_shengjinta_station",
+  "name": "绳金塔—南昌站住宿区",
+  "short_name": "绳金塔—南昌站",
+  "city": "南昌",
+  "node_type": "accommodation_area",
+  "category": ["餐饮便利住宿区", "普铁抵离区", "性价比候选区"],
+  "location": {"address": "江西省南昌市西湖区绳金塔历史文化街区周边", "latitude": 28.660962, "longitude": 115.89989, "coordinate_system": "GCJ-02", "amap_poi_id": "B031703XFA", "map_anchor": "绳金塔", "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"},
+  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["nc_bayi_square"], "secondary_anchor": {"name": "南昌站", "amap_poi_id": "B031706310", "latitude": 28.661832, "longitude": 115.919876}, "hotel_search_radius_m": 2200, "hotel_search_keywords": ["酒店", "连锁酒店", "公寓式酒店"]},
+  "suitable_for": ["南昌站抵离", "美食偏好", "预算敏感", "希望避开最热门核心区"],
+  "transit_profile": {"rail_station_access": "前往南昌站方便，前往南昌西站需地铁接驳", "public_transport": "绳金塔地铁与老城公交可用于连接核心景点", "walkability": "餐饮和街区体验集中，部分核心景点仍需短途交通", "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"},
+  "experience": {"summary": "兼顾南昌站、餐饮和预算，但不是所有核心景点的步行中心。", "best_for": ["南昌站抵离", "美食", "性价比"], "highlights": ["靠近绳金塔餐饮街区", "南昌站接驳", "可作为节假日价格备选"], "avoid": ["具体酒店到车站和地铁口的距离差异大", "车站及临街住宿可能有噪声"], "holiday_price_risk": "medium", "night_noise_risk": "medium-high"},
+  "experience_layer": {
+    "source": ["游客攻略截图108"],
+    "confidence": {"overall": "medium-low", "reason": "目前主要来自单份游客攻略，需后续增加真实住宿样本"},
+    "positive": [{"content": "兼顾绳金塔美食与南昌站抵离", "type": "food_station"}, {"content": "节假日可作为热门核心区之外的价格备选", "type": "value"}],
+    "avoid": [{"content": "区域跨度较大，必须核查具体酒店到地铁与车站的路线", "risk": "location_variance", "severity": "high"}, {"content": "车站和临街房间可能存在噪声", "risk": "noise", "severity": "medium"}],
+    "visit_tips": ["地图筛选时同时查看绳金塔锚点和南昌站次级锚点", "优先选择靠地铁且近期隔音评价稳定的酒店", "老城景点密集行程仍应与八一广场、万寿宫区域对比"],
+    "crowd_model": {"national_holiday": "medium-high", "weekend": "medium", "weekday": "medium", "peak_time": ["铁路到发高峰", "晚餐时段"]},
+    "ai_note": "适合作为南昌站与美食偏好的折中区；因证据较少，推荐结果需显示较低置信度。"
+  },
+  "ai_score": {"first_visit": 3, "transit": 4, "walkability": 3, "quiet": 2, "river_view": 1, "value": 4, "holiday_price_risk": 3},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "tags": ["绳金塔", "南昌站", "美食", "性价比"],
+  "metadata": {"schema_version": "1.0", "data_status": "draft", "last_verified_at": "2026-08-24"},
+  "sources": [
+    {"name": "高德地图：绳金塔", "url": "https://ditu.amap.com/place/B031703XFA", "scope": ["主锚点坐标", "POI ID"]},
+    {"name": "高德地图：南昌站", "url": "https://ditu.amap.com/place/B031706310", "scope": ["次级锚点坐标", "POI ID"]}
+  ]
+}

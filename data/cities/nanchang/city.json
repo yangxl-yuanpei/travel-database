@@ -26,8 +26,23 @@
     "memorials": [
       "nc_bayi_memorial"
     ],
-    "food": [],
-    "accommodation_areas": [],
+    "food": [
+      "nc_food_area_dashiyuan",
+      "nc_food_area_wanshougong",
+      "nc_food_area_yangzixiang",
+      "nc_food_area_bayi",
+      "nc_food_area_honggutan",
+      "nc_food_area_hongdu",
+      "nc_food_area_zijing"
+    ],
+    "accommodation_areas": [
+      "nc_stay_area_bayi_zhongshan",
+      "nc_stay_area_tengwang_wanshougong",
+      "nc_stay_area_qiushui_honggutan",
+      "nc_stay_area_museum_wanda",
+      "nc_stay_area_nanchang_west",
+      "nc_stay_area_shengjinta_station"
+    ],
     "transport": []
   },
   "tags": [

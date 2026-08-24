@@ -40,7 +40,20 @@ test("rail baselines are explicit reference data", async () => {
 test("Nanchang keeps city nodes and deep nodes", async () => {
   const data = await atlas();
   const places = data.city_places.city_nanchang;
-  assert.equal(places.length, 7);
+  const sights = places.filter((place) => ["attraction", "museum", "memorial"].includes(place.node_type));
+  const foodAreas = places.filter((place) => place.node_type === "food" && place.food_scope === "area");
+  const stayAreas = places.filter((place) => place.node_type === "accommodation_area");
+  assert.equal(sights.length, 7);
+  assert.equal(foodAreas.length, 7);
+  assert.equal(stayAreas.length, 6);
+  assert.equal(places.length, 20);
   assert.ok(places.some((place) => place.id === "nc_haihunhou_museum" && place.children.length >= 10));
   assert.ok(places.some((place) => place.id === "nc_jx_museum" && place.children.length === 6));
+  assert.ok(foodAreas.every((area) => typeof area.location.latitude === "number" && typeof area.location.longitude === "number"));
+  assert.ok(foodAreas.every((area) => area.children.length > 0));
+  assert.ok(foodAreas.reduce((count, area) => count + area.children.length, 0) >= 70);
+  assert.ok(stayAreas.every((area) => typeof area.location.latitude === "number" && typeof area.location.longitude === "number"));
+  assert.ok(stayAreas.every((area) => area.location.coordinate_system === "GCJ-02"));
+  assert.ok(stayAreas.every((area) => area.amap_integration.api_status === "proxy_configured"));
+  assert.ok(stayAreas.every((area) => !area.price_range_cny));
 });

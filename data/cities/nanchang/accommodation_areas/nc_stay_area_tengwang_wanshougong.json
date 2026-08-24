@@ -1,0 +1,27 @@
+{
+  "id": "nc_stay_area_tengwang_wanshougong",
+  "name": "滕王阁—万寿宫住宿区",
+  "short_name": "滕王阁—万寿宫",
+  "city": "南昌",
+  "node_type": "accommodation_area",
+  "category": ["老城文化住宿区", "夜游便利区", "步行友好区"],
+  "location": {"address": "江西省南昌市西湖区万寿宫历史文化街区周边", "latitude": 28.674121, "longitude": 115.887019, "coordinate_system": "GCJ-02", "amap_poi_id": "B0FFH2KZQN", "map_anchor": "万寿宫历史文化街区", "anchor_rule": "坐标仅作为住宿区检索与通勤计算锚点，不代表区域边界"},
+  "spatial_layer": {"boundary_status": "conceptual_area", "related_node_ids": ["nc_tengwangge", "nc_wanshougong_block", "nc_bayi_memorial"], "hotel_search_radius_m": 1600, "hotel_search_keywords": ["酒店", "民宿", "客栈"]},
+  "suitable_for": ["历史文化爱好者", "喜欢夜游", "慢游老城", "希望步行到景点"],
+  "transit_profile": {"rail_station_access": "前往南昌站尚可；往返南昌西站需公共交通接驳", "public_transport": "邻近老城地铁与公交网络", "walkability": "可步行或短途骑行前往滕王阁、万寿宫与八一起义纪念馆", "dynamic_note": "实际时间由高德路线 API 按出发时刻计算"},
+  "experience": {"summary": "文化氛围和夜游体验突出，适合把老城本身当作旅行内容。", "best_for": ["文化慢游", "夜间散步", "摄影"], "highlights": ["靠近滕王阁与万寿宫", "老城烟火气", "夜游便利"], "avoid": ["老城道路与停车条件有限", "民宿设施和隔音差异可能较大"], "holiday_price_risk": "high", "night_noise_risk": "medium-high"},
+  "experience_layer": {
+    "source": ["游客攻略截图106", "游客攻略截图108", "游客攻略截图109"],
+    "confidence": {"overall": "medium-high", "reason": "多份攻略均将该区域列为老城游览的优先住宿选择"},
+    "positive": [{"content": "核心景点与夜游街区可步行串联", "type": "walkability"}, {"content": "适合体验老城文化与市井氛围", "type": "local_character"}],
+    "avoid": [{"content": "节假日热门街区周边可能嘈杂拥挤", "risk": "crowd_noise", "severity": "high"}, {"content": "自驾停车与老城窄路可能降低体验", "risk": "parking", "severity": "medium"}],
+    "visit_tips": ["需要早起拍摄滕王阁时可优先选择此区", "民宿应检查独立卫浴、电梯、隔音和消防评价", "自驾用户应单独核实停车条件"],
+    "crowd_model": {"national_holiday": "high", "weekend": "high", "weekday": "medium", "peak_time": ["晚餐时段", "夜游时段"]},
+    "ai_note": "历史与夜游偏好权重高；安静、自驾和标准化酒店偏好需施加惩罚。"
+  },
+  "ai_score": {"first_visit": 5, "transit": 4, "walkability": 5, "quiet": 2, "river_view": 3, "value": 4, "holiday_price_risk": 5},
+  "amap_integration": {"dynamic_fields": ["attraction_commute", "station_transfer", "hotel_poi_search"], "api_status": "proxy_configured"},
+  "tags": ["滕王阁", "万寿宫", "老城夜游", "文化慢游"],
+  "metadata": {"schema_version": "1.0", "data_status": "experience_verified", "last_verified_at": "2026-08-24"},
+  "sources": [{"name": "高德地图：万寿宫历史文化街区", "url": "https://ditu.amap.com/place/B0FFH2KZQN", "scope": ["锚点坐标", "POI ID"]}]
+}

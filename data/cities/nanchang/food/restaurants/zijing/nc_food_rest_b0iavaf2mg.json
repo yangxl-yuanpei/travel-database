@@ -1,0 +1,125 @@
+{
+  "id": "nc_food_rest_b0iavaf2mg",
+  "name": "周真真南昌粉面",
+  "short_name": "周真真南昌粉面",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "restaurant",
+  "parent_id": "nc_food_area_zijing",
+  "branch": null,
+  "category": [
+    "拌粉"
+  ],
+  "category_codes": [
+    "mixed_rice_noodles"
+  ],
+  "official_info": {
+    "status": "not_officially_verified",
+    "description": "候选餐饮节点；名称和地址来自游客资料与第三方地图匹配，非店铺官方资料。",
+    "directory_name": "周真真南昌粉面(榴云路店)",
+    "directory_district": "新建区"
+  },
+  "location": {
+    "address": "学府馨苑商住小区1号楼101室",
+    "latitude": 28.732521,
+    "longitude": 115.838699,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": "B0IAVAF2MG",
+    "status": "found"
+  },
+  "meal_periods": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "menu_profile": {
+    "recommended_dishes": [
+      "牛肉拌粉",
+      "猪肝蛋汤",
+      "绿豆汤"
+    ],
+    "source_type": "visitor_experience"
+  },
+  "price_range_cny": {
+    "average_reference": 19,
+    "raw_reference": "¥19",
+    "status": "third_party_snapshot"
+  },
+  "duration": {
+    "minimum_minutes": 10,
+    "recommended_minutes": 20,
+    "maximum_minutes": 45
+  },
+  "experience_layer": {
+    "source": [
+      "游客截图:image_010"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "高德位置匹配较明确，但游客经验与营业状态仍需人工复核。"
+    },
+    "positive": [],
+    "avoid": [
+      {
+        "content": "热门时段可能排队，国庆期间建议错峰。",
+        "risk": "food_queue",
+        "severity": "medium"
+      }
+    ],
+    "visit_tips": [
+      "优先从候选推荐菜中选择：牛肉拌粉、猪肝蛋汤、绿豆汤",
+      "出发前通过高德或电话渠道复核营业状态与具体分店。"
+    ],
+    "crowd_model": {
+      "weekday": "待核验",
+      "weekend": "热门店铺可能增加",
+      "national_holiday": "排队风险较高"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 10,
+      "recommended_min_minutes": 20,
+      "recommended_max_minutes": 45
+    },
+    "ai_note": "本节点由游客截图、高德候选 POI 与第三方点评摘要转换而来；推荐菜和体验属于经验层，不代表官方承诺。"
+  },
+  "third_party_review_snapshot": {
+    "score": 4.0,
+    "average_price": "¥19",
+    "review_count": null,
+    "rank": "必吃榜",
+    "sentiment": "好评为主",
+    "score_source": "dianping官方评分",
+    "review_excerpts_stored": false
+  },
+  "source_trace": {
+    "platform": "抖音",
+    "image_ids": [
+      "image_010"
+    ],
+    "raw_verification_status": "unverified",
+    "raw_location_status": "found",
+    "location_note": null,
+    "name_status": null,
+    "note": null
+  },
+  "ai_score": {
+    "local_character": 4,
+    "value": 5,
+    "queue_risk": 5,
+    "family": null,
+    "late_night": null,
+    "photo": null
+  },
+  "tags": [
+    "拌粉",
+    "紫荆夜市",
+    "南昌美食候选",
+    "待人工核验"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}

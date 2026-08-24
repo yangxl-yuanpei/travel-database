@@ -1,0 +1,108 @@
+{
+  "id": "nc_food_area_bayi",
+  "name": "八一广场—孺子路美食区",
+  "short_name": "八一广场",
+  "city": "南昌",
+  "node_type": "food",
+  "food_scope": "area",
+  "category": [
+    "美食区域",
+    "拌粉",
+    "早餐",
+    "夜宵"
+  ],
+  "official_info": {
+    "status": "ai_aggregated_area",
+    "description": "适合作为市中心游览前后补给的粉面、正餐与夜宵片区。",
+    "boundary_rule": "候选店铺空间聚合，不是官方商圈边界"
+  },
+  "location": {
+    "address": "八一广场片区中心锚点",
+    "latitude": 28.6718,
+    "longitude": 115.9078,
+    "coordinate_system": "GCJ-02",
+    "amap_poi_id": null,
+    "map_anchor": "八一广场"
+  },
+  "meal_periods": [
+    "breakfast",
+    "lunch",
+    "dinner",
+    "late_night"
+  ],
+  "price_range_cny": {
+    "minimum": null,
+    "maximum": null,
+    "status": "dynamic"
+  },
+  "duration": {
+    "minimum_minutes": 30,
+    "recommended_minutes": 90,
+    "maximum_minutes": 180
+  },
+  "child_nodes": {
+    "dishes": [],
+    "restaurants": [
+      "nc_food_rest_b0luuci4ww"
+    ]
+  },
+  "related_node_ids": [
+    "nc_bayi_square"
+  ],
+  "experience_layer": {
+    "source": [
+      "南昌美食候选数据库:41张游客截图",
+      "高德POI空间聚合",
+      "第三方点评摘要"
+    ],
+    "confidence": {
+      "overall": "medium",
+      "reason": "区域边界由候选店铺坐标与传统片区名称聚合，适合旅行决策，但不代表行政或官方商圈边界。"
+    },
+    "positive": [
+      {
+        "content": "收录1个候选子节点，其中1个带可用坐标。",
+        "type": "data_coverage"
+      },
+      {
+        "content": "适合作为市中心游览前后补给的粉面、正餐与夜宵片区。",
+        "type": "area_character"
+      }
+    ],
+    "avoid": [],
+    "visit_tips": [
+      "先结合附近景点选择片区，再进入代表店铺与推荐菜。",
+      "营业时间、排队和临时闭店应通过高德动态复核。"
+    ],
+    "crowd_model": {
+      "weekday": "分店差异较大",
+      "weekend": "热门店铺客流上升",
+      "national_holiday": "核心片区排队风险高"
+    },
+    "recommended_duration": {
+      "minimum_minutes": 30,
+      "recommended_min_minutes": 60,
+      "recommended_max_minutes": 180
+    },
+    "ai_note": "区域节点只承担地图选择与检索入口；店铺间距离和通勤不写入数据库，由高德 API 动态计算。"
+  },
+  "ai_score": {
+    "local_character": 5,
+    "value": null,
+    "queue_risk": null,
+    "family": null,
+    "late_night": 5
+  },
+  "tags": [
+    "南昌美食",
+    "美食区域",
+    "八一广场",
+    "国庆错峰"
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "data_status": "draft",
+    "last_verified_at": null,
+    "import_source": "nanchang_food_candidates_raw.json"
+  }
+}
